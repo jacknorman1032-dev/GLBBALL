@@ -1,0 +1,18 @@
+{
+  "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have.",
+  "players": [
+    {
+      "_example": "Delete this example once real entries exist. It is skipped because it has no 'name'.",
+      "school": "east-lansing",
+      "grad_year": "1997",
+      "pos": "F",
+      "height": "6-7",
+      "aka": [],
+      "bio": "One or two sentences from a clipping.",
+      "seasons": [
+        {"season": "1996-97", "grade": "12", "gp": 22, "ppg": 18.4, "rpg": 9.1, "src": "Lansing State Journal, March 1997"}
+      ],
+      "links": [{"label": "LSJ clipping", "url": ""}]
+    }
+  ]
+}
