@@ -1,0 +1,374 @@
+{
+  "schools": [
+    {
+      "name": "East Lansing",
+      "nickname": "Trojans",
+      "colors": {
+        "primary": "#1F2A5A",
+        "secondary": "#FFFFFF",
+        "names": "Navy blue and white (hex approximated)",
+        "source": "https://en.wikipedia.org/wiki/East_Lansing_High_School"
+      },
+      "city": "East Lansing",
+      "status": "open",
+      "class_current": "Division 1 (2025 and 2026 MHSAA D1 Finals)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "conference_source": "https://caacsports.org/?p=39",
+      "state_titles": [
+        {
+          "season": "1957-58",
+          "class": "Class B",
+          "coach": "Gus Ganakas",
+          "record": "undefeated (per Wikipedia bio of Ganakas)",
+          "final_opponent": "River Rouge",
+          "final_score": "62-51",
+          "notes": "Team inducted into Greater Lansing Area Sports Hall of Fame (team list).",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://en.wikipedia.org/wiki/Gus_Ganakas ; https://lansingsportshalloffame.org/?p=316"
+        },
+        {
+          "season": "2024-25",
+          "class": "Division 1",
+          "coach": "Ray Mitchell",
+          "record": "28-1",
+          "final_opponent": "Wayne Memorial",
+          "final_score": "66-46",
+          "notes": "Final played March 15, 2025 at Breslin Center. Cameron Hutson 20 pts; Kingston Thomas 19 pts, 12 reb; Kelvin (KJ) Torbert 16. First title since 1958. Semifinal: beat defending champ Orchard Lake St. Mary's 51-44 (Mar 14, 2025).",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/stories/secret-weapon-thomas-plays-lead-role-east-lansing-ends-title-wait ; https://www.mhsaa.com/sports/boys-basketball/stories/east-lansing-downs-reigning-champ-earn-chance-1st-title-1958"
+        }
+      ],
+      "state_runner_ups": [
+        {
+          "season": "1944-45",
+          "class": "Class B",
+          "coach": "",
+          "record": "",
+          "final_opponent": "Sturgis (coach Bob Miller)",
+          "final_score": "26-33",
+          "notes": "MHSAA list does not name runner-up coaches.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "2025-26",
+          "class": "Division 1",
+          "coach": "Ray Mitchell",
+          "record": "27-2",
+          "final_opponent": "Rockford (coach Kyle Clough)",
+          "final_score": "50-54",
+          "notes": "Final March 14, 2026 at Breslin. KJ Torbert 28 pts in final game. Semifinal: beat Bloomfield Hills Brother Rice 55-52 on Torbert 3 with 1.2 sec left (Mar 13, 2026).",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/stories/rockford-adds-program-legends-claiming-1st-finals-title-2003 ; https://www.mhsaa.com/sports/boys-basketball/stories/mr-basketball-drills-mr-basketball-level-shot-keep-east-lansing"
+        }
+      ],
+      "final_fours": [
+        "1944-45",
+        "1957-58",
+        "2024-25",
+        "2025-26"
+      ],
+      "final_fours_note": "Derived from Finals appearances (reached Final => reached Semifinal stage). No additional semifinal-only appearances were verified; a complete MHSAA semifinal list for East Lansing was not found.",
+      "notable_players": [
+        {
+          "name": "Jim Hornberger",
+          "grad_year": "c. 1963-64 (not explicitly stated)",
+          "accolades": "All-state in football, basketball and baseball; basketball All-City 1962 and 1963; Dell Magazine All-American 1963; first inductee of East Lansing HS Hall of Fame; Greater Lansing Area Sports HOF 1992",
+          "college": "",
+          "pro": "",
+          "source": "https://www.wilx.com/2026/02/23/east-lansing-legend-jim-hornberger-passes-away-age-81/"
+        },
+        {
+          "name": "Ben Poquette",
+          "grad_year": "1973 (inferred from senior honors; not explicitly stated)",
+          "accolades": "All-City 1973, team captain and MVP; Greater Lansing Area Sports HOF 1990",
+          "college": "Central Michigan (1974-77; First Team All-MAC 1977; CMU Athletics HOF 1987)",
+          "pro": "NBA: Detroit Pistons, Utah Jazz, Cleveland Cavaliers, Chicago Bulls (1977-87); described as Greater Lansing's first NBA player",
+          "source": "https://lansingsportshalloffame.org/?p=858"
+        },
+        {
+          "name": "Thomas (T.J.) Jackson",
+          "grad_year": "1998 (inferred from his 1998 start at Butler; not explicitly stated)",
+          "accolades": "Point guard (5-foot-9), born in East Lansing. At Butler became the school's all-time leader in assists and steals and its only player with 1,000 points and 500 assists; led Butler in assists four straight seasons, two-time first-team All-Horizon League, two-time Horizon League All-Defensive Team. Butler won 95 games in his four years with two NCAA Tournament trips. Named to Butler's Team of the Sesquicentennial; Butler Athletics Hall of Fame.",
+          "college": "Butler (1998-2002)",
+          "pro": "Undrafted in 2002. Played 2003-15 in Sweden (Sallén, Uppsala; 2007 Basketligan All-Star), the Netherlands (Den Helder; ZZ Leiden, 2011 Dutch league champion, 2012 NBB Cup and Supercup, 2012 DBL All-Star) and Germany (BBC Bayreuth, 2010 Pro A champion). Later an assistant coach in the G League (Erie, Maine, Northern Arizona, Salt Lake City) and at Evansville.",
+          "source": "https://butlersports.com/sports/2016/5/19/information-hall-of-fame-Thomas-Jackson.aspx ; https://en.wikipedia.org/wiki/Thomas_Jackson_(basketball)"
+        },
+        {
+          "name": "Paul Stoll",
+          "grad_year": "2004",
+          "accolades": "",
+          "college": "Lansing Community College (2004-06); Texas-Pan American (2006-08)",
+          "pro": "Long pro career (Mexico LNBP titles 2020, 2021; Israeli League title 2013 with Maccabi Haifa); Mexico national team, 2013 FIBA Americas gold",
+          "source": "https://en.wikipedia.org/wiki/Paul_Stoll ; https://www.fox47news.com/neighborhoods/east-lansing-okemos/east-lansing-native-paul-stoll-continues-16-year-professional-basketball-career"
+        },
+        {
+          "name": "Brandon Johns Jr.",
+          "grad_year": "2018",
+          "accolades": "AP Class A Player of the Year 2017; AP first team all-state 2016, 2017, 2018; Detroit Free Press Dream Team 2018; Detroit News Dream Team 2017, 2018; LSJ Player of the Year 2016, 2017; BCAM Best of the Best 2018; Mr. Basketball runner-up (2nd in voting); ESPN Top 100 (No. 60)",
+          "college": "Michigan",
+          "pro": "",
+          "source": "https://mgoblue.com/sports/basketball/roster/johns-jr-brandon/20384 ; https://www.fox47news.com/sports/east-lansings-johns-named-ap-class-a-boys-player-of-year"
+        },
+        {
+          "name": "Cameron Hutson",
+          "grad_year": "2025",
+          "accolades": "AP D1 first-team all-state (2024, 2025); LSJ co-Player of the Year 2024; led all scorers (20) in 2025 D1 Final; son of former MSU player Andre Hutson",
+          "college": "Saint Louis University",
+          "pro": "",
+          "source": "https://www.wkar.org/wkar-news/2025-03-18/state-champion-east-lansing-high-school-hoop-star-cameron-hutson-is-making-his-own-name ; https://www.aol.com/east-lansings-cam-hutson-kj-220038932.html ; https://www.aol.com/meet-greater-lansing-boys-basketball-122657565.html"
+        },
+        {
+          "name": "Kelvin (KJ) Torbert, Jr.",
+          "grad_year": "2026",
+          "accolades": "Michigan Mr. Basketball 2026 (first son of a former winner; father Kelvin Torbert, 2001, Flint Northwestern); Michigan Sports Writers D1 Player of the Year 2026; AP D1 first-team all-state 2024; 2025 D1 state champion; 2026 D1 runner-up",
+          "college": "Bowling Green",
+          "pro": "",
+          "source": "https://www.smdailyjournal.com/sports/kj-kelvin-torbert-become-1st-father-son-duo-to-win-michigans-mr-basketball-award/article_8113787c-0079-5d43-a7d2-72482d59e40e.html ; https://www.hometownstations.com/sports/nationalsports/east-lansings-k-j-torbert-named-division-i-player-of-the-year-by-michigan-sports/article_7edc8d17-767b-53e8-beb0-bf58a1277755.html",
+          "also": [
+            {
+              "school": "okemos",
+              "seasons": "2022-23",
+              "note": "Freshman season"
+            }
+          ]
+        },
+        {
+          "name": "Kingston Thomas",
+          "grad_year": "2027 (sophomore in 2025)",
+          "accolades": "19 pts, 12 reb in 2025 D1 Final win; Michigan Sports Writers D1 all-state second team 2026",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/stories/secret-weapon-thomas-plays-lead-role-east-lansing-ends-title-wait ; https://www.hometownstations.com/sports/nationalsports/east-lansings-k-j-torbert-named-division-i-player-of-the-year-by-michigan-sports/article_7edc8d17-767b-53e8-beb0-bf58a1277755.html"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Gus Ganakas",
+          "years": "1950s (exact years not found)",
+          "notes": "Coached 1958 Class B state champions (undefeated). Later Michigan State head coach 1969-76 (89-84). Died Jan. 11, 2019.",
+          "source": "https://en.wikipedia.org/wiki/Gus_Ganakas ; https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://onthebanks.msu.edu/Object/162-565-1583/gus-ganakas-coaching-at-east-lansing-high-school-circa-1950s"
+        },
+        {
+          "name": "Steve Finamore",
+          "years": "8 seasons, resigned early 2018 (approx. 2010-2018)",
+          "notes": "128-44 record; two straight CAAC Blue titles; coached Brandon Johns (team 24-1 in 2017, 23-1 in 2016; 2018 regional title, state quarterfinal).",
+          "source": "https://www.wlns.com/sports/well-known-east-lansing-and-okemos-basketball-coach-dies/amp ; https://mgoblue.com/sports/basketball/roster/johns-jr-brandon/20384"
+        },
+        {
+          "name": "Ray Mitchell",
+          "years": "2018-19 to present (took over seven seasons before 2025 title)",
+          "notes": "East Lansing graduate. 2025 Division 1 state champion (28-1); 2026 Division 1 runner-up (27-2); three quarterfinal trips in the four years before 2025.",
+          "source": "https://localsportsjournal.com/2025/03/east-lansing-brings-home-its-first-boys-basketball-state-title-since-1958/ ; https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "uncertain": [
+        "Neil Miller: no source found connecting a Neil Miller to East Lansing HS boys basketball. Not included as a coach.",
+        "Wikipedia East Lansing High School page lists a '2010 State Class A' basketball title; MHSAA boys past-champions list does NOT show East Lansing as 2010 boys champion (2010 Class B was Detroit Country Day over Lansing Sexton). Likely a girls title or error; excluded.",
+        "Greater Lansing Area Sports HOF Team Nominees page lists a '1973 Boys Basketball' East Lansing team (nominee only; no details). https://lansingsportshalloffame.org/?p=1141",
+        "Grad years for Hornberger and Poquette are inferred, not stated.",
+        "No complete list of East Lansing semifinal (Final Four) appearances that did not reach the Final was found."
+      ]
+    }
+  ],
+  "mr_basketball": [
+    {
+      "year": "1981",
+      "name": "Sam Vincent",
+      "school": "Lansing Eastern",
+      "college": "Michigan State",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan"
+    },
+    {
+      "year": "1982",
+      "name": "Robert Henderson",
+      "school": "Lansing Eastern",
+      "college": "Michigan",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan"
+    },
+    {
+      "year": "2000",
+      "name": "Marcus Taylor",
+      "school": "Lansing Waverly",
+      "college": "Michigan State",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan"
+    },
+    {
+      "year": "2026",
+      "name": "KJ Torbert",
+      "school": "East Lansing",
+      "college": "Bowling Green",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan ; https://wilx.com/2026/03/09/kj-torbert-named-michigans-mr-basketball-winner-2025-26/"
+    }
+  ],
+  "mr_basketball_retro": [
+    {
+      "year": "1945",
+      "name": "Bob Swanson",
+      "school": "Lansing Sexton",
+      "college": "none listed",
+      "note": "BCAM Retro Mr. Basketball (pre-1981), not the Hal Schram award",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan"
+    },
+    {
+      "year": "1977",
+      "name": "Earvin 'Magic' Johnson",
+      "school": "Lansing Everett",
+      "college": "Michigan State",
+      "note": "BCAM Retro Mr. Basketball",
+      "source": "https://en.wikipedia.org/wiki/Mr._Basketball_of_Michigan"
+    }
+  ],
+  "lsj_player_of_year": [
+    {
+      "season": "2015-16",
+      "name": "Brandon Johns",
+      "school": "East Lansing",
+      "source": "https://mgoblue.com/sports/basketball/roster/johns-jr-brandon/20384"
+    },
+    {
+      "season": "2016-17",
+      "name": "Brandon Johns",
+      "school": "East Lansing",
+      "source": "https://mgoblue.com/sports/basketball/roster/johns-jr-brandon/20384"
+    },
+    {
+      "season": "2023-24",
+      "name": "Cam Hutson (co-POY)",
+      "school": "East Lansing",
+      "source": "https://www.aol.com/meet-greater-lansing-boys-basketball-122657565.html"
+    },
+    {
+      "season": "2023-24",
+      "name": "Zander Woodruff (co-POY)",
+      "school": "Laingsburg",
+      "source": "https://www.aol.com/meet-greater-lansing-boys-basketball-122657565.html"
+    }
+  ],
+  "state_titles_by_school": {
+    "note": "Boys basketball MHSAA Finals champions/runners-up for the listed schools, from MHSAA past champions page (1925-2026).",
+    "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/yearly.htm",
+    "titles": [
+      {
+        "school": "Lansing Sexton",
+        "count": 5,
+        "titles": [
+          "1945 A (Al Bovard, 31-30 Benton Harbor)",
+          "1959 A (Clayton Kowalk, 80-79 OT Hamtramck)",
+          "1960 A (Clayton Kowalk, 60-56 Pontiac Central)",
+          "2011 B (Carlton Valentine, 75-60 Muskegon Heights)",
+          "2012 B (Carlton Valentine, 67-32 Stevensville Lakeshore)"
+        ],
+        "runner_up": [
+          "1953 A (lost 53-47 Dearborn Fordson)",
+          "2010 B (lost 71-47 Detroit Country Day)"
+        ]
+      },
+      {
+        "school": "East Lansing",
+        "count": 2,
+        "titles": [
+          "1958 B (Gus Ganakas, 62-51 River Rouge)",
+          "2025 D1 (Ray Mitchell, 66-46 Wayne Memorial)"
+        ],
+        "runner_up": [
+          "1945 B (lost 33-26 Sturgis)",
+          "2026 D1 (lost 54-50 Rockford)"
+        ]
+      },
+      {
+        "school": "Lansing Everett",
+        "count": 2,
+        "titles": [
+          "1977 A (George Fox, 62-56 OT Birmingham Brother Rice)",
+          "2004 A (Johnny Jones, 60-51 Flint Carman-Ainsworth)"
+        ],
+        "runner_up": []
+      },
+      {
+        "school": "Lansing Eastern",
+        "count": 2,
+        "titles": [
+          "1934 A (Walter Graff, 21-19 Grand Rapids Union)",
+          "1980 A (Paul Cook, 64-53 Highland Park)"
+        ],
+        "runner_up": []
+      },
+      {
+        "school": "Okemos",
+        "count": 2,
+        "titles": [
+          "1981 B (Stan Stolz, 49-46 Mt. Pleasant)",
+          "1982 B (Stan Stolz, 60-57 Warren De La Salle)"
+        ],
+        "runner_up": [
+          "2006 A (lost 85-84 2OT Saginaw Arthur Hill; coach Dan Stolz)"
+        ]
+      },
+      {
+        "school": "Holt",
+        "count": 1,
+        "titles": [
+          "2005 A (Bruce Larner, 65-62 Romulus)"
+        ],
+        "runner_up": [
+          "1974 B (lost 52-44 Muskegon Heights)"
+        ]
+      },
+      {
+        "school": "Lansing Waverly",
+        "count": 1,
+        "titles": [
+          "2000 A (Phil Odlum, 75-63 Detroit Pershing)"
+        ],
+        "runner_up": []
+      },
+      {
+        "school": "Lansing Catholic",
+        "count": 1,
+        "titles": [
+          "2008 B (Darren Zwick, 54-53 Flint Powers Catholic)"
+        ],
+        "runner_up": []
+      },
+      {
+        "school": "DeWitt",
+        "count": 0,
+        "titles": [],
+        "runner_up": [
+          "2004 B (lost 61-42 Detroit Renaissance)"
+        ]
+      },
+      {
+        "school": "Haslett",
+        "count": 0,
+        "titles": [],
+        "runner_up": [
+          "1947 D (lost 41-32 Baroda)"
+        ]
+      },
+      {
+        "school": "Grand Ledge",
+        "count": 0,
+        "titles": [],
+        "runner_up": []
+      },
+      {
+        "school": "Mason",
+        "count": 0,
+        "titles": [],
+        "runner_up": []
+      },
+      {
+        "school": "St. Johns",
+        "count": 0,
+        "titles": [],
+        "runner_up": []
+      }
+    ]
+  },
+  "notes": [
+    "Wikipedia pages were fetched via WebFetch; Mr. Basketball list cross-checked for KJ Torbert by WILX and AP stories.",
+    "No Hal Schram Mr. Basketball winners from Lansing Everett, Sexton, Okemos, Holt, Grand Ledge, DeWitt, Haslett, Mason, St. Johns or Lansing Catholic were found in the 1981-2026 list. Brandon Johns (East Lansing, 2018) finished 2nd; Johnathon Jones (Okemos, 2006) finished 4th.",
+    "Bryn Forbes (NBA champion) attended Lansing Sexton (per 97.5 NOW), not East Lansing.",
+    "No comprehensive LSJ Player of the Year list was found; only scattered years are included.",
+    "CAAC divisions (2025-26): Blue = DeWitt, East Lansing, Everett, Grand Ledge, Holt, Okemos, Waverly; Red = Eastern, Haslett, Mason, Fowlerville, St. Johns, Williamston; White = Lansing Catholic, Sexton, and others. Source: https://caacsports.org/?p=39",
+    "Johnny Jones (Lansing Everett) won 2004 Class A boys title and 2000, 2001 Class A girls titles. Source: https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard"
+  ]
+}

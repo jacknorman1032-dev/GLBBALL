@@ -1,0 +1,16 @@
+{"schools":[{"name":"Williamston","nickname":"Hornets","colors":{"primary":"#1E5B3A","secondary":"#FFFFFF","names":"Green and white"},"city":"Williamston","class_current":"Division 2","conference_current":"CAAC Red",
+"state_titles":[
+ {"season":"1939-40","class":"Class C","coach":"Floyd Eby","record":"","final_opponent":"Keego Harbor","final_score":"37-35","notes":"","source":"https://www.mhsaa.com/sports/boys-basketball/past-champions"},
+ {"season":"2021-22","class":"Division 2","coach":"Tom Lewis","record":"27-0","final_opponent":"Grand Rapids Catholic Central","final_score":"68-65 (OT)","notes":"Unbeaten. First title since 1940. Beat Freeland 65-45 in the semifinal; won six tournament games by an average of 26 points before the final.","source":"https://www.mhsaa.com/sports/boys-basketball/stories/battle-wills-goes-williamstons-way-title-deciding-ot-thriller"}],
+"state_runner_ups":[],
+"final_fours":["1939-40","1991-92","1992-93","2021-22"],
+"notable_players":[
+ {"name":"Max Burton","grad_year":"2022","accolades":"6-foot-10 post. Scored 23 points in the 2022 Division 2 Final as Williamston finished 27-0.","college":"Western Michigan (2022-26); Akron","pro":"","source":"https://gozips.com/sports/mens-basketball/roster/max-burton/10219"},
+ {"name":"Mason Docks","grad_year":"2022","accolades":"Point guard. Scored 27 points with six 3-pointers in the 2022 Division 2 Final, including the overtime 3 that put Williamston ahead for good.","college":"","pro":"","source":"https://www.mhsaa.com/sports/boys-basketball/stories/battle-wills-goes-williamstons-way-title-deciding-ot-thriller"},
+ {"name":"Jacob Wallace","grad_year":"2022","accolades":"10 points, 8 rebounds and 3 assists in the 2022 Division 2 Final; 12 points in the semifinal.","college":"","pro":"","source":"https://www.mhsaa.com/sports/boys-basketball/stories/battle-wills-goes-williamstons-way-title-deciding-ot-thriller"}],
+"notable_coaches":[
+ {"name":"Floyd Eby","years":"","notes":"Coached the 1940 Class C state champions.","source":"https://www.mhsaa.com/sports/boys-basketball/past-champions"},
+ {"name":"Tom Lewis","years":"2016-17 to present","notes":"Led the unbeaten 2022 Division 2 champions in his sixth season.","source":"https://www.mhsaa.com/sports/boys-basketball/stories/undefeated-williamston-reaches-final-game-1-more-win"},
+ {"name":"Dan Stolz","years":"","notes":"Coached Williamston before Okemos; 428-99 combined.","source":"https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard"}],
+"sources":["https://caacsports.org/?p=39","https://michigan-football.com/bb/willston.htm"],
+"uncertain":["1992 and 1993 Class C semifinals come from michigan-football.com (fan-compiled). 1940 season record not found. Green hex is approximate."]}]}

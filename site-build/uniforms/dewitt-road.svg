@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="DeWitt road uniform">
+  <defs>
+    <clipPath id="dwrJerseyClip"><path d="M40,10 L54,10 Q62,26 80,38 Q98,26 106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="dwrShortsClip"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+
+  <!-- Shorts: navy, gold hem band with white piping peaking at the middle of each leg -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#1b2a4a"/>
+  <g clip-path="url(#dwrShortsClip)" fill="none" stroke-linejoin="miter">
+    <path d="M6,272 L41,262 L76,272 M84,272 L119,262 L154,272" stroke="#f2b01e" stroke-width="4"/>
+    <path d="M6,268.4 L41,258.4 L76,268.4 M84,268.4 L119,258.4 L154,268.4" stroke="#ffffff" stroke-width="1.8"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Gold panther on the left leg (viewer's right) -->
+  <image x="117" y="236" width="18" height="15.0" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAvCAMAAACBi/kPAAAAkFBMVEXy2qPx8u9oWjr5yl/079ooL0dOTUn33aL5/PjluFLYoCD/wRyTdDD//3S4/////7h/fwB/f/+/v7+/v///AAD/qhX/tLQ+QEJ/f39///+qVVWbgkr/fwD/f3//v3///wDzsR0AAADxrRfzsyT+//7425roqyEDGE7zyW4WJkv+//+xhyvKlyb5/fz7/PqWdzCFaTiVAAAAMHRSTlPoov74zf7/rVD7/v7+AgMDAgIEBAEEA/8CAgP/AgIEAf4A/f0Fwv7++/8u/v5u/v+K62OzAAADcklEQVR42n2Wh3biMBBFR3IHkmza9iKNhNzh//9uZ+SCZWx0Tkgic3nT9ATonWVtk53HlWVC9Hljtf5tp+ewC+o8QqUUIr8WVVVF0De8/xCkx1ZE6JxTR2UM44jGVMLql0fgs37uwQuqLr2SpuHFv+Nc/7V7oP2iGwEEte3JdUkp1bBQdcpArvWn3QSttn1l6F2yLJODUqeDwhH8JhVGwmcKWxxlp4ysy7Tl4qiZ69KTcmiA0Fe455o4QnNNPcYM4hzq+MOZrsEX3QCFeS1r6W7IxHn5kzuqKoc7PVCea48qwHj36uGrTDsjYJuTGAQ5gLL05PGQtMcsAO0/G/s45RCYWooy6Eneq5oQtKIiLpGj1sEF4WKbph2TaERQHKt76oNL2jmpVN0tmj+D1bKqlhKkPjh563dbdqEk+kqz4HdY9N0n2HXKqRmUYWnpOVC3olxbuHG6BzSLgtyDFOPlcgEj7DxyFKboz0M4tzIekgAcuAtAM88q6UUgCjSrlndpGCgweOn1dDrsE821gBXnW3ddSI5gbO0MahEVwtyVnhgX9oJjFd4+GPyqmwrPXNINMozVQEQnYwTtH+4Dzcy95Poz2HzATtbxrvsKK2EegMMp9DX3JfWg9Y0HeMRFsaC+s11BPxokcOMpSlHsR0kfy32OcMFpGASjWOGOGu2bTH+yE5mo13YCn3VOgmcwuCfosBCvP+n9eZbpH7OTP+mMomd/2q7KtaVeZvrDS9mPxd1huSzxbjOkJEnww0JGfVug84KdvdgC+cJpkxNVtacp0XN+Ayi4yJvNGO6OJKGxAxrn0A+Ba7oNklpKjCxT9n39tgLZLnbBktRcXbdENjqUBG6GyiYQV2CdKHbnTql4FSzQ2FCfZsWFB9M5TljN+ywHG4J0KmgT1AAelqJMlvLoiKTKQh6QZBiKjsb4bqxlaN5dTTekO0qK2MRBmpCxB02gq+frdyZbr0xVMmAXJJwHcExR1uVKc3w9JXSjCvtiV2Dhc/QNqN0GiUeZUteEfrdLcHQ4HOqYotpyH0fbsDhW2QTyA/LDOqnTrbOJw4nu9dvoABndPjwASvJM8pwkdbd3qj05eg67G/LkSDoGzvDtWZbUArO9KM+htsBXIv1n1K+04FgPKa1iT5LLFHsS6Dtids7zOIvj2H9VjOPpr82VnQfJ/3g2Nwue5Lg9AAAAAElFTkSuQmCC"/>
+
+  <!-- Jersey: navy, gold neck and armhole binding edged in white -->
+  <path d="M40,10 L54,10 Q62,26 80,38 Q98,26 106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#1b2a4a"/>
+  <g clip-path="url(#dwrJerseyClip)" fill="none">
+    <path d="M54,10 Q62,26 80,38 Q98,26 106,10" stroke="#ffffff" stroke-width="10"/>
+    <path d="M54,10 Q62,26 80,38 Q98,26 106,10" stroke="#f2b01e" stroke-width="4"/>
+    <g stroke="#ffffff" stroke-width="8"><path d="M40,10 L40,40 Q38,68 22,78"/><path d="M120,10 L120,40 Q122,68 138,78"/></g>
+    <g stroke="#f2b01e" stroke-width="5"><path d="M40,10 L40,40 Q38,68 22,78"/><path d="M120,10 L120,40 Q122,68 138,78"/></g>
+  </g>
+  <path d="M40,10 L54,10 Q62,26 80,38 Q98,26 106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Lettering: arched slab-serif DEWITT and number, gold outlined in white -->
+  <g font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="15" fill="#f2b01e" stroke="#ffffff" stroke-width="1.6" paint-order="stroke" stroke-linejoin="round" text-anchor="middle">
+    <text x="49.8" y="75.6" transform="rotate(-20.5 49.8 75.6)">D</text>
+    <text x="62.0" y="72.0" transform="rotate(-12.5 62.0 72.0)">E</text>
+    <text x="75.7" y="70.1" transform="rotate(-3.1 75.7 70.1)">W</text>
+    <text x="87.2" y="70.3" transform="rotate(5.1 87.2 70.3)">I</text>
+    <text x="97.3" y="71.8" transform="rotate(12.0 97.3 71.8)">T</text>
+    <text x="108.8" y="75.1" transform="rotate(19.6 108.8 75.1)">T</text>
+  </g>
+  <text x="80" y="128" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="44"
+        fill="#f2b01e" stroke="#ffffff" stroke-width="2.6" paint-order="stroke" stroke-linejoin="round">0</text>
+</svg>

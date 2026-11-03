@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="Mason home uniform">
+  <defs>
+    <clipPath id="mahJerseyClip"><path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="mahShortsClip"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+
+  <!-- Shorts: white, red-blue-red side stripes, red hem piping, gray bulldog head with a blue spiked collar (the shorts patch) near the hem on the left leg (viewer's right) -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#ffffff"/>
+  <g clip-path="url(#mahShortsClip)">
+    <polygon points="24.0,160 25.6,160 17.6,275 16.0,275" fill="#d6283a"/><polygon points="26.6,160 31.1,160 23.1,275 18.6,275" fill="#2a3fb5"/><polygon points="32.1,160 33.7,160 25.7,275 24.1,275" fill="#d6283a"/><polygon points="134.4,160 136.0,160 144.0,275 142.4,275" fill="#d6283a"/><polygon points="128.9,160 133.4,160 141.4,275 136.9,275" fill="#2a3fb5"/><polygon points="126.3,160 127.9,160 135.9,275 134.3,275" fill="#d6283a"/>
+    <path d="M0,270 L68,270 M92,270 L160,270" stroke="#d6283a" stroke-width="2.2"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <image x="115" y="253.0" width="16" height="13.0" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAuCAMAAABK1yqqAAAAkFBMVEUCAgLNz9QgHB9bW16dnqFramr19va7vcIwIlQoNaBgX129wsZQKC+lpqQqKytYVVZ8fIFMLU8lQLeWlpRvMSt+gITDvcWmblGLdWclRcCOeHUzNDYUFG1yRDtupqo+QENeOytvViZgRzqLWEyOgno/fz87QD9FLBpFP0VAPUB/gH5//3+eZDKNf42FfoKMhXKdjrkeAAAAMHRSTlMA/vr7/g0N/v78Zf/yF6Og/vr9VQz+/yJe/f9iB7MN/5oh4ZX+BP99LLb/Aj0S+yhyGDIYAAAD2klEQVR42o1WiXbbOAwkCV66LSuJc/fcbff+/7/bGZCy7Dhui5fYFoUhgMFBGkMJIeCzdW5sozmTYMKblUtpnYhzf0QTzFvwVYmwCJy11jsHpKqGAbZ0m+vIibaA80SOJ7baSabpn2vmjAHISwKu81ZcG4fv8BzhBuch0/MVZKCCVRHH/1WmcQcXkh/jj4jh3gJ+rC3BflD3seHOyhjfiTOYuLSvoVcbHgYAglh7K9wJW3nr3HCJBNBlKORMflJhFiLJw3Lyup1IO7zj6BO5ce6RfkLWEInDY0IAQIZwmURDBHihg4kG4eouqylLs4w9XlZCMEvvvvqM+Drqec0ooCVmPN0CyeycI+Nz/JwbKKmbFciUSAkvgR3EC+zTObc3pu2bhwYqdx0zyRKgPXos6m35xJ7jYIZTUj/mZp/F3hWTnuzYnQJkV+J0hbWzfAbzX5/3TV9LR4GEqA11d0WStvbE03g/Nw/5sRrUBIB8Zh9fQne1EETxZ+wA2PQVVqAitQg0SO8+eCXKSXtKTxxLrXWrrwAhh7dwutYB6dqR56lMi4Ib0ItQ8cVHm5JGlkXj1KyI7EQFk2WchtKIxrCROmglNZms7u5dMeeVm1QfCnhZgqkTSrw/Oot0M+N5rfTOCzLjpfYYY50qRYM2bu/XBFjJZEdY2mWeaEGwTWAbdSEyaZPFj2C1cVrNosWZLBupJFVXhOVaMqw68qRRfssE4gUMdNr/no3idQ7wmeYRRypEwbAvdTDNzb5xpbHorFaPZ+6t9rDXaaJBiv5ZP2qU932z32enEDWYSpeUhJAR/pLitO6Kh9b8ZkKvvlKFSSS7qfav9qV6WBOpFtUhdscLuqPpHePAhLJrX5ZvVydnIrPalrrgdDb2Te4rsFIHwJ++1JomUdZ1vkpdR2Awrz3SWKjZ3taBtRYsJMsG3gH4V4wkSqM7kYqzLJziey14OI2fLWOcWIaPc23zKpw0t/ZMCpb8jHqOxWVCZ+Umu3TU6arnKP11MYGBjuRgg60tv8wPD01NYdU7dtq2VMcsR4/W3HBjhp4D68SkjoEzlPXHujgeJPHVGE4s97nbfPW6TbfhpPSJyOkBFFB4qB/nZvB2VwaQst91W360WseL0yf0KHb3yLQX5d/9FhxsTQMuBYO5OGOx9KWf+6/MZ1f7DvKvmpHtGvP8zjlplhc0JA7KHqo8aMXhc2rbIZbxNly5ChxMZAfNWYW9DQeX+nL40RUpHDBP7tuXWWbaZMdGvXYNP7lbRb2jmHg43Hz6+9AiSAB/BjreeT4dHxY9iKMxvwoN4QaHEf6X09PpjfwPv4UjjeIy0DAAAAAASUVORK5CYII="/>
+
+  <!-- Jersey: white, V-neck and armholes in blue edged in red, red-blue-red side stripes -->
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#ffffff"/>
+  <g clip-path="url(#mahJerseyClip)">
+    <rect x="22.0" y="74" width="1.6" height="94" fill="#d6283a"/><rect x="24.6" y="74" width="4.5" height="94" fill="#2a3fb5"/><rect x="30.1" y="74" width="1.6" height="94" fill="#d6283a"/><rect x="136.4" y="74" width="1.6" height="94" fill="#d6283a"/><rect x="130.9" y="74" width="4.5" height="94" fill="#2a3fb5"/><rect x="128.3" y="74" width="1.6" height="94" fill="#d6283a"/>
+    <g fill="none">
+      <path d="M54,10 L80,34 L106,10" stroke="#d6283a" stroke-width="8"/>
+      <path d="M54,10 L80,34 L106,10" stroke="#2a3fb5" stroke-width="4.5"/>
+      <g stroke="#d6283a" stroke-width="7"><path d="M40,10 L40,40 Q38,68 22,78"/><path d="M120,10 L120,40 Q122,68 138,78"/></g>
+      <g stroke="#2a3fb5" stroke-width="4"><path d="M40,10 L40,40 Q38,68 22,78"/><path d="M120,10 L120,40 Q122,68 138,78"/></g>
+    </g>
+  </g>
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- small blue M outlined in red on the waistband -->
+  <text x="80" y="177" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="9" fill="#2a3fb5" stroke="#d6283a" stroke-width="0.7" paint-order="stroke">M</text>
+
+  <!-- Lettering: slightly arched serif MASON (same font as away) and number, blue outlined in red -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="17" fill="#2a3fb5" stroke="#d6283a" stroke-width="1.4" paint-order="stroke" stroke-linejoin="round" text-anchor="middle">
+    <text x="52.7" y="79.1" transform="rotate(-12.8 52.7 79.1)">M</text><text x="66.4" y="76.8" transform="rotate(-6.5 66.4 76.8)">A</text><text x="80.0" y="76.0" transform="rotate(0.0 80.0 76.0)">S</text><text x="93.6" y="76.8" transform="rotate(6.5 93.6 76.8)">O</text><text x="107.3" y="79.1" transform="rotate(12.8 107.3 79.1)">N</text>
+  </g>
+  <text x="80" y="124" text-anchor="middle" font-family="'Arial Narrow', 'Roboto Condensed', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="40" fill="#2a3fb5" stroke="#d6283a" stroke-width="2.2" paint-order="stroke" stroke-linejoin="round">0</text>
+</svg>

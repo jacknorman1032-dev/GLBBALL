@@ -1,0 +1,153 @@
+{
+  "notes": "Season format: MHSAA lists finals by calendar year of the tournament (e.g. 1977 = 1976-77 season). Tournament-run data before 1951 is not in michigan-football.com; the MHSAA all-schools finals PDF (boysbasketballfinals.pdf) could only be read through 'East Detroit' alphabetically (my.mhsaa.com and direct downloads blocked), so Lansing own-school blocks were not read directly. Hex codes are approximations of the named colors, not official values.",
+  "sources_index": {
+    "mhsaa_past_champions": "https://www.mhsaa.com/sports/boys-basketball/past-champions",
+    "mhsaa_finals_pdf": "https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf",
+    "mhsaa_records": "https://www.mhsaa.com/sports/boys-basketball/records",
+    "caac_schools": "https://caacsports.org/?p=39",
+    "mf_everett": "https://michigan-football.com/bb/leverett.htm",
+    "mf_sexton": "https://michigan-football.com/bb/lsexton.htm",
+    "mf_eastern": "https://michigan-football.com/bb/leastern.htm"
+  },
+  "schools": [
+    {
+      "name": "Lansing Everett",
+      "nickname": "Vikings",
+      "colors": {"primary": "#C8102E", "secondary": "#6CACE4", "names": "Red, White and Light Blue (Wikipedia); CAAC lists 'Red & Blue'"},
+      "city": "Lansing",
+      "status": "Active (Lansing School District). Wikipedia gives established 1934, but that date is flagged [citation needed].",
+      "status_source": "https://en.wikipedia.org/wiki/Everett_High_School_(Michigan)",
+      "class_current": "MHSAA Division 1 (MaxPreps lists D1 for 2019-20 onward)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "class_conference_source": "https://www.maxpreps.com/mi/lansing/everett-vikings/basketball/history ; https://caacsports.org/?p=39",
+      "state_titles": [
+        {"season": "1976-77", "class": "Class A", "coach": "George Fox", "record": "27-1", "final_opponent": "Birmingham Brother Rice", "final_score": "62-56 (OT)", "notes": "Played at Crisler Arena. Magic Johnson had 34 points and 14 rebounds. Tournament run went 8-0: Lansing Eastern 63-41, East Lansing 70-33, Lansing Sexton 81-45, Howell 93-32, Battle Creek Central 64-44, Ypsilanti 86-57 (QF), Saginaw 48-40 (SF), Brother Rice 62-56 OT (F). Brother Rice finished 21-4.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://digital.bentley.umich.edu/midaily/mdp.39015071754514/547 ; https://michigan-football.com/bb/leverett.htm"},
+        {"season": "2003-04", "class": "Class A", "coach": "Johnny Jones", "record": "", "final_opponent": "Flint Carman-Ainsworth", "final_score": "60-51", "notes": "Tournament run went 8-0: Lansing Sexton 72-62, Battle Creek Central 86-63, Grand Ledge 64-58, Holt 63-54, Benton Harbor 74-71, Jenison 80-65 (QF), Pontiac Northern 69-64 (SF), Carman-Ainsworth 60-51 (F). Goran Suton was a senior on the team.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/leverett.htm ; https://en.wikipedia.org/wiki/Goran_Suton"}
+      ],
+      "state_runner_ups": [],
+      "final_fours": ["1975-76", "1976-77", "1977-78", "2003-04", "2014-15", "2015-16"],
+      "final_fours_detail": {
+        "1975-76": "Lost semifinal to Detroit Catholic Central, 60-68 (michigan-football.com)",
+        "1977-78": "Lost semifinal to Flint Northern, 50-53 (michigan-football.com)",
+        "2014-15": "Beat Muskegon 75-52 in the QF; lost semifinal to Saginaw Arthur Hill, 61-73 (michigan-football.com); went 24-3 (MaxPreps)",
+        "2015-16": "Lost Class A semifinal to North Farmington, 60-48; finished 16-11 under coach Desmond Ferguson (https://www.mhsaa.com/sports/boys-basketball/stories/north-farmington-reaches-1st-final?page=9)"
+      },
+      "final_fours_source": "https://michigan-football.com/bb/leverett.htm ; https://www.mhsaa.com/sports/boys-basketball/stories/north-farmington-reaches-1st-final?page=9",
+      "notable_players": [
+        {"name": "Earvin \"Magic\" Johnson", "grad_year": "1977", "accolades": "1977 Mr. Basketball of Michigan (Wikipedia; BCAM named him the retro 1977 winner, since the award began in 1981). Inaugural McDonald's All-American and Parade first-team All-American (1977). First-team all-state in all three varsity seasons. Holds MHSAA records of 805 points in a season (1976-77, 28.8 ppg) and 2,012 career points (1974-77, 25.8 ppg). Led Everett to the 1977 Class A title.", "college": "Michigan State (1977-79): 1979 NCAA champion and Final Four Most Outstanding Player", "pro": "No. 1 overall pick in the 1979 NBA draft by the Los Angeles Lakers. Five NBA titles, three NBA MVPs, three Finals MVPs. Naismith Hall of Fame (2002, and 2010 with the Dream Team).", "source": "https://en.wikipedia.org/wiki/Magic_Johnson ; https://www.mhsaa.com/sports/boys-basketball/records ; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners?page=72 ; https://www.mhsaa.com/sports/girls-basketball/stories/flashback-100-johnson-family-put-magical-stamp-michigan-high-school?page=22"},
+        {"name": "Goran Suton", "grad_year": "2004 (inferred: he was a senior on the 2004 title team)", "accolades": "Senior on the 2004 Class A title team. All-state post player alongside Derick Nelson.", "college": "Michigan State (2005-09): second-team All-Big Ten in 2009, 2009 Final Four, 2009 Midwest Regional Most Outstanding Player", "pro": "Picked 50th in the 2009 NBA draft by Utah and cut in the preseason. Played pro ball in Russia, Italy, Croatia (Croatian league titles) and Spain through 2019.", "source": "https://en.wikipedia.org/wiki/Goran_Suton ; https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard?page=9"},
+        {"name": "Carl Thomas", "grad_year": "1987 (inferred from his 1987 college start)", "accolades": "", "college": "Eastern Michigan (1987-91): second-team All-MAC in 1991", "pro": "Played in the NBA for Sacramento (1991-92), Cleveland, Golden State and Orlando (1996-98). Also played in Spain, France, Sweden, the Dominican Republic, Greece and Italy.", "source": "https://en.wikipedia.org/wiki/Carl_Thomas_(basketball)"},
+        {"name": "Charles Thomas", "grad_year": "1987 (inferred from his 1987 college start)", "accolades": "", "college": "Eastern Michigan (1987-91)", "pro": "Played for the Detroit Pistons in 1991-92. In Australia's NBL he played for Wollongong (2000-01 champions) and Adelaide (2000-04).", "source": "https://en.wikipedia.org/wiki/Charles_Thomas_(basketball,_born_1969)"},
+        {"name": "Desmond Ferguson", "grad_year": "1995 (inferred from his 1995 college start)", "accolades": "All-State as a senior, averaging 20.1 points and 10.0 rebounds per game", "college": "Missouri (1995-96), then Detroit Mercy (1997-2000), where he scored 1,113 points", "pro": "Played 7 games for the Portland Trail Blazers in 2003-04. Two-time All-CBA First Team and played in other minor leagues. Later coached Everett until 2017.", "source": "https://detroittitans.com/news/2023/8/29/mens-basketball-former-titan-desmond-ferguson-inducted-into-greater-lansing-sports-hall-of-fame ; https://en.wikipedia.org/wiki/Desmond_Ferguson"},
+        {"name": "Derick Nelson", "grad_year": "", "accolades": "All-state post player on Johnny Jones' best boys teams, alongside Goran Suton", "college": "", "pro": "", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard?page=9"}
+      ],
+      "notable_coaches": [
+        {"name": "George Fox", "years": "Coached through at least 1975-77 (full span not found)", "notes": "Went 350-125 at Everett and won the 1977 Class A title (27-1). He was the first Michigander to win a state title as both a player (Fowler, 1952) and a coach. Inducted into the Greater Lansing Sports Hall of Fame in 1990. Died in April 2023 at age 88.", "source": "https://99wfmk.com/magic-johnson-remembers-former-lansing-everett-basketball-coach-george-fox/"},
+        {"name": "Johnny Jones", "years": "32 years at Everett, coaching girls and boys; gave up the boys team in 2007 (MaxPreps lists him as boys coach through 2012-13)", "notes": "Won the 2004 boys Class A title and the 2000 and 2001 girls Class A titles. Had 334 boys wins after 2003-04. Died April 2025 at age 75.", "source": "https://www.wilx.com/2025/04/30/legendary-lansing-everett-basketball-coach-johnny-jones-passes-away ; https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard?page=9 ; https://www.maxpreps.com/mi/lansing/everett-vikings/basketball/history"},
+        {"name": "Desmond Ferguson", "years": "c. 2012-13 to 2017", "notes": "Everett alumnus and former NBA player. Took Everett to back-to-back Class A semifinals in 2015 and 2016.", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/north-farmington-reaches-1st-final?page=9 ; https://en.wikipedia.org/wiki/Desmond_Ferguson"}
+      ],
+      "uncertain": [
+        "Season record for the 2003-04 title team was not found.",
+        "When Johnny Jones left the boys job conflicts: WILX says he gave it up in 2007, while MaxPreps lists him as boys coach through 2012-13, and the 2012 MHSAA article names Ferguson as his successor.",
+        "Colors: Wikipedia says Red, White and Light Blue; the CAAC page says Red & Blue.",
+        "Everett's founding year (1934) is unverified ([citation needed] on Wikipedia).",
+        "Semifinal appearances before 1951 were not checked (michigan-football.com data starts in 1951). Everett's own block in the MHSAA finals PDF could not be read.",
+        "Magic Johnson's Mr. Basketball: the official BCAM award began in 1981 (Sam Vincent was the first winner per Wikipedia), so Johnson's is a retroactive BCAM honor."
+      ]
+    },
+    {
+      "name": "Lansing Sexton",
+      "nickname": "Big Reds (historical/team name); the school's athletics now go by 'J-Dubbs' (CAAC, MaxPreps, Wikipedia)",
+      "colors": {"primary": "#C8102E", "secondary": "#FFFFFF", "names": "Red and White (Wikipedia); CAAC lists Red, White & Black"},
+      "city": "Lansing",
+      "status": "Active. Opened in 1943 (J. W. Sexton High School).",
+      "status_source": "https://en.wikipedia.org/wiki/J._W._Sexton_High_School",
+      "class_current": "MHSAA Division 2",
+      "conference_current": "Capital Area Activities Conference (CAAC) White",
+      "class_conference_source": "https://www.maxpreps.com/mi/lansing/sexton-j-dubbs/basketball/history ; https://caacsports.org/?p=39 ; https://www.mhsaa.com/sports/boys-basketball/stories/breslin-bound-2025-26-boys-regional-preview?page=15",
+      "state_titles": [
+        {"season": "1944-45", "class": "Class A", "coach": "Al Bovard", "record": "", "final_opponent": "Benton Harbor", "final_score": "31-30", "notes": "Bob Swanson was named BCAM's retro 1945 Mr. Basketball.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"},
+        {"season": "1958-59", "class": "Class A", "coach": "Clayton Kowalk", "record": "Regular season 9-7; 6-0 in the tournament", "final_opponent": "Hamtramck", "final_score": "80-79 (OT)", "notes": "No starter was taller than 6 feet. Sexton trailed 43-26 at halftime and scored the last 15 points of regulation to force OT. Bob Davis hit the winning shot at the horn ('The Shot'). Crowd of 12,120 at Jenison Field House. Beat Adrian 64-47 in the QF and Grand Rapids Central 73-44 in the SF. Inducted into the Greater Lansing Sports Hall of Fame in 1976.", "source": "https://mhsaa.com/MHSAA_Archive/news/sexton.html ; https://www.mhsaa.com/sports/boys-basketball/stories/hoops-film-1959-class-boys-final ; https://lansingsportshalloffame.org/team/lansing-sexton-high-school-boys-basketball-1959/ ; https://michigan-football.com/bb/lsexton.htm"},
+        {"season": "1959-60", "class": "Class A", "coach": "Clayton Kowalk", "record": "22-1", "final_opponent": "Pontiac Central", "final_score": "60-56", "notes": "Back-to-back titles; MHSAA called Sexton only the second team to win consecutive Class A crowns. Beat Ann Arbor Pioneer 83-48 in the QF and Grand Rapids South 62-50 in the SF.", "source": "https://mhsaa.com/MHSAA_Archive/news/sexton.html ; https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/lsexton.htm"},
+        {"season": "2010-11", "class": "Class B", "coach": "Carlton Valentine", "record": "26-2", "final_opponent": "Muskegon Heights", "final_score": "75-60", "notes": "First title in 51 years. A 17-0 third-quarter run decided it. Scoring: Tyrin Wade 18, Denzel Valentine 17, Anthony Clemmons 15, Bryn Forbes 10. Beat Dearborn Divine Child 66-42 in the QF and Detroit Country Day 69-59 in the SF.", "source": "https://www.uofmhealthsparrow.org/news/macs-carlton-valentine-and-lansing-sexton-win-state-title ; https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/lsexton.htm"},
+        {"season": "2011-12", "class": "Class B", "coach": "Carlton Valentine", "record": "27-1 (MHSAA); MaxPreps shows 28-1", "final_opponent": "Stevensville Lakeshore", "final_score": "67-32", "notes": "Only loss was 81-80 to Detroit Pershing. Led 32-10 at halftime. Bryn Forbes 19 points; Denzel Valentine 15 points, 11 rebounds, 7 assists. Beat Dearborn Heights Robichaud 56-37 in the QF and Detroit Country Day 74-59 in the SF. Won 74 games over three seasons.", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/class-b-final-they-leave-champions ; https://www.mhsaa.com/sports/boys-basketball/stories/class-b-moves-magic?page=1 ; https://michigan-football.com/bb/lsexton.htm"}
+      ],
+      "state_runner_ups": [
+        {"season": "1952-53", "class": "Class A", "coach": "", "record": "", "final_opponent": "Dearborn Fordson", "final_score": "47-53", "notes": "Beat Bay City Central 56-46 in the QF and Highland Park 55-53 in the SF.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/lsexton.htm"},
+        {"season": "2009-10", "class": "Class B", "coach": "Carlton Valentine", "record": "22-6 (MaxPreps)", "final_opponent": "Detroit Country Day", "final_score": "47-71", "notes": "Beat Detroit Douglass 58-57 in the QF and Richland Gull Lake 55-50 in the SF. The team turned around after a 6-4 start.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/lsexton.htm ; https://www.maxpreps.com/mi/lansing/sexton-j-dubbs/basketball/history"}
+      ],
+      "final_fours": ["1944-45", "1952-53", "1958-59", "1959-60", "1971-72", "2009-10", "2010-11", "2011-12"],
+      "final_fours_detail": {
+        "1971-72": "Beat Allen Park 97-69 in the QF; lost semifinal to Pontiac Central, 60-62 (michigan-football.com)",
+        "recent": "2024-25: lost Division 2 QF to Romulus Summit Academy North, 68-41. 2025-26: no semifinal (not among the D2 semifinalists)."
+      },
+      "final_fours_source": "https://michigan-football.com/bb/lsexton.htm ; https://www.mhsaa.com/sports/boys-basketball/stories/breslin-bound-2024-25-boys-semifinals-preview",
+      "notable_players": [
+        {"name": "Denzel Valentine", "grad_year": "2012", "accolades": "2012 AP Class B Player of the Year and Lansing State Journal Player of the Year. Runner-up for 2012 Mr. Basketball. Class B honorable mention all-state as a sophomore (2010). Won 2011 and 2012 Class B titles.", "college": "Michigan State (2012-16): 2016 AP and NABC National Player of the Year, unanimous first-team All-American, Big Ten Player of the Year", "pro": "Picked 14th overall in the 2016 NBA draft by Chicago; played for the Bulls (2016-21), Cavaliers and Jazz. Played overseas in Australia (Sydney Kings) and Italy (Olimpia Milano, Trieste, Venezia, Udine).", "source": "https://en.wikipedia.org/wiki/Denzel_Valentine ; https://www.mhsaa.com/sports/boys-basketball/stories/class-b-final-they-leave-champions"},
+        {"name": "Bryn Forbes", "grad_year": "2012", "accolades": "Won 2011 and 2012 Class B titles. Class B all-state (Free Press and Detroit News), LSJ Dream Team. Averaged 19.0 ppg as a senior. Scored 19 in the 2012 final.", "college": "Cleveland State (2012-14), then Michigan State (2014-16): second-team All-Big Ten, Big Ten-record 11 threes in a game", "pro": "Undrafted in 2016. Played for San Antonio, Milwaukee (2021 NBA champion), Denver and Minnesota. Later played in Puerto Rico, Greece and Romania.", "source": "https://en.wikipedia.org/wiki/Bryn_Forbes ; https://www.mhsaa.com/sports/boys-basketball/stories/class-b-final-they-leave-champions"},
+        {"name": "Anthony Clemmons", "grad_year": "2012", "accolades": "Starter on the 2011 and 2012 Class B title teams. Scored 21 in the 2012 semifinal.", "college": "Iowa (2012-16)", "pro": "Played overseas in Austria, Kazakhstan (two league titles), Monaco, Bosnia, Italy, Turkey, Spain and Japan (B.League).", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/class-b-moves-magic?page=1 ; https://en.wikipedia.org/wiki/Anthony_Clemmons"},
+        {"name": "Saddi Washington", "grad_year": "1993 (inferred)", "accolades": "All-state in basketball and track in 1993; four-year letter winner", "college": "Western Michigan (1994-98): two-time All-MAC, first team in 1998", "pro": "Attended NBA training camps (Utah, Denver, Atlanta) but played no regular-season games. Later an assistant coach at Oakland, Michigan and Michigan State.", "source": "https://en.wikipedia.org/wiki/Saddi_Washington"},
+        {"name": "Bob Swanson", "grad_year": "1945", "accolades": "BCAM retro Mr. Basketball, 1945. Played on Sexton's 1945 Class A title team (by year).", "college": "", "pro": "", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners?page=72"},
+        {"name": "Bob Davis", "grad_year": "", "accolades": "Hit the winning OT shot at the horn in the 1959 Class A final, 80-79 over Hamtramck ('The Shot').", "college": "", "pro": "", "source": "https://mhsaa.com/MHSAA_Archive/news/sexton.html ; https://www.mhsaa.com/sports/boys-basketball/stories/hoops-film-1959-class-boys-final"},
+        {"name": "Jalen Hayes", "grad_year": "2013 (junior in 2012)", "accolades": "Starter on the 2011 and 2012 title teams", "college": "", "pro": "", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/class-b-final-they-leave-champions"}
+      ],
+      "notable_coaches": [
+        {"name": "Al Bovard", "years": "1940s", "notes": "Won the 1945 Class A title.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"},
+        {"name": "Clayton Kowalk", "years": "1950s-60s", "notes": "Won back-to-back Class A titles in 1959 and 1960. Ken Eckman was his assistant in 1959.", "source": "https://mhsaa.com/MHSAA_Archive/news/sexton.html ; https://lansingsportshalloffame.org/team/lansing-sexton-high-school-boys-basketball-1959/"},
+        {"name": "Carlton Valentine", "years": "2007-08 to 2012-13 and 2015-16 (MaxPreps)", "notes": "Former Michigan State player. Won Class B titles in 2011 and 2012 and was runner-up in 2010. Father of Denzel and Drew Valentine.", "source": "https://www.maxpreps.com/mi/lansing/sexton-j-dubbs/basketball/history ; https://en.wikipedia.org/wiki/Denzel_Valentine"}
+      ],
+      "uncertain": [
+        "2011-12 record: MHSAA says 27-1, MaxPreps says 28-1 (MHSAA's article was written before the final; 27-1 is likely the final record including the title game). The Sparrow article gives 2010-11 as 26-2, matching MaxPreps.",
+        "Nickname: historically 'Big Reds'; now branded 'J-Dubbs'. When the change happened was not verified.",
+        "Colors: Wikipedia says Red and White; the CAAC page says Red, White & Black.",
+        "1945 semifinal and quarterfinal details were not found. The 1945 record and 1953 coach are unknown.",
+        "Semifinal trips between 1944 and 1950 were not checked; 1945 is included only because Sexton won the title.",
+        "Wikipedia lists Sexton as MHSAA 'Class B'; MaxPreps and MHSAA 2026 coverage show Division 2."
+      ]
+    },
+    {
+      "name": "Lansing Eastern",
+      "nickname": "Quakers",
+      "colors": {"primary": "#003DA5", "secondary": "#FFC72C", "names": "Blue and Gold"},
+      "city": "Lansing",
+      "status": "Active. Opened in 1928 as Lansing's second high school, on Pennsylvania Avenue (some sources say 1929 at that site), next to Sparrow Hospital. Served grades 7-12 starting in 2012. The board voted in 2016 to sell the building to Sparrow. The last class graduated from the Pennsylvania Ave building in 2019, and students moved to the renovated former Pattengill Middle School in fall 2019. The old building was demolished in April 2025.",
+      "status_source": "https://en.wikipedia.org/wiki/Eastern_High_School_(Michigan) ; https://www.fox47news.com/news/local-news/final-class-graduates-from-eastern-high-schools-pennsylvania-ave-location",
+      "class_current": "MHSAA Division 1 (MaxPreps, 2023-24 onward; Division 2 for 2018-19 to 2022-23)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Red",
+      "class_conference_source": "https://www.maxpreps.com/mi/lansing/eastern-quakers/basketball/history ; https://caacsports.org/?p=39",
+      "state_titles": [
+        {"season": "1933-34", "class": "Class A", "coach": "Walter Graff", "record": "", "final_opponent": "Grand Rapids Union", "final_score": "21-19", "notes": "The MHSAA finals PDF shows Eastern beat Ann Arbor 26-10 in the 1934 tournament (round not stated).", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"},
+        {"season": "1979-80", "class": "Class A", "coach": "Paul Cook", "record": "", "final_opponent": "Highland Park", "final_score": "64-53", "notes": "Tournament run went 7-0: Lansing Everett 69-63, Lansing Sexton 62-52, Jackson Parkside 74-47, Portage Northern 60-54, Ypsilanti 61-56 (QF), Utica Eisenhower 70-59 (SF), Highland Park 64-53 (F). Junior Sam Vincent led with 16 points in the final.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://michigan-football.com/bb/leastern.htm ; https://digital.bentley.umich.edu/midaily/mdp.39015071754654/647"}
+      ],
+      "state_runner_ups": [],
+      "final_fours": ["1933-34", "1950-51", "1978-79", "1979-80", "1980-81"],
+      "final_fours_detail": {
+        "1950-51": "Beat Dearborn Ford Trade 58-38 in the QF; lost semifinal to Kalamazoo Central, 34-56",
+        "1978-79": "Beat Ypsilanti 54-52 in the QF; lost semifinal to Pontiac Central, 67-74",
+        "1980-81": "Beat Ypsilanti 56-46 in the QF; lost semifinal to Detroit Murray-Wright, 81-82 in triple overtime"
+      },
+      "final_fours_source": "https://michigan-football.com/bb/leastern.htm ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf",
+      "notable_players": [
+        {"name": "Sam Vincent", "grad_year": "1981", "accolades": "First official Mr. Basketball of Michigan (1981). 1981 McDonald's All-American and Parade first-team All-American. Holds the MHSAA single-game record of 61 points vs. Lansing Waverly (12-19-1980). Led the 1980 Class A title team as a junior.", "college": "Michigan State (1981-85): 1985 All-American (second-team NABC; third-team AP and UPI)", "pro": "Picked 20th in the 1985 NBA draft by Boston; 1986 NBA champion with the Celtics. Also played for Seattle, Chicago and Orlando (1985-92). Head coach of the Charlotte Bobcats in 2007-08.", "source": "https://en.wikipedia.org/wiki/Sam_Vincent_(basketball) ; https://www.mhsaa.com/sports/boys-basketball/records"},
+        {"name": "Jay Vincent", "grad_year": "1977 (inferred from his 1977 college start)", "accolades": "Finalist for BCAM's retro 1977 Mr. Basketball (Magic Johnson won)", "college": "Michigan State (1977-81): 1979 NCAA champion, two-time Big Ten scoring champion", "pro": "Picked 24th in the 1981 NBA draft by Dallas. Played for Dallas, Washington, Denver, San Antonio, Philadelphia and the Lakers (1981-90), then in Italy (1990-93).", "source": "https://en.wikipedia.org/wiki/Jay_Vincent ; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners?page=72"},
+        {"name": "LaDontae Henton", "grad_year": "2011 (inferred from his 2011 college start)", "accolades": "Four-time first-team all-state. Averaged 22.2 points and 14.5 rebounds per game for his career. Holds the MHSAA season rebounding record of 312 (2007-08).", "college": "Providence (2011-15): 2,059 points and 1,054 rebounds, first-team All-Big East, led the Big East in scoring in 2015", "pro": "Undrafted in 2015. Played in the G League, Spain, the Philippines, Andorra, Hungary, Israel and Taiwan. Later an assistant coach at Providence and Georgetown.", "source": "https://en.wikipedia.org/wiki/LaDontae_Henton ; https://www.mhsaa.com/sports/boys-basketball/records"},
+        {"name": "Bob Nagel", "grad_year": "1947", "accolades": "Finalist for BCAM's retro 1947 Mr. Basketball", "college": "", "pro": "", "source": "https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners?page=72"}
+      ],
+      "notable_coaches": [
+        {"name": "Walter Graff", "years": "1930s", "notes": "Won the 1934 Class A title.", "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"},
+        {"name": "Paul Cook", "years": "Coached boys from 1949 to 1991 at several schools, including Lansing Eastern", "notes": "Career boys record of 639-245 across Jackson St. Johns, Lansing Resurrection, Gabriels, Lansing Catholic and Eastern. Won the 1980 Class A title with Eastern. 1978-79 AP Class A Coach of the Year. Inducted into the Michigan HS Coaches HOF (1978), the BCAM HOF (1986) and the Greater Lansing Sports HOF (1990). Also won the 1995 Class C girls title with Lansing Catholic.", "source": "https://lansingsportshalloffame.org/?p=524"},
+        {"name": "Rod Watts", "years": "2008-09 to 2013-14 (MaxPreps)", "notes": "Went 22-3 in 2009-10 and 20-4 in 2011-12. Eastern won districts in 2010, 2011 and 2014 per michigan-football.com.", "source": "https://www.maxpreps.com/mi/lansing/eastern-quakers/basketball/history ; https://michigan-football.com/bb/leastern.htm"}
+      ],
+      "uncertain": [
+        "The 1934 semifinal opponent and round are not confirmed. The MHSAA PDF line shows a 26-10 win over Ann Arbor in 1934 but does not give the round.",
+        "1929: the MHSAA PDF shows Eastern beat Bay City Central 14-11 in the 1929 tournament, round unknown. It may have been a semifinal or quarterfinal.",
+        "Pre-1951 semifinal appearances other than 1934 were not checked.",
+        "Season records for the 1934 and 1980 title teams were not found.",
+        "michigan-football.com's summary line (D12:R5:S1) does not match its own year table (8 district, 4 regional, 1 state title).",
+        "Paul Cook's years at Eastern specifically were not found.",
+        "Opening year: Wikipedia says 1928; Fox47 says the school occupied the Pennsylvania Ave site from 1929.",
+        "Eastern was not closed. It relocated to the former Pattengill Middle School building in 2019."
+      ]
+    }
+  ]
+}

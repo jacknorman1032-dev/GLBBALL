@@ -1,0 +1,25 @@
+{"schools":[
+{"name":"Eaton Rapids","nickname":"Greyhounds","colors":{"primary":"#800000","secondary":"#FFFFFF","names":"Maroon & White"},"city":"Eaton Rapids","class_current":"","conference_current":"CAAC White",
+"state_titles":[],"state_runner_ups":[],"final_fours":[],
+"tournament_summary":{"through_season":"2014-15","record":"36-65","district_titles":["1984-85","1987-88","1992-93","2003-04","2014-15"],"regional_titles":[],"regional_exits":[
+{"season":"1984-85","opponent":"Hastings","score":"61-63"},
+{"season":"1987-88","opponent":"Hastings","score":"58-74"},
+{"season":"1992-93","opponent":"Ionia","score":"60-64"},
+{"season":"2003-04","opponent":"Grandville Calvin Christian","score":"44-63"},
+{"season":"2014-15","opponent":"Onsted","score":"58-61"}],"source":"https://michigan-football.com/bb/eatonrpd.htm"},
+"notable_players":[],"notable_coaches":[],
+"sources":["https://www.mhsaa.com/sports/boys-basketball/past-champions","https://michigan-football.com/bb/totalbb.htm","https://michigan-football.com/bb/eatonrpd.htm","https://caacsports.org/?p=39","https://www.mhsaa.com/sports/boys-basketball/records"],
+"uncertain":["No boys state titles, runner-ups or semifinal appearances: absent from the MHSAA past champions page, and michigan-football.com lists 0 regional and 0 state titles through 2015. Seasons after 2014-15 are not verified.","Current MHSAA division not verified, so class_current is left blank. The CAAC page lists enrollment 619 (Class B), which is probably Division 2.","michigan-football.com seasons are listed by end year (e.g. 1985) and were converted to the 1984-85 format.","Hex colors are approximate (maroon assumed to be #800000).","No notable players or coaches could be verified. Searches mostly returned the Eaton Rapids girls program ('Eaton Rapids Adds to History-Making Run'), which is a separate program."]},
+{"name":"Fowlerville","nickname":"Gladiators","colors":{"primary":"#4B2E83","secondary":"#FFC72C","names":"Purple & Gold"},"city":"Fowlerville","class_current":"","conference_current":"CAAC Red",
+"state_titles":[],"state_runner_ups":[],"final_fours":[],
+"tournament_summary":{"through_season":"2014-15","record":"49-65","district_titles":["1986-87","1994-95","2001-02","2006-07","2007-08","2008-09","2009-10"],"regional_titles":["1960-61"],"best_finish":{"season":"1960-61","round":"Quarterfinal","opponent":"Grosse Pointe St. Paul","score":"45-55","season_tournament_record":"4-1"},"regional_exits":[
+{"season":"1994-95","opponent":"Flint Beecher","score":"52-83","round":"Regional final"},
+{"season":"2001-02","opponent":"Auburn Hills Avondale","score":"57-63"},
+{"season":"2006-07","opponent":"Flint Southwestern","score":"47-75"},
+{"season":"2007-08","opponent":"Millington","score":"48-56"},
+{"season":"2008-09","opponent":"Flint Powers Catholic","score":"47-81"},
+{"season":"2009-10","opponent":"Lansing Sexton","score":"33-73","round":"Regional final"}],"source":"https://michigan-football.com/bb/fowlervl.htm"},
+"notable_players":[],"notable_coaches":[],
+"sources":["https://www.mhsaa.com/sports/boys-basketball/past-champions","https://michigan-football.com/bb/totalbb.htm","https://michigan-football.com/bb/fowlervl.htm","https://caacsports.org/?p=39","https://www.mhsaa.com/sports/boys-basketball/stories/breslin-bound-2025-26-boys-regional-preview"],
+"uncertain":["No boys state titles, runner-ups or semifinal appearances: absent from the MHSAA past champions page, and michigan-football.com lists 0 state titles through 2015. The best finish found is the 1960-61 quarterfinal. Seasons after 2014-15 are not verified.","michigan-football.com's summary reads D8:R1:S0, but its table marks only 7 district title seasons. The one marked regional title (1961) may be counted among the 8 districts, or a district title is missing.","Current MHSAA division not verified, so class_current is left blank. The CAAC page lists enrollment 774 (Class B), and Fowlerville hosted a Division 2 regional in 2025-26 (MHSAA Breslin Bound preview), which suggests Division 2.","Do not confuse this school with Fowler (Class D champion 1951-52), which appears on the MHSAA past champions page.","Hex colors are approximate.","No notable players or coaches could be verified from sources."]}
+]}

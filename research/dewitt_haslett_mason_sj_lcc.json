@@ -1,0 +1,615 @@
+{
+  "schools": [
+    {
+      "name": "DeWitt",
+      "nickname": "Panthers",
+      "colors": {
+        "primary": "#003087",
+        "secondary": "#FFC72C",
+        "names": "Blue and gold (names per Wikipedia; hex values approximate)"
+      },
+      "city": "DeWitt, MI",
+      "status": "active",
+      "class_current": "Division 1 (MaxPreps lists D1 every season 2018-19 to 2025-26; Division 1 in 2024 and 2026 district play)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "state_titles": [],
+      "state_runner_ups": [
+        {
+          "season": "2003-04",
+          "class": "Class B",
+          "coach": "Ron Marlan (1st year as head coach)",
+          "record": "19-8",
+          "final_opponent": "Detroit Renaissance (coach Mark White)",
+          "final_score": "42-61 (L)",
+          "notes": "Program's first state final. Regular season 13-7, 3rd in CAAC Division 3. Beat Haslett 57-44 in the district final. Won the regional final over Essexville Garber 63-46, the first regional title since 1997. Beat Flint Powers Catholic 56-49 in the quarterfinal and Muskegon Heights 59-55 (OT) in the semifinal.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2025/2003-2004-boys-basketball ; https://michigan-football.com/bb/dewitt.htm"
+        }
+      ],
+      "final_fours": [
+        {
+          "season": "1994-95",
+          "class": "Class B",
+          "result": "Semifinal: lost 40-43 (OT) to East Grand Rapids at Breslin Center. Finished 26-1 under coach Jim Lutzke, the school record for wins, and set a 26-game school win streak.",
+          "source": "https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2019/1994-1995-boys-basketball ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1995-96",
+          "class": "Class B",
+          "result": "Semifinal: lost 62-70 to Detroit Country Day (ranked No. 1). Quarterfinal: beat Petoskey 71-65. Coach Jim Lutzke. The senior class went 51-3 over two seasons.",
+          "source": "https://sites.google.com/a/gapps.dewittschools.net/dhs-athletic-hall-of-fame/class-of-2019/1995-1996-boys-basketball ; https://michigan-football.com/bb/dewitt.htm"
+        },
+        {
+          "season": "2003-04",
+          "class": "Class B",
+          "result": "Runner-up (see state_runner_ups)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Erik Kangas",
+          "grad_year": "",
+          "accolades": "Starter on the 2003-04 Class B runner-up. Listed in the MHSAA record book for 83 three-pointers in a season (205 attempts) and .907 free-throw percentage (88 of 97), both in 2003-04. The MHSAA record book spells his name 'Eric'; the DeWitt Hall of Fame roster spells it 'Erik'.",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records ; https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2025/2003-2004-boys-basketball"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Jim Lutzke",
+          "years": "1990s (coached the 1994-95 and 1995-96 teams)",
+          "notes": "Coached the 1994-95 team (26-1, first regional title, first undefeated regular season) and the 1995-96 team. Both teams reached the Class B Final Four and are in the DeWitt Athletic Hall of Fame. He was also DeWitt's athletic director in 1994.",
+          "source": "https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2019/1994-1995-boys-basketball ; https://www.mhsaa.com/sports/girls-basketball/stories/mccullen-reaches-500-win-milestone-leading-dewitts-girls-basketball?page=6"
+        },
+        {
+          "name": "Ron Marlan",
+          "years": "2003-04 (1st year); MaxPreps lists him for 2005-06 to 2007-08 and 2011-12",
+          "notes": "Coached the 2003-04 team to the program's only state final (Class B runner-up). The 2007-08 team went 19-3 and 10-0 in the CAAC Gold.",
+          "source": "https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2025/2003-2004-boys-basketball ; https://www.maxpreps.com/mi/dewitt/dewitt-panthers/basketball/history"
+        },
+        {
+          "name": "Bill Flannery",
+          "years": "2017-18 to 2023-24 (per MaxPreps)",
+          "notes": "His 2018-19 team went 21-4 and 13-2 in the CAAC Blue.",
+          "source": "https://www.maxpreps.com/mi/dewitt/dewitt-panthers/basketball/history"
+        },
+        {
+          "name": "Bill McCullen",
+          "years": "Boys assistant in 1994-95 and 1995-96",
+          "notes": "Assistant coach on both Final Four teams. Best known as DeWitt's longtime girls basketball head coach (from 1996; 500+ wins). Inducted into the BCAM Hall of Fame in 2024.",
+          "source": "https://sites.google.com/dewittschools.net/dhs-athletic-hall-of-fame/class-of-2019/1994-1995-boys-basketball ; https://bcam.org/awards-archive/view-hall-of-fame-inductees/"
+        }
+      ],
+      "uncertain": [
+        "The 1995-96 season record is not stated directly. The Hall of Fame gives 51-3 over two seasons, which together with 26-1 in 1994-95 implies 25-2, but that figure is derived, not sourced.",
+        "michigan-football.com's all-time tournament page lists an unlabeled footer 'D18:R6:S0' (likely 18 district and 6 regional titles), but it does not define these labels.",
+        "Other quarterfinal appearances (not Final Four): 1951-52 Class D (lost 27-74 to Fowler), 1952-53 Class D (lost 36-56 to Detroit All Saints), and 1996-97 Class B (lost 78-86 in OT to Flint Powers Catholic). Source: https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf",
+        "No individual DeWitt boys players with college or pro careers were verified; the RealGM DeWitt page could not be fetched. Trey McKenney is NOT a DeWitt alum (he attended Orchard Lake St. Mary's)."
+      ]
+    },
+    {
+      "name": "Haslett",
+      "nickname": "Vikings",
+      "colors": {
+        "primary": "#003087",
+        "secondary": "#FFB81C",
+        "names": "Blue and gold (names per Wikipedia; hex values approximate)"
+      },
+      "city": "Haslett, MI",
+      "status": "active",
+      "class_current": "Division 2 (Division 2 district in 2024; MaxPreps shows a D2 District 49 game in Feb 2024)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Red",
+      "state_titles": [],
+      "state_runner_ups": [
+        {
+          "season": "1946-47",
+          "class": "Class D (Lower Peninsula final)",
+          "coach": "",
+          "record": "",
+          "final_opponent": "Baroda (coach Bob Eisner)",
+          "final_score": "32-41 (L)",
+          "notes": "In 1947 Class D held separate finals; Baroda beat Haslett in the Lower Peninsula final. Dallas Canfield led Haslett with 16 points. The MHSAA archive story gives the score as 42-32, while the past-champions list and the finals PDF give 41-32.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/MHSAA_ARCHIVE/resources/library/hsa.html ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        }
+      ],
+      "final_fours": [
+        {
+          "season": "1946-47",
+          "class": "Class D",
+          "result": "Runner-up (Lower Peninsula final)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1985-86",
+          "class": "Class C",
+          "result": "Semifinal: lost 50-89 to Detroit St. Martin dePorres. Beat Stockbridge 80-69 in the regional final and Bangor 71-49 in the quarterfinal.",
+          "source": "https://michigan-football.com/bb/haslett.htm ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1999-2000",
+          "class": "Class B",
+          "result": "Semifinal: lost 53-66 to Flint Beecher. Beat Cass City 73-52 in the regional final and Oscoda 92-60 in the quarterfinal.",
+          "source": "https://michigan-football.com/bb/haslett.htm"
+        },
+        {
+          "season": "2004-05",
+          "class": "Class B",
+          "result": "Semifinal: lost 44-68 to Muskegon Heights. Beat Bridgeport 68-59 in the regional final and Perry 72-55 in the quarterfinal.",
+          "source": "https://michigan-football.com/bb/haslett.htm"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Brandon Allen",
+          "grad_year": "2016 (high school career 2013-16)",
+          "accolades": "Haslett's all-time leading scorer (1,654 points). Holds school records for three-pointers in a game (8), season (74) and career (218). His 218 career threes and 332 career free throws are in the MHSAA record book; the LSSU bio gives 333 free throws.",
+          "college": "Western Michigan (redshirt), then Lake Superior State (2017-18 to 2020-21)",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records ; https://lssulakers.com/sports/mens-basketball/roster/brandon-allen/868"
+        },
+        {
+          "name": "Dallas Canfield",
+          "grad_year": "",
+          "accolades": "Led Haslett with 16 points in the 1947 Class D Lower Peninsula final",
+          "college": "",
+          "pro": "",
+          "source": "https://my.mhsaa.com/MHSAA_ARCHIVE/resources/library/hsa.html"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "James (Jim) Bradley",
+          "years": "",
+          "notes": "BCAM Hall of Fame inductee (1996), listed with Haslett HS.",
+          "source": "https://bcam.org/awards-archive/view-hall-of-fame-inductees/"
+        },
+        {
+          "name": "Rob Porritt",
+          "years": "2005-06 to 2012-13 (per MaxPreps)",
+          "notes": "2005-06 team went 24-2; 2010-11 team went 10-0 in the CAAC Gold.",
+          "source": "https://www.maxpreps.com/mi/haslett/haslett-vikings/basketball/history/"
+        },
+        {
+          "name": "Chris Smith",
+          "years": "2013-14 to 2022-23 (per MaxPreps)",
+          "notes": "2018-19 team went 20-6; coached Brandon Allen's later seasons.",
+          "source": "https://www.maxpreps.com/mi/haslett/haslett-vikings/basketball/history/"
+        }
+      ],
+      "uncertain": [
+        "The head coaches for the 1985-86, 1999-2000 and 2004-05 semifinal teams were not found.",
+        "James Bradley's years as Haslett coach and his record were not found; the BCAM listing only ties him to Haslett HS.",
+        "1947 final score: the archive story says 42-32 and the past-champions list says 41-32. Use 41-32 (it matches two MHSAA sources).",
+        "michigan-football.com footer 'D14:R4:S0' (likely district/regional/state titles) is unlabeled."
+      ]
+    },
+    {
+      "name": "Mason",
+      "nickname": "Bulldogs",
+      "colors": {
+        "primary": "",
+        "secondary": "",
+        "names": "UNVERIFIED. MaxPreps page metadata gives #034CB2 (blue) and #CC0022 (red), but Wikipedia's Mason Consolidated Schools page lists the district colors as blue and gold. Confirm with the school."
+      },
+      "city": "Mason, MI",
+      "status": "active",
+      "class_current": "Division 1 (MaxPreps lists D1 every season 2018-19 to 2025-26; Division 1 in 2024 and 2026 district play)",
+      "conference_current": "Capital Area Activities Conference (CAAC) Red",
+      "state_titles": [],
+      "state_runner_ups": [],
+      "final_fours": [],
+      "notable_players": [
+        {
+          "name": "Tom Coss",
+          "grad_year": "1962",
+          "accolades": "Starting point guard on two Mason teams that went 39-5 combined, including a 21-1 team in the Mason Hall of Fame. Averaged 7.9 points and 4.1 assists as a senior. Later taught and coached for 37 years, 31 of them at Mason.",
+          "college": "",
+          "pro": "",
+          "source": "https://www.masonk12.net/activities/athletics/high-school-athletic-hall-of-fame/"
+        },
+        {
+          "name": "Craig Webster",
+          "grad_year": "1969",
+          "accolades": "Two-time All-Circuit and All-Area basketball player. Led the Capital Circuit in scoring as a junior; the team went 16-5 his senior year.",
+          "college": "Air Force Academy (football), Michigan State (lacrosse)",
+          "pro": "",
+          "source": "https://www.masonk12.net/activities/athletics/high-school-athletic-hall-of-fame/"
+        },
+        {
+          "name": "Dan DeMartin",
+          "grad_year": "1971",
+          "accolades": "All-League; All-State as a senior. Longtime assistant coach in boys and girls basketball.",
+          "college": "Lansing Community College; Northeast Missouri State (now Truman State)",
+          "pro": "",
+          "source": "https://www.masonk12.net/activities/athletics/high-school-athletic-hall-of-fame/"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Lee Chaney",
+          "years": "MaxPreps lists 2005-06 to 2007-08 and 2011-12 to 2023-24",
+          "notes": "2022-23 (21-3) and 2023-24 (20-3) teams both went 10-0 in the CAAC Red; 2011-12 team went 19-3.",
+          "source": "https://www.maxpreps.com/mi/mason/mason-bulldogs/basketball/history"
+        }
+      ],
+      "uncertain": [
+        "No state final or semifinal appearances found. Quarterfinal appearances: 1960-61 Class B (lost 42-57 to Holland Christian) and 1961-62 Class B (beat Albion 72-39 in the regional final, then lost 50-73 to East Grand Rapids). Source: https://michigan-football.com/bb/mason.htm",
+        "Which season was the Hall of Fame '21-1' team? Tom Coss graduated in 1962, so it was likely 1960-61 or 1961-62, but the page does not say.",
+        "Do not confuse Mason with Mason County Central (1998 Class C runner-up) or Erie-Mason; neither is this school.",
+        "School colors conflict between sources (see colors field)."
+      ]
+    },
+    {
+      "name": "St. Johns",
+      "nickname": "Redwings",
+      "colors": {
+        "primary": "#C8102E",
+        "secondary": "#000000",
+        "names": "Red and black (names per Wikipedia; hex values approximate)"
+      },
+      "city": "St. Johns, MI",
+      "status": "active",
+      "class_current": "UNCERTAIN. Division 1 in the Feb 2024 district assignments (Grand Ledge district), but MaxPreps lists St. Johns baseball in Division 2 for 2025-26. Divisions are assigned per sport, so verify the current boys basketball division.",
+      "conference_current": "Capital Area Activities Conference (CAAC) Red",
+      "state_titles": [],
+      "state_runner_ups": [],
+      "final_fours": [
+        {
+          "season": "1953-54",
+          "class": "Class B",
+          "result": "Semifinal: lost 48-57 to Holland Christian at Jenison Field House. Beat Flint Kearsley 47-43 in the regional final and Utica 50-48 in the quarterfinal. Finished 17-3 and won the West Central League (7-1). Coach Dwane Wirick. The school calls it the only St. Johns boys team to reach the state semifinals.",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2018-hall-of-fame/ ; https://michigan-football.com/bb/stjohns.htm"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Douglas Knight",
+          "grad_year": "1954",
+          "accolades": "Team captain; All-Conference twice and All-State three times. Set the school single-game record of 31 points in 1952. Member of the 1953-54 semifinal team. St. Johns Hall of Fame 2022.",
+          "college": "",
+          "pro": "",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2022-athletic-hall-of-fame/"
+        },
+        {
+          "name": "Levi Rost",
+          "grad_year": "2001",
+          "accolades": "Basketball standout. Junior-college All-American at Lansing CC. 2005 All-MAC Second Team at Western Michigan, where he set a school record with nine 3-pointers in one game (at Buffalo). St. Johns Hall of Fame 2016.",
+          "college": "Lansing Community College; Western Michigan",
+          "pro": "Played professionally in Europe for 10 seasons (per the St. Johns HOF; the school alumni page says Spain)",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2016-athletic-hall-of-fame-class/ ; https://wmich.edu/wmu/news/2005/03/022.html ; https://basketball.realgm.com/player/Levi-Rost/Bio/11161"
+        },
+        {
+          "name": "Keith Haske",
+          "grad_year": "1976",
+          "accolades": "All-Conference and captain in basketball, football and baseball",
+          "college": "",
+          "pro": "",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2018-hall-of-fame/"
+        },
+        {
+          "name": "Jon Harden",
+          "grad_year": "2011",
+          "accolades": "Listed among the school's college basketball alumni",
+          "college": "Lawrence Tech",
+          "pro": "",
+          "source": "https://www.sjredwings.org/athletics/hs/redwing-history--tradition/redwing-alumni/"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Dwane Wirick",
+          "years": "1953-54",
+          "notes": "Coached the only St. Johns boys team to reach the state semifinals (17-3; won the West Central League, district and regional).",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2018-hall-of-fame/"
+        },
+        {
+          "name": "Keith Haske",
+          "years": "years not given",
+          "notes": "St. Johns alum (1976). As varsity coach his teams won six league titles and went 164-114. Also coached at Charlevoix and Traverse City St. Francis (600+ career wins). BCAM Hall of Fame 2014.",
+          "source": "https://www.sjredwings.org/athletics/st-johns-high-school-athletic-hall-of-fame/2018-hall-of-fame/ ; https://bcam.org/awards-archive/view-hall-of-fame-inductees/"
+        }
+      ],
+      "uncertain": [
+        "Current MHSAA division (see class_current).",
+        "michigan-football.com footer 'D5:R1:S0' is unlabeled, and its year table shows only four district titles (1953, 1959, 1970, 2004), so the page is internally inconsistent.",
+        "Jon Harden: the alumni page lists basketball at Lawrence Tech but does not say whether that was men's basketball. Verify before publishing."
+      ]
+    },
+    {
+      "name": "Lansing Catholic",
+      "nickname": "Cougars",
+      "colors": {
+        "primary": "#9BCBEB",
+        "secondary": "#000000",
+        "names": "Columbia blue, black and white (names per Wikipedia; hex values approximate)"
+      },
+      "city": "Lansing, MI",
+      "status": "active",
+      "class_current": "Division 2 (MaxPreps D2 2016-17 to 2025-26; D2 District 49 in Feb 2026)",
+      "conference_current": "Capital Area Activities Conference (CAAC) White",
+      "state_titles": [
+        {
+          "season": "2007-08",
+          "class": "Class B",
+          "coach": "Darren Zwick",
+          "record": "",
+          "final_opponent": "Flint Powers Catholic",
+          "final_score": "54-53",
+          "notes": "The program's only title under the Lansing Catholic (Central) name. Beat Detroit Community 56-47 in the quarterfinal and Menominee 64-39 in the semifinal at Breslin Center.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/sports/bbb/08reg.html ; https://michigan-football.com/bb/lanscctl.htm"
+        },
+        {
+          "season": "1935-36",
+          "class": "Class C",
+          "coach": "Ray Lehman",
+          "record": "",
+          "final_opponent": "Zeeland",
+          "final_score": "24-14",
+          "notes": "Won as Lansing St. Mary, a predecessor school (see uncertain). St. Mary's first MHSAA title. Captain Herb Brogan scored 16 in the final. Beat Charlevoix 38-28 in the semifinal.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://www.mhsaa.com/sites/default/files/MHSAA_Archive/resources/library/bbbflash06.pdf ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1936-37",
+          "class": "Class C",
+          "coach": "Ray Lehman",
+          "record": "",
+          "final_opponent": "St. Clair",
+          "final_score": "32-15",
+          "notes": "Won as Lansing St. Mary; second straight title. Bob Wines scored 15 in the final. Beat Dundee 38-25 in the quarterfinal.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/MHSAA_ARCHIVE/resources/library/hsa.html ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1940-41",
+          "class": "Class C",
+          "coach": "Leo Callahan",
+          "record": "",
+          "final_opponent": "Harbor Springs",
+          "final_score": "26-19",
+          "notes": "Won as Lansing St. Mary. Beat Blissfield 34-33 (OT) in the quarterfinal.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1943-44",
+          "class": "Class C",
+          "coach": "Bob Wines",
+          "record": "",
+          "final_opponent": "Cass City",
+          "final_score": "50-33",
+          "notes": "Won as Lansing St. Mary. Beat Detroit St. Cecilia 34-24 in the quarterfinal. Score discrepancy: the past-champions list says 50-33, but the finals PDF row for Cass City reads 23-50.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1953-54",
+          "class": "Class C",
+          "coach": "Len Lapka",
+          "record": "",
+          "final_opponent": "Marine City",
+          "final_score": "60-28",
+          "notes": "Won as Lansing St. Mary. Team inducted into the Greater Lansing Sports Hall of Fame (1989).",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://lansingsportshalloffame.org/team/st-marys-high-school-boys-basketball-1954/"
+        }
+      ],
+      "state_runner_ups": [
+        {
+          "season": "1929-30",
+          "class": "Class C",
+          "coach": "",
+          "record": "",
+          "final_opponent": "Kalamazoo St. Augustine (coach Harve Freeman)",
+          "final_score": "9-40 (L)",
+          "notes": "Runner-up as Lansing St. Mary (predecessor).",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/yearly.htm"
+        }
+      ],
+      "final_fours": [
+        {
+          "season": "1929-30",
+          "class": "Class C",
+          "result": "Runner-up (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1934-35",
+          "class": "Class C",
+          "result": "As Lansing St. Mary: lost 10-15 to Cass City in the semifinal",
+          "source": "https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1935-36",
+          "class": "Class C",
+          "result": "State champion (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1936-37",
+          "class": "Class C",
+          "result": "State champion (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1940-41",
+          "class": "Class C",
+          "result": "State champion (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1943-44",
+          "class": "Class C",
+          "result": "State champion (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1953-54",
+          "class": "Class C",
+          "result": "State champion (as Lansing St. Mary)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1978-79",
+          "class": "Class C",
+          "result": "Semifinal: lost 60-67 to Elkton-Pigeon-Bay Port; beat Reed City 66-43 in the quarterfinal",
+          "source": "https://michigan-football.com/bb/lanscctl.htm"
+        },
+        {
+          "season": "1984-85",
+          "class": "Class C",
+          "result": "Semifinal: lost 48-74 to Detroit St. Martin dePorres (the eventual champion); beat Kalamazoo Christian 64-57 in the quarterfinal",
+          "source": "https://michigan-football.com/bb/lanscctl.htm ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "1995-96",
+          "class": "Class C",
+          "result": "Semifinal: lost 51-59 to Detroit St. Martin dePorres (the eventual champion); beat Newaygo 47-43 in the quarterfinal",
+          "source": "https://michigan-football.com/bb/lanscctl.htm ; https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf"
+        },
+        {
+          "season": "2007-08",
+          "class": "Class B",
+          "result": "State champion",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Tony Poljan",
+          "grad_year": "~2016 (MHSAA lists his career as 2013-16 for rebounds and 2013-15 for free throws)",
+          "accolades": "MHSAA record book: 817 career rebounds and 323 career free throws. Had basketball scholarship offers from Toledo and Central Michigan.",
+          "college": "Central Michigan (2016-19, football); Virginia (2020, football)",
+          "pro": "NFL: Baltimore Ravens (2021-22), tight end",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records ; https://en.wikipedia.org/wiki/Tony_Poljan"
+        },
+        {
+          "name": "Jim Cassel",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 998 career rebounds (68 games, 1975-77), plus 384 rebounds in 1976-77 and 354 in 1975-76",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Ralph Coleman (Lansing St. Mary)",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 929 career rebounds (1953-55), 414 rebounds in 1953-54 (the title season) and 396 in 1954-55, plus 279 career free throws",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Gene Brogan (Lansing St. Mary)",
+          "grad_year": "",
+          "accolades": "Finalist for the 1937 Retro Mr. Basketball award (BCAM); called the main cog of St. Mary's back-to-back Class C titles (1936, 1937)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners"
+        },
+        {
+          "name": "Herb Brogan (Lansing St. Mary)",
+          "grad_year": "",
+          "accolades": "Captain of the 1936 Class C champions; scored 16 in the final",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sites/default/files/MHSAA_Archive/resources/library/bbbflash06.pdf"
+        },
+        {
+          "name": "Austin Nichols",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 174 free throws in 2008-09 (.866) and 281 career free throws (2007-09, .836)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Anthony Fernandez",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 84 three-pointers in 2004-05",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Alex Kulesza",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 329 career free throws (1996-99)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Bob Fata",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 718 career rebounds (1984-86)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Rick Kalchick",
+          "grad_year": "",
+          "accolades": "MHSAA record book: 315 rebounds in 1973-74",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Darren Zwick",
+          "years": "Head coach in 2007-08",
+          "notes": "Coached the 2008 Class B state champions",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "name": "Ray Lehman",
+          "years": "1930s (Lansing St. Mary)",
+          "notes": "Won back-to-back Class C titles in 1936 and 1937",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "name": "Leo Callahan",
+          "years": "1940-41 (Lansing St. Mary)",
+          "notes": "1941 Class C state champion",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "name": "Bob Wines",
+          "years": "1943-44 coach (Lansing St. Mary)",
+          "notes": "Coached the 1944 Class C champions. As a player, he led St. Mary with 15 points in the 1937 Class C final.",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions ; https://my.mhsaa.com/MHSAA_ARCHIVE/resources/library/hsa.html"
+        },
+        {
+          "name": "Len Lapka",
+          "years": "1953-54 (Lansing St. Mary)",
+          "notes": "1954 Class C state champion",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "name": "Jeff Wonch",
+          "years": "Hired April 2026",
+          "notes": "New head coach. Previously 14 seasons at Okemos (hired 2012); won the 2007 Class C title at Bath; 300+ career wins. The program had not had a winning season since 2021-22.",
+          "source": "https://sports.yahoo.com/articles/jeff-wonch-named-lansing-catholic-232109048.html"
+        }
+      ],
+      "uncertain": [
+        "Lineage: St. Mary High School (founded 1900) closed in 1963, along with Resurrection. Its students went to the new Gabriels and O'Rafferty high schools, which merged in 1970 as Lansing Catholic Central, later renamed Lansing Catholic (Wikipedia). MHSAA lists the Lansing St. Mary titles under 'Lansing St. Mary', and michigan-football.com's Lansing Catholic Central page does not include St. Mary results. Decide whether to credit St. Mary's 5 titles to Lansing Catholic or show them as predecessor history. Wikipedia's school page lists only 2008 as a boys basketball title.",
+        "Title-season records (win-loss) were not found for any Lansing Catholic or St. Mary championship team.",
+        "1944 final score: 50-33 (past-champions list) vs. 23-50 (finals PDF Cass City row).",
+        "Grad years for the record-book players are not stated (only career spans), so they were left blank. Austin Nichols's 2007-09 career span suggests he played on the 2008 title team, but no source confirms it.",
+        "Lansing Gabriels results (1963-70, e.g., the 1970 Class B regional final win over St. Johns) were not researched as part of the lineage.",
+        "michigan-football.com footer for LCC: '91-44' and 'D18:R6:S1' (unlabeled)."
+      ]
+    }
+  ],
+  "meta": {
+    "compiled": "2026-10-28",
+    "primary_sources": [
+      "https://www.mhsaa.com/sports/boys-basketball/past-champions",
+      "https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/yearly.htm",
+      "https://www.mhsaa.com/sites/default/files/Media/boysbasketballfinals.pdf",
+      "https://www.mhsaa.com/sports/boys-basketball/records",
+      "https://en.wikipedia.org/wiki/Capital_Area_Activities_Conference",
+      "https://lansingsportsnetwork.com/ixp/668/p/lansing-area-boys-basketball-district-matchups/"
+    ],
+    "notes": "Season format follows MHSAA tournament year minus one (e.g., MHSAA '2008' = 2007-08). michigan-football.com is a fan-compiled tournament database; its results match the MHSAA finals PDF wherever both were checked."
+  }
+}

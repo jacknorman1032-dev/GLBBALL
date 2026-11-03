@@ -1,0 +1,80 @@
+{
+ "_note": "Corrections confirmed by Jack Norman, Oct 28, 2026. Applied by build.py on top of each school's game log.",
+ "fix": [
+  {
+   "school": "sexton",
+   "date": "1993-03-12",
+   "opp": "East Lansing",
+   "us": 61,
+   "them": 40
+  },
+  {
+   "school": "sexton",
+   "date": "1995-01-27",
+   "opp": "East Lansing",
+   "us": 63,
+   "them": 73
+  },
+  {
+   "school": "east-lansing",
+   "date": "1995-02-28",
+   "opp": "Lansing Sexton",
+   "us": 58,
+   "them": 78
+  },
+  {
+   "school": "sexton",
+   "date": "2014-02-14",
+   "opp": "East Lansing",
+   "us": 62,
+   "them": 66
+  },
+  {
+   "school": "sexton",
+   "date": "2018-02-14",
+   "opp": "East Lansing",
+   "us": 59,
+   "them": 86
+  },
+  {
+   "school": "east-lansing",
+   "date": "1988-01-05",
+   "opp": "Charlotte",
+   "new_opp": "Clarkston",
+   "site": "R",
+   "_why": "Jack found the 1/5/88 game was at Clarkston (EL won 49-45), not Charlotte (Oct 28, 2026). ELHS spreadsheet still says Charlotte."
+  }
+ ],
+ "add": [
+  {
+   "school": "sexton",
+   "game": [
+    "1999-01-22",
+    "1998-99",
+    "Lansing Waverly",
+    "H",
+    "League",
+    "L",
+    63,
+    66,
+    "Mike Major",
+    0,
+    "",
+    0,
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "rename": [
+  {
+   "school": "east-lansing",
+   "opp": "Lansing Sexton",
+   "new_opp": "Lansing Central",
+   "before_season": "1943-44",
+   "expect": 17,
+   "_why": "Sexton opened in 1943 and replaced Lansing Central. Jack combined the two when collecting EL's games; the 1930-31 to 1942-43 games were against Central (confirmed Oct 28, 2026)."
+  }
+ ]
+}

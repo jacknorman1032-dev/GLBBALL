@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="East Lansing away uniform">
+  <defs>
+    <!-- red/navy checkerboard used on the side panels -->
+    <pattern id="elCheck" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#1d2b4f"/>
+      <rect width="4" height="4" fill="#f2473d"/>
+      <rect x="4" y="4" width="4" height="4" fill="#f2473d"/>
+    </pattern>
+    <clipPath id="elJerseyClip">
+      <path d="M40,10 L54,10 L80,32 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/>
+    </clipPath>
+    <clipPath id="elShortsClip">
+      <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shorts -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#1d2b4f"/>
+  <g clip-path="url(#elShortsClip)">
+    <polygon points="22,160 31,160 23,275 13,275" fill="url(#elCheck)"/>
+    <polygon points="129,160 138,160 147,275 137,275" fill="url(#elCheck)"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Jersey -->
+  <path d="M40,10 L54,10 L80,32 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#1d2b4f"/>
+  <g clip-path="url(#elJerseyClip)">
+    <rect x="22" y="84" width="8" height="82" fill="url(#elCheck)"/>
+    <rect x="130" y="84" width="8" height="82" fill="url(#elCheck)"/>
+  </g>
+  <path d="M40,10 L54,10 L80,32 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- block serif EL on the shorts waistband -->
+  <g fill="#ffffff" transform="translate(80 169) scale(0.72) translate(-80 -169)"><rect x="75.6" y="169.0" width="1.8" height="10.4"/><rect x="73.8" y="169.0" width="8.6" height="1.3"/><rect x="75.6" y="173.4" width="5.2" height="1.1"/><rect x="80.0" y="172.7" width="0.9" height="2.5"/><rect x="73.8" y="178.1" width="9.0" height="1.3"/><rect x="81.5" y="169.0" width="0.9" height="2.6"/><rect x="81.9" y="176.5" width="0.9" height="2.9"/><rect x="78.4" y="177.1" width="1.8" height="10.6"/><rect x="76.6" y="177.1" width="5.4" height="1.2"/><rect x="76.6" y="186.4" width="9.6" height="1.3"/><rect x="85.3" y="184.7" width="0.9" height="3.0"/></g>
+
+  <!-- Lettering -->
+  <text x="80" y="76" text-anchor="middle" textLength="74" lengthAdjust="spacingAndGlyphs"
+        font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="11"
+        fill="#ffffff" stroke="#f2473d" stroke-width="1.6" paint-order="stroke" stroke-linejoin="round">EAST LANSING</text>
+  <text x="80" y="128" text-anchor="middle"
+        font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="44"
+        fill="#ffffff" stroke="#f2473d" stroke-width="3" paint-order="stroke" stroke-linejoin="round">0</text>
+</svg>

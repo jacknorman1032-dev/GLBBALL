@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="Grand Ledge home uniform">
+  <defs>
+    <clipPath id="glhJerseyClip"><path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="glhShortsClip"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+
+  <!-- Shorts: white, gold side panels with four navy dashes -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#ffffff"/>
+  <g clip-path="url(#glhShortsClip)">
+    <polygon points="21.0,160.0 32.0,160.0 23.9,276.0 12.9,276.0" fill="#f0b323"/><polygon points="19.8,176.8 30.8,176.8 30.3,184.8 19.3,184.8" fill="#1c2a48"/><polygon points="18.1,201.6 29.1,201.6 28.5,209.6 17.5,209.6" fill="#1c2a48"/><polygon points="16.4,226.4 27.4,226.4 26.8,234.4 15.8,234.4" fill="#1c2a48"/><polygon points="14.7,251.2 25.7,251.2 25.1,259.2 14.1,259.2" fill="#1c2a48"/><polygon points="127.0,160.0 138.0,160.0 146.1,276.0 135.1,276.0" fill="#f0b323"/><polygon points="128.2,176.8 139.2,176.8 139.7,184.8 128.7,184.8" fill="#1c2a48"/><polygon points="129.9,201.6 140.9,201.6 141.5,209.6 130.5,209.6" fill="#1c2a48"/><polygon points="131.6,226.4 142.6,226.4 143.2,234.4 132.2,234.4" fill="#1c2a48"/><polygon points="133.3,251.2 144.3,251.2 144.9,259.2 133.9,259.2" fill="#1c2a48"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Jersey: white, navy V-neck and armhole binding, gold side panels with four navy dashes -->
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#ffffff"/>
+  <g clip-path="url(#glhJerseyClip)">
+    <polygon points="22.0,84.0 31.0,84.0 31.0,168.0 22.0,168.0" fill="#f0b323"/><polygon points="22.0,94.4 31.0,94.4 31.0,102.4 22.0,102.4" fill="#1c2a48"/><polygon points="22.0,112.8 31.0,112.8 31.0,120.8 22.0,120.8" fill="#1c2a48"/><polygon points="22.0,131.2 31.0,131.2 31.0,139.2 22.0,139.2" fill="#1c2a48"/><polygon points="22.0,149.6 31.0,149.6 31.0,157.6 22.0,157.6" fill="#1c2a48"/><polygon points="129.0,84.0 138.0,84.0 138.0,168.0 129.0,168.0" fill="#f0b323"/><polygon points="129.0,94.4 138.0,94.4 138.0,102.4 129.0,102.4" fill="#1c2a48"/><polygon points="129.0,112.8 138.0,112.8 138.0,120.8 129.0,120.8" fill="#1c2a48"/><polygon points="129.0,131.2 138.0,131.2 138.0,139.2 129.0,139.2" fill="#1c2a48"/><polygon points="129.0,149.6 138.0,149.6 138.0,157.6 129.0,157.6" fill="#1c2a48"/>
+    <g fill="none" stroke="#1c2a48">
+      <path d="M54,10 L80,34 L106,10" stroke-width="7"/>
+      <path d="M40,10 L40,40 Q38,68 22,78" stroke-width="6"/>
+      <path d="M120,10 L120,40 Q122,68 138,78" stroke-width="6"/>
+    </g>
+  </g>
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Lettering: "Comets": serif C with hand-drawn script "omets", number navy outlined in gold -->
+  <g fill="#1c2a48" transform="translate(4 0)"><text x="57" y="78" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19">C</text><path d="M66.5,71.6 C63.2,71.4 62.6,78.2 65.6,78.1 C68.6,78 69.6,71.8 66.5,71.6 M68.6,74.2 C69.4,73.4 70.2,73.2 71,73.4 M71,78 L71.3,73.4 C72.2,71.2 75.4,71 75.3,73.6 L75.1,78 M75.3,73.6 C76.1,71.2 79.3,71 79.2,73.6 L79,76.6 C79,78.6 81.4,78.4 82.6,76.6 C84.8,75.4 86.6,73.4 85.6,72 C84.4,70.6 81.6,72.4 82,75.6 C82.3,78.6 86,78.4 88,76.4 M90.6,68.4 L89.6,76.4 C89.4,78.6 92,78.4 93.4,76.6 M87.4,71.6 L93,71.3 M93.4,76.6 C94.6,75 95.6,73.2 96.4,71.6 C97.6,74.2 99,75.6 98,77.3 C97,78.8 94.2,78.4 93.8,77.2" fill="none" stroke="#1c2a48" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="80" y="124" text-anchor="middle" font-family="'Arial Narrow', 'Roboto Condensed', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="40"
+        fill="#1c2a48" stroke="#f0b323" stroke-width="2" paint-order="stroke" stroke-linejoin="round">0</text>
+</svg>

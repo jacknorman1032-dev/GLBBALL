@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="Mason away uniform">
+  <defs>
+    <clipPath id="maaJerseyClip"><path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="maaShortsClip"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+
+  <!-- Shorts: royal blue, red side stripe with a block of thin red diagonal hash marks near the hem -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#1f5fd1"/>
+  <g clip-path="url(#maaShortsClip)" fill="none" stroke="#d6283a">
+    <path d="M25,160 L17,275 M135,160 L143,275" stroke-width="3"/>
+    <g stroke-width="1.1"><path d="M19,232.0 L26,226.0"/><path d="M19,236.5 L26,230.5"/><path d="M19,241.0 L26,235.0"/><path d="M19,245.5 L26,239.5"/><path d="M19,250.0 L26,244.0"/><path d="M19,254.5 L26,248.5"/><path d="M19,259.0 L26,253.0"/><path d="M19,263.5 L26,257.5"/><path d="M141,232.0 L134,226.0"/><path d="M141,236.5 L134,230.5"/><path d="M141,241.0 L134,235.0"/><path d="M141,245.5 L134,239.5"/><path d="M141,250.0 L134,244.0"/><path d="M141,254.5 L134,248.5"/><path d="M141,259.0 L134,253.0"/><path d="M141,263.5 L134,257.5"/></g>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Jersey: royal blue, red V-neck and armhole trim, red side stripe with a block of red hash marks low on the sides -->
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#1f5fd1"/>
+  <g clip-path="url(#maaJerseyClip)" fill="none" stroke="#d6283a">
+    <path d="M54,10 L80,34 L106,10" stroke-width="5"/>
+    <path d="M40,10 L40,40 Q38,68 22,78" stroke-width="4"/>
+    <path d="M120,10 L120,40 Q122,68 138,78" stroke-width="4"/>
+    <path d="M25,76 L25,166 M135,76 L135,166" stroke-width="3"/>
+    <g stroke-width="1.1"><path d="M27,128.0 L34,122.0"/><path d="M27,132.5 L34,126.5"/><path d="M27,137.0 L34,131.0"/><path d="M27,141.5 L34,135.5"/><path d="M27,146.0 L34,140.0"/><path d="M27,150.5 L34,144.5"/><path d="M27,155.0 L34,149.0"/><path d="M27,159.5 L34,153.5"/><path d="M27,164.0 L34,158.0"/><path d="M133,128.0 L126,122.0"/><path d="M133,132.5 L126,126.5"/><path d="M133,137.0 L126,131.0"/><path d="M133,141.5 L126,135.5"/><path d="M133,146.0 L126,140.0"/><path d="M133,150.5 L126,144.5"/><path d="M133,155.0 L126,149.0"/><path d="M133,159.5 L126,153.5"/><path d="M133,164.0 L126,158.0"/></g>
+  </g>
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <!-- black belt-style waistband -->
+  <path d="M22.3,165 L137.7,165 L137.9,170 L22.1,170 Z" fill="#141414" stroke="#111" stroke-width="1"/>
+
+  <!-- Lettering: slightly arched serif MASON and number, white outlined in red -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="17" fill="#ffffff" stroke="#d6283a" stroke-width="1.4" paint-order="stroke" stroke-linejoin="round" text-anchor="middle">
+    <text x="53.6" y="79.1" transform="rotate(-13.2 53.6 79.1)">M</text><text x="66.8" y="76.8" transform="rotate(-6.7 66.8 76.8)">A</text><text x="80.0" y="76.0" transform="rotate(0.0 80.0 76.0)">S</text><text x="93.2" y="76.8" transform="rotate(6.7 93.2 76.8)">O</text><text x="106.4" y="79.1" transform="rotate(13.2 106.4 79.1)">N</text>
+  </g>
+  <text x="80" y="124" text-anchor="middle" font-family="'Arial Narrow', 'Roboto Condensed', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="40" fill="#ffffff" stroke="#d6283a" stroke-width="2.2" paint-order="stroke" stroke-linejoin="round">0</text>
+</svg>

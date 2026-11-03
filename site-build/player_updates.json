@@ -1,0 +1,20 @@
+{
+  "_note": "Player facts confirmed by Jack Norman. build.py applies these on top of the research files (matched by school id and exact player name), so a rebuild never undoes them. Add new confirmations here instead of editing research/*.json.",
+  "okemos": {
+    "Anthony Ianni": {"grad_year": "2006", "_confirmed": "Jack, Oct 28, 2026"},
+    "Travis Bader": {"grad_year": "2009", "_confirmed": "Jack, Oct 28, 2026 (resolves the 2009-vs-2010 note in research/okemos_holt_gl_waverly.json)"}
+  },
+  "dewitt": {
+    "Erik Kangas": {"grad_year": "2005", "_confirmed": "Jack, Oct 28, 2026"}
+  },
+  "everett": {
+    "Derick Nelson": {"grad_year": "2004", "_confirmed": "Jack, Oct 28, 2026"}
+  },
+  "lansing-catholic": {
+    "Bob Fata": {"grad_year": "1986", "_confirmed": "Jack, Oct 28, 2026"},
+    "Austin Nichols": {"grad_year": "2009", "_confirmed": "Jack, Oct 28, 2026"}
+  },
+  "sexton": {
+    "Drew Valentine": {"grad_year": "2010", "_confirmed": "Jack, Oct 30, 2026 (site had c. 2009; Wikipedia lists his Oakland career as 2009-13)"}
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "mason": {
+    "colors": {
+      "primary": "#2E3192",
+      "secondary": "#EA2F34",
+      "names": "Blue and red"
+    },
+    "logo": "logos/mason.png",
+    "logo_scale": 0.92
+  },
+  "sexton": {
+    "nickname": "Big Reds",
+    "add_players": [
+      {
+        "name": "Drew Valentine",
+        "grad_year": "2009",
+        "approx": true,
+        "accolades": "Played for his father, coach Carlton Valentine, at Sexton; older brother of Denzel Valentine. Became Oakland's winningest player (87 wins, two NCAA Tournaments). Named Loyola Chicago head coach in 2021 at age 30, the youngest in Division I; led the Ramblers to the 2022 NCAA Tournament and a share of the 2023-24 Atlantic 10 regular-season title.",
+        "college": "Oakland (2009-13)",
+        "pro": "",
+        "source": "https://loyolaramblers.com/staff.aspx?staff=205"
+      }
+    ],
+    "logo": "logos/sexton.png",
+    "logo_scale": 0.94
+  },
+  "okemos": {
+    "nickname": "Wolves",
+    "colors": {
+      "primary": "#7A1F3D",
+      "secondary": "#7BAFD4",
+      "names": "Maroon and Carolina blue"
+    },
+    "logo": "logos/okemos.png",
+    "logo_scale": 1.01
+  },
+  "holt": {
+    "add_players": [
+      {
+        "name": "Paul Crosby",
+        "grad_year": "2007",
+        "accolades": "6-foot-8 forward. Sophomore on Holt's 2005 Class A state champions (all-state honorable mention). As a senior averaged 16.0 points, 11.4 rebounds and 3.7 blocks; first-team AP all-state and Lansing State Journal Dream Team; rated Michigan's No. 1 power forward by PrepSpotlight. Signed with Toledo.",
+        "college": "Navarro College (2007-09); Mississippi Valley State (2010-12): 2012 SWAC Player of the Year, two-time first-team All-SWAC, AP honorable mention All-American, 2012 NCAA Tournament",
+        "pro": "Undrafted in 2012. Played in Uruguay (Montevideo), Brazil (Minas), Indonesia (Laskar Dreya) and Chile (CD Talca); 2013 NBA D-League draft pick.",
+        "source": "https://utrockets.com/news/2006/11/27/Toledo_Announces_Recruits_from_Early_Signing_Period ; https://en.wikipedia.org/wiki/Paul_Crosby_(basketball)"
+      }
+    ],
+    "logo": "logos/holt.png",
+    "logo_scale": 0.9
+  },
+  "waverly": {
+    "city": "Lansing",
+    "logo": "logos/waverly.png",
+    "logo_scale": 0.9
+  },
+  "everett": {
+    "add_players": [
+      {
+        "name": "Trevor Manuel",
+        "grad_year": "2015",
+        "accolades": "6-foot-9 forward. Class A all-state as an Everett senior in 2014-15 (21.9 points a game); ESPN ranked him the No. 3 player in Michigan. Won the 2011-12 state title as a freshman at Lansing Sexton and was Class B all-state there as a sophomore, then played a season at Oak Hill Academy.",
+        "college": "Oregon (2015); Loyola Marymount; Olivet (All-MIAA first team, 2019)",
+        "pro": "",
+        "source": "https://lmulions.com/news/2016/1/19/michigan_high_school_standout_transfers_to_lmu.aspx"
+      },
+      {
+        "name": "Clyde McKinney Jr.",
+        "grad_year": "2005",
+        "accolades": "Guard on Everett's 2004 Class A state champions. Had 6 points, 3 assists and 2 steals in the 69-64 semifinal win over Pontiac Northern, then 8 points, 3 rebounds and 3 assists in the 60-51 final over Flint Carman-Ainsworth at Breslin Center.",
+        "college": "Indiana Tech (2010-11)",
+        "pro": "",
+        "source": "https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/04afinal.html"
+      }
+    ],
+    "logo": "logos/everett.png",
+    "logo_scale": 1.08
+  },
+  "portland": {
+    "tournament_summary": {
+      "through_season": "2025-26",
+      "district_titles": [
+        "1959-60",
+        "1965-66",
+        "1972-73",
+        "1973-74",
+        "1974-75",
+        "1994-95",
+        "2025-26"
+      ],
+      "regional_titles": [
+        "1950-51"
+      ],
+      "best_finish": {
+        "season": "1950-51",
+        "round": "Class C quarterfinal",
+        "opponent": "Stanton",
+        "score": "42-45"
+      },
+      "note": "District titles through 2014-15 from michigan-football.com; 2025-26 district (64-39 over Ionia) from the Portland Beacon.",
+      "source": "https://michigan-football.com/bb/portland.htm"
+    },
+    "logo": "logos/portland.png",
+    "logo_scale": 1.09
+  },
+  "charlotte": {
+    "tournament_summary": {
+      "through_season": "2014-15",
+      "district_titles": [
+        "1951-52",
+        "1952-53",
+        "1956-57",
+        "1969-70",
+        "1976-77",
+        "1977-78",
+        "1986-87",
+        "1995-96",
+        "2010-11",
+        "2014-15"
+      ],
+      "regional_titles": [
+        "1985-86"
+      ],
+      "best_finish": {
+        "season": "1985-86",
+        "round": "Class B quarterfinal",
+        "opponent": "Flint Beecher",
+        "score": "66-73"
+      },
+      "note": "Beat Ionia 75-54 in the 1986 regional final.",
+      "source": "https://michigan-football.com/bb/charlott.htm"
+    },
+    "class_current": "",
+    "logo": "logos/charlotte.png",
+    "logo_scale": 1.25
+  },
+  "eaton-rapids": {
+    "add_players": [
+      {
+        "name": "Alex Gauna",
+        "grad_year": "2010",
+        "accolades": "6-foot-9, 230-pound forward. Averaged 16.5 points, 10.4 rebounds and 2.4 blocks as a junior and 15.4 points and 4.2 blocks as a sophomore. Fourth-team Class B all-state (Detroit Free Press); Lansing State Journal all-area. Ranked in the national top 150 by Scout and Rivals.",
+        "college": "Michigan State (2010-14)",
+        "pro": "",
+        "source": "https://msuspartans.com/news/2009/11/11/men_s_basketball_signs_four_to_national_letters_of_intent"
+      }
+    ],
+    "logo": "logos/eaton-rapids.png",
+    "logo_scale": 1.0
+  },
+  "fowlerville": {
+    "add_players": [
+      {
+        "name": "Sean Romsek",
+        "grad_year": "",
+        "accolades": "Four-year starter under coach Fred Hackett and Fowlerville's all-time leading scorer (1,400+ points). 2006-07 Livingston County Player of the Year, three-time all-conference, all-state honorable mention; led two district title teams.",
+        "college": "Saginaw Valley State (2009-10)",
+        "pro": "",
+        "source": "https://www.svsucardinals.com/sports/mbkb/2009-10/bios/Romsek_Sean"
+      }
+    ],
+    "logo": "logos/fowlerville.png",
+    "logo_scale": 0.96
+  },
+  "east-lansing": {
+    "logo": "logos/east-lansing.png",
+    "logo_scale": 0.98
+  },
+  "grand-ledge": {
+    "logo": "logos/grand-ledge.png",
+    "logo_scale": 1.08
+  },
+  "dewitt": {
+    "logo": "logos/dewitt.png",
+    "logo_scale": 1.02
+  },
+  "eastern": {
+    "logo": "logos/eastern.png",
+    "logo_scale": 0.9
+  },
+  "williamston": {
+    "logo": "logos/williamston.png",
+    "logo_scale": 1.25
+  },
+  "lansing-catholic": {
+    "logo": "logos/lansing-catholic.png",
+    "logo_scale": 1.04
+  },
+  "haslett": {
+    "logo": "logos/haslett.png",
+    "logo_scale": 1.25
+  },
+  "st-johns": {
+    "logo": "logos/st-johns.png",
+    "logo_scale": 1.13
+  }
+}

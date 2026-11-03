@@ -1,0 +1,405 @@
+{
+  "schools": [
+    {
+      "name": "Okemos",
+      "nickname": "Wolves (formerly Chieftains, then Chiefs; changed to Wolves in early 2022)",
+      "colors": {
+        "primary": "#7A1F3D",
+        "secondary": "#7BAFD4",
+        "names": "Maroon and Carolina (light) blue (hex approximate)"
+      },
+      "city": "Okemos, MI",
+      "status": "active",
+      "class_current": "MHSAA Division 1",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "state_titles": [
+        {
+          "season": "1980-81",
+          "class": "Class B",
+          "coach": "Stan Stolz",
+          "record": "",
+          "final_opponent": "Mt. Pleasant",
+          "final_score": "49-46",
+          "notes": "QF W 66-52 Marysville; SF W 57-56 Ypsilanti Willow Run (https://michigan-football.com/bb/okemos.htm)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "season": "1981-82",
+          "class": "Class B",
+          "coach": "Stan Stolz",
+          "record": "",
+          "final_opponent": "Warren De La Salle",
+          "final_score": "60-57",
+          "notes": "QF W 76-56 Flint Beecher; SF W 66-51 Menominee (https://michigan-football.com/bb/okemos.htm)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "state_runner_ups": [
+        {
+          "season": "2005-06",
+          "class": "Class A",
+          "coach": "Dan Stolz",
+          "record": "25-2 (entering final)",
+          "final_opponent": "Saginaw Arthur Hill",
+          "final_score": "84-85 (2OT)",
+          "notes": "First 2OT game in Class A Final history; Johnathon Jones scored 38, Anthony Ianni 23. QF W 55-47 (OT) Grand Rapids Northview; SF W 57-56 Orchard Lake St. Mary's; regional W 62-58 Holt, regional final W 56-48 Dexter (https://my.mhsaa.com/sports/bbb/06reg.htm). Coach per https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard",
+          "source": "https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/06afinal.htm"
+        }
+      ],
+      "final_fours": [
+        "1978-79",
+        "1980-81",
+        "1981-82",
+        "1983-84",
+        "2005-06",
+        "2018-19"
+      ],
+      "final_fours_detail": [
+        {
+          "season": "1978-79",
+          "class": "Class B",
+          "result": "SF L 45-78 Muskegon Heights (QF W 48-43 Flint Beecher)",
+          "source": "https://michigan-football.com/bb/okemos.htm"
+        },
+        {
+          "season": "1983-84",
+          "class": "Class B",
+          "result": "SF L 33-43 Oak Park (QF W 50-49 Fenton)",
+          "source": "https://michigan-football.com/bb/okemos.htm"
+        },
+        {
+          "season": "2018-19",
+          "class": "Division 1",
+          "result": "SF L 25-63 Detroit U-D Jesuit; Okemos entered 23-3; QF W 50-45 East Kentwood; coach Jeff Wonch; first Semifinal since 2006",
+          "source": "https://www.mhsaa.com/sites/default/files/2022-06/19d1sf2.pdf ; https://www.mhsaa.com/node/23006/print"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Johnathon Jones",
+          "grad_year": "2006",
+          "accolades": "All-State first team; 4th in 2006 Mr. Basketball voting; 2006 McDonald's All-American nominee; multiple-time CAAC Player of the Year; 21.6 ppg as senior; 38 pts in 2006 Class A Final",
+          "college": "Oakland (2006-10); led NCAA D-I in assists per game 2008-09; first-team All-Summit 2010",
+          "pro": "Overseas: MBK Rieker Komarno, Fraport Skyliners, HKK Siroki, KK Igokea",
+          "source": "https://en.wikipedia.org/wiki/Johnathon_Jones"
+        },
+        {
+          "name": "Travis Bader",
+          "grad_year": "",
+          "accolades": "Lansing State Journal Player of the Year as a senior; MHSAA record book: .891 season FT% (90 of 101, 2008-09)",
+          "college": "Oakland (2010-14 per Wikipedia, after redshirt); passed JJ Redick for NCAA D-I career 3-pointers record (Feb 2014); Oakland HOF",
+          "pro": "ASVEL, Rio Grande Valley Vipers, Austin Spurs and clubs in Lithuania, Italy, Greece, Spain; Brooklyn Nets assistant coach (2024-)",
+          "source": "https://en.wikipedia.org/wiki/Travis_Bader ; https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Chris Harrison-Docks",
+          "grad_year": "2012",
+          "accolades": "Three-time first-team All-State; Okemos all-time leading scorer (1,426 pts at time of bio); MHSAA records: 396 career FTs made, 176 FTs made in 2011-12, 178 career 3-pointers",
+          "college": "Butler, Western Kentucky, DePaul",
+          "pro": "",
+          "source": "https://depaulbluedemons.com/sports/mens-basketball/roster/chris-harrisondocks/87 ; https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Taylor Moton",
+          "grad_year": "2012",
+          "accolades": "MHSAA record: 342 assists in a season (2011-12, 26 games)",
+          "college": "Western Michigan (football)",
+          "pro": "NFL Carolina Panthers offensive tackle (2nd round, 2017)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records ; https://en.wikipedia.org/wiki/Taylor_Moton"
+        },
+        {
+          "name": "Conner George",
+          "grad_year": "2015",
+          "accolades": "23 ppg / 10.9 rpg as senior; MHSAA records: 174 FTs made in 2014-15, .807 career FT%",
+          "college": "Michigan State (preferred walk-on, 2015-20)",
+          "pro": "",
+          "source": "https://msuspartans.com/news/2015/12/9/Spartan_Profile_Conner_George ; https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Anthony Ianni",
+          "grad_year": "",
+          "accolades": "Starter on 2006 Class A runner-up (9.5 ppg, 8.2 rpg, 3.1 bpg; 23 pts in Final)",
+          "college": "Grand Valley State, then Michigan State (2009-12); described as first D-I player with autism",
+          "pro": "Autism/anti-bullying advocate (Relentless Tour)",
+          "source": "https://gvsulakers.com/sports/mens-basketball/roster/anthony-ianni/305 ; https://www.wbur.org/onlyagame/2020/02/21/anthony-ianni-draymond-green-michigan-state-autism"
+        },
+        {
+          "name": "Evan Thomas",
+          "grad_year": "2019",
+          "accolades": "Leading scorer of 2019 Division 1 semifinal team (17.3 ppg, 8.0 rpg)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/node/23006/print"
+        },
+        {
+          "name": "Joe Wenzel",
+          "grad_year": "",
+          "accolades": "MHSAA record: 22 points in one quarter vs. St. Johns (1-23-96)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Stan Stolz",
+          "years": "35 seasons (son Dan took over in 1994-95, so likely ended 1993-94: inferred)",
+          "notes": "490 wins; Class B state titles 1981 and 1982; 19 league, 11 district, 5 regional titles; Class B Coach of the Year 1980, 1984; BCAM Hall of Fame 1988; Okemos AD 23 years; Greater Lansing Area Sports HOF 1999",
+          "source": "https://lansingsportshalloffame.org/?p=923"
+        },
+        {
+          "name": "Dan Stolz",
+          "years": "1994-95 to 2011-12",
+          "notes": "Son of Stan; 428-99 career at Williamston and Okemos; 2006 Class A runner-up; moved Okemos into CAAC top division",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/stories/changing-capital-guard"
+        },
+        {
+          "name": "Jeff Wonch",
+          "years": "2012-13 to present",
+          "notes": "Led Bath to 2007 Class C title; 101-58 through first six seasons at Okemos; 2019 D1 semifinal; listed as head coach on MaxPreps 2025-26",
+          "source": "https://www.mhsaa.com/node/23006/print ; https://www.maxpreps.com/mi/okemos/okemos-wolves/basketball/"
+        }
+      ],
+      "uncertain": [
+        "Travis Bader grad year: Okemos Wikipedia alumni list says class of 2010, but MHSAA record lists his 2008-09 season and he began at Oakland in 2009-10 (redshirt); likely 2009, unverified.",
+        "Anthony Ianni grad year likely 2007 (GVSU freshman 2007-08), unverified.",
+        "Season records for 1981 and 1982 title teams not found.",
+        "Exact hex codes are approximations of named colors.",
+        "Okemos 2005-06 regional: michigan-football.com labels 2006 CHAMPS column 'REGIONAL' despite reaching final (site quirk)."
+      ]
+    },
+    {
+      "name": "Holt",
+      "nickname": "Rams",
+      "colors": {
+        "primary": "#4E3629",
+        "secondary": "#C5B358",
+        "names": "Brown and Vegas gold (hex approximate)"
+      },
+      "city": "Holt, MI",
+      "status": "active",
+      "class_current": "MHSAA Division 1",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "state_titles": [
+        {
+          "season": "2004-05",
+          "class": "Class A",
+          "coach": "Bruce Larner",
+          "record": "26-2",
+          "final_opponent": "Romulus",
+          "final_score": "65-62",
+          "notes": "First boys basketball state title. Regional final W 58-54 (OT) Benton Harbor (then No. 1 ranked); QF W 52-46 Grand Rapids Forest Hills Central; SF W 60-57 Grosse Pointe North; also won CAAC title; 4 OT wins. Final played March 19, 2005. Record and path per Ingham County resolution https://resolutions.ingham.org/storage/Portals/BC/2005/05-83.html",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "state_runner_ups": [
+        {
+          "season": "1973-74",
+          "class": "Class B",
+          "coach": "",
+          "record": "",
+          "final_opponent": "Muskegon Heights",
+          "final_score": "44-52",
+          "notes": "QF W 73-53 Flint Powers Catholic; SF W 53-50 Redford St. Mary (https://michigan-football.com/bb/holt.htm)",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "final_fours": [
+        "1954-55",
+        "1973-74",
+        "2004-05"
+      ],
+      "final_fours_detail": [
+        {
+          "season": "1954-55",
+          "class": "Class C",
+          "result": "SF L 54-60 Houghton (QF W 54-45 Scottville Mason County Central); Houghton won the title",
+          "source": "https://michigan-football.com/bb/holt.htm"
+        }
+      ],
+      "notable_players": [
+        {
+          "name": "Muhammad El-Amin",
+          "grad_year": "2005",
+          "accolades": "Member of 2005 Class A champion",
+          "college": "Lansing CC (JUCO All-American 2007-08), Stony Brook (America East Player of the Year 2010; AP honorable mention All-American 2010)",
+          "pro": "Europe/Israel/Qatar/Argentina 2010-19 (Hungarian league & cup champion 2013); Holt head coach from 2023",
+          "source": "https://sports.yahoo.com/holt-boys-basketball-tabs-alum-212713736.html ; https://en.wikipedia.org/wiki/Muhammad_El-Amin"
+        },
+        {
+          "name": "Jaron Faulds",
+          "grad_year": "2017",
+          "accolades": "6-10 center, four-star recruit, team captain",
+          "college": "Columbia (committed July 2016)",
+          "pro": "",
+          "source": "https://www.wkar.org/post/holt-basketballs-faulds-thinking-big"
+        },
+        {
+          "name": "Andy Clark, Tyler Reed, John Lierman, Paul Crosby",
+          "grad_year": "",
+          "accolades": "Named players on 2005 Class A champion roster",
+          "college": "",
+          "pro": "",
+          "source": "https://resolutions.ingham.org/storage/Portals/BC/2005/05-83.html"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Bruce Larner",
+          "years": "20 seasons through 2004-05 (start c. 1985-86 inferred)",
+          "notes": "2005 Class A state champion; won 200th game in 2005 semifinal; first district title came in 2003-04 after losing his first five district finals",
+          "source": "https://my.mhsaa.com/MHSAA_ARCHIVE/resources/library/larner.html"
+        },
+        {
+          "name": "Matt Essell",
+          "years": "head coach in 2016-17",
+          "notes": "Coached Jaron Faulds",
+          "source": "https://www.wkar.org/post/holt-basketballs-faulds-thinking-big"
+        },
+        {
+          "name": "Muhammad El-Amin",
+          "years": "2023-present",
+          "notes": "2005 Holt grad and title-team member; hired May 2023",
+          "source": "https://sports.yahoo.com/holt-boys-basketball-tabs-alum-212713736.html"
+        }
+      ],
+      "uncertain": [
+        "1974 runner-up coach not found.",
+        "Muhammad El-Amin grad year: Yahoo/LSJ says 2005 (title-team member); Wikipedia says attended 2002-2006. Using 2005.",
+        "Holt 1950s Class C semifinal (1955) from michigan-football.com, not cross-checked with MHSAA PDF."
+      ]
+    },
+    {
+      "name": "Grand Ledge",
+      "nickname": "Comets",
+      "colors": {
+        "primary": "#1F2A44",
+        "secondary": "#FFC72C",
+        "names": "Navy blue and gold (hex approximate)"
+      },
+      "city": "Grand Ledge, MI",
+      "status": "active",
+      "class_current": "MHSAA Division 1",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "state_titles": [],
+      "state_runner_ups": [],
+      "final_fours": [],
+      "notes": "No MHSAA boys basketball Finals or Semifinal appearance found. Only state quarterfinal: 1954 Class B (L 66-79 Holland Christian) after regional final W 63-57 Marshall. District titles listed 1958, 1970, 1998, 2000.",
+      "notes_source": "https://michigan-football.com/bb/gledge.htm ; https://www.mhsaa.com/sports/boys-basketball/past-champions",
+      "notable_players": [
+        {
+          "name": "Al Horford",
+          "grad_year": "2004",
+          "accolades": "Class A Player of the Year as senior (21 pts, 13 reb, 5 blk); holds 7 school records incl. career points (1,239); No. 42 retired Feb. 21, 2025; school Athletics HOF",
+          "college": "Florida (2004-07), starting center on 2006 and 2007 NCAA champions",
+          "pro": "NBA No. 3 pick 2007; Hawks, Celtics, 76ers, Thunder, Warriors; 5x All-Star; 2024 NBA champion (Celtics)",
+          "source": "https://en.wikipedia.org/wiki/Al_Horford ; https://en.wikipedia.org/wiki/Grand_Ledge_Public_Schools"
+        },
+        {
+          "name": "Jon Horford",
+          "grad_year": "2010",
+          "accolades": "First-team Class A All-State 2010 (AP, Detroit News, Free Press)",
+          "college": "Michigan (2010-14), Florida (2014-15)",
+          "pro": "NBA D-League Canton Charge, Grand Rapids Drive; Dominican Republic",
+          "source": "https://en.wikipedia.org/wiki/Jon_Horford"
+        }
+      ],
+      "notable_coaches": [],
+      "uncertain": [
+        "MaxPreps lists head coach as 'L. Charter' (2026-27); not verified elsewhere.",
+        "No verified longtime/notable boys basketball coach found.",
+        "Jon Horford grad year inferred from 2010 recruiting class."
+      ]
+    },
+    {
+      "name": "Lansing Waverly",
+      "nickname": "Warriors",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#FFC72C",
+        "names": "Black and gold (hex approximate)"
+      },
+      "city": "Lansing, MI (Waverly Community Schools)",
+      "status": "active",
+      "class_current": "MHSAA Division 1",
+      "conference_current": "Capital Area Activities Conference (CAAC) Blue",
+      "state_titles": [
+        {
+          "season": "1999-00",
+          "class": "Class A",
+          "coach": "Phil Odlum",
+          "record": "25-2",
+          "final_opponent": "Detroit Pershing",
+          "final_score": "75-63",
+          "notes": "Final March 25, 2000; Marcus Taylor 22, Terry Reddick 19; led 27-10 after 1Q. Path: district W 63-61 Grand Ledge; regional final W 68-61 Benton Harbor; QF W 72-61 Ann Arbor Pioneer; SF W 78-75 Saginaw (Taylor 31). Box score https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/00afinal.html ; path https://my.mhsaa.com/sports/bbb/2000reg.html",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        }
+      ],
+      "state_runner_ups": [],
+      "final_fours": [
+        "1999-00"
+      ],
+      "notable_players": [
+        {
+          "name": "Marcus Taylor",
+          "grad_year": "2000",
+          "accolades": "Michigan Mr. Basketball 2000; McDonald's All-American; Parade first-team All-American 2000; USA Today first-team All-American; four-time All-State; MHSAA records: 2,448 career points, 704 career rebounds, 493 career FTs, 580 career assists; Greater Lansing Area Sports HOF 2017",
+          "college": "Michigan State (2000-02); led Big Ten in scoring and assists as sophomore",
+          "pro": "2002 NBA Draft 2nd round (52nd) Minnesota; CBA, NBDL, France, Greece, Germany (2002-09)",
+          "source": "https://en.wikipedia.org/wiki/Marcus_Taylor ; https://www.mhsaa.com/sports/boys-basketball/records ; https://lansingcivicevents.blogspot.com/2017/07/greater-lansing-area-sports-hall-of_66.html"
+        },
+        {
+          "name": "Justin Ingram",
+          "grad_year": "2003",
+          "accolades": "Freshman on 2000 title team; senior: LSJ Player of the Year, first-team All-State (Free Press, AP, BCAM)",
+          "college": "Toledo (2003-07); MAC Freshman of the Year 2004; first-team All-MAC 2007; Toledo HOF 2014",
+          "pro": "France, Hungary, Estonia, Greece, Switzerland (2007-16); Toledo associate head coach",
+          "source": "https://en.wikipedia.org/wiki/Justin_Ingram_(basketball) ; https://en.wikipedia.org/wiki/Waverly_Senior_High_School"
+        },
+        {
+          "name": "John Yatchak",
+          "grad_year": "",
+          "accolades": "MHSAA record: 33 rebounds in a game vs. Lansing Eastern (12-27-1967)",
+          "college": "",
+          "pro": "",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/records"
+        },
+        {
+          "name": "Terry Reddick, Cortney Scott",
+          "grad_year": "",
+          "accolades": "Starters on 2000 champion (Reddick 19 pts in Final; Scott 22 in semifinal)",
+          "college": "",
+          "pro": "",
+          "source": "https://my.mhsaa.com/MHSAA_ARCHIVE/sports/bbb/00afinal.html"
+        }
+      ],
+      "notable_coaches": [
+        {
+          "name": "Phil Odlum",
+          "years": "",
+          "notes": "Coached 2000 Class A state champion; credited by Marcus Taylor at 2017 HOF induction",
+          "source": "https://www.mhsaa.com/sports/boys-basketball/past-champions"
+        },
+        {
+          "name": "Rod Watts",
+          "years": "",
+          "notes": "Waverly grad; coaching since 1990; led Waverly to first division title in 10 years (article undated)",
+          "source": "https://www.fox47news.com/sports/high-school/rod-watts-dream-became-reality-becoming-head-coach-at-waverly-high-school"
+        }
+      ],
+      "uncertain": [
+        "Phil Odlum tenure years not found.",
+        "Rod Watts tenure dates not found (article undated).",
+        "Justin Ingram grad year 2003 per Waverly Wikipedia alumni list.",
+        "MHSAA records also list Sam Vincent's 61 points (state record) as Lansing Eastern vs. Lansing Waverly, 12-19-80; it's a Waverly opponent record, not a Waverly player."
+      ]
+    }
+  ],
+  "sources_general": [
+    "https://www.mhsaa.com/sports/boys-basketball/past-champions",
+    "https://www.mhsaa.com/sports/boys-basketball/records",
+    "https://michigan-football.com/bb/totalbb.htm",
+    "https://www.mhsaa.com/sports/boys-basketball/results-archive"
+  ],
+  "method_notes": "Finals data cross-checked between MHSAA past champions page and michigan-football.com per-school tournament pages (data through 2015) plus MHSAA results archive for 2016-2026 Class A/D1 semifinals (only Okemos 2019 appears). MHSAA alphabetic quarterfinals-finals PDF was truncated in fetch beyond 'E' so per-school entries could not be read."
+}

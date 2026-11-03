@@ -1,0 +1,879 @@
+<title>Greater Lansing Hoops History</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Graduate&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: a gym — rafters of championship banners up top, scorer's-table data below; one column, wide tables scroll in place */
+:root{
+  --bg:#e9edf1;          /* painted cinderblock */
+  --surface:#ffffff;
+  --sunk:#dfe4ea;
+  --ink:#121a23;
+  --muted:#56616d;
+  --line:#c9d1da;
+  --maple:#c58a42;       /* hardwood */
+  --maple-ink:#8a5615;   /* readable maple for text/links */
+  --win:#1f7a4a; --loss:#b4392c;
+  --display:"Graduate","Rockwell","Georgia",serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --cond:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f141a;--surface:#171e27;--sunk:#0b1015;--ink:#e6ebf0;--muted:#97a3b0;--line:#2a3541;
+  --maple:#d39a52;--maple-ink:#e3b071;--win:#4cc287;--loss:#ee7a6c;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141a;--surface:#171e27;--sunk:#0b1015;--ink:#e6ebf0;--muted:#97a3b0;--line:#2a3541;
+  --maple:#d39a52;--maple-ink:#e3b071;--win:#4cc287;--loss:#ee7a6c;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--maple-ink)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--maple);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto}
+h1,h2,h3{text-wrap:balance;margin:0}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,5vw,48px);line-height:1.05;letter-spacing:.01em}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(22px,3vw,28px);line-height:1.15}
+h3{font-family:var(--cond);font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:.06em}
+.eyebrow{font-family:var(--cond);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:var(--muted)}
+.lede{max-width:65ch;color:var(--muted);margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+/* top nav */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line);
+  margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top .wrap{display:flex;align-items:center;gap:12px 20px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--display);font-size:17px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.brand b{color:var(--maple-ink);font-weight:400}
+nav.tabs{display:flex;gap:4px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+nav.tabs a{white-space:nowrap}
+@media (max-width:720px){header.top .wrap{gap:6px 12px}nav.tabs{order:3;flex-basis:100%;margin-inline:-6px}.schoolpick{margin-left:auto;max-width:48%}}
+nav.tabs a,.schoolpick{font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:6px 10px;border-radius:var(--r)}
+nav.tabs a:hover{color:var(--ink);background:var(--sunk)}
+nav.tabs a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -3px 0 var(--maple)}
+.schoolpick{background:var(--sunk);border:1px solid var(--line);color:var(--ink);text-transform:none;letter-spacing:0;font-size:15px}
+
+/* hardwood strip divider */
+.floor{height:10px;border-radius:2px;background:repeating-linear-gradient(90deg,var(--maple) 0 46px,color-mix(in srgb,var(--maple) 82%,#000) 46px 48px);opacity:.85}
+
+section.view{display:grid;gap:28px;padding-top:28px;grid-template-columns:minmax(0,1fr)}
+section.view>*,.block>*{min-width:0}
+.block{display:grid;gap:14px}
+.head-row{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}
+
+/* banner wall */
+.rafters{position:relative;padding:22px 0 8px;border-top:6px solid var(--ink);display:flex;flex-wrap:wrap;gap:22px 14px;justify-content:flex-start}
+.banner{--bc:#333;--bt:#fff;--bs:#999;position:relative;width:104px;min-height:150px;background:var(--bc);color:var(--bt);
+  clip-path:polygon(0 0,100% 0,100% 100%,50% 88%,0 100%);padding:12px 8px 30px;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center;
+  box-shadow:inset 0 0 0 4px var(--bs);text-decoration:none;transition:transform .25s ease}
+.banner::before{content:"";position:absolute;top:-22px;left:50%;width:2px;height:22px;background:var(--ink);opacity:.5}
+.banner:hover{transform:translateY(3px) rotate(-1deg)}
+.banner .b-school{font-family:var(--cond);font-weight:700;font-size:12px;line-height:1.1;text-transform:uppercase;letter-spacing:.04em}
+.banner .b-kind{font-family:var(--display);font-size:13px;line-height:1.1}
+.banner .b-year{font-family:var(--display);font-size:20px;line-height:1}
+.banner .b-class{font-family:var(--cond);font-size:12px;font-weight:600;opacity:.9}
+.banner.ru{width:88px;min-height:126px;opacity:.92}
+.banner.ru .b-year{font-size:17px}
+.banner.ff{width:88px;min-height:116px;opacity:.85}
+.banner.ff .b-year{font-size:16px}
+.banner.ff .b-kind{font-size:12px}
+.banner .b-school.long{font-size:11px;letter-spacing:0}
+.banner.ru .b-school.long,.banner.ff .b-school.long{font-size:10px}
+.banner-wrap{position:relative}
+.banner-wrap .tip{display:none}
+@media (prefers-reduced-motion:reduce){.banner{transition:none}.banner:hover{transform:none}}
+
+/* scoreboard stats */
+.board{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.board div{background:var(--surface);padding:12px 14px;display:grid;gap:2px;align-content:start;box-shadow:inset -1px -1px 0 var(--line)}
+.board .v{font-family:var(--cond);font-weight:700;font-size:clamp(24px,3vw,30px);line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.board .k{font-family:var(--cond);font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+td.wrapok{white-space:normal;min-width:220px}
+th{font-family:var(--cond);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);background:var(--sunk);position:sticky;top:0}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--ink)}
+th[aria-sort="descending"]::after{content:" ▾"} th[aria-sort="ascending"]::after{content:" ▴"}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+tr.click{cursor:pointer}
+tr.click:hover td{background:var(--sunk)}
+tr.open td{background:var(--sunk)}
+tr.detail>td{padding:0;background:var(--bg)}
+tr.detail .inner{padding:10px 10px 14px}
+.gtbl table{font-size:14px}
+.gtbl td{vertical-align:top;padding:9px 12px}
+.gtbl th{padding:7px 12px}
+.gtbl .gdate{color:var(--muted);white-space:nowrap}
+.gtbl .gopp{white-space:nowrap}
+.gtbl .gopp .ha{display:inline-block;width:1.6em;color:var(--muted);font-size:13px}
+.gtbl .gtype{color:var(--muted);white-space:nowrap}
+.gtbl .gres{white-space:nowrap}
+.gtbl .gres b{display:inline-block;width:1.1em}
+.gtbl .gnotes{white-space:normal;min-width:260px;max-width:520px;line-height:1.4}
+.gtbl .glead{color:var(--muted);font-size:13px;margin-top:3px;display:flex;flex-wrap:wrap;gap:2px 12px}
+.gtbl .glead b{font-weight:600;color:var(--ink)}
+@media (max-width:640px){
+  tr.detail .inner{position:sticky;left:0;width:calc(100vw - 34px);padding:8px 6px 12px}
+  .gtbl{overflow:visible}
+  .gtbl table,.gtbl tbody{display:block}
+  .gtbl thead{display:none}
+  .gtbl tr{display:grid;grid-template-columns:1fr auto;gap:3px 10px;padding:10px 12px;border-bottom:1px solid var(--line)}
+  .gtbl tr:last-child{border-bottom:0}
+  .gtbl td{display:block;padding:0;border:0;min-width:0;max-width:none;white-space:normal}
+  .gtbl .gdate{grid-column:1;grid-row:1;font-size:13px}
+  .gtbl .gres{grid-column:2;grid-row:1/3;text-align:right;align-self:center;font-size:15px}
+  .gtbl .gopp{grid-column:1;grid-row:2}
+  .gtbl .gtype{grid-column:1/3;font-size:13px}
+  .gtbl .gtype:empty{display:none}
+  .gtbl .gnotes{grid-column:1/3;font-size:13px}
+  .gtbl .gnotes:empty{display:none}
+}
+.W{color:var(--win);font-weight:700}.L{color:var(--loss);font-weight:700}.T{color:var(--muted);font-weight:700}
+.swatch{display:inline-block;width:10px;height:22px;border-radius:2px;vertical-align:middle;margin-right:8px;background:var(--c1);box-shadow:4px 0 0 var(--c2)}
+.schoollink{color:var(--ink);text-decoration:none;font-weight:600}
+.schoollink:hover{text-decoration:underline}
+
+/* chips */
+.chip{display:inline-block;font-family:var(--cond);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.gold{border-color:var(--maple);color:var(--maple-ink)}
+.chip.full{background:var(--sunk)}
+
+/* controls */
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.controls label{font-family:var(--cond);font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+select,input[type="search"]{font:inherit;font-size:15px;padding:6px 10px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);color:var(--ink);max-width:100%}
+button.btn{font-family:var(--cond);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;padding:7px 12px;border-radius:var(--r);border:1px solid var(--ink);background:var(--ink);color:var(--surface);cursor:pointer}
+button.btn.ghost{background:transparent;color:var(--ink)}
+
+/* rating bars */
+.rate{display:flex;align-items:center;gap:8px;min-width:200px}
+.rate .bar{flex:1;height:12px;background:var(--sunk);border-radius:2px;display:flex;overflow:hidden;min-width:110px}
+.rate .bar span{display:block;height:100%}
+.rate .score{font-family:var(--cond);font-weight:700;font-size:20px;width:36px;text-align:right}
+.seg1{background:var(--maple)}.seg2{background:color-mix(in srgb,var(--maple) 65%,var(--ink))}.seg3{background:color-mix(in srgb,var(--maple) 35%,var(--ink))}.seg4{background:color-mix(in srgb,var(--maple) 15%,var(--ink))}
+.seg-est{background-image:repeating-linear-gradient(45deg,transparent 0 3px,color-mix(in srgb,var(--surface) 55%,transparent) 3px 5px)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+/* players */
+.players{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:6px;align-content:start;border-top:5px solid var(--c1)}
+.pcard .pn{font-weight:700;font-size:18px;line-height:1.2}
+.pcard .ps{font-family:var(--cond);font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.pcard p{margin:0;font-size:15px}
+.pcard{min-width:0}.pcard .chip{white-space:normal;max-width:100%}
+.pcard .meta{display:flex;gap:6px;flex-wrap:wrap}
+
+/* school header */
+.shead{border-radius:var(--r);padding:22px;background:var(--c1);color:var(--ct);display:grid;gap:8px;box-shadow:inset 0 -8px 0 var(--c2)}
+.shead h1{color:var(--ct)}
+.shead .eyebrow{color:var(--ct);opacity:.85}
+.shead.has-logo{display:flex;align-items:center;gap:20px}
+.shead .stext{display:grid;gap:8px;min-width:0}
+.shead .slogo-box{--lb:clamp(60px,9.5vw,96px);width:calc(var(--lb)*1.25);height:calc(var(--lb)*1.25);flex:none;display:flex;align-items:center;justify-content:center}
+.shead .slogo{width:calc(var(--lb)*var(--ls,1));height:calc(var(--lb)*var(--ls,1));object-fit:contain;filter:drop-shadow(0 0 2px rgba(255,255,255,.85))}
+.banner .b-logo-box{height:38px;width:100%;display:flex;align-items:center;justify-content:center;margin-bottom:-2px}
+.banner .b-logo{width:calc(30px*var(--ls,1));height:calc(30px*var(--ls,1));object-fit:contain;filter:drop-shadow(0 0 1px rgba(255,255,255,.9))}
+
+.note{font-size:14px;color:var(--muted);max-width:75ch;margin:0}
+.callout{border:1px dashed var(--line);border-radius:var(--r);padding:16px;background:var(--surface);display:grid;gap:8px}
+.callout p{margin:0;max-width:70ch}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:24px}
+.two>*{min-width:0}
+code,.mono{font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;font-size:13px}
+pre.sample{overflow-x:auto;background:var(--sunk);padding:12px;border-radius:var(--r);margin:0;font-size:13px}
+svg text{fill:var(--muted);font-family:var(--cond);font-size:12px}
+.foot{margin-top:40px;font-size:14px;color:var(--muted);display:grid;gap:4px}
+.empty{color:var(--muted);font-style:italic}
+</style>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="#home">Greater Lansing <b>Hoops</b></a>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#home">Banners</a>
+    <a href="#programs">Programs</a>
+    <a href="#champions">Champions</a>
+    <a href="#players">Players</a>
+    <a href="#honors">Honors</a>
+    <a href="#rivalries">Rivalries</a>
+    <a href="#data">Add data</a>
+  </nav>
+  <select id="schoolpick" class="schoolpick" aria-label="Go to a school"></select>
+</div></header>
+
+<main class="wrap" id="app"></main>
+
+<div class="wrap foot">
+  <div>Information compiled by Jack Norman (East Lansing Class of 2021) with help from Claude, an AI assistant made by Anthropic. A work in progress.</div>
+  <div>East Lansing game data: Lansing State Journal (newspapers.com) 1924-25 to 2004-05, MaxPreps 2005-06 on, MHSAA brackets. Program histories for other schools come from MHSAA records and news sources linked on each page.</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+/*__DATA__*/
+</script>
+<script>
+"use strict";
+// ---------- constants ----------
+const POST=['District Quarterfinal','District Semifinal','District Final','Regional Quarterfinal','Regional Semifinal','Regional Final','State Quarterfinal','State Semifinal','State Final'];
+const LEVELS=[ // finish levels, best first
+  {k:'champ',label:'State Champion',pts:40},
+  {k:'ru',label:'State Runner-up',pts:30},
+  {k:'ff',label:'Final Four',pts:22},
+  {k:'reg',label:'Regional Champion',pts:15},
+  {k:'dist',label:'District Champion',pts:8}];
+const LV=Object.fromEntries(LEVELS.map(l=>[l.k,l]));
+const SITE={H:'Home',R:'Road',N:'Neutral'};
+// game tuple: [date, season, opp, site, type, result, us, them, coach, forfeit, notes, quarters, scorer, rebounder, assists]
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct=(w,l,t)=>{const n=w+l+t;return n?(w+t/2)/n:null};
+const fmtPct=p=>p==null?'—':p.toFixed(3).replace(/^0/,'');
+const fmt1=v=>v==null||isNaN(v)?'—':(Math.round(v*10)/10).toFixed(1);
+const recStr=(w,l,t)=>`${w}-${l}${t?'-'+t:''}`;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const median=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+
+function lum(hex){const h=hex.replace('#','');const n=h.length===3?h.split('').map(c=>c+c).join(''):h;const [r,g,b]=[0,2,4].map(i=>{let c=parseInt(n.substr(i,2),16)/255;return c<=.03928?c/12.92:Math.pow((c+.055)/1.055,2.4)});return .2126*r+.7152*g+.0722*b}
+function textOn(hex){try{return lum(hex)>.36?'#121a23':'#ffffff'}catch(e){return '#ffffff'}}
+function colorVars(s){const c1=s.colors?.primary||'#555',c2=s.colors?.secondary||'#999';return `--c1:${c1};--c2:${c2};--ct:${textOn(c1)}`}
+
+// ---------- school index ----------
+const SCHOOLS=DATA.schools;
+const byId=Object.fromEntries(SCHOOLS.map(s=>[s.id,s]));
+const nameToId={};
+SCHOOLS.forEach(s=>[s.name,...(s.aliases||[])].forEach(n=>nameToId[n.toLowerCase()]=s.id));
+const areaId=opp=>nameToId[String(opp||'').toLowerCase()]||null;
+
+// ---------- game-data analysis ----------
+function played(gs){return gs.filter(g=>g[5]==='W'||g[5]==='L'||g[5]==='T')}
+function tally(gs){let w=0,l=0,t=0;gs.forEach(g=>{if(g[5]==='W')w++;else if(g[5]==='L')l++;else if(g[5]==='T')t++});return {w,l,t,n:w+l+t,p:pct(w,l,t)}}
+function scored(gs){return gs.filter(g=>!g[9]&&g[6]!=null&&g[7]!=null)}
+function avgs(gs){const s=scored(gs);if(!s.length)return {pf:null,pa:null,m:null};const pf=s.reduce((a,g)=>a+g[6],0)/s.length,pa=s.reduce((a,g)=>a+g[7],0)/s.length;return {pf,pa,m:pf-pa}}
+const isPost=g=>POST.includes(g[4]);
+function finishOf(gs){
+  const post=gs.filter(isPost);if(!post.length)return null;
+  const has=(t,r)=>post.some(g=>g[4]===t&&(!r||g[5]===r));
+  if(has('State Final','W'))return 'champ';
+  if(has('State Final'))return 'ru';
+  if(has('State Semifinal'))return 'ff';
+  if(has('Regional Final','W')||has('State Quarterfinal'))return 'reg';
+  if(has('District Final','W')||post.some(g=>g[4].startsWith('Regional')))return 'dist';
+  return 'out';
+}
+const cache={};
+function analyze(s){
+  if(!s.games)return null;
+  if(cache[s.id])return cache[s.id];
+  const all=played(s.games);
+  const seasonMap=new Map();
+  all.forEach(g=>{if(!seasonMap.has(g[1]))seasonMap.set(g[1],[]);seasonMap.get(g[1]).push(g)});
+  const seasons=[...seasonMap.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([season,gs])=>{
+    const t=tally(gs),a=avgs(gs),lg=tally(gs.filter(g=>g[4]==='League')),ps=tally(gs.filter(isPost));
+    const coaches=[...new Set(gs.map(g=>g[8]).filter(Boolean))];
+    const pa=avgs(gs.filter(isPost));
+    return {season,games:gs,...t,...a,lg,ps,postM:pa.m,coaches,finish:finishOf(gs)};
+  });
+  // coaches
+  const cm=new Map();
+  all.forEach(g=>{const c=g[8]||'Unknown';if(!cm.has(c))cm.set(c,[]);cm.get(c).push(g)});
+  const coaches=[...cm.entries()].map(([name,gs])=>{const ss=[...new Set(gs.map(g=>g[1]))].sort();const fin=seasons.filter(x=>x.coaches.includes(name));
+    return {name,...tally(gs),first:ss[0],last:ss[ss.length-1],nSeasons:ss.length,champ:fin.filter(x=>x.finish==='champ').length,ff:fin.filter(x=>['champ','ru','ff'].includes(x.finish)).length,dist:fin.filter(x=>x.finish&&x.finish!=='out').length,games:gs}}).sort((a,b)=>a.first.localeCompare(b.first));
+  // decades
+  const dm=new Map();
+  all.forEach(g=>{const y=parseInt(g[1]);const d=Math.floor(y/10)*10;if(!dm.has(d))dm.set(d,[]);dm.get(d).push(g)});
+  const decades=[...dm.entries()].sort((a,b)=>a[0]-b[0]).map(([d,gs])=>({d,...tally(gs)}));
+  // opponents
+  const om=new Map();
+  all.forEach(g=>{if(!om.has(g[2]))om.set(g[2],[]);om.get(g[2]).push(g)});
+  const opponents=[...om.entries()].map(([name,gs])=>({name,...tally(gs),first:gs[0][0]||gs[0][1],last:gs[gs.length-1][0]||gs[gs.length-1][1],games:gs,area:areaId(name)})).sort((a,b)=>b.n-a.n);
+  // streaks
+  let best={len:0},cur={len:0};
+  const sorted=[...all].sort((a,b)=>(a[0]||a[1]).localeCompare(b[0]||b[1]));
+  sorted.forEach(g=>{if(g[5]==='W'){if(!cur.len)cur={len:0,start:g};cur.len++;cur.end=g;if(cur.len>best.len)best={...cur}}else cur={len:0}});
+  const sc=scored(all);
+  const bigWins=[...sc].filter(g=>g[6]>g[7]).sort((a,b)=>(b[6]-b[7])-(a[6]-a[7])).slice(0,8);
+  const mostPts=[...sc].sort((a,b)=>b[6]-a[6]).slice(0,8);
+  const perf=[];
+  all.forEach(g=>{const m=/^(.*?)\s*\((\d+)\)\s*$/.exec(g[12]||'');if(m)perf.push({name:m[1],pts:+m[2],g})});
+  perf.sort((a,b)=>b.pts-a.pts);
+  const res={all,seasons,coaches,decades,opponents,streak:best,bigWins,mostPts,perf:perf.slice(0,10),total:tally(all),avg:avgs(all)};
+  cache[s.id]=res;return res;
+}
+
+// ---------- titles: union of researched history + game-data finishes ----------
+function seasonKey(s){return String(s||'').trim()}
+function honors(s){
+  const a=analyze(s);
+  const out={champ:[],ru:[],ff:[]};
+  const research={champ:s.state_titles||[],ru:s.state_runner_ups||[]};
+  const fromGames=a?{champ:a.seasons.filter(x=>x.finish==='champ'),ru:a.seasons.filter(x=>x.finish==='ru'),ff:a.seasons.filter(x=>['champ','ru','ff'].includes(x.finish))}:null;
+  for(const k of ['champ','ru']){
+    const m=new Map();
+    research[k].forEach(r=>m.set(seasonKey(r.season),{...r}));
+    if(fromGames)fromGames[k].forEach(x=>{const r=m.get(x.season)||{season:x.season};r.coach=r.coach||x.coaches.join(' / ');r.record=recStr(x.w,x.l,x.t);
+      const f=x.games.find(g=>g[4]==='State Final');if(f){r.final_opponent=f[2];r.final_score=`${f[6]}-${f[7]}`}m.set(x.season,r)});
+    out[k]=[...m.values()].sort((a,b)=>a.season.localeCompare(b.season));
+  }
+  const ff=new Set([...(s.final_fours||[]),...out.champ.map(x=>x.season),...out.ru.map(x=>x.season),...(fromGames?fromGames.ff.map(x=>x.season):[])].map(seasonKey).filter(Boolean));
+  out.ff=[...ff].sort();
+  return out;
+}
+function parseRecord(r){const m=/(\d+)\s*[-–]\s*(\d+)(?:\s*[-–]\s*(\d+))?/.exec(r||'');return m?{w:+m[1],l:+m[2],t:+(m[3]||0)}:null}
+
+// ---------- champion rating ----------
+// Finish 40 + Win% 25 + Season margin 20 + Tournament margin 15 = 100
+// Division weight on finish points: Class A / Division 1 full, B / D2 90%, C / D3 80%, D / D4 70%
+const DIVW={'Class A':1,'Division 1':1,'Class B':.9,'Division 2':.9,'Class C':.8,'Division 3':.8,'Class D':.7,'Division 4':.7};
+function components(o){
+  const finish=LV[o.finish].pts*(DIVW[o.cls]??1);
+  const win=o.p!=null?o.p*25:null;
+  const marg=o.m!=null?clamp(o.m,0,25)/25*20:null;
+  const tour=o.postM!=null?clamp(o.postM,0,20)/20*15:null;
+  return {finish,win,marg,tour};
+}
+let RATED=null;
+function championTeams(){
+  if(RATED)return RATED;
+  const rows=[];
+  SCHOOLS.forEach(s=>{
+    const a=analyze(s);const seen=new Set();
+    if(a)a.seasons.filter(x=>x.finish&&x.finish!=='out').forEach(x=>{seen.add(x.season);
+      rows.push({school:s,season:x.season,finish:x.finish,w:x.w,l:x.l,t:x.t,p:x.p,m:x.m,postM:x.postM,coach:x.coaches.join(' / '),full:true,cls:(s.state_titles||[]).concat(s.state_runner_ups||[]).find(r=>r.season===x.season)?.class||''})});
+    const h=honors(s);
+    [['champ',h.champ],['ru',h.ru]].forEach(([k,list])=>list.forEach(r=>{if(seen.has(r.season))return;const rec=parseRecord(r.record);
+      rows.push({school:s,season:r.season,finish:k,w:rec?.w,l:rec?.l,t:rec?.t||0,p:rec?pct(rec.w,rec.l,rec.t):null,m:null,postM:null,coach:r.coach||'',full:false,cls:r.class||'',final:r})}));
+  });
+  rows.forEach(r=>r.c=components(r));
+  const medM=median(rows.filter(r=>r.c.marg!=null&&['champ','ru'].includes(r.finish)).map(r=>r.c.marg))??10;
+  const medT=median(rows.filter(r=>r.c.tour!=null&&['champ','ru'].includes(r.finish)).map(r=>r.c.tour))??7.5;
+  rows.forEach(r=>{r.est={marg:r.c.marg==null,tour:r.c.tour==null,win:r.c.win==null};
+    if(r.c.marg==null)r.c.marg=medM;if(r.c.tour==null)r.c.tour=medT;
+    r.rated=r.c.win!=null;r.score=r.rated?r.c.finish+r.c.win+r.c.marg+r.c.tour:null});
+  RATED={rows,medM,medT};return RATED;
+}
+function rateBar(r){
+  if(!r.rated)return `<span class="chip">Needs record</span>`;
+  const c=r.c;const seg=(v,cls,est,title)=>`<span class="${cls}${est?' seg-est':''}" style="width:${v}%" title="${title}: ${v.toFixed(1)}${est?' (estimated)':''}"></span>`;
+  return `<div class="rate"><span class="score num">${Math.round(r.score)}</span><div class="bar" role="img" aria-label="Rating ${Math.round(r.score)} of 100">${seg(c.finish,'seg1',false,'Finish')}${seg(c.win,'seg2',false,'Win %')}${seg(c.marg,'seg3',r.est.marg,'Season margin')}${seg(c.tour,'seg4',r.est.tour,'Tournament margin')}</div></div>`;
+}
+
+// ---------- program points ----------
+function programRow(s){
+  const h=honors(s),a=analyze(s);
+  const mr=(DATA.mr_basketball||[]).filter(m=>!m.retro&&areaId(m.school)===s.id).length;
+  const otherFF=h.ff.filter(x=>!h.champ.some(c=>c.season===x)&&!h.ru.some(c=>c.season===x)).length;
+  const points=h.champ.length*10+h.ru.length*6+otherFF*3+mr*2;
+  return {s,h,a,mr,otherFF,points,players:(s.notable_players||[]).length};
+}
+
+// ---------- rendering helpers ----------
+function ffClass(s,season){const r=(s.state_titles||[]).concat(s.state_runner_ups||[]).find(x=>x.season===season);if(r)return r.class;const f=(s.final_fours_detail||[]).find(x=>x.season===season);return f?.class||''}
+const BK={champ:{css:'',kind:'State Champs',title:'State champion'},ru:{css:' ru',kind:'Runner-up',title:'State runner-up'},ff:{css:' ff',kind:'Final Four',title:'State Final Four'}};
+function bannerHTML(s,season,kind,cls,label){
+  const c1=s.colors?.primary||'#444',c2=s.colors?.secondary||'#aaa',k=BK[kind]||BK.champ;
+  return `<a class="banner${k.css}" href="#school-${s.id}" style="--bc:${c1};--bt:${textOn(c1)};--bs:${c2}" title="${esc(label||s.name)} — ${k.title} ${esc(season)}${cls?' ('+esc(cls)+')':''}">
+    ${s.logo&&!label?`<span class="b-logo-box"><img class="b-logo" src="${esc(s.logo)}" alt="" style="--ls:${s.logo_scale||1}"></span>`:''}<span class="b-school${String(label||s.short||s.name).split(/\s+/).some(w=>w.length>9)?' long':''}">${esc(label||s.short||s.name)}</span><span class="b-kind">${k.kind}</span><span class="b-year num">${esc(season)}</span>${cls?`<span class="b-class">${esc(cls)}</span>`:''}</a>`;
+}
+function schoolCell(s){return `<a class="schoollink" href="#school-${s.id}" style="${colorVars(s)}"><span class="swatch"></span>${esc(s.name)}</a>`}
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtDate(d){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||'');return m?`${MON[+m[2]-1]} ${+m[3]}, ${m[1]}`:esc(d||'')}
+function gameRow(g,schoolName){
+  const opp=areaId(g[2])?`<a class="schoollink" href="#school-${areaId(g[2])}">${esc(g[2])}</a>`:esc(g[2]);
+  const ha=g[3]==='H'?'vs':g[3]==='R'?'at':'n';
+  const score=g[6]!=null?`${g[6]}-${g[7]}`:'';
+  const post=isPost(g);
+  const lead=[g[12]&&['Pts',g[12]],g[13]&&['Reb',g[13]],g[14]&&['Ast',g[14]]].filter(Boolean).map(([k,v])=>`<span><b>${k}</b> ${esc(v)}</span>`).join('');
+  return `<tr><td class="gdate">${g[0]?fmtDate(g[0]):esc(g[1])}</td>
+    <td class="gopp"><span class="ha" title="${SITE[g[3]]||''}">${ha}</span>${opp}</td>
+    <td class="gtype">${post?`<span class="chip gold">${esc(g[4])}</span>`:esc(g[4])}</td>
+    <td class="gres"><b class="${g[5]}">${g[5]}</b> <span class="num">${score}</span>${g[9]?' <span class="note">(forfeit)</span>':''}</td>
+    <td class="gnotes">${g[10]?`<div>${esc(g[10])}</div>`:''}${lead?`<div class="glead">${lead}</div>`:''}</td></tr>`;
+}
+function gameTable(gs,schoolName){
+  return `<div class="tbl gtbl"><table><thead><tr><th>Date</th><th>Opponent</th><th>Type</th><th>Result</th><th>Notes</th></tr></thead><tbody>${gs.map(g=>gameRow(g,schoolName)).join('')}</tbody></table></div>`;
+}
+// sortable table: cols [{k,label,r,fmt,sortv}] rows objects
+function sortTable(id,cols,rows,opts={}){
+  const st={k:opts.k||null,dir:opts.dir||-1};
+  const el=document.getElementById(id);
+  function draw(){
+    let rs=[...rows];
+    if(st.k){const col=cols.find(c=>c.k===st.k);const v=col.sortv||(r=>r[st.k]);rs.sort((a,b)=>{const x=v(a),y=v(b);if(x==null)return 1;if(y==null)return -1;return (x<y?-1:x>y?1:0)*st.dir})}
+    el.innerHTML=`<div class="tbl"><table><thead><tr>${cols.map(c=>`<th class="${c.r?'r ':''}${c.nosort?'':'sortable'}" data-k="${c.k}" ${st.k===c.k?`aria-sort="${st.dir<0?'descending':'ascending'}"`:''} ${c.nosort?'':'tabindex="0"'}>${c.label}</th>`).join('')}</tr></thead><tbody>${rs.map((r,i)=>`<tr ${opts.rowAttr?opts.rowAttr(r,i):''}>${cols.map(c=>`<td class="${c.r?'r':''}${c.wrap?' wrapok':''}">${c.fmt?c.fmt(r,i):esc(r[c.k])}</td>`).join('')}</tr>${opts.detail?opts.detail(r,i):''}`).join('')}</tbody></table></div>`;
+    el.querySelectorAll('th.sortable').forEach(th=>{const go=()=>{const k=th.dataset.k;if(st.k===k)st.dir*=-1;else{st.k=k;st.dir=-1}draw()};th.onclick=go;th.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}}});
+    if(opts.after)opts.after(el,rs);
+  }
+  draw();
+}
+
+
+// ---------- all-state honors ----------
+const HON_TIER={first:{label:'BCAM 1st Team All-State',short:'1st Team',rank:0},second:{label:'BCAM 2nd Team All-State',short:'2nd Team',rank:1},third:{label:'BCAM 3rd Team All-State',short:'3rd Team',rank:2},fourth:{label:'BCAM 4th Team All-State',short:'4th Team',rank:3},fifth:{label:'BCAM 5th Team All-State',short:'5th Team',rank:4},sixth:{label:'BCAM 6th Team All-State',short:'6th Team',rank:5},special:{label:'AP Special Honor',short:'Special Honor',rank:6},hm:{label:'Honorable Mention',short:'Hon. Mention',rank:7}};
+const SEL_LABEL={BCAM:'BCAM',AP:'AP'};
+const HON_LOWER=['third','fourth','fifth','sixth'];
+const HON=DATA.honors||[];
+const pkey=n=>String(n||'').toLowerCase().replace(/\(.*?\)/g,' ').replace(/[^a-z ]/g,' ').replace(/\b(jr|sr|ii|iii|iv)\b/g,' ').replace(/\s+/g,' ').trim();
+function honorsFor(p){const k=pkey(p.name);return HON.filter(h=>pkey(h.name)===k)}
+function honorChips(p){const hs=honorsFor(p);if(!hs.length)return '';
+  return ['BCAM','AP'].flatMap(sel=>Object.keys(HON_TIER).map(t=>{const x=hs.filter(h=>h.tier===t&&h.selector===sel);if(!x.length)return '';
+    return `<span class="chip${t==='first'?' gold':''}" title="${esc(sel)} ${esc(HON_TIER[t].short)}: ${esc(x.map(h=>h.season).join(', '))}">${esc(sel)} ${HON_TIER[t].short}${x.length>1?' ×'+x.length:''}</span>`})).join('')}
+function honorChip(h){return `<span class="chip${h.tier==='first'?' gold':h.tier==='second'?' full':''}">${HON_TIER[h.tier].short}</span>`}
+function honorCols(showSchool){return [
+  {k:'season',label:'Season',sortv:h=>h.season+(9-HON_TIER[h.tier].rank)},
+  {k:'name',label:'Player',fmt:h=>esc(h.name)},
+  ...(showSchool?[{k:'school',label:'School',sortv:h=>byId[h.school]?.name,fmt:h=>schoolCell(byId[h.school])}]:[]),
+  {k:'tier',label:'Honor',sortv:h=>-HON_TIER[h.tier].rank,fmt:h=>honorChip(h)},
+  {k:'selector',label:'Team',fmt:h=>esc(h.selector)},
+  {k:'level',label:'Class / Division',sortv:h=>h.level||'',fmt:h=>`${esc(h.level||'')}${h.level_note?' <span class="note" title="'+esc(h.level_note)+'">*</span>':''}`},
+  {k:'yr',label:'Yr',fmt:h=>esc(h.yr==='?'?'':h.yr)}]}
+const HON_SEASONS=[...new Set(HON.map(h=>h.season))].sort();
+const BCAM_SEASONS=[...new Set(HON.filter(h=>h.selector==='BCAM').map(h=>h.season))].sort();
+function viewHonors(){
+  setTimeout(()=>{
+    const draw=()=>{
+      const sch=$('#hsch').value,t=$('#htier').value,sel=$('#hsel').value,se=$('#hseason').value,lv=$('#hlevel').value,q=$('#hq').value.trim().toLowerCase();
+      const rows=HON.filter(h=>(sch==='all'||h.school===sch)&&(t==='all'||h.tier===t||(t==='lower'&&HON_LOWER.includes(h.tier)))&&(sel==='all'||h.selector===sel)&&(se==='all'||h.season===se)&&(lv==='all'||(h.level||'').startsWith(lv))&&(!q||h.name.toLowerCase().includes(q)||(h.listed_as||'').toLowerCase().includes(q)));
+      $('#hcount').textContent=rows.length+(rows.length===1?' selection':' selections');
+      sortTable('htbl',honorCols(true),rows,{k:'season',dir:-1});
+    };
+    ['#hsch','#htier','#hsel','#hseason','#hlevel'].forEach(s=>$(s).onchange=draw);$('#hq').oninput=draw;draw();
+    const by=SCHOOLS.map(s=>{const x=HON.filter(h=>h.school===s.id);return {s,name:s.name,first:x.filter(h=>h.tier==='first').length,second:x.filter(h=>h.tier==='second').length,lower:x.filter(h=>HON_LOWER.includes(h.tier)).length,hm:x.filter(h=>h.tier==='hm').length,total:x.length,players:new Set(x.map(h=>pkey(h.name))).size}}).filter(r=>r.total);
+    sortTable('hschools',[{k:'name',label:'School',fmt:r=>schoolCell(r.s)},{k:'first',label:'1st Team',r:1},{k:'second',label:'2nd Team',r:1},{k:'lower',label:'3rd-5th Team',r:1},{k:'hm',label:'Hon. Mention',r:1},{k:'total',label:'Total',r:1},{k:'players',label:'Players',r:1}],by,{k:'first',dir:-1});
+    const pm=new Map();HON.forEach(h=>{const k=pkey(h.name);if(!pm.has(k))pm.set(k,[]);pm.get(k).push(h)});
+    const multi=[...pm.values()].filter(a=>a.length>1).map(a=>({name:a.at(-1).name,a,schools:[...new Set(a.map(h=>h.school))],first:a.filter(h=>h.tier==='first').length,second:a.filter(h=>h.tier==='second').length,n:a.length,best:Math.min(...a.map(h=>HON_TIER[h.tier].rank))}));
+    sortTable('hmulti',[{k:'name',label:'Player'},{k:'schools',label:'School',sortv:r=>byId[r.schools.at(-1)].name,fmt:r=>r.schools.map(id=>schoolCell(byId[id])).join(' ')},{k:'n',label:'Selections',r:1},{k:'first',label:'1st Team',r:1},{k:'second',label:'2nd Team',r:1},{k:'seasons',label:'Seasons',sortv:r=>r.a[0].season,fmt:r=>r.a.map(h=>`${esc(h.season)} ${h.selector!=='BCAM'?esc(h.selector)+' ':''}${honorChip(h)}`).join(' ')}],multi,{k:'n',dir:-1});
+  });
+  const n=t=>HON.filter(h=>h.tier===t).length;
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">All-state selections</div><h1>Honors</h1>
+      <p class="lede">Every Greater Lansing player on the Basketball Coaches Association of Michigan's (BCAM) all-state lists, plus Associated Press (AP) all-state teams as they are added. Through 2006-07 BCAM named First through Fifth teams in each class; since 2009-10 its \"Best of the BEST\" is counted as first team and \"BCAM's BEST\" as second team. Each pick carries the class or division the player was listed under.</p></div>
+    <div class="board">
+      <div><span class="v">${n('first')}</span><span class="k">1st Team</span></div>
+      <div><span class="v">${n('second')}</span><span class="k">2nd Team</span></div>
+      <div><span class="v">${HON.filter(h=>HON_LOWER.includes(h.tier)).length}</span><span class="k">3rd-5th Team</span></div>
+      <div><span class="v">${n('hm')}</span><span class="k">Honorable Mention</span></div>
+      <div><span class="v">${new Set(HON.map(h=>pkey(h.name))).size}</span><span class="k">Players</span></div>
+      <div><span class="v">${HON_SEASONS.length}</span><span class="k">Seasons on file</span></div>
+    </div>
+    <div class="controls">
+      <label for="hsch">School</label><select id="hsch"><option value="all">All schools</option>${SCHOOLS.filter(s=>HON.some(h=>h.school===s.id)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
+      <label for="htier">Honor</label><select id="htier"><option value="all">All</option><option value="first">1st Team</option><option value="second">2nd Team</option><option value="lower">3rd-5th Team</option><option value="special">AP Special Honor</option><option value="hm">Hon. Mention</option></select>
+      <label for="hsel">Team</label><select id="hsel"><option value="all">All</option><option value="BCAM">BCAM</option><option value="AP">AP</option></select>
+      <label for="hseason">Season</label><select id="hseason"><option value="all">All</option>${[...HON_SEASONS].reverse().map(s=>`<option>${s}</option>`).join('')}</select>
+      <label for="hlevel">Class</label><select id="hlevel"><option value="all">All</option>${[...new Set(HON.map(h=>h.level).filter(Boolean))].sort().map(l=>`<option>${esc(l)}</option>`).join('')}</select>
+      <input type="search" id="hq" placeholder="Search player" aria-label="Search player"><span class="eyebrow" id="hcount"></span></div>
+    <div id="htbl"></div>
+    <p class="note">* \"Best of the BEST\" lists don't print a class or division. Those picks use the class or division the school was in that season. A few misspelled names on the BCAM lists have been corrected. Seasons on file: BCAM ${esc(BCAM_SEASONS[0]||'')} to ${esc(BCAM_SEASONS.at(-1)||'')}${(()=>{const y0=+BCAM_SEASONS[0]?.slice(0,4),y1=+BCAM_SEASONS.at(-1)?.slice(0,4),miss=[];for(let y=y0;y<=y1;y++){const s=y+'-'+String(y+1).slice(2);if(!BCAM_SEASONS.includes(s))miss.push(s)}return miss.length?' ('+miss.join(', ')+' not yet added)':''})()}. The 2007-08 to 2011-12 lists call honorable mention \"Special Mention\"; 2007-08 and 2008-09 had no Best of the BEST team, so their BCAM's BEST picks count as second team. AP picks so far: 1995-96 Classes A-C (All-State, Special Honor, Honorable Mention). More AP years and the Free Press and Detroit News teams are still to come.</p>
+    <div class="two">
+      <div class="block"><h2>By school</h2><div id="hschools"></div></div>
+      <div class="block"><h2>Multiple-time selections</h2><div id="hmulti"></div></div>
+    </div>
+  </section>`;
+}
+function mrKind(p,s){const last=x=>String(x).replace(/["'(),]/g,' ').trim().replace(/\s+(jr|sr|ii|iii|iv)\.?$/i,'').split(/\s+/).pop().toLowerCase();
+  const m=(DATA.mr_basketball||[]).find(m=>areaId(m.school)===s.id&&last(m.name)===last(p.name));return m?(m.retro?'retro':'official'):null}
+function playerCard(p,s,showSchool){const mk=mrKind(p,s);
+  const yr=p.grad_year?`Class of ${p.approx?'c. ':''}${esc(p.grad_year)}`:'';
+  const sch=showSchool?`<a class="schoollink" href="#school-${s.id}">${esc(p.predecessor||s.name)}</a>`:(p.predecessor?esc(p.predecessor):'');
+  const top=[sch,yr].filter(Boolean).join(' · ')||'&nbsp;';
+  return `<article class="pcard" style="${colorVars(s)}"><div class="ps">${top}</div><div class="pn">${esc(p.name)}</div>
+  <div class="meta">${mk==='official'?'<span class="chip gold">Mr. Basketball</span>':mk==='retro'?'<span class="chip gold">Retro Mr. Basketball</span>':''}${honorChips(p)}${p.pro?'<span class="chip">Pro</span>':''}${p.college?`<span class="chip">${esc(p.college.length>40?p.college.slice(0,38)+'…':p.college)}</span>`:''}</div>
+  ${(p.also||[]).length?`<p class="note">Also played at ${p.also.map(a=>`<a href="#school-${a.school}">${esc(byId[a.school]?.name||a.school)}</a> (${esc(a.seasons)}${a.note?', '+esc(a.note.toLowerCase()):''})`).join('; ')}</p>`:''}${p.accolades?`<p>${esc(p.accolades)}</p>`:''}${p.pro?`<p class="note">Pro: ${esc(p.pro)}</p>`:''}${p.source?`<a class="note" href="${esc(String(p.source).split(/\s*;\s*/)[0])}" target="_blank" rel="noopener">Source</a>`:''}</article>`}
+
+// ---------- views ----------
+function viewHome(){
+  const all=[];SCHOOLS.forEach(s=>{const h=honors(s);h.champ.forEach(c=>all.push({s,season:c.season,kind:'champ',cls:c.class}));h.ru.forEach(c=>all.push({s,season:c.season,kind:'ru',cls:c.class}));
+    if(s.lineage){(s.lineage.state_titles||[]).forEach(c=>all.push({s,season:c.season,kind:'champ',cls:c.class,label:s.lineage.name}));(s.lineage.state_runner_ups||[]).forEach(c=>all.push({s,season:c.season,kind:'ru',cls:c.class,label:s.lineage.name}))}});
+  all.sort((a,b)=>a.season.localeCompare(b.season));
+  const champs=all.filter(x=>x.kind==='champ'),rus=all.filter(x=>x.kind==='ru');
+  const progs=SCHOOLS.map(programRow).sort((a,b)=>b.points-a.points);
+  const loaded=SCHOOLS.filter(s=>s.games);
+  const totalGames=loaded.reduce((a,s)=>a+analyze(s).total.n,0);
+  const mr=(DATA.mr_basketball||[]).filter(m=>!m.retro).length;
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">${SCHOOLS.length} programs · Greater Lansing area</div>
+      <h1>Greater Lansing Boys Basketball</h1>
+      <p class="lede">Every state championship banner hanging in the area's big-school gyms, the teams that earned them, and the players people still talk about. Tap a banner to visit that program.</p></div>
+    <div class="block"><div class="head-row"><h2>State champions</h2><span class="eyebrow num">${champs.length} titles</span></div>
+      <div class="rafters">${champs.map(x=>bannerHTML(x.s,x.season,'champ',x.cls,x.label)).join('')||'<p class="empty">No titles loaded yet.</p>'}</div></div>
+    <div class="block"><div class="head-row"><h3>State runners-up</h3><span class="eyebrow num">${rus.length}</span></div>
+      <div class="rafters">${rus.map(x=>bannerHTML(x.s,x.season,'ru',x.cls,x.label)).join('')}</div></div>
+    <div class="floor" aria-hidden="true"></div>
+    <div class="board">
+      <div><span class="v">${champs.length}</span><span class="k">State titles</span></div>
+      <div><span class="v">${rus.length}</span><span class="k">Runner-up finishes</span></div>
+      <div><span class="v">${mr}</span><span class="k">Mr. Basketballs</span></div>
+      <div><span class="v">${SCHOOLS.reduce((a,s)=>a+(s.notable_players||[]).length,0)}</span><span class="k">Notable players</span></div>
+      <div><span class="v">${totalGames.toLocaleString()}</span><span class="k">Games on file</span></div>
+      <div><span class="v">${loaded.length}/${SCHOOLS.length}</span><span class="k">Schools with game logs</span></div>
+    </div>
+    <div class="two">
+      <div class="block"><div class="head-row"><h2>Top programs</h2><a href="#programs">Full table</a></div>
+        <div class="tbl"><table><thead><tr><th>School</th><th class="r">Titles</th><th class="r">Runner-up</th><th class="r">Points</th></tr></thead><tbody>
+        ${progs.slice(0,8).map(p=>`<tr><td>${schoolCell(p.s)}</td><td class="r">${p.h.champ.length}</td><td class="r">${p.h.ru.length}</td><td class="r">${p.points}</td></tr>`).join('')}</tbody></table></div></div>
+      <div class="block"><div class="head-row"><h2>Highest-rated champions</h2><a href="#champions">All ratings</a></div>
+        <div class="tbl"><table><thead><tr><th>Team</th><th>Rating</th></tr></thead><tbody>
+        ${championTeams().rows.filter(r=>r.finish==='champ'&&r.rated).sort((a,b)=>b.score-a.score).slice(0,8).map(r=>`<tr><td>${schoolCell(r.school)} <span class="num">${esc(r.season)}</span></td><td>${rateBar(r)}</td></tr>`).join('')}</tbody></table></div></div>
+    </div>
+  </section>`;
+}
+
+function viewPrograms(){
+  setTimeout(()=>{
+    const rows=SCHOOLS.map(programRow).map(p=>({...p,name:p.s.name,titles:p.h.champ.length,ru:p.h.ru.length,ff:p.h.ff.length,rec:p.a?p.a.total.p:null,seasons:p.a?p.a.seasons.length:null}));
+    sortTable('progtbl',[
+      {k:'name',label:'School',fmt:r=>schoolCell(r.s),sortv:r=>r.name},
+      {k:'points',label:'Points',r:1},
+      {k:'titles',label:'State titles',r:1},
+      {k:'ru',label:'Runner-up',r:1},
+      {k:'ff',label:'Final Fours',r:1},
+      {k:'mr',label:'Mr. Bball',r:1},
+      {k:'players',label:'Notables',r:1},
+      {k:'rec',label:'All-time',r:1,fmt:r=>r.a?`${recStr(r.a.total.w,r.a.total.l,r.a.total.t)} <span class="note">(${fmtPct(r.rec)})</span>`:'<span class="chip">Game log pending</span>'},
+      {k:'last',label:'Last title',r:1,sortv:r=>r.h.champ.at(-1)?.season||'',fmt:r=>esc(r.h.champ.at(-1)?.season||'—')},
+      {k:'conf',label:'Conference',sortv:r=>r.s.conference_current||'',fmt:r=>esc(r.s.conference_current||'')},
+    ],rows,{k:'points',dir:-1});
+    drawTitleTimeline();
+  });
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">Program comparison</div><h1>Programs</h1>
+      <p class="lede">Program points add up a school's postseason history: 10 per state title, 6 per runner-up finish, 3 for any other Final Four, 2 per Mr. Basketball winner. Tap a column to sort.</p></div>
+    <div id="progtbl"></div>
+    <div class="block"><h2>Titles by era</h2><p class="note">Each mark is a state final appearance. Filled marks are titles, open marks are runner-up finishes.</p><div class="tbl" id="timeline" style="padding:12px"></div></div>
+  </section>`;
+}
+function drawTitleTimeline(){
+  const el=document.getElementById('timeline');if(!el)return;
+  const rows=SCHOOLS.map(s=>({s,h:honors(s)})).filter(r=>r.h.champ.length||r.h.ru.length).sort((a,b)=>(b.h.champ.length-a.h.champ.length)||(b.h.ru.length-a.h.ru.length));
+  const y0=1920,y1=2030,W=900,L=150,rowH=30,H=rows.length*rowH+30;
+  const x=y=>L+(y-y0)/(y1-y0)*(W-L-10);
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:640px;display:block" role="img" aria-label="State final appearances by school and year">`;
+  for(let y=y0;y<=y1;y+=10){svg+=`<line x1="${x(y)}" x2="${x(y)}" y1="0" y2="${H-22}" stroke="var(--line)" stroke-width="1"/><text x="${x(y)}" y="${H-6}" text-anchor="middle">${y}s</text>`}
+  rows.forEach((r,i)=>{const cy=i*rowH+15;const c1=r.s.colors?.primary||'#555';
+    svg+=`<text x="${L-10}" y="${cy+4}" text-anchor="end" style="fill:var(--ink);font-size:13px">${esc(r.s.short||r.s.name)}</text><line x1="${L}" x2="${W-10}" y1="${cy}" y2="${cy}" stroke="var(--line)" stroke-dasharray="2 4"/>`;
+    r.h.ru.forEach(c=>{const yr=parseInt(c.season)+1;svg+=`<circle cx="${x(yr)}" cy="${cy}" r="6" fill="var(--surface)" stroke="${c1}" stroke-width="2.5"><title>${esc(r.s.name)} runner-up ${esc(c.season)}</title></circle>`});
+    r.h.champ.forEach(c=>{const yr=parseInt(c.season)+1;svg+=`<circle cx="${x(yr)}" cy="${cy}" r="7" fill="${c1}" stroke="var(--ink)" stroke-width="1"><title>${esc(r.s.name)} champion ${esc(c.season)}</title></circle>`});
+  });
+  el.innerHTML=svg+'</svg>';
+}
+
+function viewChampions(){
+  const R=championTeams();
+  setTimeout(()=>{
+    const draw=()=>{
+      const lvl=$('#lvl').value,sch=$('#csch').value;
+      const rows=R.rows.filter(r=>(lvl==='all'||(lvl==='final'?['champ','ru'].includes(r.finish):r.finish===lvl))&&(sch==='all'||r.school.id===sch));
+      sortTable('champtbl',[
+        {k:'rank',label:'#',nosort:1,fmt:(r,i)=>i+1},
+        {k:'school',label:'Team',sortv:r=>r.school.name,fmt:r=>`${schoolCell(r.school)} <span class="num">${esc(r.season)}</span>`},
+        {k:'score',label:'Rating',fmt:r=>rateBar(r)},
+        {k:'finish',label:'Finish',sortv:r=>LV[r.finish].pts,fmt:r=>`<span class="chip ${r.finish==='champ'?'gold':''}">${LV[r.finish].label}</span>${r.cls?` <span class="note">${esc(r.cls)}</span>`:''}`},
+        {k:'p',label:'Record',r:1,fmt:r=>r.w!=null?recStr(r.w,r.l,r.t):'—'},
+        {k:'m',label:'Avg margin',r:1,fmt:r=>r.m!=null?(r.m>0?'+':'')+fmt1(r.m):'—'},
+        {k:'postM',label:'Tourney margin',r:1,fmt:r=>r.postM!=null?(r.postM>0?'+':'')+fmt1(r.postM):'—'},
+        {k:'coach',label:'Coach'},
+        {k:'full',label:'Data',sortv:r=>r.full?1:0,fmt:r=>r.full?'<span class="chip full">Game log</span>':'<span class="chip">Summary</span>'},
+      ],rows,{k:'score',dir:-1});
+    };
+    $('#lvl').onchange=draw;$('#csch').onchange=draw;draw();
+  });
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">Champion ratings</div><h1>Champions</h1>
+      <p class="lede">Every team that won a district or more, scored out of 100. Finish counts most, then winning percentage, then how much a team beat people by over the season and in the tournament.</p></div>
+    <div class="legend"><span><i class="seg1"></i>Finish (40)</span><span><i class="seg2"></i>Win % (25)</span><span><i class="seg3"></i>Season margin (20)</span><span><i class="seg4"></i>Tournament margin (15)</span><span><i class="seg3 seg-est"></i>Estimated</span></div>
+    <div class="controls"><label for="lvl">Show</label><select id="lvl">
+      <option value="final">State finalists</option><option value="champ">State champions</option><option value="all">All district champions and up</option>
+      ${LEVELS.slice(2).map(l=>`<option value="${l.k}">${l.label} (stopped there)</option>`).join('')}</select>
+      <label for="csch">School</label><select id="csch"><option value="all">All schools</option>${SCHOOLS.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select></div>
+    <div id="champtbl"></div>
+    <div class="callout"><h3>How the rating works</h3>
+      <p><b>Finish, 40 points:</b> state champion 40, runner-up 30, Final Four 22, regional champion 15, district champion 8. Finish points are scaled by class: Class A or Division 1 gets the full amount, Class B or Division 2 gets 90%, Class C or Division 3 80%, Class D or Division 4 70% (so a Division 2 title is worth 36). Final Four, regional and district finishes aren't tied to a class in the records yet, so they get the full amount.</p>
+      <p><b>Win %, 25 points:</b> season winning percentage times 25, with ties as half a win.</p>
+      <p><b>Season margin, 20 points:</b> average point margin, capped at +25. <b>Tournament margin, 15 points:</b> average margin in postseason games, capped at +20. Forfeits are left out of both.</p>
+      <p>Margins need a game log. For teams known only from MHSAA records, the two margin pieces get the median of the state finalists that do have game logs (${fmt1(R.medM)} and ${fmt1(R.medT)} points), shown striped. Those ratings sharpen as each school's spreadsheet is added. Teams without a known season record aren't rated.</p></div>
+  </section>`;
+}
+
+function viewPlayers(){
+  setTimeout(()=>{
+    const draw=()=>{
+      const sch=$('#psch').value,q=$('#pq').value.trim().toLowerCase(),mr=$('#pmr').checked;
+      let list=[];SCHOOLS.forEach(s=>(s.notable_players||[]).forEach(p=>list.push({p,s})));
+      list=list.filter(({p,s})=>(sch==='all'||s.id===sch)&&(!q||JSON.stringify([p.name,p.college,p.pro,p.accolades]).toLowerCase().includes(q))&&(!mr||mrKind(p,s)));
+      list.sort((a,b)=>String(a.p.grad_year||'9999').localeCompare(String(b.p.grad_year||'9999')));
+      $('#plist').innerHTML=list.length?list.map(({p,s})=>playerCard(p,s,true)).join(''):'<p class="empty">No players match.</p>';
+      $('#pcount').textContent=list.length+' players';
+    };
+    ['#psch','#pq','#pmr'].forEach(s=>$(s).oninput=draw);draw();
+    drawMrTable();
+  });
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">Notable players</div><h1>Players</h1>
+      <p class="lede">Area players who went on to college stardom, pro careers, or state honors. Each card links to the source it came from.</p></div>
+    <div class="controls"><label for="psch">School</label><select id="psch"><option value="all">All schools</option>${SCHOOLS.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
+      <input type="search" id="pq" placeholder="Search name, college, team" aria-label="Search players">
+      <label><input type="checkbox" id="pmr"> Mr. Basketball only</label><span class="eyebrow" id="pcount"></span></div>
+    <div class="players" id="plist"></div>
+    <div class="block" id="mrblock"></div>
+  </section>`;
+}
+function drawMrTable(){
+  const el=$('#mrblock');const m=DATA.mr_basketball||[];if(!el||!m.length)return;
+  el.innerHTML=`<h2>Michigan Mr. Basketball from Greater Lansing</h2><p class="note">The award began in 1981. Retro winners were named later by the Basketball Coaches Association of Michigan for earlier seasons.</p><div class="tbl"><table><thead><tr><th>Year</th><th>Player</th><th>School</th><th>College</th></tr></thead><tbody>${[...m].sort((a,b)=>String(a.year).localeCompare(String(b.year))).map(x=>{const s=byId[areaId(x.school)];return `<tr><td class="num">${esc(x.year)}</td><td>${esc(x.name)}${x.retro?' <span class="chip">Retro</span>':''}</td><td>${s?schoolCell(s):esc(x.school)}</td><td>${esc(x.college)}</td></tr>`}).join('')}</tbody></table></div>`;
+}
+
+// head-to-head: prefer data from the school whose log has the pair; flip if needed
+function headToHead(aId,bId){
+  const A=byId[aId],B=byId[bId];
+  if(!A.games&&!B.games)return null;
+  const flip=g=>{const f=[...g];f[5]=g[5]==='W'?'L':g[5]==='L'?'W':g[5];f[6]=g[7];f[7]=g[6];f[2]=B.name;f[3]=g[3]==='H'?'R':g[3]==='R'?'H':g[3];f[8]='';f[12]=f[13]=f[14]='';return f};
+  const fromA=A.games?analyze(A).all.filter(g=>areaId(g[2])===bId):[];
+  const fromB=B.games?analyze(B).all.filter(g=>areaId(g[2])===aId).map(flip):[];
+  const day=d=>d?Date.parse(d)/864e5:null;
+  const near=(x,y)=>x[0]&&y[0]&&Math.abs(day(x[0])-day(y[0]))<=1.5;
+  const extra=fromB.filter(b=>!fromA.some(a=>near(a,b)));
+  return [...fromA,...extra].sort((x,y)=>(x[0]||x[1]).localeCompare(y[0]||y[1]));
+}
+function viewRivalries(){
+  const loaded=SCHOOLS.filter(s=>s.games);
+  setTimeout(()=>{
+    const sel=$('#rv');const draw=()=>{
+      const a=sel.value;const A=byId[a];
+      const rows=SCHOOLS.filter(s=>s.id!==a).map(B=>{const gs=headToHead(a,B.id)||[];const t=tally(gs);
+        let streak='',run=0,last=null;for(let i=gs.length-1;i>=0;i--){const r=gs[i][5];if(last==null){last=r;run=1}else if(r===last)run++;else break}
+        if(last)streak=`${last}${run}`;
+        const big=scored(gs).sort((x,y)=>(y[6]-y[7])-(x[6]-x[7]))[0];
+        return {B,gs,...t,streak,last:gs.at(-1),big}}).filter(r=>r.n).sort((x,y)=>y.n-x.n);
+      sortTable('rvtbl',[
+        {k:'B',label:'Opponent',sortv:r=>r.B.name,fmt:r=>schoolCell(r.B)},
+        {k:'n',label:'Games',r:1},
+        {k:'w',label:`${esc(A.short||A.name)} record`,r:1,fmt:r=>recStr(r.w,r.l,r.t)},
+        {k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)},
+        {k:'first',label:'First met',sortv:r=>r.gs[0][1],fmt:r=>esc(r.gs[0][1])},
+        {k:'lastm',label:'Last meeting',sortv:r=>r.last[0]||r.last[1],fmt:r=>`<span class="${r.last[5]}">${r.last[5]}</span> ${r.last[6]??'—'}-${r.last[7]??'—'} <span class="note">${esc(r.last[0]||r.last[1])}</span>`},
+        {k:'streak',label:'Streak',r:1,sortv:r=>r.streak,fmt:r=>`<span class="${r.streak[0]}">${r.streak}</span>`},
+        {k:'big',label:'Biggest win',r:1,sortv:r=>r.big?r.big[6]-r.big[7]:null,fmt:r=>r.big&&r.big[6]>r.big[7]?`${r.big[6]}-${r.big[7]} <span class="note">${esc(r.big[1])}</span>`:'—'},
+      ],rows,{k:'n',dir:-1,rowAttr:(r,i)=>`class="click" data-i="${i}" tabindex="0" aria-expanded="false"`,after:(el,rs)=>{
+        el.querySelectorAll('tr.click').forEach(tr=>{const go=()=>{const open=tr.classList.toggle('open');tr.setAttribute('aria-expanded',open);const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('detail')){nx.remove();return}
+          const r=rs[+tr.dataset.i];const d=document.createElement('tr');d.className='detail';d.innerHTML=`<td colspan="8"><div class="inner">${gameTable(r.gs)}</div></td>`;tr.after(d)};tr.onclick=go;tr.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();go()}}})}});
+      drawRivalryChart(a,rows);
+    };
+    sel.onchange=draw;draw();
+  });
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">Head-to-head</div><h1>Rivalries</h1>
+      <p class="lede">Every meeting between area programs on file, pulled from each school's spreadsheet. When both schools' files have the same game, the selected school's version is used, so nothing is counted twice. Tap a row to see the games.</p></div>
+    <div class="controls"><label for="rv">From the view of</label><select id="rv">${loaded.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select></div>
+    <div id="rvchart" class="tbl" style="padding:12px"></div>
+    <div id="rvtbl"></div>
+  </section>`;
+}
+function drawRivalryChart(aId,rows){
+  const el=$('#rvchart');if(!el)return;
+  const W=900,L=150,rowH=26,H=rows.length*rowH+34,max=Math.max(...rows.map(r=>Math.max(r.w,r.l+r.t)),1);
+  const mid=L+(W-L)/2,sc=v=>v/max*((W-L)/2-40);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:560px;display:block" role="img" aria-label="Wins and losses against each area school">`;
+  s+=`<text x="${mid-8}" y="14" text-anchor="end">◂ LOSSES</text><text x="${mid+8}" y="14">WINS ▸</text>`;
+  rows.forEach((r,i)=>{const y=i*rowH+24;
+    s+=`<text x="${L-10}" y="${y+13}" text-anchor="end" style="fill:var(--ink);font-size:13px">${esc(r.B.short||r.B.name)}</text>`;
+    s+=`<rect x="${mid-sc(r.l+r.t)}" y="${y+2}" width="${sc(r.l+r.t)}" height="${rowH-8}" fill="var(--loss)" opacity=".75"/><text x="${mid-sc(r.l+r.t)-4}" y="${y+14}" text-anchor="end">${r.l}</text>`;
+    s+=`<rect x="${mid}" y="${y+2}" width="${sc(r.w)}" height="${rowH-8}" fill="var(--win)" opacity=".8"/><text x="${mid+sc(r.w)+4}" y="${y+14}">${r.w}</text>`;
+  });
+  s+=`<line x1="${mid}" x2="${mid}" y1="20" y2="${H-4}" stroke="var(--ink)"/>`;
+  el.innerHTML=s+'</svg>';
+}
+
+function viewSchool(id){
+  const s=byId[id];if(!s)return viewHome();
+  const a=analyze(s),h=honors(s),R=championTeams();
+  const p=programRow(s);
+  const ffOnly=h.ff.filter(x=>!h.champ.some(c=>c.season===x)&&!h.ru.some(c=>c.season===x));
+  const banners=[...h.champ.map(c=>bannerHTML(s,c.season,'champ',c.class)),...h.ru.map(c=>bannerHTML(s,c.season,'ru',c.class)),...ffOnly.map(x=>bannerHTML(s,x,'ff',ffClass(s,x)))].join('');
+  const status=[s.nickname,s.city,s.status,s.class_current,s.conference_current].filter(Boolean).map(esc).join(' · ');
+  const players=(s.notable_players||[]);
+  const visiting=[];SCHOOLS.forEach(o=>{if(o.id!==id)(o.notable_players||[]).forEach(p=>{if((p.also||[]).some(a=>a.school===id))visiting.push({p,o})})});
+  // 1. overall stats
+  let html=`<section class="view">
+    <div class="shead${s.logo?' has-logo':''}" style="${colorVars(s)}">${s.logo?`<span class="slogo-box"><img class="slogo" src="${esc(s.logo)}" alt="${esc(s.name)} logo" style="--ls:${s.logo_scale||1}"></span>`:''}<div class="stext"><div class="eyebrow">${status}</div><h1>${esc(s.name)}</h1>${s.colors?.names?`<div class="eyebrow">${esc(s.colors.names)}</div>`:''}</div></div>
+    <div class="board">
+      ${a?`<div><span class="v">${recStr(a.total.w,a.total.l,a.total.t)}</span><span class="k">Record ${esc(a.seasons[0].season)} to ${esc(a.seasons.at(-1).season)}</span></div><div><span class="v">${fmtPct(a.total.p)}</span><span class="k">Win %</span></div><div><span class="v">${a.seasons.length}</span><span class="k">Seasons on file</span></div>`:''}
+      <div><span class="v">${h.champ.length}</span><span class="k">State titles</span></div>
+      <div><span class="v">${h.ru.length}</span><span class="k">Runner-up</span></div>
+      <div><span class="v">${h.ff.length}</span><span class="k">Final Fours</span></div>
+      ${a?`<div><span class="v">${a.seasons.filter(x=>x.finish&&x.finish!=='out').length}</span><span class="k">District titles+</span></div>`:''}
+      <div><span class="v">${p.points}</span><span class="k">Program points</span></div>
+    </div>`;
+  // 2. banners (state champions, runners-up, other Final Fours) and tournament history
+  if(banners)html+=`<div class="block"><h2>Banners</h2><div class="rafters">${banners}</div></div>`;
+  if(s.lineage){const lff=(s.lineage.final_fours||[]).filter(x=>!s.lineage.state_titles.some(c=>c.season===x)&&!s.lineage.state_runner_ups.some(c=>c.season===x));
+    html+=`<div class="block"><h2>${esc(s.lineage.name)} banners</h2><p class="note">${esc(s.lineage.note||'')}</p><div class="rafters">${[...s.lineage.state_titles.map(c=>bannerHTML(s,c.season,'champ',c.class,s.lineage.name)),...s.lineage.state_runner_ups.map(c=>bannerHTML(s,c.season,'ru',c.class,s.lineage.name)),...lff.map(x=>bannerHTML(s,x,'ff','',s.lineage.name))].join('')}</div></div>`;}
+  const ts=s.tournament_summary;
+  if(ts){const bf=ts.best_finish;
+    html+=`<div class="block"><h2>Tournament history</h2><div class="tbl"><table><tbody>
+      <tr><td>District titles</td><td class="wrapok num">${ts.district_titles?.length?`<b>${ts.district_titles.length}</b> · ${ts.district_titles.map(esc).join(', ')}`:'None found'}</td></tr>
+      <tr><td>Regional titles</td><td class="wrapok num">${ts.regional_titles?.length?`<b>${ts.regional_titles.length}</b> · ${ts.regional_titles.map(esc).join(', ')}`:'None found'}</td></tr>
+      ${bf?`<tr><td>Deepest run</td><td class="wrapok">${esc(bf.season)} ${esc(bf.round)}, lost to ${esc(bf.opponent)} ${esc(bf.score)}</td></tr>`:''}
+      ${ts.record?`<tr><td>Tournament record</td><td class="num">${esc(ts.record)}${ts.through_season?` through ${esc(ts.through_season)}`:''}</td></tr>`:''}
+    </tbody></table></div><p class="note">${ts.note?esc(ts.note)+' ':''}${ts.source?`<a href="${esc(ts.source)}" target="_blank" rel="noopener">Source</a>`:''}</p></div>`;}
+  // 3. best teams
+  const champs=R.rows.filter(r=>r.school.id===id&&['champ','ru','ff'].includes(r.finish)).sort((x,y)=>(y.score??-1)-(x.score??-1));
+  if(champs.length)html+=`<div class="block"><h2>Best teams</h2><div class="tbl"><table><thead><tr><th>Season</th><th>Finish</th><th>Record</th><th>Rating</th><th>Coach</th></tr></thead><tbody>${champs.map(r=>`<tr><td class="num">${esc(r.season)}</td><td><span class="chip ${r.finish==='champ'?'gold':''}">${LV[r.finish].label}</span></td><td class="num">${r.w!=null?recStr(r.w,r.l,r.t):'—'}</td><td>${rateBar(r)}</td><td>${esc(r.coach)}</td></tr>`).join('')}</tbody></table></div></div>`;
+  // 4. program records / most-played opponents, 5. win % by decade
+  if(a)html+=`<div class="two"><div class="block"><h2>Program records</h2><div id="records"></div></div><div class="block"><h2>Most-played opponents</h2><div id="opps"></div></div></div>
+    <div class="block"><h2>Win % by decade</h2><div class="tbl" style="padding:12px" id="dec"></div></div>`;
+  // 6. notable players
+  if(players.length||visiting.length)html+=`<div class="block"><h2>Notable players</h2><div class="players">${players.map(p=>playerCard(p,s,false)).join('')}${visiting.map(({p,o})=>playerCard(p,o,true)).join('')}</div></div>`;
+  // 7. all-state honors
+  const hon=HON.filter(h=>h.school===id);
+  if(hon.length){html+=`<div class="block"><div class="head-row"><h2>All-state honors</h2><a href="#honors">All schools</a></div><div id="shon"></div></div>`;setTimeout(()=>sortTable('shon',honorCols(false),hon,{k:'season',dir:-1}))}
+  if((s.notable_coaches||[]).length)html+=`<div class="block"><h2>Notable coaches</h2><div class="tbl"><table><thead><tr><th>Coach</th><th>Years</th><th>Notes</th></tr></thead><tbody>${s.notable_coaches.map(c=>`<tr><td>${esc(c.name)}</td><td class="num">${esc(c.years)}</td><td class="wrapok">${esc(c.notes)}</td></tr>`).join('')}</tbody></table></div></div>`;
+  // 8. coach records, 9. season-by-season records
+  if(a)html+=`<div class="block"><h2>Coach records</h2><div id="coaches"></div></div>
+    <div class="block"><div class="head-row"><h2>Season-by-season records</h2><span class="note">Tap a season for its games</span></div><div id="seasons"></div></div>`;
+  else{
+    html+=`<div class="callout"><h3>Season-by-season results coming</h3><p>This program's history above comes from MHSAA records and news coverage. Once its spreadsheet is added, this page gets the full treatment: every season and game, coaching records, win % by decade, rivalry records and team ratings built from actual margins.</p><p><a href="#data">See the spreadsheet format</a></p></div>`;
+  }
+  const srcs=[...new Set([...(s.state_titles||[]),...(s.state_runner_ups||[]),...(s.notable_coaches||[])].map(x=>x.source).filter(Boolean).concat(s.sources||[]))];
+  if(srcs.length)html+=`<div class="block"><h3>Sources</h3><ul class="note">${srcs.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,'').slice(0,80))}</a></li>`).join('')}</ul></div>`;
+  html+='</section>';
+  if(a)setTimeout(()=>schoolDetail(s,a));
+  return html;
+}
+function schoolDetail(s,a){
+  // decade chart
+  const el=$('#dec');const D=a.decades;const W=900,H=220,L=40,B=30;const bw=(W-L-10)/D.length;
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:520px;display:block" role="img" aria-label="Win percentage by decade">`;
+  [0,.25,.5,.75,1].forEach(v=>{const y=10+(1-v)*(H-B-10);svg+=`<line x1="${L}" x2="${W-10}" y1="${y}" y2="${y}" stroke="var(--line)" ${v===.5?'stroke-dasharray="4 3"':''}/><text x="${L-6}" y="${y+4}" text-anchor="end">${fmtPct(v)}</text>`});
+  D.forEach((d,i)=>{const hgt=d.p*(H-B-10),x=L+i*bw+bw*.18,y=10+(H-B-10)-hgt;
+    svg+=`<rect x="${x}" y="${y}" width="${bw*.64}" height="${hgt}" fill="${s.colors?.primary||'var(--maple)'}" stroke="var(--ink)" stroke-opacity=".25"><title>${d.d}s: ${recStr(d.w,d.l,d.t)} (${fmtPct(d.p)})</title></rect><text x="${x+bw*.32}" y="${y-5}" text-anchor="middle" style="fill:var(--ink)">${fmtPct(d.p)}</text><text x="${x+bw*.32}" y="${H-10}" text-anchor="middle">${d.d}s</text>`});
+  el.innerHTML=svg+'</svg>';
+  // seasons
+  sortTable('seasons',[
+    {k:'season',label:'Season'},
+    {k:'coaches',label:'Coach',sortv:r=>r.coaches.join(),fmt:r=>esc(r.coaches.join(' / '))},
+    {k:'p',label:'Record',r:1,fmt:r=>recStr(r.w,r.l,r.t)},
+    {k:'pp',label:'Win %',r:1,sortv:r=>r.p,fmt:r=>fmtPct(r.p)},
+    {k:'lg',label:'League',r:1,sortv:r=>r.lg.p,fmt:r=>r.lg.n?recStr(r.lg.w,r.lg.l,r.lg.t):'—'},
+    {k:'ps',label:'Postseason',r:1,sortv:r=>r.ps.w,fmt:r=>r.ps.n?recStr(r.ps.w,r.ps.l,r.ps.t):'—'},
+    {k:'finish',label:'Finish',sortv:r=>r.finish&&r.finish!=='out'?LV[r.finish].pts:0,fmt:r=>r.finish&&r.finish!=='out'?`<span class="chip ${r.finish==='champ'?'gold':''}">${LV[r.finish].label}</span>`:''},
+    {k:'pf',label:'PF',r:1,fmt:r=>fmt1(r.pf)},{k:'pa',label:'PA',r:1,fmt:r=>fmt1(r.pa)},
+    {k:'m',label:'Margin',r:1,fmt:r=>r.m==null?'—':(r.m>0?'+':'')+fmt1(r.m)},
+  ],[...a.seasons].reverse(),{rowAttr:(r,i)=>`class="click" data-i="${i}" tabindex="0" aria-expanded="false"`,after:(el,rs)=>expandRows(el,rs,10)});
+  sortTable('coaches',[
+    {k:'name',label:'Coach'},{k:'first',label:'Seasons',fmt:r=>`${esc(r.first)}${r.last!==r.first?' – '+esc(r.last):''} <span class="note">(${r.nSeasons})</span>`},
+    {k:'w',label:'Record',r:1,fmt:r=>recStr(r.w,r.l,r.t)},{k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)},
+    {k:'dist',label:'District titles+',r:1},{k:'ff',label:'Final Fours',r:1},{k:'champ',label:'State titles',r:1}],a.coaches,{k:'first',dir:1});
+  const st=a.streak;
+  $('#records').innerHTML=`<div class="tbl"><table><tbody>
+    <tr><td>Longest win streak</td><td class="r"><b>${st.len}</b> <span class="note">${esc(st.start?.[0]||'')} to ${esc(st.end?.[0]||'')}</span></td></tr>
+    <tr><td>Best season</td><td class="r">${(()=>{const b=[...a.seasons].filter(x=>x.n>=8).sort((x,y)=>y.p-x.p||y.w-x.w)[0];return b?`<b>${recStr(b.w,b.l,b.t)}</b> <span class="note">${esc(b.season)}</span>`:'—'})()}</td></tr>
+    <tr><td>Most wins in a season</td><td class="r">${(()=>{const b=[...a.seasons].sort((x,y)=>y.w-x.w)[0];return `<b>${b.w}</b> <span class="note">${esc(b.season)}</span>`})()}</td></tr>
+    ${a.mostPts.slice(0,3).map((g,i)=>`<tr><td>${i?'':'Most points in a game'}</td><td class="r"><b>${g[6]}</b> vs ${esc(g[2])} <span class="note">${esc(g[0])}</span></td></tr>`).join('')}
+    ${a.bigWins.slice(0,3).map((g,i)=>`<tr><td>${i?'':'Biggest wins'}</td><td class="r"><b>${g[6]}-${g[7]}</b> vs ${esc(g[2])} <span class="note">${esc(g[0])}</span></td></tr>`).join('')}
+    ${a.perf.slice(0,5).map((p,i)=>`<tr><td>${i?'':'Top individual games found'}</td><td class="r"><b>${p.pts}</b> ${esc(p.name)} vs ${esc(p.g[2])} <span class="note">${esc(p.g[0])}</span></td></tr>`).join('')}
+  </tbody></table></div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;
+  sortTable('opps',[{k:'name',label:'Opponent',fmt:r=>r.area?`<a class="schoollink" href="#school-${r.area}">${esc(r.name)}</a>`:esc(r.name)},{k:'n',label:'G',r:1},{k:'w',label:'Record',r:1,fmt:r=>recStr(r.w,r.l,r.t)},{k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)}],a.opponents.slice(0,15),{k:'n',dir:-1});
+}
+function expandRows(el,rs,cols){
+  el.querySelectorAll('tr.click').forEach(tr=>{const go=()=>{const open=tr.classList.toggle('open');tr.setAttribute('aria-expanded',open);const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('detail')){nx.remove();return}
+    const r=rs[+tr.dataset.i];const d=document.createElement('tr');d.className='detail';d.innerHTML=`<td colspan="${cols}"><div class="inner">${gameTable(r.games)}</div></td>`;tr.after(d)};
+    tr.onclick=go;tr.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();go()}}});
+}
+
+// ---------- add data ----------
+const COLS=['Date','Season','Opponent','Site','Game Type','Result','Team Score','Opp Score','Margin','Coach','Forfeit','Notes','Team Q1','Team Q2','Team Q3','Team Q4','Team OT','Opp Q1','Opp Q2','Opp Q3','Opp Q4','Opp OT','Top Scorer','Top Rebounder','Top Assists'];
+function viewData(){
+  const status=SCHOOLS.map(s=>({s,a:analyze(s)}));
+  setTimeout(()=>{
+    $('#copycols').onclick=async()=>{const t=COLS.join('\t');try{await navigator.clipboard.writeText(t);$('#copycols').textContent='Copied'}catch(e){const r=document.createRange();r.selectNodeContents($('#colline'));getSelection().removeAllRanges();getSelection().addRange(r);$('#copycols').textContent='Selected — press Ctrl+C'}};
+    $('#upfile').onchange=e=>importFile(e.target.files[0]);
+  });
+  return `<section class="view">
+    <div class="block"><div class="eyebrow">Building the archive</div><h1>Add a school's games</h1>
+      <p class="lede">Each school gets one spreadsheet in the same shape as the East Lansing file. Send the finished file back in the chat and it goes into the site for everyone. You can also preview a file below to check it before sending.</p></div>
+    <div class="tbl"><table><thead><tr><th>School</th><th>Game log</th><th class="r">Games</th><th>Seasons</th></tr></thead><tbody>
+      ${status.map(({s,a})=>`<tr><td>${schoolCell(s)}</td><td>${a?'<span class="chip full">Loaded</span>':'<span class="chip">Waiting</span>'}</td><td class="r">${a?a.total.n.toLocaleString():'—'}</td><td>${a?esc(a.seasons[0].season+' to '+a.seasons.at(-1).season):''}</td></tr>`).join('')}</tbody></table></div>
+    <div class="two">
+      <div class="block"><h2>Spreadsheet format</h2>
+        <p class="note">One sheet named <b>Games</b>, one row per game, these columns in this order. "Team" means the school the file is for. A file using East Lansing's "EL Score" headers works too.</p>
+        <pre class="sample" id="colline">${COLS.join(' | ')}</pre>
+        <div><button class="btn ghost" id="copycols">Copy column headers</button></div>
+        <div class="tbl"><table><tbody>
+          <tr><td><b>Season</b></td><td class="wrapok">"1957-58" style; seasons run July–June</td></tr>
+          <tr><td><b>Opponent</b></td><td class="wrapok">Use the same names as East Lansing's file (Lansing Everett, Lansing Waverly, St Johns, Grand Ledge…) so rivalries match up</td></tr>
+          <tr><td><b>Site</b></td><td class="wrapok">Home, Road or Neutral</td></tr>
+          <tr><td><b>Game Type</b></td><td class="wrapok">League, Non-League, or the tournament round: District Quarterfinal / Semifinal / Final, Regional …, State Quarterfinal / Semifinal / Final</td></tr>
+          <tr><td><b>Result</b></td><td class="wrapok">W, L, T or Canceled</td></tr>
+          <tr><td><b>Forfeit</b></td><td class="wrapok">"Yes" for forfeits, otherwise blank</td></tr>
+          <tr><td><b>Optional</b></td><td class="wrapok">Quarter scores, top scorer as "A. Mitchell (18)", notes</td></tr>
+        </tbody></table></div></div>
+      <div class="block"><h2>Preview a spreadsheet</h2>
+        <p class="note">Pick the school and an .xlsx or .csv file. The site reloads that school with your file so you can spot problems. This preview stays in your browser and goes away when you leave the page.</p>
+        <div class="controls"><label for="upschool">School</label><select id="upschool">${SCHOOLS.map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select></div>
+        <input type="file" id="upfile" accept=".xlsx,.xls,.csv" aria-label="Spreadsheet file">
+        <div id="upmsg" class="note"></div></div>
+    </div>
+  </section>`;
+}
+function importFile(file){
+  const msg=$('#upmsg');if(!file)return;
+  if(typeof XLSX==='undefined'){msg.textContent='The spreadsheet reader did not load. Check your connection and reload the page.';return}
+  const rd=new FileReader();
+  rd.onload=e=>{try{
+    const wb=XLSX.read(e.target.result,{type:'array',cellDates:true});
+    const ws=wb.Sheets['Games']||wb.Sheets[wb.SheetNames[0]];
+    const rows=XLSX.utils.sheet_to_json(ws,{header:1,raw:true,defval:null});
+    const hdr=rows[0].map(h=>String(h||'').trim().toLowerCase());
+    const find=(...names)=>hdr.findIndex(h=>names.some(n=>h===n||(n.startsWith('*')&&h.endsWith(n.slice(1)))));
+    const idx={date:find('date'),season:find('season'),opp:find('opponent'),site:find('site'),type:find('game type'),res:find('result'),us:hdr.findIndex(h=>/score$/.test(h)&&!/^opp/.test(h)),them:find('opp score'),coach:find('coach'),ff:find('forfeit'),notes:find('notes'),top:find('top scorer'),reb:find('top rebounder'),ast:find('top assists')};
+    const missing=['season','opp','res'].filter(k=>idx[k]<0);
+    if(missing.length){msg.textContent='Missing columns: '+missing.join(', ')+'. Check the header row against the format.';return}
+    const siteMap={home:'H',road:'R',away:'R',neutral:'N',h:'H',r:'R',n:'N',a:'R'};
+    const problems=[];const games=[];
+    rows.slice(1).forEach((r,i)=>{if(!r||r.every(v=>v==null))return;
+      const v=k=>idx[k]>=0?r[idx[k]]:null;
+      let d=v('date');if(d instanceof Date)d=d.toISOString().slice(0,10);
+      const res=String(v('res')||'').trim();const resN=/^cancel/i.test(res)?'Canceled':res.toUpperCase();
+      if(!['W','L','T','Canceled'].includes(resN))problems.push(`Row ${i+2}: result "${res}"`);
+      const type=String(v('type')||'Non-League').trim();
+      if(!['League','Non-League',...POST].includes(type))problems.push(`Row ${i+2}: game type "${type}"`);
+      const num=x=>x==null||x===''?null:+x;
+      games.push([d,String(v('season')||'').trim(),String(v('opp')||'').trim(),siteMap[String(v('site')||'').trim().toLowerCase()]||'N',type,resN,num(v('us')),num(v('them')),String(v('coach')||''),/^y/i.test(String(v('ff')||''))?1:0,String(v('notes')||''),0,String(v('top')||''),String(v('reb')||''),String(v('ast')||'')]);
+    });
+    const s=byId[$('#upschool').value];s.games=games;delete cache[s.id];RATED=null;
+    const unk=[...new Set(games.map(g=>g[2]))].filter(o=>!areaId(o)&&SCHOOLS.some(x=>o.toLowerCase().includes(x.name.split(' ').pop().toLowerCase())));
+    msg.innerHTML=`Loaded <b>${games.length}</b> rows for ${esc(s.name)}. <a href="#school-${s.id}">Open the school page</a>.`+(problems.length?`<br>${problems.length} rows need a look: ${esc(problems.slice(0,6).join('; '))}${problems.length>6?'…':''}`:'')+(unk.length?`<br>Opponent names that may not match an area school: ${esc(unk.join(', '))}`:'');
+  }catch(err){msg.textContent='Could not read that file: '+err.message}};
+  rd.readAsArrayBuffer(file);
+}
+
+// ---------- router ----------
+function route(){
+  const h=(location.hash||'#home').slice(1);
+  const app=$('#app');
+  let html;
+  if(h.startsWith('school-'))html=viewSchool(h.slice(7));
+  else html=({programs:viewPrograms,champions:viewChampions,players:viewPlayers,honors:viewHonors,rivalries:viewRivalries,data:viewData}[h]||viewHome)();
+  app.innerHTML=html;
+  document.querySelectorAll('nav.tabs a').forEach(a=>{if(a.getAttribute('href')==='#'+(h||'home'))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  $('#schoolpick').value=h.startsWith('school-')?h.slice(7):'';
+  window.scrollTo(0,0);
+}
+$('#schoolpick').innerHTML=`<option value="">Schools…</option>`+[...SCHOOLS].sort((a,b)=>a.name.localeCompare(b.name)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('');
+$('#schoolpick').onchange=e=>{if(e.target.value)location.hash='school-'+e.target.value};
+window.addEventListener('hashchange',route);
+route();
+</script>
+
+
+
+
