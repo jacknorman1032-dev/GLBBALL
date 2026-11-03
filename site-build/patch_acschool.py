@@ -75,8 +75,12 @@ CSS = ('.acx-tg{display:inline-flex;border:1px solid var(--line);border-radius:v
  '.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:12px;grid-auto-flow:row dense}'
  '.pgrid>details.fold{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:6px 16px 14px;min-width:0}'
  '.pgrid>details.fold[open]{grid-column:1/-1}'
- '.pgrid>details.fold>summary{flex-wrap:wrap;row-gap:8px}'
- '.pgrid>details.fold>summary h2{font-size:22px}'
+ # card header (Jack, Nov 3, 2026): title on the first row, count under it in the same left edge, preview below,
+ # so every card lines up the same way however long its title is
+ '.pgrid>details.fold>summary{display:grid;grid-template-columns:1.1em minmax(0,1fr);column-gap:10px;row-gap:4px;align-items:baseline;align-content:start}'
+ '.pgrid>details.fold>summary h2{font-size:22px;grid-column:2}'
+ '.pgrid>details.fold>summary>.eyebrow{grid-column:2;margin-left:0;justify-self:start}'
+ '.pgrid>details.fold>summary>.pv{grid-column:2;padding-left:0;margin-top:6px}'
  '.pgrid>details.fold[open] .pv{display:none}'
  '.pv{flex-basis:100%;display:grid;gap:8px;padding-left:1.6em;font-size:15px;font-family:var(--body)}'
  '.pv-l{list-style:none;margin:0;padding:0;display:grid;gap:4px}'
