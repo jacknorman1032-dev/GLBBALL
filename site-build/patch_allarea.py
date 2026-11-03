@@ -5,6 +5,7 @@ import sys, os, json, re
 #   - an "LSJ Dream Team / All-Area" section on each school's People tab (after All-conference),
 #   - AA_PLAYERS / aaChip helpers that patch_profiles.py uses for profile chips, the season timeline and the
 #     directory's honor filter.
+# Teams: poy, poyf (Player of the Year finalist, 2021-22), dream, first, second, area, hm, coy.
 # Usage: python3 -I patch_allarea.py page.html [lsj_all_area.json]. Run after step 13 and before patch_profiles.py.
 HERE = os.path.dirname(os.path.abspath(__file__))
 p = sys.argv[1]
@@ -29,12 +30,12 @@ else:
     s = s[:m.end()] + js_data + '\n' + s[m.end():]
 
 CODE = r'''// ---- LSJ all-area (patch_allarea.py)
-const AA_TEAM={poy:{label:'LSJ Player of the Year',short:'LSJ POY',rank:0},dream:{label:'Dream Team',short:'LSJ Dream Team',rank:1},first:{label:'All-Area 1st Team',short:'All-Area 1st',rank:2},second:{label:'All-Area 2nd Team',short:'All-Area 2nd',rank:3},area:{label:'All-Area',short:'All-Area',rank:4},hm:{label:'All-Area Hon. Mention',short:'All-Area HM',rank:5},coy:{label:'Coach of the Year',short:'COY',rank:6}};
+const AA_TEAM={poy:{label:'LSJ Player of the Year',short:'LSJ POY',rank:0},poyf:{label:'Player of the Year Finalist',short:'LSJ POY Finalist',rank:0.5},dream:{label:'Dream Team',short:'LSJ Dream Team',rank:1},first:{label:'All-Area 1st Team',short:'All-Area 1st',rank:2},second:{label:'All-Area 2nd Team',short:'All-Area 2nd',rank:3},area:{label:'All-Area',short:'All-Area',rank:4},hm:{label:'All-Area Hon. Mention',short:'All-Area HM',rank:5},coy:{label:'Coach of the Year',short:'COY',rank:6}};
 const AA=(typeof ALLAREA!=='undefined'?ALLAREA.picks:[]).filter(x=>byId[x.school]);
 const AA_PLAYERS=AA.filter(x=>x.team!=='coy');
-const AA_TOP=x=>x.team==='poy'||x.team==='dream';
+const AA_TOP=x=>x.team==='poy'||x.team==='poyf'||x.team==='dream';
 function aaLabel(x){return x.team==='coy'?(x.division?x.division+' Coach of the Year':'Coach of the Year'):x.team==='area'&&x.division?'All-Area · '+x.division:AA_TEAM[x.team].label}
-function aaChip(x,long){const t=AA_TEAM[x.team];return `<span class="chip${AA_TOP(x)?' gold':x.team==='first'?' full':''}" title="${esc(['LSJ',x.season,aaLabel(x),x.listed_as?'listed as '+x.listed_as:'',x.note||''].filter(Boolean).join(' · '))}">${esc(long?(x.team==='poy'?'LSJ Player of the Year':x.team==='dream'?'LSJ Dream Team':'LSJ '+aaLabel(x)):t.short)}</span>`}
+function aaChip(x,long){const t=AA_TEAM[x.team];return `<span class="chip${AA_TOP(x)?' gold':x.team==='first'?' full':''}" title="${esc(['LSJ',x.season,aaLabel(x),x.listed_as?'listed as '+x.listed_as:'',x.note||''].filter(Boolean).join(' · '))}">${esc(long?(x.team==='poy'?'LSJ Player of the Year':x.team==='poyf'?'LSJ POY Finalist':x.team==='dream'?'LSJ Dream Team':'LSJ '+aaLabel(x)):t.short)}</span>`}
 function aaName(x){return typeof plink==='function'&&x.team!=='coy'?plink(x.name,x.school,x.season):esc(x.name)}
 const aaLast=n=>n.replace(/,? (Jr\.|Sr\.|II|III|IV)$/,'').split(' ').pop();
 const AA_GR={'9':'Fr.','10':'So.','11':'Jr.','12':'Sr.'};
@@ -63,8 +64,8 @@ function aaPanel(){
 function aaPanelHTML(){
   const n=t=>AA.filter(x=>x.team===t).length,se=[...new Set(AA.map(x=>x.season))].sort();
   return `<div class="honpanel block" id="honp-aa" hidden>
-    <p class="note">The Lansing State Journal's own honors, picked across every area school and separate from all-state and all-conference: Player of the Year, the Dream Team (the area's top players regardless of class or division), then all-area teams${se.length?'. Seasons on file: '+esc(se.length>1?se[0]+' to '+se.at(-1):se[0]):''}. Only schools on this site are listed.</p>
-    <div class="board" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))"><div><span class="v">${n('poy')}</span><span class="k">Player of the Year</span></div><div><span class="v">${n('dream')}</span><span class="k">Dream Team</span></div><div><span class="v">${AA_PLAYERS.length-n('poy')-n('dream')}</span><span class="k">All-Area</span></div><div><span class="v">${n('coy')}</span><span class="k">Coach of the Year</span></div></div>
+    <p class="note">The Lansing State Journal's own honors, picked across every area school and separate from all-state and all-conference: Player of the Year (in 2021-22, three finalists instead), the Dream Team (the area's top players regardless of class or division), then all-area teams${se.length?'. Seasons on file: '+esc(se.length>1?se[0]+' to '+se.at(-1):se[0]):''}. Only schools on this site are listed.</p>
+    <div class="board" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))"><div><span class="v">${n('poy')}</span><span class="k">Player of the Year</span></div>${n('poyf')?`<div><span class="v">${n('poyf')}</span><span class="k">POY finalists</span></div>`:''}<div><span class="v">${n('dream')}</span><span class="k">Dream Team</span></div><div><span class="v">${AA_PLAYERS.length-n('poy')-n('poyf')-n('dream')}</span><span class="k">All-Area</span></div><div><span class="v">${n('coy')}</span><span class="k">Coach of the Year</span></div></div>
     <div class="controls" id="haa">
       <label for="aasch">School</label><select id="aasch"><option value="all">All schools</option>${SCHOOLS.filter(s=>AA.some(x=>x.school===s.id)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
       <label for="aatier">Honor</label><select id="aatier"><option value="all">All honors</option><option value="top">Player of the Year / Dream Team</option><option value="area">All-Area</option><option value="coy">Coach of the Year</option></select>
@@ -86,7 +87,7 @@ function viewHonors3(){
 function aaSchoolSec(s){
   const xs=AA.filter(x=>x.school===s.id);if(!xs.length)return '';
   const top=xs.filter(AA_TOP),pl=xs.filter(x=>x.team!=='coy'),ls=[...new Set(xs.map(x=>x.season))].sort().pop(),lt=pl.filter(x=>x.season===ls).sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank);
-  const pv=`<div class="pv">${top.length?`<div class="pv-c"><span class="pv-x f">${top.length} Dream Team${top.some(x=>x.team==='poy')?' / POY':''}</span></div>`:''}${lt.length?`<p class="pv-t">Latest, ${esc(ls)}: ${lt.slice(0,2).map(x=>`<b>${esc(x.name)}</b> (${esc(AA_TEAM[x.team].short)})`).join(', ')}${lt.length>2?` and ${lt.length-2} more`:''}</p>`:''}<span class="pv-more">See all picks</span></div>`;
+  const pv=`<div class="pv">${top.length?`<div class="pv-c"><span class="pv-x f">${top.length} Dream Team${top.some(x=>x.team==='poy'||x.team==='poyf')?' / POY':''}</span></div>`:''}${lt.length?`<p class="pv-t">Latest, ${esc(ls)}: ${lt.slice(0,2).map(x=>`<b>${esc(x.name)}</b> (${esc(AA_TEAM[x.team].short)})`).join(', ')}${lt.length>2?` and ${lt.length-2} more`:''}</p>`:''}<span class="pv-more">See all picks</span></div>`;
   return `<details class="block fold"><summary><h2>LSJ Dream Team / All-Area</h2><span class="eyebrow num">${pl.length} pick${pl.length===1?'':'s'}</span>${pv}</summary><div class="fold-body">${aaGroups(xs,{school:true})}<a class="note" href="#honors" onclick="HON_TAB='aa'">All schools</a></div></details>`;
 }
 // ---- end LSJ all-area

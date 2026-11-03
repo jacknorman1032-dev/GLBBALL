@@ -58,7 +58,7 @@ const PF=(()=>{
     p.best=p.hon.slice().sort((a,b)=>HON_TIER[a.tier].rank-HON_TIER[b.tier].rank)[0]||null;
     p.top=p.ac.filter(x=>['poy','first','second','third'].includes(x.team)).length;
     p.poy=p.ac.filter(x=>x.team==='poy').length;
-    p.aab=p.aa.slice().sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank)[0]||null;p.dream=p.aa.filter(x=>x.team==='dream'||x.team==='poy').length;
+    p.aab=p.aa.slice().sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank)[0]||null;p.dream=p.aa.filter(x=>x.team==='dream'||x.team==='poy'||x.team==='poyf').length;
     p.mr=mrKind(p.card||{name:p.name},s);
     p.id=p.school+'--'+pkey(p.name).replace(/ /g,'-');
     if(seen[p.id])p.id+='-'+(++seen[p.id]);else seen[p.id]=1;
@@ -77,7 +77,7 @@ function profChips(p){
     (p.aab?aaChip(p.aab).replace(/<\/span>$/,(p.aa.length>1?' ×'+p.aa.length:'')+'</span>'):'')+
     (p.ex&&(p.ex.seasons||[]).length?'<span class="chip">Stats</span>':'');
 }
-function profScore(p){return (p.mr?100:0)+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='dream'?4:2),0)}
+function profScore(p){return (p.mr?100:0)+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='poyf'?5:x.team==='dream'?4:2),0)}
 const PF_STATS=[['gp','GP',0],['pts','PTS',0],['ppg','PPG',1],['reb','REB',0],['rpg','RPG',1],['ast','AST',0],['apg','APG',1],['stl','STL',0],['spg','SPG',1],['blk','BLK',0],['bpg','BPG',1],['tpm','3PM',0],['fgm','FGM',0],['fga','FGA',0],['fg_pct','FG%',2],['ft_pct','FT%',2]];
 function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return typeof v==='number'?v.toFixed(1):esc(v);if(t===2)return typeof v==='number'?(v<=1?(v*100).toFixed(1):v.toFixed(1))+'%':esc(v);return esc(v)}
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}

@@ -1,5 +1,5 @@
 {
- "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
+ "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), poyf (Player of the Year finalist; 2021-22 named three finalists and no winner), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
  "seasons": [
   {
    "season": "2025-26",
@@ -51,6 +51,19 @@
    },
    "left_out": "Two Dream Team picks and one co-Coach of the Year, and all-area picks from schools the site doesn't cover, including every Division 3 and 4 pick.",
    "src": "Meet the Greater Lansing high school boys basketball Dream Team, all-area, 2022-23 (Lansing State Journal, Brian Calloway, April 29, 2023)"
+  },
+  {
+   "season": "2021-22",
+   "teams_note": "Three Player of the Year finalists, a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
+   "full_counts": {
+    "poyf": 3,
+    "dream": 3,
+    "area": 41,
+    "hm": 42,
+    "coy": 8
+   },
+   "left_out": "One Dream Team pick, and all-area picks and coaches from schools the site doesn't cover, including every Division 3 and 4 pick.",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
   }
  ],
  "picks": [
@@ -1745,6 +1758,484 @@
    "grade": "",
    "src": "Meet the Greater Lansing high school boys basketball Dream Team, all-area, 2022-23 (Lansing State Journal, Brian Calloway, April 29, 2023)",
    "note": "Division 1 co-Coach of the Year with Lee Chaney and Ray Mitchell."
+  },
+  {
+   "season": "2021-22",
+   "name": "Max Burton",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no single winner."
+  },
+  {
+   "season": "2021-22",
+   "name": "Mason Docks",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no single winner."
+  },
+  {
+   "season": "2021-22",
+   "name": "Will Young",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no single winner."
+  },
+  {
+   "season": "2021-22",
+   "name": "Jacob Wallace",
+   "listed_as": "Jay Wallace",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Mason Woods",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Dray Chase",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Nick Ellis",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Bryce Kurncz",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Kaleb Parrish",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Chris Robinson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Jayden Stone",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Andre (AJ) Taylor, Jr.",
+   "listed_as": "AJ Taylor",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Darrius Welch",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Teddy Williams",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Isaiah Bailey",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Daniel Chandler",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Jakari Conway",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Isaiah Foster",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Brevin Jackson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Trey Jones",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Cameron Lower",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Luke Marlan",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Antonio Muzillo",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Landon Poe",
+   "listed_as": "Landen Poe",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Jaden Pruitt",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "DeAndre Williams",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Ayden VanEnkevort",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Thomas Dodd",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Spencer Feig",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "D'Angelo Fitzpatrick",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Charleston Rogers",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Alex Watters",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Greg Wilkinson",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Willie Curtis",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Braden Hill",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Commodore Joy",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Zane Kemp",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Brody Kirkpatrick",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Dominic Novara",
+   "listed_as": "Dom Novara",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Dontel Wright",
+   "listed_as": "Dontal Wright",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Tom Lewis",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)"
+  },
+  {
+   "season": "2021-22",
+   "name": "Ray Mitchell",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
+   "note": "Division 1 co-Coach of the Year with Jeff Wonch."
+  },
+  {
+   "season": "2021-22",
+   "name": "Jeff Wonch",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
+   "note": "Division 1 co-Coach of the Year with Ray Mitchell."
   }
  ]
 }
