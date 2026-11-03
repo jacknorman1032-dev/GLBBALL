@@ -83,7 +83,8 @@ function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return 
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}
 // auto "About" paragraph (Jack, Nov 3, 2026): honors, then the team's record and titles over the player's seasons on
 // record at his school, then his last season's averages. Counts are only stated when the data covers every one of those
-// seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player.
+// seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player, and
+// "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored.
 function pfAbout(p){
   const ex=p.ex||{};if(ex.about===false)return '';if(typeof ex.about==='string'&&ex.about.trim())return ex.about;
   const s=byId[p.school];if(!s)return '';
@@ -122,7 +123,7 @@ function pfAbout(p){
      if(!hy.length||Math.max(...oy)<=Math.min(...hy))out.push(`He played ${what} at ${o2} before transferring to ${h2}.`);
      else out.push(`He transferred from ${h2} to ${o2}, where he played ${what}.`)})}
   // ---- team over his seasons on record at this school
-  const mine=[...p.hon,...p.ac,...p.aa,...p.lead].filter(x=>x.school===p.school).map(x=>x.season).concat((ex.seasons||[]).map(x=>x.season));
+  const mine=[...p.hon,...p.ac,...p.aa,...p.lead].filter(x=>x.school===p.school).map(x=>x.season).concat((ex.seasons||[]).map(x=>x.season),[ex.varsity_from,ex.varsity_to].filter(Boolean));
   if(mine.length){
     const y0=Math.min(...mine.map(x=>+x.slice(0,4))),y1=Math.max(...mine.map(x=>+x.slice(0,4)));
     const away=new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school!==p.school).map(x=>x.season));
