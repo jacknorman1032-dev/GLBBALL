@@ -84,7 +84,8 @@ function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts',
 // auto "About" paragraph (Jack, Nov 3, 2026): honors, then the team's record and titles over the player's seasons on
 // record at his school, then his last season's averages. Counts are only stated when the data covers every one of those
 // seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player, and
-// "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored.
+// "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored, and
+// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks.
 function pfAbout(p){
   const ex=p.ex||{};if(ex.about===false)return '';if(typeof ex.about==='string'&&ex.about.trim())return ex.about;
   const s=byId[p.school];if(!s)return '';
@@ -120,8 +121,15 @@ function pfAbout(p){
    [...al,...fromPicks].forEach(o=>{const oy=(o.seasons.match(/\d{4}/g)||[]).map(Number);if(!oy.length)return;const o2=byId[o.school].short||byId[o.school].name,h2=s.short||s.name;
      const fr=/freshman/i.test(o.note)?'his freshman season':/sophomore/i.test(o.note)?'his sophomore season':'';
      const what=fr?`${fr} (${o.seasons})`:o.seasons;
-     if(!hy.length||Math.max(...oy)<=Math.min(...hy))out.push(`He played ${what} at ${o2} before transferring to ${h2}.`);
-     else out.push(`He transferred from ${h2} to ${o2}, where he played ${what}.`)})}
+     // team record there: player_stats team_records ({"2022-23":"18-5"}), else game log, else regular-season standings
+     const oSe=[];for(let y=Math.min(...oy);y<=Math.max(...oy);y++)oSe.push(y+'-'+String(y+1).slice(-2));
+     const oa=analyze(byId[o.school]);let w=0,l=0,t=0,n=0,rg=false;
+     oSe.forEach(se=>{const tr=(ex.team_records||{})[se],pr=tr&&parseRecord(tr);if(pr){w+=pr.w;l+=pr.l;t+=pr.t;n++;return}
+       const g=oa&&oa.seasons.find(x=>x.season===se&&x.n);if(g){w+=g.w;l+=g.l;t+=g.t;n++;return}
+       const r=ALLCONF.leagues.map(L=>L.season===se&&L.standings.find(r=>areaId(r[0])===o.school&&r[4]!=null)).find(Boolean);if(r){w+=r[4];l+=r[5];n++;rg=true}});
+     const orec=n===oSe.length?`, where the team went ${recStr(w,l,t)}${rg?' in the regular season':''},`:'';
+     if(!hy.length||Math.max(...oy)<=Math.min(...hy))out.push(`He played ${what} at ${o2}${orec} before transferring to ${h2}.`);
+     else out.push(`He transferred from ${h2} to ${o2}, where he played ${what}${orec?orec.replace(/^, where/,' and').replace(/,$/,''):''}.`)})}
   // ---- team over his seasons on record at this school
   const mine=[...p.hon,...p.ac,...p.aa,...p.lead].filter(x=>x.school===p.school).map(x=>x.season).concat((ex.seasons||[]).map(x=>x.season),[ex.varsity_from,ex.varsity_to].filter(Boolean));
   if(mine.length){
