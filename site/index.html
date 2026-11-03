@@ -1362,6 +1362,15 @@ function pfAbout(p){
   if(aHm.length)J.push(`all-area honorable mention in ${yrs(aHm)}`);
   const out=[];if(H.length)out.push(`${lastN} was ${and(H)}.`);
   if(J.length)out.push(`${H.length?'The Lansing State Journal named him':'The Lansing State Journal named '+lastN} ${and(J)}.`);
+  // ---- transfers: seasons at another covered school (notable card's `also`, else picks there)
+  {const hy=[...p.hon,...p.ac,...p.aa].filter(x=>x.school===p.school).map(x=>+x.season.slice(0,4));
+   const al=((p.card&&p.card.also)||[]).filter(o=>byId[o.school]).map(o=>({school:o.school,seasons:o.seasons||'',note:o.note||''}));
+   const fromPicks=[...new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school!==p.school&&byId[x.school]).map(x=>x.school))].filter(o=>!al.some(a=>a.school===o)).map(o=>{const ss=[...new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school===o).map(x=>x.season))].sort();return {school:o,seasons:ss.length>1?ss[0]+' to '+ss.at(-1):ss[0],note:''}});
+   [...al,...fromPicks].forEach(o=>{const oy=(o.seasons.match(/\d{4}/g)||[]).map(Number);if(!oy.length)return;const o2=byId[o.school].short||byId[o.school].name,h2=s.short||s.name;
+     const fr=/freshman/i.test(o.note)?'his freshman season':/sophomore/i.test(o.note)?'his sophomore season':'';
+     const what=fr?`${fr} (${o.seasons})`:o.seasons;
+     if(!hy.length||Math.max(...oy)<=Math.min(...hy))out.push(`He played ${what} at ${o2} before transferring to ${h2}.`);
+     else out.push(`He transferred from ${h2} to ${o2}, where he played ${what}.`)})}
   // ---- team over his seasons on record at this school
   const mine=[...p.hon,...p.ac,...p.aa,...p.lead].filter(x=>x.school===p.school).map(x=>x.season).concat((ex.seasons||[]).map(x=>x.season));
   if(mine.length){
@@ -1389,13 +1398,15 @@ function pfAbout(p){
     if(distKnown&&dist)T2.push(plural(dist,'district title'));
     if(distKnown&&regl)T2.push(plural(regl,'regional title'));
     if(champ.length)T2.push(champ.length===1?`the ${champ[0]} state championship`:`state championships in ${yrs(champ)}`);
-    if(runner.length)T2.push(`a state runner-up finish${runner.length>1?'es':''} in ${yrs(runner)}`.replace('a state runner-up finishes','state runner-up finishes'));
-    if(four.length)T2.push(`${four.length===1?'a Final Four trip':'Final Four trips'} in ${yrs(four)}`);
+    const R2=[];
+    if(runner.length)R2.push(`the state final in ${yrs(runner)}`);
+    if(four.length)R2.push(`the Final Four in ${yrs(four)}`);
     const rs=reg?(recSe.length===1||nRec===span.length?' in the regular season':''):'';
     const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
-    if(rec||T2.length){
+    if(rec||T2.length||R2.length){
       const who=s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
-      out.push(`${when}, ${who} ${[rec,T2.length?(rec?'and ':'')+'won '+and(T2):''].filter(Boolean).join(' ')}.`)}
+      const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
+      out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
   // ---- last season's averages
   const ss=(ex.seasons||[]).filter(x=>x.ppg!=null).sort((a,b)=>b.season.localeCompare(a.season))[0];
