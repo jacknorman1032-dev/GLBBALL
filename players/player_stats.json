@@ -164,7 +164,7 @@
    "name": "Kingston Thomas",
    "school": "east-lansing",
    "grad_year": "2027",
-   "bio": "Michigan Sports Writers second-team all-state in Division 1 as a junior, on East Lansing's state runner-up team.",
+   "bio": "Michigan Sports Writers second-team all-state in Division 1 as a junior, on East Lansing's state runner-up team. Son of David Thomas, who played four seasons at Michigan State, won the 2000 national championship there and later spent six seasons as the Spartans' director of basketball operations. Transferred to La Lumiere, a prep school in Indiana, for his senior season (2026-27).",
    "seasons": [
     {
      "season": "2025-26",
@@ -172,6 +172,16 @@
      "ppg": 14.0,
      "rpg": 6.0,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ],
+   "links": [
+    {
+     "label": "WILX: Former Spartan's son draws MSU interest (Dec. 2025)",
+     "url": "https://www.wilx.com/2025/12/23/former-spartans-son-kingston-thomas-draws-interest-michigan-state-mens-basketball/"
+    },
+    {
+     "label": "WILX: Transferring to La Lumiere (July 2026)",
+     "url": "https://www.wilx.com/2026/07/10/east-lansing-basketball-standout-kingston-thomas-transferring-indiana-prep-school-senior-year/"
     }
    ]
   },
