@@ -186,7 +186,7 @@ function pfAbout(p){
     const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
     if(rec||T2.length||R2.length){
       const oldNick=s.id==='okemos'&&+span[0].slice(0,4)<2022;// Okemos were the Chiefs until the early 2020s (now Wolves)
-      const who=s.nickname&&!oldNick?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
+      const who=oldNick?(span.length>1?'the team':s.short||s.name):s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
       const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
       out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
