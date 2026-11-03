@@ -96,7 +96,7 @@ function pfAbout(p){
   // ---- honors
   const H=[];
   if(p.mr)H.push(p.mr==='retro'?'a retroactive Mr. Basketball':'Mr. Basketball');
-  const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team'};
+  const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team','Hon. Mention':'honorable mention'};
   if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
     const lab=b.tier==='dream'?`${b.selector} all-class Dream Team`:`${b.selector} ${b.level&&!/dream/i.test(b.level)?b.level+' ':''}${TW[sh]||sh.toLowerCase()}`;
     H.push(ses.length>1?`a ${NW[ses.length]||ses.length}-time all-state pick (${lab} in ${b.season})`:`all-state in ${ses[0]} (${lab})`)}
