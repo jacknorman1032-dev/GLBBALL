@@ -95,7 +95,9 @@ function pfAbout(p){
   // ---- honors
   const H=[];
   if(p.mr)H.push(p.mr==='retro'?'a retroactive Mr. Basketball':'Mr. Basketball');
-  if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,lab=(b.selector==='Free Press'&&b.tier==='dream')?'Free Press Dream Team':b.selector+' '+HON_TIER[b.tier].short.toLowerCase();
+  const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team'};
+  if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
+    const lab=b.tier==='dream'?`${b.selector} all-class Dream Team`:`${b.selector} ${b.level&&!/dream/i.test(b.level)?b.level+' ':''}${TW[sh]||sh.toLowerCase()}`;
     H.push(ses.length>1?`a ${NW[ses.length]||ses.length}-time all-state pick (${lab} in ${b.season})`:`all-state in ${ses[0]} (${lab})`)}
   const acTop=[...new Set(p.ac.filter(x=>['poy','first','second','third'].includes(x.team)).map(x=>x.season))],acHm=[...new Set(p.ac.filter(x=>['hm','sm'].includes(x.team)).map(x=>x.season))].filter(x=>!acTop.includes(x)),acPoy=[...new Set(p.ac.filter(x=>x.team==='poy').map(x=>x.season))];
   if(acTop.length)H.push(`all-conference in ${yrs(acTop)}`+(acPoy.length?` (league Player of the Year in ${yrs(acPoy)})`:''));
@@ -128,6 +130,7 @@ function pfAbout(p){
     const norm=x=>/^\d{4}-\d{4}$/.test(x)?x.slice(0,5)+x.slice(7):x;
     const a=analyze(s),hs=honors(s),ts=s.tournament_summary||null,tsThru=ts&&ts.through_season?+ts.through_season.slice(0,4):-1;
     const st=new Set(hs.champ.map(x=>norm(x.season))),ru=new Set(hs.ru.map(x=>norm(x.season))),ff=new Set(hs.ff.map(norm));
+    const clsOf=se=>{const r=[...hs.champ,...hs.ru].find(x=>norm(x.season)===se);if(r&&r.class)return r.class;const h=p.hon.concat(HON).find(h=>h.season===se&&h.school===p.school&&h.level&&/^(Class|Division)/.test(h.level));return h?h.level.replace(/ \(.*$/,''):''};
     const recSe=[];let W=0,L=0,T=0,nRec=0,reg=false,distKnown=true,lgKnown=true,dist=0,regl=0,lg=0;const champ=[],runner=[],four=[];
     span.forEach(se=>{
       const gs=a&&a.seasons.find(x=>x.season===se&&x.n);
@@ -145,10 +148,11 @@ function pfAbout(p){
     if(lgKnown&&lg)T2.push(plural(lg,'league title'));
     if(distKnown&&dist)T2.push(plural(dist,'district title'));
     if(distKnown&&regl)T2.push(plural(regl,'regional title'));
-    if(champ.length)T2.push(champ.length===1?`the ${champ[0]} state championship`:`state championships in ${yrs(champ)}`);
+    if(champ.length){const g=[];champ.forEach(se=>{const c=clsOf(se),l=g.at(-1);if(l&&l.c===c)l.s.push(se);else g.push({c,s:[se]})});
+      T2.push(`the ${and(g.map(x=>and(x.s)+(x.c?' '+x.c:'')))} state championship${champ.length>1?'s':''}`)}
     const R2=[];
-    if(runner.length)R2.push(`the state final in ${yrs(runner)}`);
-    if(four.length)R2.push(`the Final Four in ${yrs(four)}`);
+    if(runner.length)R2.push(and(runner.map(se=>{const c=clsOf(se);return `the ${c?c+' ':''}state final in ${se}`})));
+    if(four.length)R2.push(and(four.map(se=>{const c=clsOf(se);return `the ${c?c+' ':''}Final Four in ${se}`})));
     const rs=reg?(recSe.length===1||nRec===span.length?' in the regular season':''):'';
     const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
     if(rec||T2.length||R2.length){
