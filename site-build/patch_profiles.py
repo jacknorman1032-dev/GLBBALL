@@ -85,7 +85,8 @@ function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts',
 // record at his school, then his last season's averages. Counts are only stated when the data covers every one of those
 // seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player, and
 // "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored, and
-// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks.
+// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks, and "career_points" (with
+// optional "career_seasons") for a career scoring total.
 function pfAbout(p){
   const ex=p.ex||{};if(ex.about===false)return '';if(typeof ex.about==='string'&&ex.about.trim())return ex.about;
   const s=byId[p.school];if(!s)return '';
@@ -169,6 +170,8 @@ function pfAbout(p){
       const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
       out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
+  // ---- career points (player_stats career_points, optional career_seasons)
+  if(ex.career_points)out.push(`He finished his high school career with ${Number(ex.career_points).toLocaleString('en-US')} points${ex.career_seasons?' over '+(NW[ex.career_seasons]||ex.career_seasons)+' season'+(ex.career_seasons>1?'s':''):''}.`);
   // ---- last season's averages
   const ss=(ex.seasons||[]).filter(x=>x.ppg!=null).sort((a,b)=>b.season.localeCompare(a.season))[0];
   if(ss){const g=p.gr[ss.season],yr={9:'freshman',10:'sophomore',11:'junior',12:'senior'}[g];

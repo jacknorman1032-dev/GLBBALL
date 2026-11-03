@@ -1,5 +1,5 @@
 {
- "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have. 'about' (optional): custom text for the automatic first paragraph of the profile's About section, or false to hide that paragraph. 'varsity_from' / 'varsity_to' (optional, e.g. \"2021-22\"): first / last varsity season when it is outside the seasons the player was honored; the About paragraph's team record uses it. 'team_records' (optional, e.g. {\"2022-23\": \"18-5\"}): full-season team records the data lacks, by season; used before game logs and regular-season standings.",
+ "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have. 'about' (optional): custom text for the automatic first paragraph of the profile's About section, or false to hide that paragraph. 'varsity_from' / 'varsity_to' (optional, e.g. \"2021-22\"): first / last varsity season when it is outside the seasons the player was honored; the About paragraph's team record uses it. 'team_records' (optional, e.g. {\"2022-23\": \"18-5\"}): full-season team records the data lacks, by season; used before game logs and regular-season standings. 'career_points' / 'career_seasons' (optional): career scoring total and how many seasons it covers, stated in the About paragraph.",
  "players": [
   {
    "name": "Kelvin (KJ) Torbert, Jr.",
@@ -34,7 +34,9 @@
    ],
    "team_records": {
     "2022-23": "18-5"
-   }
+   },
+   "career_points": 2009,
+   "career_seasons": 4
   },
   {
    "name": "Marrion May-Cook",
