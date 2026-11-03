@@ -83,7 +83,8 @@ function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return 
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}
 // auto "About" paragraph (Jack, Nov 3, 2026): honors, then the team's record and titles over the player's seasons on
 // record at his school, then his last season's averages. Counts are only stated when the data covers every one of those
-// seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player, and
+// seasons. player_stats.json can set "about" (custom text; a blank line starts a new paragraph; it replaces the bio and the notable
+// card's accolades, which stay in the data) or "about": false (no paragraph) for a player, and
 // "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored, and
 // "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks, and "career_points" (with
 // optional "career_seasons") for a career scoring total.
@@ -201,7 +202,8 @@ function viewProfile(id){
   const tbl=cols.length?`<div class="block"><h2>Season stats</h2><div class="tbl"><table><thead><tr><th>Season</th><th>Gr</th>${cols.map(c=>`<th class="r">${c[1]}</th>`).join('')}</tr></thead><tbody>${st.slice().sort((a,b)=>a.season.localeCompare(b.season)).map(x=>`<tr><td>${esc(x.season)}</td><td>${p.gr[x.season]?GR_YR[p.gr[x.season]]:''}</td>${cols.map(([k,l,t])=>`<td class="r num">${pfVal(x,k,t)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`:'';
   const c=p.card,ex=p.ex||{};
   const auto=pfAbout(p);
-  const about=[auto?`<p>${esc(auto)}</p>`:'',ex.bio?`<p>${esc(ex.bio)}</p>`:'',c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
+  const custom=typeof ex.about==='string'&&ex.about.trim();
+  const about=[auto?auto.split(/\n\s*\n/).map(t=>`<p>${esc(t.trim())}</p>`).join(''):'',!custom&&ex.bio?`<p>${esc(ex.bio)}</p>`:'',!custom&&c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
   const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
   const nSe=p.seasons.length;
   return `<section class="view">${head}
