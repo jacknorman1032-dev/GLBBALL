@@ -1,5 +1,5 @@
 {
- "_note": "Hal Schram Mr. Basketball voting for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: finishing place in the voting; points: voting points. Places 1-5 show as 'Finalist'; 6th and lower as '[place] in Voting', since the award named no short list then. 'years' is how many players the source lists each year (winner included); the ballot was cut to five finalists from 2006-07. Sources: peschstats.com for 1981-2019 (Jack's text), detroitpslbasketball.com for 2020-26, BCAM's 2005-06 vote sheet.",
+ "_note": "Hal Schram Mr. Basketball voting for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: finishing place in the voting; points: voting points. Places 1-5 show as 'Finalist'; 6th and lower as '[place] in Voting', since the award named no short list then. 'years' is how many players the source lists each year (winner included); the ballot was cut to five finalists from 2006-07. Sources: peschstats.com for 1981-2019 (Jack's text), detroitpslbasketball.com for 2020-26, BCAM's 2005-06 vote sheet. 'retro': BCAM Retro Mr. Basketball (1920-80) winners not in the build's list (Harry Kipke) and nominees; senior: false when the nominee was not a senior that season.",
  "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)",
  "years": {
   "1981": 11,
@@ -185,6 +185,96 @@
  "sources": {
   "peschstats": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)",
   "detroitpsl": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026",
-  "bcam2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026"
- }
+  "bcam2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026",
+  "bcam_retro": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+ },
+ "retro": [
+  {
+   "year": "1920",
+   "season": "1919-20",
+   "name": "Harry Kipke",
+   "school": "sexton",
+   "listed_school": "Lansing Central",
+   "winner": true,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)",
+   "note": "Lansing Central, filed under Sexton as with other Central picks. Later played and coached at Michigan."
+  },
+  {
+   "year": "1935",
+   "season": "1934-35",
+   "name": "Bill Carpenter",
+   "school": "sexton",
+   "listed_school": "Lansing Central",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)",
+   "listed_as": "William Carpenter",
+   "note": "Lansing Central, filed under Sexton."
+  },
+  {
+   "year": "1945",
+   "season": "1944-45",
+   "name": "Tom Petroff",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1953",
+   "season": "1952-53",
+   "name": "Tom Klewicki",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1954",
+   "season": "1953-54",
+   "name": "Art Gowens",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)",
+   "note": "Mid-year graduate (winter 1955), considered with the 1954 class.",
+   "senior": false
+  },
+  {
+   "year": "1955",
+   "season": "1954-55",
+   "name": "Ralph Coleman",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing St. Mary",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)",
+   "note": "Lansing St. Mary, filed under Lansing Catholic."
+  },
+  {
+   "year": "1960",
+   "season": "1959-60",
+   "name": "Doug Herner",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1974",
+   "season": "1973-74",
+   "name": "Jeff Tropf",
+   "school": "holt",
+   "listed_school": "Holt",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1975",
+   "season": "1974-75",
+   "name": "Greg Lloyd",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "winner": false,
+   "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  }
+ ]
 }

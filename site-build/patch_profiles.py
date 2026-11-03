@@ -38,6 +38,10 @@ function mrYear(p,s){const m=mrMatch(p,s);return m?m.year:''}
 const MRV=__MRV__;
 const ORD=n=>n+(['th','st','nd','rd'][(n%100>10&&n%100<14)?0:n%10]||'th');
 function mrfFor(p,s){const a=mrToks(p.name);return (MRV.finalists||[]).filter(f=>{const b=mrToks(f.name);return f.school===s.id&&a.at(-1)===b.at(-1)&&b.slice(0,-1).some(w=>a.slice(0,-1).includes(w))})}
+// BCAM Retro Mr. Basketball (MRV.retro): extra winners join DATA.mr_basketball; nominees get their own chip
+(MRV.retro||[]).filter(r=>r.winner&&byId[r.school]).forEach(r=>{const L=DATA.mr_basketball=DATA.mr_basketball||[];if(!L.some(m=>m.year===r.year&&areaId(m.school)===r.school))L.push({year:r.year,name:r.name,school:byId[r.school].name,retro:true,note:'BCAM Retro Mr. Basketball',source:r.src})});
+function mrnFor(p,s){const a=mrToks(p.name);return (MRV.retro||[]).filter(f=>!f.winner&&f.school===s.id&&(()=>{const b=mrToks(f.name);return a.at(-1)===b.at(-1)&&b.slice(0,-1).some(w=>a.slice(0,-1).includes(w))})())}
+function mrnChip(f){return `<span class="chip" title="${esc(f.src||'')}">${esc(f.year)} BCAM Retro Mr. Basketball Nominee</span>`}
 function mrfChip(f){return `<span class="chip" title="${esc((f.points?f.points+' points · ':'')+(f.src||MRV.src||''))}">${esc(f.year)} Hal Schram Mr. Basketball${f.place>5?': '+ORD(f.place)+' in Voting':' Finalist'+(f.place?' ('+ORD(f.place)+')':'')}</span>`}
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
@@ -49,6 +53,7 @@ const PF=(()=>{
   HON.forEach(h=>{if(!byId[h.school])return;const p=get(h.name,h.school,h.season);p.hon.push(h);p.names.push([h.season,h.name])});
   AC_PLAYERS.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school,x.season);p.ac.push(x);p.names.push([x.season,x.name])});
   PF_AA.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school,x.season);p.aa.push(x);p.names.push([x.season,x.name])});
+  (MRV.retro||[]).forEach(f=>{if(!byId[f.school])return;const p=get(f.name,f.school,f.season);if(f.senior!==false)p.mrS.push(f.season);else p.mrX=(p.mrX||[]).concat(f.season);p.names.push([f.season,f.name])});
   (MRV.finalists||[]).forEach(f=>{if(!byId[f.school])return;const se=(+f.year-1)+'-'+String(f.year).slice(-2);const p=get(f.name,f.school,se);p.mrS.push(se);p.names.push([se,f.name])});
   PSTATS.players.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school);p.ex=x;p.names.push(['9999',x.name])});
   AC_LEAD.forEach(x=>{if(!x.school)return;const k=keyOf(x.name,x.school,x.season);if(M.has(k))M.get(k).lead.push(x)});
@@ -67,7 +72,7 @@ const PF=(()=>{
     let grad=(p.ex&&p.ex.grad_year)||(p.card&&parseInt(p.card.grad_year)?String(parseInt(p.card.grad_year)):'');
     if(!grad){const ys=Object.keys(gy).sort((a,b)=>gy[b]-gy[a]||b-a);if(ys.length)grad=ys[0]}
     p.grad=grad;p.gradNote=Object.keys(gy).length>1?'Printed grades disagree ('+Object.keys(gy).map(y=>'Class of '+y).join(' vs. ')+')':'';
-    p.seasons=[...new Set([...p.hon,...p.ac,...p.aa,...p.lead,...p.mrS.map(season=>({season})),...((p.ex&&p.ex.seasons)||[])].map(x=>x.season))].sort();
+    p.seasons=[...new Set([...p.hon,...p.ac,...p.aa,...p.lead,...p.mrS.map(season=>({season})),...(p.mrX||[]).map(season=>({season})),...((p.ex&&p.ex.seasons)||[])].map(x=>x.season))].sort();
     if(grad)p.seasons.forEach(se=>{if(!p.gr[se]){const g=+se.slice(0,4)+13-(+grad);if(g>=9&&g<=12){p.gr[se]=g;p.inf[se]=1}}});
     const pos={};p.ac.forEach(x=>{if(x.pos)pos[x.pos]=(pos[x.pos]||0)+1});
     p.pos=(p.ex&&p.ex.pos)||Object.keys(pos).sort((a,b)=>pos[b]-pos[a])[0]||'';
@@ -75,7 +80,7 @@ const PF=(()=>{
     p.top=p.ac.filter(x=>['poy','first','second','third'].includes(x.team)).length;
     p.poy=p.ac.filter(x=>x.team==='poy').length;
     p.aab=p.aa.slice().sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank)[0]||null;p.dream=p.aa.filter(x=>x.team==='dream'||x.team==='poy'||x.team==='poyf').length;
-    p.mr=mrKind(p.card||{name:p.name},s);p.mry=p.mr?mrYear(p.card||{name:p.name},s):'';p.mrf=mrfFor(p.card||{name:p.name},s);
+    p.mr=mrKind(p.card||{name:p.name},s);p.mry=p.mr?mrYear(p.card||{name:p.name},s):'';p.mrf=mrfFor(p.card||{name:p.name},s);p.mrn=mrnFor(p.card||{name:p.name},s);
     p.id=p.school+'--'+pkey(p.name).replace(/ /g,'-');
     if(seen[p.id])p.id+='-'+(++seen[p.id]);else seen[p.id]=1;
   });
@@ -87,14 +92,14 @@ function plink(n,sc,se){const p=profFor(n,sc,se);return p?`<a class="plink" href
 function profChips(p){
   const b=p.best;
   return (p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:'')+
-    p.mrf.map(mrfChip).join('')+
+    p.mrf.map(mrfChip).join('')+p.mrn.map(mrnChip).join('')+
     (b?`<span class="chip${b.tier==='first'||b.tier==='dream'?' gold':''}" title="${esc(p.hon.map(h=>h.season+' '+h.selector+' '+HON_TIER[h.tier].short).join('\n'))}">${esc(b.selector+' '+HON_TIER[b.tier].short)}${p.hon.length>1?' ×'+p.hon.length:''}</span>`:'')+
     (p.poy?`<span class="chip gold">League POY${p.poy>1?' ×'+p.poy:''}</span>`:'')+
     (p.top?`<span class="chip full">All-Conf.${p.top>1?' ×'+p.top:''}</span>`:p.ac.length?`<span class="chip">All-Conf. HM${p.ac.length>1?' ×'+p.ac.length:''}</span>`:'')+
     (p.aab?aaChip(p.aab).replace(/<\/span>$/,(p.aa.length>1?' ×'+p.aa.length:'')+'</span>'):'')+
     (p.ex&&(p.ex.seasons||[]).length?'<span class="chip">Stats</span>':'');
 }
-function profScore(p){return (p.mr?100:0)+p.mrf.reduce((a,f)=>a+(f.place<=5?30:15),0)+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='poyf'?5:x.team==='dream'?4:2),0)}
+function profScore(p){return (p.mr?100:0)+p.mrf.reduce((a,f)=>a+(f.place<=5?30:15),0)+p.mrn.length*10+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='poyf'?5:x.team==='dream'?4:2),0)}
 const PF_STATS=[['gp','GP',0],['pts','PTS',0],['ppg','PPG',1],['reb','REB',0],['rpg','RPG',1],['ast','AST',0],['apg','APG',1],['stl','STL',0],['spg','SPG',1],['blk','BLK',0],['bpg','BPG',1],['tpm','3PM',0],['fgm','FGM',0],['fga','FGA',0],['fg_pct','FG%',2],['ft_pct','FT%',2]];
 function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return typeof v==='number'?v.toFixed(1):esc(v);if(t===2)return typeof v==='number'?(v<=1?(v*100).toFixed(1):v.toFixed(1))+'%':esc(v);return esc(v)}
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}
@@ -116,6 +121,7 @@ function pfAbout(p){
   // ---- honors
   const H=[];
   if(p.mr)H.push(p.mr==='retro'?`the ${p.mry} BCAM Retro Mr. Basketball`:`the ${p.mry} Hal Schram Mr. Basketball`);
+  p.mrn.forEach(f=>H.push(`a ${f.year} BCAM Retro Mr. Basketball nominee`));
   p.mrf.forEach(f=>{const pts=f.points?', '+Number(f.points).toLocaleString('en-US')+' points':'';H.push(f.place>5?`${ORD(f.place)} in the ${f.year} Hal Schram Mr. Basketball voting${pts?' ('+pts.slice(2)+')':''}`:`a ${f.year} Hal Schram Mr. Basketball finalist${f.place?' ('+ORD(f.place)+' in the voting'+pts+')':''}`)});
   const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team','Hon. Mention':'honorable mention'};
   if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
@@ -212,7 +218,7 @@ function viewProfile(id){
     const lines=[];
     if(hs.length)lines.push(`<div class="pf-line"><span class="pf-k">All-state</span>${hs.map(h=>honChipFull(h)+(h.level?`<span class="note">${esc(h.level)}</span>`:'')).join('')}</div>`);
     if(as.length)lines.push(`<div class="pf-line"><span class="pf-k">All-conference</span>${as.map(x=>`<span class="chip${x.team==='poy'?' gold':['first','second','third'].includes(x.team)?' full':''}" title="${esc(x.listed_team||'')}">${esc(x.league+' · '+(x.team==='first'&&x.listed_team&&!/1st|first/i.test(x.listed_team)?x.listed_team:AC_TEAM[x.team].label))}</span>`).join('')}${champ(as[0])}</div>`);
-    {const ys=String(+se.slice(0,4)+1),mrs=[...(p.mr&&p.mry===ys?[`<span class="chip gold">${ys} ${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`]:[]),...p.mrf.filter(f=>f.year===ys).map(mrfChip)];
+    {const ys=String(+se.slice(0,4)+1),mrs=[...(p.mr&&p.mry===ys?[`<span class="chip gold">${ys} ${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`]:[]),...p.mrf.filter(f=>f.year===ys).map(mrfChip),...p.mrn.filter(f=>f.year===ys).map(mrnChip)];
      if(mrs.length)lines.push(`<div class="pf-line"><span class="pf-k">Mr. Basketball</span>${mrs.join('')}</div>`)}
     if(aas.length)lines.push(`<div class="pf-line"><span class="pf-k">LSJ</span>${aas.map(x=>aaChip(x,true)).join('')}</div>`);
     if(ls.length)lines.push(`<div class="pf-line"><span class="pf-k">Area leaders</span><span>${ls.map(x=>`${x.shown||AC_CAT[x.cat].fmt(x.value)} ${AC_CAT[x.cat].unit} <span class="note">(#${x.rank} of ${x.of})</span>`).join(' · ')}</span></div>`);
@@ -230,7 +236,7 @@ function viewProfile(id){
   return `<section class="view">${head}
     ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);
       return `<div class="board pfboard" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(c=>`<div><span class="v">${c[0]}</span><span class="k">${c[1]}</span></div>`).join('')}</div>`})()}
-    ${p.mr||p.mrf.length||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${p.mrf.map(mrfChip).join('')}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
+    ${p.mr||p.mrf.length||p.mrn.length||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${p.mrf.map(mrfChip).join('')}${p.mrn.map(mrnChip).join('')}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
     <div class="block"><h2>Season by season</h2><div class="pf-tl">${rows}</div>${p.gradNote?`<p class="note">${esc(p.gradNote)}; the class year shown uses the most common one.</p>`:''}</div>
     ${tbl||`<p class="note">No season stats on file yet.</p>`}
     ${about?`<div class="block"><h2>About</h2>${about}</div>`:''}
@@ -253,7 +259,7 @@ function viewPlayers2(){
     const draw=()=>{
       const sc=$('#pdsch').value,d=$('#pddec').value,hn=$('#pdhon').value,q=$('#pdq').value.trim().toLowerCase(),so=$('#pdsort').value;
       const rows=PROF.filter(p=>(sc==='all'||p.school===sc||p.hon.concat(p.ac,p.aa).some(x=>x.school===sc))&&(d==='all'||(d==='none'?!p.grad:p.grad&&Math.floor((+p.grad-1)/10)*10===+d))&&
-        (hn==='all'||(hn==='state'&&p.hon.length)||(hn==='first'&&p.hon.some(h=>h.tier==='first'||h.tier==='dream'))||(hn==='conf'&&p.top)||(hn==='poy'&&p.poy)||(hn==='lsjdt'&&p.dream)||(hn==='lsj'&&p.aa.length)||(hn==='mr'&&p.mr)||(hn==='mrf'&&p.mrf.length)||(hn==='stats'&&p.ex&&(p.ex.seasons||[]).length))&&
+        (hn==='all'||(hn==='state'&&p.hon.length)||(hn==='first'&&p.hon.some(h=>h.tier==='first'||h.tier==='dream'))||(hn==='conf'&&p.top)||(hn==='poy'&&p.poy)||(hn==='lsjdt'&&p.dream)||(hn==='lsj'&&p.aa.length)||(hn==='mr'&&p.mr)||(hn==='mrf'&&(p.mrf.length||p.mrn.length))||(hn==='stats'&&p.ex&&(p.ex.seasons||[]).length))&&
         (!q||p.names.some(n=>n[1].toLowerCase().includes(q))||p.hon.concat(p.ac,p.aa).some(x=>(x.listed_as||'').toLowerCase().includes(q))));
       if(so==='honors')rows.sort((a,b)=>profScore(b)-profScore(a)||a.name.localeCompare(b.name));
       else if(so==='name')rows.sort((a,b)=>a.name.split(' ').pop().localeCompare(b.name.split(' ').pop())||a.name.localeCompare(b.name));
@@ -275,7 +281,7 @@ function viewPlayers2(){
       <div class="controls">
         <label for="pdsch">School</label><select id="pdsch"><option value="all">All schools</option>${SCHOOLS.filter(s=>PROF.some(p=>p.school===s.id)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
         <label for="pddec">Class</label><select id="pddec"><option value="all">All classes</option>${decs.map(d=>`<option value="${d}">${d+1}-${String(d+10).slice(-2)}</option>`).join('')}<option value="none">Unknown</option></select>
-        <label for="pdhon">Honor</label><select id="pdhon"><option value="all">Any honor</option><option value="state">All-state</option><option value="first">All-state 1st team / Free Press Dream Team</option><option value="conf">All-conference (not HM)</option><option value="poy">League Player of the Year</option><option value="lsjdt">LSJ Dream Team / POY</option><option value="lsj">LSJ all-area (any)</option><option value="mr">Mr. Basketball winner</option><option value="mrf">Mr. Basketball finalist or top 10</option><option value="stats">Has season stats</option></select>
+        <label for="pdhon">Honor</label><select id="pdhon"><option value="all">Any honor</option><option value="state">All-state</option><option value="first">All-state 1st team / Free Press Dream Team</option><option value="conf">All-conference (not HM)</option><option value="poy">League Player of the Year</option><option value="lsjdt">LSJ Dream Team / POY</option><option value="lsj">LSJ all-area (any)</option><option value="mr">Mr. Basketball winner</option><option value="mrf">Mr. Basketball finalist, top 10 or retro nominee</option><option value="stats">Has season stats</option></select>
         <label for="pdsort">Sort</label><select id="pdsort"><option value="class">Newest class</option><option value="honors">Most decorated</option><option value="name">Last name</option></select>
         <input type="search" id="pdq" placeholder="Search player" aria-label="Search player"><span class="eyebrow num" id="pdcount"></span>
       </div>
@@ -315,11 +321,11 @@ rep('<li><span class="acx-nm">${esc(p.name)}', '<li><span class="acx-nm">${plink
 # mrKind matched on last name only (Jay Vincent, Corey Henderson, Sandy Johnson came up as Mr. Basketball): use mrMatch
 rep("const m=(DATA.mr_basketball||[]).find(m=>areaId(m.school)===s.id&&last(m.name)===last(p.name));return m?(m.retro?'retro':'official'):null}",
     "const m=mrMatch(p,s);return m?(m.retro?'retro':'official'):null}")
-CARD_MR = "${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${mrfFor(p,s).map(mrfChip).join('')}"
-for old in ["${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}", "${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}", "${mk==='official'?'<span class=\"chip gold\">Mr. Basketball</span>':mk==='retro'?'<span class=\"chip gold\">Retro Mr. Basketball</span>':''}",
-            "${mk?`<span class=\"chip gold\">${mk==='retro'?'Retro ':''}Mr. Basketball${mrYear(p,s)?' '+mrYear(p,s):''}</span>`:''}"]:
-    if CARD_MR not in s: s = s.replace(old, CARD_MR)
-assert CARD_MR in s, 'notable card Mr. Basketball chip'
+CARD_MR = "${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${mrfFor(p,s).map(mrfChip).join('')}${mrnFor(p,s).map(mrnChip).join('')}"
+_k = s.find('<div class="meta">${mk')
+assert _k >= 0, 'notable card meta'
+_e = s.index('${honorChips(p)}', _k)
+s = s[:_k] + '<div class="meta">' + CARD_MR + s[_e:]
 rep("${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(",
     "${profFor(p.name,s.id)?`<a class=\"note\" href=\"#player-${profFor(p.name,s.id).id}\">Full profile →</a> `:''}${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(")
 
