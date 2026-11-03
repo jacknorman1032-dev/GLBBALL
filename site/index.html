@@ -1333,6 +1333,77 @@ function profScore(p){return (p.mr?100:0)+p.hon.reduce((a,h)=>a+Math.max(1,8-HON
 const PF_STATS=[['gp','GP',0],['pts','PTS',0],['ppg','PPG',1],['reb','REB',0],['rpg','RPG',1],['ast','AST',0],['apg','APG',1],['stl','STL',0],['spg','SPG',1],['blk','BLK',0],['bpg','BPG',1],['tpm','3PM',0],['fgm','FGM',0],['fga','FGA',0],['fg_pct','FG%',2],['ft_pct','FT%',2]];
 function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return typeof v==='number'?v.toFixed(1):esc(v);if(t===2)return typeof v==='number'?(v<=1?(v*100).toFixed(1):v.toFixed(1))+'%':esc(v);return esc(v)}
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}
+// auto "About" paragraph (Jack, Nov 3, 2026): honors, then the team's record and titles over the player's seasons on
+// record at his school, then his last season's averages. Counts are only stated when the data covers every one of those
+// seasons. player_stats.json can set "about" (custom text) or "about": false (no paragraph) for a player.
+function pfAbout(p){
+  const ex=p.ex||{};if(ex.about===false)return '';if(typeof ex.about==='string'&&ex.about.trim())return ex.about;
+  const s=byId[p.school];if(!s)return '';
+  const lastN=p.name.replace(/,? (Jr\.|Sr\.|II|III|IV)$/,'').split(' ').pop();
+  const NW=['','one','two','three','four','five','six','seven','eight'];
+  const and=a=>a.length>2?a.slice(0,-1).join(', ')+' and '+a.at(-1):a.join(' and ');
+  const yrs=a=>and([...new Set(a)].sort());
+  const plural=(n,w)=>n===1?'a '+w:n+' '+w+'s';
+  // ---- honors
+  const H=[];
+  if(p.mr)H.push(p.mr==='retro'?'a retroactive Mr. Basketball':'Mr. Basketball');
+  if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,lab=(b.selector==='Free Press'&&b.tier==='dream')?'Free Press Dream Team':b.selector+' '+HON_TIER[b.tier].short.toLowerCase();
+    H.push(ses.length>1?`a ${NW[ses.length]||ses.length}-time all-state pick (${lab} in ${b.season})`:`all-state in ${ses[0]} (${lab})`)}
+  const acTop=[...new Set(p.ac.filter(x=>['poy','first','second','third'].includes(x.team)).map(x=>x.season))],acHm=[...new Set(p.ac.filter(x=>['hm','sm'].includes(x.team)).map(x=>x.season))].filter(x=>!acTop.includes(x)),acPoy=[...new Set(p.ac.filter(x=>x.team==='poy').map(x=>x.season))];
+  if(acTop.length)H.push(`all-conference in ${yrs(acTop)}`+(acPoy.length?` (league Player of the Year in ${yrs(acPoy)})`:''));
+  if(acHm.length)H.push(`all-conference honorable mention in ${yrs(acHm)}`);
+  const aaS=t=>[...new Set(p.aa.filter(x=>t.includes(x.team)).map(x=>x.season))];
+  const aPoy=aaS(['poy']),aFin=aaS(['poyf']),aDt=aaS(['dream']),aAr=aaS(['first','second','area']).filter(x=>!aPoy.includes(x)&&!aFin.includes(x)&&!aDt.includes(x)),aHm=aaS(['hm']).filter(x=>![...aPoy,...aFin,...aDt,...aAr].includes(x));
+  const J=[];
+  if(aPoy.length)J.push(`Player of the Year in ${yrs(aPoy)}`);
+  if(aFin.length)J.push(`a Player of the Year finalist in ${yrs(aFin)}`);
+  if(aDt.length)J.push(`to the Dream Team in ${yrs(aDt)}`);
+  if(aAr.length)J.push(`all-area in ${yrs(aAr)}`);
+  if(aHm.length)J.push(`all-area honorable mention in ${yrs(aHm)}`);
+  const out=[];if(H.length)out.push(`${lastN} was ${and(H)}.`);
+  if(J.length)out.push(`${H.length?'The Lansing State Journal named him':'The Lansing State Journal named '+lastN} ${and(J)}.`);
+  // ---- team over his seasons on record at this school
+  const mine=[...p.hon,...p.ac,...p.aa,...p.lead].filter(x=>x.school===p.school).map(x=>x.season).concat((ex.seasons||[]).map(x=>x.season));
+  if(mine.length){
+    const y0=Math.min(...mine.map(x=>+x.slice(0,4))),y1=Math.max(...mine.map(x=>+x.slice(0,4)));
+    const away=new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school!==p.school).map(x=>x.season));
+    const span=[];for(let y=y0;y<=y1&&span.length<4;y++){const se=y+'-'+String(y+1).slice(-2);if(!away.has(se))span.push(se)}
+    const norm=x=>/^\d{4}-\d{4}$/.test(x)?x.slice(0,5)+x.slice(7):x;
+    const a=analyze(s),hs=honors(s),ts=s.tournament_summary||null,tsThru=ts&&ts.through_season?+ts.through_season.slice(0,4):-1;
+    const st=new Set(hs.champ.map(x=>norm(x.season))),ru=new Set(hs.ru.map(x=>norm(x.season))),ff=new Set(hs.ff.map(norm));
+    const recSe=[];let W=0,L=0,T=0,nRec=0,reg=false,distKnown=true,lgKnown=true,dist=0,regl=0,lg=0;const champ=[],runner=[],four=[];
+    span.forEach(se=>{
+      const gs=a&&a.seasons.find(x=>x.season===se&&x.n);
+      if(gs){W+=gs.w;L+=gs.l;T+=gs.t;nRec++;recSe.push(se)}
+      else{const r=ALLCONF.leagues.map(L=>L.season===se&&L.standings.find(r=>areaId(r[0])===s.id&&r[4]!=null)).find(Boolean);if(r){W+=r[4];L+=r[5];nRec++;reg=true;recSe.push(se)}}
+      const fin=gs&&gs.games.some(isPost)?gs.finish:null,y=+se.slice(0,4);
+      if(fin){if(fin!=='out')dist++;if(['reg','ff','ru','champ'].includes(fin))regl++}
+      else if(ts&&y<=tsThru){if((ts.district_titles||[]).map(norm).includes(se))dist++;if((ts.regional_titles||[]).map(norm).includes(se)||ff.has(se))regl++}
+      else distKnown=false;
+      const Ls=ALLCONF.leagues.filter(L=>L.season===se&&L.standings.some(r=>areaId(r[0])===s.id));
+      if(!Ls.length)lgKnown=false;else if(Ls.some(L=>L.standings.some(r=>areaId(r[0])===s.id&&r[3]===1)))lg++;
+      if(st.has(se))champ.push(se);else if(ru.has(se))runner.push(se);else if(ff.has(se))four.push(se);
+    });
+    const T2=[];
+    if(lgKnown&&lg)T2.push(plural(lg,'league title'));
+    if(distKnown&&dist)T2.push(plural(dist,'district title'));
+    if(distKnown&&regl)T2.push(plural(regl,'regional title'));
+    if(champ.length)T2.push(champ.length===1?`the ${champ[0]} state championship`:`state championships in ${yrs(champ)}`);
+    if(runner.length)T2.push(`a state runner-up finish${runner.length>1?'es':''} in ${yrs(runner)}`.replace('a state runner-up finishes','state runner-up finishes'));
+    if(four.length)T2.push(`${four.length===1?'a Final Four trip':'Final Four trips'} in ${yrs(four)}`);
+    const rs=reg?(recSe.length===1||nRec===span.length?' in the regular season':''):'';
+    const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
+    if(rec||T2.length){
+      const who=s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
+      out.push(`${when}, ${who} ${[rec,T2.length?(rec?'and ':'')+'won '+and(T2):''].filter(Boolean).join(' ')}.`)}
+  }
+  // ---- last season's averages
+  const ss=(ex.seasons||[]).filter(x=>x.ppg!=null).sort((a,b)=>b.season.localeCompare(a.season))[0];
+  if(ss){const g=p.gr[ss.season],yr={9:'freshman',10:'sophomore',11:'junior',12:'senior'}[g];
+    const st2=[['ppg','points'],['rpg','rebounds'],['apg','assists'],['spg','steals'],['bpg','blocks']].filter(([k])=>ss[k]!=null).map(([k,w])=>`${(+ss[k]).toFixed(1)} ${w}`);
+    out.push(`${yr&&!p.inf[ss.season]?'As a '+yr:'In '+ss.season} he averaged ${and(st2)}${ss.tpm!=null?` and made ${ss.tpm} 3-pointers`:''}.`)}
+  return out.join(' ');
+}
 function viewProfile(id){
   const p=PF.id[id];if(!p)return viewPlayers2();
   const s=byId[p.school],st=(p.ex&&p.ex.seasons)||[];
@@ -1354,7 +1425,8 @@ function viewProfile(id){
   const cols=PF_STATS.filter(([k])=>st.some(x=>x[k]!=null&&x[k]!==''));
   const tbl=cols.length?`<div class="block"><h2>Season stats</h2><div class="tbl"><table><thead><tr><th>Season</th><th>Gr</th>${cols.map(c=>`<th class="r">${c[1]}</th>`).join('')}</tr></thead><tbody>${st.slice().sort((a,b)=>a.season.localeCompare(b.season)).map(x=>`<tr><td>${esc(x.season)}</td><td>${p.gr[x.season]?GR_YR[p.gr[x.season]]:''}</td>${cols.map(([k,l,t])=>`<td class="r num">${pfVal(x,k,t)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`:'';
   const c=p.card,ex=p.ex||{};
-  const about=[ex.bio?`<p>${esc(ex.bio)}</p>`:'',c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
+  const auto=pfAbout(p);
+  const about=[auto?`<p>${esc(auto)}</p>`:'',ex.bio?`<p>${esc(ex.bio)}</p>`:'',c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
   const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
   const nSe=p.seasons.length;
   return `<section class="view">${head}
