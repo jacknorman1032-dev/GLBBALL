@@ -1,5 +1,5 @@
 {
- "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), poyf (Player of the Year finalist; 2020-21 and 2021-22 named three finalists and no winner), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
+ "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), poyf (Player of the Year finalist; 2018-19, 2020-21 and 2021-22 named three finalists and no winner), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
  "seasons": [
   {
    "season": "2025-26",
@@ -77,6 +77,19 @@
    },
    "left_out": "Five Dream Team picks and the overall Coach of the Year, and all-area picks and coaches from schools the site doesn't cover, including every Division 3 and 4 pick.",
    "src": "These are the Greater Lansing boys basketball Dream Team and all-area selections, 2020-21 (Lansing State Journal, Brian Calloway, updated May 9, 2021)"
+  },
+  {
+   "season": "2018-19",
+   "teams_note": "Three Player of the Year finalists (the winner was announced later, at the LSJ Sports Awards), a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
+   "full_counts": {
+    "poyf": 3,
+    "dream": 3,
+    "area": 35,
+    "hm": 55,
+    "coy": 7
+   },
+   "left_out": "One Player of the Year finalist, two Dream Team picks and the overall Coach of the Year, and all-area picks and coaches from schools the site doesn't cover, including every Division 3 and 4 pick.",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
   }
  ],
  "picks": [
@@ -2716,6 +2729,451 @@
    "grade": "",
    "src": "These are the Greater Lansing boys basketball Dream Team and all-area selections, 2020-21 (Lansing State Journal, Brian Calloway, updated May 9, 2021)",
    "note": "Division 2 co-Coach of the Year with Mark McDaniel."
+  },
+  {
+   "season": "2018-19",
+   "name": "Sean Cobb",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
+   "note": "One of three LSJ Player of the Year finalists; the winner was to be announced at the LSJ Sports Awards in June."
+  },
+  {
+   "season": "2018-19",
+   "name": "Evan Thomas",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
+   "note": "One of three LSJ Player of the Year finalists; the winner was to be announced at the LSJ Sports Awards in June."
+  },
+  {
+   "season": "2018-19",
+   "name": "Nathan Flannery",
+   "listed_as": "Nate Flannery",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Andrel Anthony, Jr.",
+   "listed_as": "Andrel Anthony",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Shamar Howard",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Isaac Hungerford",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Javel Lewis",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Albert Mask",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Noah Pruitt",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Sabastian Washington",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Mason Gilbert",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Zach Hetfield",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Jared Houghton",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Alex Jordan",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Garren Lattig",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Fabian Leone",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Jack Morse",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Jalon Payne",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Josiah Shamsideen",
+   "listed_as": "Josiah Shamsiddeen",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Kody Thomas",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Mason Docks",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Joseph Hahnenberg",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Blake Lampman",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Mitchell Mowid",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Diante Smith",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Alex Watters",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Ty Andrades",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Justin Bates",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Zach Dassance",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Emmanuel Jones",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Geoffrey Knaggs",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Josh Kramer",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Sam Laczynski",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Charlie Nylander",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Owen Russell",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Jacob Wallace",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Brendan Young",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)"
+  },
+  {
+   "season": "2018-19",
+   "name": "Bill Flannery",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
+   "note": "Division 1 co-Coach of the Year with Jeff Wonch."
+  },
+  {
+   "season": "2018-19",
+   "name": "Jeff Wonch",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
+   "note": "Division 1 co-Coach of the Year with Bill Flannery."
+  },
+  {
+   "season": "2018-19",
+   "name": "Chris Smith",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "coy",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
+   "note": "Division 2 co-Coach of the Year with a coach from a school the site doesn't cover."
   }
  ]
 }

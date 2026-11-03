@@ -592,6 +592,59 @@
      "src": "Lansing State Journal Dream Team, May 9, 2021"
     }
    ]
+  },
+  {
+   "name": "Sean Cobb",
+   "school": "williamston",
+   "grad_year": "2019",
+   "bio": "Forward on Williamston's 2018-19 CAAC Red champions (20-2). Signed with Grand Valley State.",
+   "seasons": [
+    {
+     "season": "2018-19",
+     "grade": "12",
+     "ppg": 12.9,
+     "rpg": 7.5,
+     "apg": 2.2,
+     "bpg": 2.1,
+     "fg_pct": 0.58,
+     "src": "Lansing State Journal Dream Team, April 14, 2019"
+    }
+   ],
+   "pos": "F"
+  },
+  {
+   "name": "Evan Thomas",
+   "school": "okemos",
+   "grad_year": "2019",
+   "bio": "Led Okemos to the 2018-19 CAAC Blue title, a 23-3 record and the Division 1 state semifinals.",
+   "seasons": [
+    {
+     "season": "2018-19",
+     "grade": "12",
+     "ppg": 17.3,
+     "rpg": 9.0,
+     "tpm": 37,
+     "src": "Lansing State Journal Dream Team, April 14, 2019"
+    }
+   ]
+  },
+  {
+   "name": "Nathan Flannery",
+   "school": "dewitt",
+   "grad_year": "2019",
+   "bio": "Point guard on DeWitt's 2018-19 team (20-4), which won the school's first district title since 2007. Committed to Spring Arbor.",
+   "seasons": [
+    {
+     "season": "2018-19",
+     "grade": "12",
+     "ppg": 11.6,
+     "rpg": 4.3,
+     "apg": 4.0,
+     "spg": 2.5,
+     "src": "Lansing State Journal Dream Team, April 14, 2019"
+    }
+   ],
+   "pos": "PG"
   }
  ]
 }
