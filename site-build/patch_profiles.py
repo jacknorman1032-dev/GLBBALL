@@ -38,17 +38,18 @@ function mrYear(p,s){const m=mrMatch(p,s);return m?m.year:''}
 const MRV=__MRV__;
 const ORD=n=>n+(['th','st','nd','rd'][(n%100>10&&n%100<14)?0:n%10]||'th');
 function mrfFor(p,s){const a=mrToks(p.name);return (MRV.finalists||[]).filter(f=>{const b=mrToks(f.name);return f.school===s.id&&a.at(-1)===b.at(-1)&&b.slice(0,-1).some(w=>a.slice(0,-1).includes(w))})}
-function mrfChip(f){return `<span class="chip" title="${esc(MRV.src||'')}">${esc(f.year)} Hal Schram Mr. Basketball Finalist${f.place?' ('+ORD(f.place)+')':''}</span>`}
+function mrfChip(f){return `<span class="chip" title="${esc((f.points?f.points+' points · ':'')+(f.src||MRV.src||''))}">${esc(f.year)} Hal Schram Mr. Basketball Finalist${f.place?' ('+ORD(f.place)+')':''}</span>`}
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
   const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
   const aka={};PSTATS.players.forEach(x=>(x.aka||[]).forEach(a=>aka[pkey(a)+'|'+x.school]=pkey(x.name)));
   const keyOf=(n,sc,se)=>{let k=pkey(n);k=aka[k+'|'+sc]||k;const h=home[k+'|'+sc],y=se?+String(se).slice(0,4):null;return k+'|'+(h&&(y==null||(y>=h.a&&y<=h.b))?h.id:sc)};
   const M=new Map();
-  const get=(n,sc,se)=>{const k=keyOf(n,sc,se);if(!M.has(k))M.set(k,{k,school:k.split('|')[1],names:[],hon:[],ac:[],aa:[],lead:[],ex:null});return M.get(k)};
+  const get=(n,sc,se)=>{const k=keyOf(n,sc,se);if(!M.has(k))M.set(k,{k,school:k.split('|')[1],names:[],hon:[],ac:[],aa:[],lead:[],mrS:[],ex:null});return M.get(k)};
   HON.forEach(h=>{if(!byId[h.school])return;const p=get(h.name,h.school,h.season);p.hon.push(h);p.names.push([h.season,h.name])});
   AC_PLAYERS.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school,x.season);p.ac.push(x);p.names.push([x.season,x.name])});
   PF_AA.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school,x.season);p.aa.push(x);p.names.push([x.season,x.name])});
+  (MRV.finalists||[]).forEach(f=>{if(!byId[f.school])return;const se=(+f.year-1)+'-'+String(f.year).slice(-2);const p=get(f.name,f.school,se);p.mrS.push(se);p.names.push([se,f.name])});
   PSTATS.players.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school);p.ex=x;p.names.push(['9999',x.name])});
   AC_LEAD.forEach(x=>{if(!x.school)return;const k=keyOf(x.name,x.school,x.season);if(M.has(k))M.get(k).lead.push(x)});
   const list=[...M.values()],seen={};
@@ -61,11 +62,12 @@ const PF=(()=>{
     p.aa.forEach(x=>{if(x.grade&&!p.gr[x.season])p.gr[x.season]=+x.grade});
     p.hon.forEach(h=>{if(YR_GR[h.yr]&&!p.gr[h.season])p.gr[h.season]=YR_GR[h.yr]});
     ((p.ex&&p.ex.seasons)||[]).forEach(x=>{if(x.grade)p.gr[x.season]=+x.grade});
+    p.mrS.forEach(se=>{if(!p.gr[se])p.gr[se]=12});
     const gy={};Object.entries(p.gr).forEach(([se,g])=>{const y=+se.slice(0,4)+13-g;gy[y]=(gy[y]||0)+1});
     let grad=(p.ex&&p.ex.grad_year)||(p.card&&parseInt(p.card.grad_year)?String(parseInt(p.card.grad_year)):'');
     if(!grad){const ys=Object.keys(gy).sort((a,b)=>gy[b]-gy[a]||b-a);if(ys.length)grad=ys[0]}
     p.grad=grad;p.gradNote=Object.keys(gy).length>1?'Printed grades disagree ('+Object.keys(gy).map(y=>'Class of '+y).join(' vs. ')+')':'';
-    p.seasons=[...new Set([...p.hon,...p.ac,...p.aa,...p.lead,...((p.ex&&p.ex.seasons)||[])].map(x=>x.season))].sort();
+    p.seasons=[...new Set([...p.hon,...p.ac,...p.aa,...p.lead,...p.mrS.map(season=>({season})),...((p.ex&&p.ex.seasons)||[])].map(x=>x.season))].sort();
     if(grad)p.seasons.forEach(se=>{if(!p.gr[se]){const g=+se.slice(0,4)+13-(+grad);if(g>=9&&g<=12){p.gr[se]=g;p.inf[se]=1}}});
     const pos={};p.ac.forEach(x=>{if(x.pos)pos[x.pos]=(pos[x.pos]||0)+1});
     p.pos=(p.ex&&p.ex.pos)||Object.keys(pos).sort((a,b)=>pos[b]-pos[a])[0]||'';
@@ -114,7 +116,7 @@ function pfAbout(p){
   // ---- honors
   const H=[];
   if(p.mr)H.push(p.mr==='retro'?`the ${p.mry} BCAM Retro Mr. Basketball`:`the ${p.mry} Hal Schram Mr. Basketball`);
-  p.mrf.forEach(f=>H.push(`a ${f.year} Hal Schram Mr. Basketball finalist${f.place?' ('+ORD(f.place)+' in the voting)':''}`));
+  p.mrf.forEach(f=>H.push(`a ${f.year} Hal Schram Mr. Basketball finalist${f.place?' ('+ORD(f.place)+' in the voting'+(f.points?', '+f.points+' points':'')+')':''}`));
   const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team','Hon. Mention':'honorable mention'};
   if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
     const lab=b.tier==='dream'?`${b.selector} all-class Dream Team`:`${b.selector} ${b.level&&!/dream/i.test(b.level)?b.level+' ':''}${TW[sh]||sh.toLowerCase()}`;
@@ -183,7 +185,8 @@ function pfAbout(p){
     const rs=reg?(recSe.length===1||nRec===span.length?' in the regular season':''):'';
     const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
     if(rec||T2.length||R2.length){
-      const who=s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
+      const oldNick=s.id==='okemos'&&+span[0].slice(0,4)<2022;// Okemos were the Chiefs until the early 2020s (now Wolves)
+      const who=s.nickname&&!oldNick?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
       const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
       out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
@@ -222,7 +225,7 @@ function viewProfile(id){
   const auto=pfAbout(p);
   const custom=typeof ex.about==='string'&&ex.about.trim();
   const about=[auto?auto.split(/\n\s*\n/).map(t=>`<p>${esc(t.trim())}</p>`).join(''):'',!custom&&ex.bio?`<p>${esc(ex.bio)}</p>`:'',!custom&&c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
-  const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
+  const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.mrf.map(f=>f.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
   const nSe=p.seasons.length;
   return `<section class="view">${head}
     ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);

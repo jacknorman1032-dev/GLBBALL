@@ -1,5 +1,5 @@
 {
- "_note": "Hal Schram Mr. Basketball voting places for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: 2 = runner-up; null when the source lists a player without a place. 'listed' on each year is how many players the source names that year (winner included). The source names no runners-up for 1981-2003, 2006 and 2007 and only some for 2008-10, so finalists from those years are missing until another source fills them in.",
+ "_note": "Hal Schram Mr. Basketball voting places for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: 2 = runner-up; null when the source lists a player without a place. 'listed' on each year is how many players the source names that year (winner included). The detroitpslbasketball.com page names no runners-up for 1981-2007 (2006 comes from BCAM's vote totals) and only some for 2008-10, so finalists from those years are missing until another source fills them in. points: total voting points when the source gives them.",
  "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026",
  "years": {
   "2026": 5,
@@ -18,9 +18,20 @@
   "2013": 5,
   "2012": 5,
   "2011": 5,
-  "2008": 3
+  "2008": 3,
+  "2006": 10
  },
  "finalists": [
+  {
+   "year": "2006",
+   "name": "Johnathon Jones",
+   "school": "okemos",
+   "place": 4,
+   "points": 207,
+   "src": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026",
+   "note": "Top-five vote-getter (Free Press 'fab five'); 289 ballots.",
+   "listed_as": "Jonathan Jones"
+  },
   {
    "year": "2011",
    "name": "LaDontae Henton",
@@ -50,5 +61,8 @@
    "listed_as": "Brandon Johns",
    "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
   }
- ]
+ ],
+ "sources": {
+  "2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026"
+ }
 }
