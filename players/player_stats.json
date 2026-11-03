@@ -5,8 +5,16 @@
    "name": "Kelvin (KJ) Torbert, Jr.",
    "school": "east-lansing",
    "grad_year": "2026",
-   "bio": "Michigan's 2026 Mr. Basketball and the Michigan Sports Writers' Division 1 player of the year. Led East Lansing to CAAC Blue, district and regional titles and the Division 1 state final as a senior. Signed with Bowling Green.",
+   "bio": "Michigan's 2026 Mr. Basketball and the Michigan Sports Writers' Division 1 player of the year. Led East Lansing to CAAC Blue, district and regional titles and the Division 1 state final as a senior. Signed with Bowling Green. Passed 1,000 career points as a junior and entered his senior season with 1,253.",
    "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "11",
+     "ppg": 21.0,
+     "rpg": 6.0,
+     "spg": 2.5,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    },
     {
      "season": "2025-26",
      "grade": "12",
@@ -105,6 +113,14 @@
    "bio": "Finished as Sexton's career scoring leader with 1,967 points. Michigan Sports Writers first-team all-state in Division 2; led Sexton to CAAC White and district titles as a senior.",
    "seasons": [
     {
+     "season": "2024-25",
+     "grade": "11",
+     "ppg": 19.8,
+     "tpm": 46,
+     "ft_pct": 0.76,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    },
+    {
      "season": "2025-26",
      "grade": "12",
      "ppg": 21.7,
@@ -116,8 +132,15 @@
    "name": "Derek Thomas, II",
    "school": "waverly",
    "grad_year": "2026",
-   "bio": "Made 33 3-pointers and shot 80% at the line as a senior. Committed to Lansing Community College.",
+   "bio": "Made 33 3-pointers and shot 80% at the line as a senior. Committed to Lansing Community College. Waverly went 20-4 and finished second in the CAAC Blue in his junior season.",
    "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "11",
+     "ppg": 16.7,
+     "rpg": 6.4,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    },
     {
      "season": "2025-26",
      "grade": "12",
@@ -141,6 +164,85 @@
      "ppg": 14.0,
      "rpg": 6.0,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Cameron Hutson",
+   "school": "east-lansing",
+   "grad_year": "2025",
+   "bio": "Finished his career with 1,589 points after leading East Lansing to the 2025 Division 1 state title. Signed with Saint Louis.",
+   "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "12",
+     "ppg": 20.0,
+     "rpg": 8.0,
+     "bpg": 2.0,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    }
+   ]
+  },
+  {
+   "name": "Cason Carswell",
+   "school": "mason",
+   "grad_year": "2025",
+   "bio": "Finished fifth on Mason's career scoring list; helped the Bulldogs win the 2024-25 CAAC Red title.",
+   "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "12",
+     "ppg": 18.4,
+     "rpg": 7.9,
+     "apg": 5.9,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    }
+   ]
+  },
+  {
+   "name": "Christian Chiou",
+   "school": "okemos",
+   "grad_year": "2025",
+   "bio": "Helped Okemos win a district title as a senior.",
+   "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "12",
+     "ppg": 13.8,
+     "apg": 3.0,
+     "spg": 2.2,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    }
+   ]
+  },
+  {
+   "name": "Kaden Dickerson",
+   "school": "portland",
+   "grad_year": "2026",
+   "bio": "Forward on Portland's 2024-25 CAAC White and district champions.",
+   "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "11",
+     "ppg": 11.7,
+     "rpg": 10.0,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
+    }
+   ]
+  },
+  {
+   "name": "Levi Stambaugh",
+   "school": "mason",
+   "grad_year": "2025",
+   "bio": "Mason's career scoring leader (1,104 points) and its single-season and career leader in 3-pointers made.",
+   "seasons": [
+    {
+     "season": "2024-25",
+     "grade": "12",
+     "ppg": 18.8,
+     "spg": 2.5,
+     "tpm": 78,
+     "src": "Lansing State Journal Dream Team, May 4, 2025"
     }
    ]
   }

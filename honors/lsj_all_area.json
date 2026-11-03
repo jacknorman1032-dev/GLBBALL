@@ -12,6 +12,19 @@
    },
    "left_out": "One Dream Team pick and the overall Coach of the Year (both Pewamo-Westphalia), and all-area picks from schools the site doesn't cover, including every Division 3 and 4 pick.",
    "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2024-25",
+   "teams_note": "Co-Players of the Year, a nine-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team and coach for each of Divisions 1-4; Division 2 also had an honorable mention list.",
+   "full_counts": {
+    "poy": 2,
+    "dream": 9,
+    "area": 45,
+    "hm": 9,
+    "coy": 4
+   },
+   "left_out": "Three Dream Team picks and all-area picks from schools the site doesn't cover, including every Division 3 and 4 pick.",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
   }
  ],
  "picks": [
@@ -411,6 +424,394 @@
    "division": "Division 2",
    "grade": "",
    "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Cameron Hutson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)",
+   "note": "Co-Player of the Year with KJ Torbert."
+  },
+  {
+   "season": "2024-25",
+   "name": "Kelvin (KJ) Torbert, Jr.",
+   "listed_as": "KJ Torbert",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "poy",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)",
+   "note": "Co-Player of the Year with Cameron Hutson."
+  },
+  {
+   "season": "2024-25",
+   "name": "Cason Carswell",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Christian Chiou",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Kaden Dickerson",
+   "listed_as": "Kayden Dickerson",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)",
+   "note": "Spelled Kayden on the LSJ list; Kaden on the CAAC all-conference list."
+  },
+  {
+   "season": "2024-25",
+   "name": "Levi Stambaugh",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Keyshawn Summerville",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Derek Thomas, II",
+   "listed_as": "Derek Thomas II",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Jayce (JL) Branson",
+   "listed_as": "JL Branson",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Nizjai Davidson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Myles Edmond",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Landon Kurncz",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "De'Shawnta Malone",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Marrion May-Cook",
+   "listed_as": "Marrion May",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Brandon Mercer, II",
+   "listed_as": "Brandon Mercer",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Alex Moran",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Xavier Pendergrass",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Christian Pickens",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Kingston Thomas",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Evan Colosky",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Evan Gross",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Erik Lardie",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Mario Murray",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Bryce Pratl",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Travis Satterla",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Wyatt Soli",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Drew Tolfree",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Wardrell Wicker",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Luke Blattert",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Seth Hahnenberg",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Hunter Kinkema",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Zach Kulesza",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Ray Mitchell",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Rod Watts",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
+  },
+  {
+   "season": "2024-25",
+   "name": "Luke Pohl",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "coy",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing high school boys basketball Dream Team and all-area, 2024-25 (Lansing State Journal, Brian Calloway, updated May 4, 2025)"
   }
  ]
 }
