@@ -25,6 +25,12 @@ def rep(a, b, optional=False):
 CODE = r'''// ---- player profiles (patch_profiles.py)
 const PSTATS=__PSTATS__;
 const PF_AA=typeof AA_PLAYERS!=='undefined'?AA_PLAYERS:[];
+// Mr. Basketball year (DATA.mr_basketball), matched the same way as mrKind
+// match: same school, same last name, and a first name or nickname in common ("KJ Torbert" = "Kelvin (KJ) Torbert, Jr.";
+// Sam and Jay Vincent, Robert and Corey Henderson, Magic and Sandy Johnson are different people)
+function mrToks(x){return String(x).toLowerCase().replace(/["'(),.]/g,' ').split(/\s+/).filter(w=>w&&!/^(jr|sr|ii|iii|iv)$/.test(w))}
+function mrMatch(p,s){const a=mrToks(p.name);return (DATA.mr_basketball||[]).find(m=>{const b=mrToks(m.name);return areaId(m.school)===s.id&&a.at(-1)===b.at(-1)&&b.slice(0,-1).some(w=>a.slice(0,-1).includes(w))})||null}
+function mrYear(p,s){const m=mrMatch(p,s);return m?m.year:''}
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
   const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
@@ -59,7 +65,7 @@ const PF=(()=>{
     p.top=p.ac.filter(x=>['poy','first','second','third'].includes(x.team)).length;
     p.poy=p.ac.filter(x=>x.team==='poy').length;
     p.aab=p.aa.slice().sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank)[0]||null;p.dream=p.aa.filter(x=>x.team==='dream'||x.team==='poy'||x.team==='poyf').length;
-    p.mr=mrKind(p.card||{name:p.name},s);
+    p.mr=mrKind(p.card||{name:p.name},s);p.mry=p.mr?mrYear(p.card||{name:p.name},s):'';
     p.id=p.school+'--'+pkey(p.name).replace(/ /g,'-');
     if(seen[p.id])p.id+='-'+(++seen[p.id]);else seen[p.id]=1;
   });
@@ -70,7 +76,7 @@ function profFor(n,sc,se){return sc?PF.by[PF.keyOf(n,sc,se)]||null:null}
 function plink(n,sc,se){const p=profFor(n,sc,se);return p?`<a class="plink" href="#player-${p.id}">${esc(n)}</a>`:esc(n)}
 function profChips(p){
   const b=p.best;
-  return (p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball</span>`:'')+
+  return (p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball${p.mry?' '+p.mry:''}</span>`:'')+
     (b?`<span class="chip${b.tier==='first'||b.tier==='dream'?' gold':''}" title="${esc(p.hon.map(h=>h.season+' '+h.selector+' '+HON_TIER[h.tier].short).join('\n'))}">${esc(b.selector+' '+HON_TIER[b.tier].short)}${p.hon.length>1?' ×'+p.hon.length:''}</span>`:'')+
     (p.poy?`<span class="chip gold">League POY${p.poy>1?' ×'+p.poy:''}</span>`:'')+
     (p.top?`<span class="chip full">All-Conf.${p.top>1?' ×'+p.top:''}</span>`:p.ac.length?`<span class="chip">All-Conf. HM${p.ac.length>1?' ×'+p.ac.length:''}</span>`:'')+
@@ -98,7 +104,7 @@ function pfAbout(p){
   const plural=(n,w)=>n===1?'a '+w:n+' '+w+'s';
   // ---- honors
   const H=[];
-  if(p.mr)H.push(p.mr==='retro'?'a retroactive Mr. Basketball':'Mr. Basketball');
+  if(p.mr)H.push(p.mr==='retro'?`BCAM's retroactive Mr. Basketball for ${p.mry}`:`Michigan's ${p.mry} Mr. Basketball`);
   const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team','Hon. Mention':'honorable mention'};
   if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
     const lab=b.tier==='dream'?`${b.selector} all-class Dream Team`:`${b.selector} ${b.level&&!/dream/i.test(b.level)?b.level+' ':''}${TW[sh]||sh.toLowerCase()}`;
@@ -209,7 +215,7 @@ function viewProfile(id){
   return `<section class="view">${head}
     ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);
       return `<div class="board pfboard" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(c=>`<div><span class="v">${c[0]}</span><span class="k">${c[1]}</span></div>`).join('')}</div>`})()}
-    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
+    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball${p.mry?' '+p.mry:''}</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
     <div class="block"><h2>Season by season</h2><div class="pf-tl">${rows}</div>${p.gradNote?`<p class="note">${esc(p.gradNote)}; the class year shown uses the most common one.</p>`:''}</div>
     ${tbl||`<p class="note">No season stats on file yet.</p>`}
     ${about?`<div class="block"><h2>About</h2>${about}</div>`:''}
@@ -290,6 +296,11 @@ rep('<li><span class="acn">${esc(h.name)} <span class="note">${r.a.length} selec
 rep('return `<li><span class="acn">${esc(n)}</span><span class="meta">${hs.map(', 'return `<li><span class="acn">${plink(n,hs[0].school,hs[0].season)}</span><span class="meta">${hs.map(')
 rep(">${esc(p.x.name)}${p.mvp?'<b>MVP</b>':''}", ">${plink(p.x.name,p.x.school,p.x.season)}${p.mvp?'<b>MVP</b>':''}")
 rep('<li><span class="acx-nm">${esc(p.name)}', '<li><span class="acx-nm">${plink(p.name,sid,p.last)}')
+# mrKind matched on last name only (Jay Vincent, Corey Henderson, Sandy Johnson came up as Mr. Basketball): use mrMatch
+rep("const m=(DATA.mr_basketball||[]).find(m=>areaId(m.school)===s.id&&last(m.name)===last(p.name));return m?(m.retro?'retro':'official'):null}",
+    "const m=mrMatch(p,s);return m?(m.retro?'retro':'official'):null}")
+rep("${mk==='official'?'<span class=\"chip gold\">Mr. Basketball</span>':mk==='retro'?'<span class=\"chip gold\">Retro Mr. Basketball</span>':''}",
+    "${mk?`<span class=\"chip gold\">${mk==='retro'?'Retro ':''}Mr. Basketball${mrYear(p,s)?' '+mrYear(p,s):''}</span>`:''}")
 rep("${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(",
     "${profFor(p.name,s.id)?`<a class=\"note\" href=\"#player-${profFor(p.name,s.id).id}\">Full profile →</a> `:''}${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(")
 
