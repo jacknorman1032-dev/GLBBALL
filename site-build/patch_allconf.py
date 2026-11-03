@@ -26,7 +26,7 @@ else:
 # ---- nav and router
 rep('<a href="#honors">Honors</a>\n', '<a href="#honors">Honors</a>\n    <a href="#allconf">All-Conference</a>\n')
 if 'allconf:viewAllConf' not in s: rep('honors:viewHonors,', 'honors:viewHonors,allconf:viewAllConf,')
-if 'honors:viewHonors2,' not in s: rep('honors:viewHonors,allconf:viewAllConf,', 'honors:viewHonors2,allconf:viewAllConf,')
+if 'honors:viewHonors2,' not in s and 'honors:viewHonors3,' not in s: rep('honors:viewHonors,allconf:viewAllConf,', 'honors:viewHonors2,allconf:viewAllConf,')
 
 # ---- helpers and view
 CODE = r'''
@@ -312,7 +312,9 @@ for var in ('DATA', 'ALLCONF'):
     D = json.loads(s[i:j]); walk(D)
     if var == 'DATA':
         # school-specific renames (Jack, Nov 2, 2026) for names that come from the build's honors file
-        RENAME = {('sexton', 'Kivon Brown'): 'Kivon Brown, Jr.', ('sexton', 'Willie Brown'): 'Willie Brown, Jr.'}
+        RENAME = {('sexton', 'Kivon Brown'): 'Kivon Brown, Jr.', ('sexton', 'Willie Brown'): 'Willie Brown, Jr.',
+                  # Jack, Nov 3, 2026: Kayden is the correct spelling (BCAM printed Kaden; kept in listed_as)
+                  ('portland', 'Kaden Dickerson'): 'Kayden Dickerson'}
         # player-card fixes (Jack, Nov 2, 2026): Paul Stoll was a senior in 2002-03 (LSJ CAC all-league), so Class of 2003
         GRAD = {('east-lansing', 'Paul Stoll'): '2003'}
         for sc in D['schools']:

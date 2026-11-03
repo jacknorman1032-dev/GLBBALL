@@ -106,12 +106,8 @@ function viewProfile(id){
   const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
   const nSe=p.seasons.length;
   return `<section class="view">${head}
-    <div class="board pfboard">
-      <div><span class="v">${p.hon.length}</span><span class="k">All-state</span></div>
-      <div><span class="v">${p.top}</span><span class="k">All-conf.</span></div>
-      <div><span class="v">${p.ac.length-p.top}</span><span class="k">Hon. mention</span></div>
-      <div><span class="v">${nSe}</span><span class="k">Season${nSe===1?'':'s'}</span></div>
-    </div>
+    ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);
+      return `<div class="board pfboard" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(c=>`<div><span class="v">${c[0]}</span><span class="k">${c[1]}</span></div>`).join('')}</div>`})()}
     ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
     <div class="block"><h2>Season by season</h2><div class="pf-tl">${rows}</div>${p.gradNote?`<p class="note">${esc(p.gradNote)}; the class year shown uses the most common one.</p>`:''}</div>
     ${tbl||`<p class="note">No season stats on file yet.</p>`}
