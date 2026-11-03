@@ -314,7 +314,9 @@ for var in ('DATA', 'ALLCONF'):
         # school-specific renames (Jack, Nov 2, 2026) for names that come from the build's honors file
         RENAME = {('sexton', 'Kivon Brown'): 'Kivon Brown, Jr.', ('sexton', 'Willie Brown'): 'Willie Brown, Jr.',
                   # Jack, Nov 3, 2026: Kayden is the correct spelling (BCAM printed Kaden; kept in listed_as)
-                  ('portland', 'Kaden Dickerson'): 'Kayden Dickerson'}
+                  ('portland', 'Kaden Dickerson'): 'Kayden Dickerson',
+                  # BCAM 2019-20 printed 'Browson Sysum' (Eaton Rapids); he is Bronson Sysum on the CAAC and LSJ lists
+                  ('eaton-rapids', 'Browson Sysum'): 'Bronson Sysum'}
         # player-card fixes (Jack, Nov 2, 2026): Paul Stoll was a senior in 2002-03 (LSJ CAC all-league), so Class of 2003
         GRAD = {('east-lansing', 'Paul Stoll'): '2003'}
         for sc in D['schools']:

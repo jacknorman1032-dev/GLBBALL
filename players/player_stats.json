@@ -433,8 +433,19 @@
    "name": "Mason Docks",
    "school": "williamston",
    "grad_year": "2022",
-   "bio": "AP Division 2 Player of the Year in 2022, when Williamston went 27-0 for its first state title since 1940. Scored more than 1,000 points in three seasons at Williamston. Committed to UMBC.",
+   "bio": "AP Division 2 first-team all-state as a sophomore, when Williamston went 20-2 for its eighth straight league title. AP Division 2 Player of the Year in 2022, when Williamston went 27-0 for its first state title since 1940. Scored more than 1,000 points in three seasons at Williamston. Committed to UMBC.",
    "seasons": [
+    {
+     "season": "2019-20",
+     "grade": "10",
+     "ppg": 19.2,
+     "rpg": 2.6,
+     "apg": 3.4,
+     "spg": 2.0,
+     "tpm": 48,
+     "ft_pct": 0.82,
+     "src": "Lansing State Journal Dream Team, April 12, 2020"
+    },
     {
      "season": "2021-22",
      "grade": "12",
@@ -512,8 +523,15 @@
    "name": "Marcus Wourman, Jr.",
    "school": "east-lansing",
    "grad_year": "2021",
-   "bio": "Led East Lansing to district and regional titles as a senior.",
+   "bio": "East Lansing went 19-2 and finished second in the CAAC Blue in his junior season. Led East Lansing to district and regional titles as a senior.",
    "seasons": [
+    {
+     "season": "2019-20",
+     "grade": "11",
+     "ppg": 14.2,
+     "apg": 5.0,
+     "src": "Lansing State Journal Dream Team, April 12, 2020"
+    },
     {
      "season": "2020-21",
      "grade": "12",
@@ -645,6 +663,39 @@
     }
    ],
    "pos": "PG"
+  },
+  {
+   "name": "Shamar Howard",
+   "school": "everett",
+   "grad_year": "2020",
+   "bio": "Passed 1,000 career points as a senior, when Everett went 13-9 and finished third in the CAAC Blue.",
+   "seasons": [
+    {
+     "season": "2019-20",
+     "grade": "12",
+     "ppg": 24.2,
+     "rpg": 7.3,
+     "apg": 5.0,
+     "spg": 3.7,
+     "tpm": 30,
+     "src": "Lansing State Journal Dream Team, April 12, 2020"
+    }
+   ]
+  },
+  {
+   "name": "Noah Pruitt",
+   "school": "okemos",
+   "grad_year": "2020",
+   "bio": "Senior guard on Okemos' third straight CAAC Blue champion (18-4).",
+   "seasons": [
+    {
+     "season": "2019-20",
+     "grade": "12",
+     "ppg": 12.8,
+     "apg": 4.6,
+     "src": "Lansing State Journal Dream Team, April 12, 2020"
+    }
+   ]
   }
  ]
 }
