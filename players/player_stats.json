@@ -696,6 +696,72 @@
      "src": "Lansing State Journal Dream Team, April 12, 2020"
     }
    ]
+  },
+  {
+   "name": "Jordan Henry",
+   "school": "okemos",
+   "grad_year": "2018",
+   "bio": "Led Okemos to CAAC Blue and district titles (20-5) as a senior. Went on to Roberts Wesleyan.",
+   "seasons": [
+    {
+     "season": "2017-18",
+     "grade": "12",
+     "ppg": 20.3,
+     "tpm": 58,
+     "ft_pct": 0.75,
+     "src": "Lansing State Journal Dream Team, April 15, 2018"
+    }
+   ],
+   "pos": "G"
+  },
+  {
+   "name": "Brandon Johns, Jr.",
+   "school": "east-lansing",
+   "grad_year": null,
+   "bio": "Finished his career with more than 1,800 points; East Lansing went 22-4 with district and regional titles his senior year.",
+   "seasons": [
+    {
+     "season": "2017-18",
+     "grade": "12",
+     "ppg": 26.0,
+     "rpg": 10.1,
+     "fg_pct": 0.61,
+     "src": "Lansing State Journal Dream Team, April 15, 2018"
+    }
+   ]
+  },
+  {
+   "name": "Cole Kleiver",
+   "school": "williamston",
+   "grad_year": "2018",
+   "bio": "Raised his scoring by eight points a game as a senior, when Williamston went 22-3 with CAAC White, district and regional titles. Committed to Alma College.",
+   "seasons": [
+    {
+     "season": "2017-18",
+     "grade": "12",
+     "ppg": 24.2,
+     "rpg": 3.2,
+     "apg": 3.7,
+     "spg": 2.0,
+     "src": "Lansing State Journal Dream Team, April 15, 2018"
+    }
+   ],
+   "pos": "G"
+  },
+  {
+   "name": "Al McCready",
+   "school": "grand-ledge",
+   "grad_year": "2018",
+   "bio": "Unanimous all-CAAC Blue pick as a senior, when Grand Ledge improved by eight wins to 15-6.",
+   "seasons": [
+    {
+     "season": "2017-18",
+     "grade": "12",
+     "ppg": 13.5,
+     "rpg": 7.2,
+     "src": "Lansing State Journal Dream Team, April 15, 2018"
+    }
+   ]
   }
  ]
 }
