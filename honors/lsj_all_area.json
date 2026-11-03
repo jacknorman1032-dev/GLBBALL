@@ -1,5 +1,5 @@
 {
- "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), poyf (Player of the Year finalist; 2017-18 through 2021-22 named three finalists and no winner), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
+ "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), poyf (Player of the Year finalist; 2016-17 through 2021-22 named three finalists and no winner), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
  "seasons": [
   {
    "season": "2025-26",
@@ -116,6 +116,19 @@
    },
    "left_out": "Two Dream Team picks and one co-Coach of the Year, and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick.",
    "src": "Meet the high school boys basketball Dream Team and all-area selections, 2017-18 (Lansing State Journal, Brian Calloway, April 15, 2018, updated April 18, 2018)"
+  },
+  {
+   "season": "2016-17",
+   "teams_note": "Three Player of the Year finalists, a three-player Dream Team and co-Coaches of the Year across all classes, then an untiered all-area team, honorable mention and coaches for each of Classes A-D.",
+   "full_counts": {
+    "poyf": 3,
+    "dream": 3,
+    "area": 25,
+    "hm": 48,
+    "coy": 8
+   },
+   "left_out": "One Dream Team pick, and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick.",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
   }
  ],
  "picks": [
@@ -4246,6 +4259,451 @@
    "grade": "",
    "src": "Meet the high school boys basketball Dream Team and all-area selections, 2017-18 (Lansing State Journal, Brian Calloway, April 15, 2018, updated April 18, 2018)",
    "note": "Class B co-Coach of the Year with a coach from a school the site doesn't cover."
+  },
+  {
+   "season": "2016-17",
+   "name": "Sy Barnett",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no winner."
+  },
+  {
+   "season": "2016-17",
+   "name": "Jaron Faulds",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "poyf",
+   "division": "",
+   "grade": "12",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no winner."
+  },
+  {
+   "season": "2016-17",
+   "name": "Brandon Johns, Jr.",
+   "listed_as": "Brandon Johns",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "poyf",
+   "division": "",
+   "grade": "11",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)",
+   "note": "One of three LSJ Player of the Year finalists; the story names no winner."
+  },
+  {
+   "season": "2016-17",
+   "name": "Ben Feldpausch",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Jaden Sutton",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Jordan Henry",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Caleb Paksi",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Westin Myles",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Nyreel Powell",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Tanner Reha",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "DeAndre Robinson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Tevin Ali",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Myles Baker",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Ross Feldpausch",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Vail Hartman",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Luke Hyde",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Brandon Huhn",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Artavious King",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Travis Mussell",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Diego Robinson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Luke Smith",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Luke Stagg",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Dante Walton",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Evan Block",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Sean Cobb",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Cole Kleiver",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Zhervonte Smith",
+   "listed_as": "Zhervontae Smith",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Chuck Plaehn",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Bobby Brandsen",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Markiest Doss",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Kahari Foy-Walton",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Dan Judd",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Geoffrey Knaggs",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Mitchell Mowid",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Brett Patrick",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Cameron Ramos",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "Drew Shafer",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
+  },
+  {
+   "season": "2016-17",
+   "name": "John Archambault",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)",
+   "note": "Co-Coach of the Year with Tom Lewis."
+  },
+  {
+   "season": "2016-17",
+   "name": "Tom Lewis",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)",
+   "note": "Co-Coach of the Year with John Archambault."
+  },
+  {
+   "season": "2016-17",
+   "name": "Steve Finamore",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Boys high school basketball Dream Team, all-area, 2016-17 (Lansing State Journal, Brian Calloway, April 2, 2017)"
   }
  ]
 }

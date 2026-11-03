@@ -718,8 +718,16 @@
    "name": "Brandon Johns, Jr.",
    "school": "east-lansing",
    "grad_year": null,
-   "bio": "Finished his career with more than 1,800 points; East Lansing went 22-4 with district and regional titles his senior year.",
+   "bio": "AP Class A Player of the Year as a junior, when East Lansing finished a second straight unbeaten regular season (24-1). Finished his career with more than 1,800 points; East Lansing went 22-4 with district and regional titles his senior year.",
    "seasons": [
+    {
+     "season": "2016-17",
+     "grade": "11",
+     "ppg": 20.6,
+     "rpg": 10.5,
+     "bpg": 3.2,
+     "src": "Lansing State Journal Dream Team, April 2, 2017"
+    },
     {
      "season": "2017-18",
      "grade": "12",
@@ -762,6 +770,77 @@
      "src": "Lansing State Journal Dream Team, April 15, 2018"
     }
    ]
+  },
+  {
+   "name": "Sy Barnett",
+   "school": "williamston",
+   "grad_year": "2017",
+   "bio": "Senior on Williamston's 2016-17 CAAC White, district and regional champions.",
+   "seasons": [
+    {
+     "season": "2016-17",
+     "grade": "12",
+     "ppg": 16.3,
+     "rpg": 5.4,
+     "apg": 3.5,
+     "spg": 2.2,
+     "fg_pct": 0.48,
+     "ft_pct": 0.9,
+     "note": "Regular season; 35% on 3-pointers",
+     "src": "Lansing State Journal Dream Team, April 2, 2017"
+    }
+   ]
+  },
+  {
+   "name": "Jaron Faulds",
+   "school": "holt",
+   "grad_year": null,
+   "bio": "Led Holt to a 19-5 record, a district title and second place in the CAAC Blue as a senior. Signed with Columbia.",
+   "seasons": [
+    {
+     "season": "2016-17",
+     "grade": "12",
+     "ppg": 17.0,
+     "rpg": 11.5,
+     "bpg": 4.1,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 2, 2017"
+    }
+   ]
+  },
+  {
+   "name": "Ben Feldpausch",
+   "school": "st-johns",
+   "grad_year": "2017",
+   "bio": "Senior on St. Johns' 2016-17 outright CAAC Red champions, who nearly tripled their win total from the year before.",
+   "seasons": [
+    {
+     "season": "2016-17",
+     "grade": "12",
+     "ppg": 12.8,
+     "apg": 3.45,
+     "spg": 1.9,
+     "tpm": 42,
+     "src": "Lansing State Journal Dream Team, April 2, 2017"
+    }
+   ]
+  },
+  {
+   "name": "Jaden Sutton",
+   "school": "waverly",
+   "grad_year": "2017",
+   "bio": "Senior guard who led Waverly to a 13-8 record and second place in the CAAC Red. Went on to Huntington (Ind.).",
+   "seasons": [
+    {
+     "season": "2016-17",
+     "grade": "12",
+     "ppg": 17.5,
+     "apg": 3.5,
+     "spg": 2.3,
+     "src": "Lansing State Journal Dream Team, April 2, 2017"
+    }
+   ],
+   "pos": "G"
   }
  ]
 }
