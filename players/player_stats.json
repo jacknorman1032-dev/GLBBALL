@@ -103,7 +103,7 @@
    "name": "Dequarius (DQ) Stewart, Jr.",
    "school": "east-lansing",
    "grad_year": "2026",
-   "bio": "Senior on East Lansing's 2025-26 CAAC Blue, district and regional champions and Division 1 state runners-up.",
+   "bio": "Senior on East Lansing's 2025-26 CAAC Blue, district and regional champions and Division 1 state runners-up. Son of Dequarius Stewart, a 1995-96 CAC all-league pick at Lansing Sexton.",
    "seasons": [
     {
      "season": "2025-26",
@@ -841,6 +841,12 @@
     }
    ],
    "pos": "G"
+  },
+  {
+   "name": "Dequarius Stewart",
+   "school": "sexton",
+   "bio": "Father of East Lansing's Dequarius (DQ) Stewart, Jr., who made the LSJ Dream Team in 2025-26.",
+   "seasons": []
   }
  ]
 }
