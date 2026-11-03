@@ -816,7 +816,7 @@ function playerCard(p,s,showSchool){const mk=mrKind(p,s);
   const sch=showSchool?`<a class="schoollink" href="#school-${s.id}">${esc(p.predecessor||s.name)}</a>`:(p.predecessor?esc(p.predecessor):'');
   const top=[sch,yr].filter(Boolean).join(' · ')||'&nbsp;';
   return `<article class="pcard" style="${colorVars(s)}"><div class="ps">${top}</div><div class="pn">${esc(p.name)}</div>
-  <div class="meta">${mk?`<span class="chip gold">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}${honorChips(p)}${acChips(p,s)}${leadChips(p,s)}${p.pro?'<span class="chip">Pro</span>':''}${p.college?`<span class="chip">${esc(p.college.length>40?p.college.slice(0,38)+'…':p.college)}</span>`:''}</div>
+  <div class="meta">${mk?`<span class="chip gold">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${honorChips(p)}${acChips(p,s)}${leadChips(p,s)}${p.pro?'<span class="chip">Pro</span>':''}${p.college?`<span class="chip">${esc(p.college.length>40?p.college.slice(0,38)+'…':p.college)}</span>`:''}</div>
   ${(p.also||[]).length?`<p class="note">Also played at ${p.also.map(a=>`<a href="#school-${a.school}">${esc(byId[a.school]?.name||a.school)}</a> (${esc(a.seasons)}${a.note?', '+esc(a.note.toLowerCase()):''})`).join('; ')}</p>`:''}${p.accolades?`<p>${esc(p.accolades)}</p>`:''}${p.pro?`<p class="note">Pro: ${esc(p.pro)}</p>`:''}${profFor(p.name,s.id)?`<a class="note" href="#player-${profFor(p.name,s.id).id}">Full profile →</a> `:''}${p.source?`<a class="note" href="${esc(String(p.source).split(/\s*;\s*/)[0])}" target="_blank" rel="noopener">Source</a>`:''}</article>`}
 
 // ---------- views ----------
@@ -1328,7 +1328,7 @@ function profFor(n,sc,se){return sc?PF.by[PF.keyOf(n,sc,se)]||null:null}
 function plink(n,sc,se){const p=profFor(n,sc,se);return p?`<a class="plink" href="#player-${p.id}">${esc(n)}</a>`:esc(n)}
 function profChips(p){
   const b=p.best;
-  return (p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:'')+
+  return (p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:'')+
     (b?`<span class="chip${b.tier==='first'||b.tier==='dream'?' gold':''}" title="${esc(p.hon.map(h=>h.season+' '+h.selector+' '+HON_TIER[h.tier].short).join('\n'))}">${esc(b.selector+' '+HON_TIER[b.tier].short)}${p.hon.length>1?' ×'+p.hon.length:''}</span>`:'')+
     (p.poy?`<span class="chip gold">League POY${p.poy>1?' ×'+p.poy:''}</span>`:'')+
     (p.top?`<span class="chip full">All-Conf.${p.top>1?' ×'+p.top:''}</span>`:p.ac.length?`<span class="chip">All-Conf. HM${p.ac.length>1?' ×'+p.ac.length:''}</span>`:'')+
@@ -1467,7 +1467,7 @@ function viewProfile(id){
   return `<section class="view">${head}
     ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);
       return `<div class="board pfboard" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(c=>`<div><span class="v">${c[0]}</span><span class="k">${c[1]}</span></div>`).join('')}</div>`})()}
-    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
+    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
     <div class="block"><h2>Season by season</h2><div class="pf-tl">${rows}</div>${p.gradNote?`<p class="note">${esc(p.gradNote)}; the class year shown uses the most common one.</p>`:''}</div>
     ${tbl||`<p class="note">No season stats on file yet.</p>`}
     ${about?`<div class="block"><h2>About</h2>${about}</div>`:''}

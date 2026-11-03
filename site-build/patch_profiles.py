@@ -76,7 +76,7 @@ function profFor(n,sc,se){return sc?PF.by[PF.keyOf(n,sc,se)]||null:null}
 function plink(n,sc,se){const p=profFor(n,sc,se);return p?`<a class="plink" href="#player-${p.id}">${esc(n)}</a>`:esc(n)}
 function profChips(p){
   const b=p.best;
-  return (p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:'')+
+  return (p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:'')+
     (b?`<span class="chip${b.tier==='first'||b.tier==='dream'?' gold':''}" title="${esc(p.hon.map(h=>h.season+' '+h.selector+' '+HON_TIER[h.tier].short).join('\n'))}">${esc(b.selector+' '+HON_TIER[b.tier].short)}${p.hon.length>1?' ×'+p.hon.length:''}</span>`:'')+
     (p.poy?`<span class="chip gold">League POY${p.poy>1?' ×'+p.poy:''}</span>`:'')+
     (p.top?`<span class="chip full">All-Conf.${p.top>1?' ×'+p.top:''}</span>`:p.ac.length?`<span class="chip">All-Conf. HM${p.ac.length>1?' ×'+p.ac.length:''}</span>`:'')+
@@ -215,7 +215,7 @@ function viewProfile(id){
   return `<section class="view">${head}
     ${(()=>{const cells=[[p.hon.length,'All-state'],[p.top,'All-conf.'],[p.ac.length-p.top,'All-conf. HM'],[p.aa.length,'LSJ all-area']].filter(c=>c[0]>0).concat([[nSe,'Season'+(nSe===1?'':'s')]]);
       return `<div class="board pfboard" style="grid-template-columns:repeat(${cells.length},1fr)">${cells.map(c=>`<div><span class="v">${c[0]}</span><span class="k">${c[1]}</span></div>`).join('')}</div>`})()}
-    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
+    ${p.mr||p.poy||p.dream?`<div class="meta" style="display:flex;gap:6px;flex-wrap:wrap">${p.aa.filter(AA_TOP).map(x=>aaChip(x,true).replace('</span>',' '+esc(x.season)+'</span>')).join('')}${p.mr?`<span class="chip gold">${p.mry?p.mry+' ':''}${p.mr==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}${p.poy?`<span class="chip gold">League Player of the Year${p.poy>1?' ×'+p.poy:''}</span>`:''}</div>`:''}
     <div class="block"><h2>Season by season</h2><div class="pf-tl">${rows}</div>${p.gradNote?`<p class="note">${esc(p.gradNote)}; the class year shown uses the most common one.</p>`:''}</div>
     ${tbl||`<p class="note">No season stats on file yet.</p>`}
     ${about?`<div class="block"><h2>About</h2>${about}</div>`:''}
@@ -299,8 +299,8 @@ rep('<li><span class="acx-nm">${esc(p.name)}', '<li><span class="acx-nm">${plink
 # mrKind matched on last name only (Jay Vincent, Corey Henderson, Sandy Johnson came up as Mr. Basketball): use mrMatch
 rep("const m=(DATA.mr_basketball||[]).find(m=>areaId(m.school)===s.id&&last(m.name)===last(p.name));return m?(m.retro?'retro':'official'):null}",
     "const m=mrMatch(p,s);return m?(m.retro?'retro':'official'):null}")
-CARD_MR = "${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}"
-for old in ["${mk==='official'?'<span class=\"chip gold\">Mr. Basketball</span>':mk==='retro'?'<span class=\"chip gold\">Retro Mr. Basketball</span>':''}",
+CARD_MR = "${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro Mr. Basketball':'Hal Schram Mr. Basketball Winner'}</span>`:''}"
+for old in ["${mk?`<span class=\"chip gold\">${mrYear(p,s)?mrYear(p,s)+' ':''}${mk==='retro'?'BCAM Retro':'Hal Schram'} Mr. Basketball</span>`:''}", "${mk==='official'?'<span class=\"chip gold\">Mr. Basketball</span>':mk==='retro'?'<span class=\"chip gold\">Retro Mr. Basketball</span>':''}",
             "${mk?`<span class=\"chip gold\">${mk==='retro'?'Retro ':''}Mr. Basketball${mrYear(p,s)?' '+mrYear(p,s):''}</span>`:''}"]:
     s = s.replace(old, CARD_MR)
 assert CARD_MR in s, 'notable card Mr. Basketball chip'
