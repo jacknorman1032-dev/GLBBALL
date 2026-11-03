@@ -8,6 +8,14 @@
    "bio": "Michigan's 2026 Mr. Basketball and the Michigan Sports Writers' Division 1 player of the year. Led East Lansing to CAAC Blue, district and regional titles and the Division 1 state final as a senior. Signed with Bowling Green. Passed 1,000 career points as a junior and entered his senior season with 1,253.",
    "seasons": [
     {
+     "season": "2023-24",
+     "grade": "10",
+     "ppg": 17.4,
+     "rpg": 5.8,
+     "spg": 2.5,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    },
+    {
      "season": "2024-25",
      "grade": "11",
      "ppg": 21.0,
@@ -171,8 +179,23 @@
    "name": "Cameron Hutson",
    "school": "east-lansing",
    "grad_year": "2025",
-   "bio": "Finished his career with 1,589 points after leading East Lansing to the 2025 Division 1 state title. Signed with Saint Louis.",
+   "bio": "Finished his career with 1,589 points after leading East Lansing to the 2025 Division 1 state title. Signed with Saint Louis. Passed 1,000 career points as a junior.",
    "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "10",
+     "ppg": 19.3,
+     "rpg": 4.8,
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
+    },
+    {
+     "season": "2023-24",
+     "grade": "11",
+     "ppg": 17.5,
+     "rpg": 6.0,
+     "spg": 1.5,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    },
     {
      "season": "2024-25",
      "grade": "12",
@@ -243,6 +266,150 @@
      "spg": 2.5,
      "tpm": 78,
      "src": "Lansing State Journal Dream Team, May 4, 2025"
+    }
+   ]
+  },
+  {
+   "name": "Jayce (JL) Branson",
+   "school": "east-lansing",
+   "grad_year": "2025",
+   "bio": "",
+   "seasons": [
+    {
+     "season": "2023-24",
+     "grade": "11",
+     "ppg": 12.0,
+     "rpg": 5.0,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    }
+   ]
+  },
+  {
+   "name": "Luke Marlan",
+   "school": "mason",
+   "grad_year": "2024",
+   "bio": "Tore his ACL in February 2023, during Mason's 21-3 junior season. Came back to shoot 43% from 3-point range as a senior on Mason's CAAC Red champions.",
+   "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "11",
+     "ppg": 14.1,
+     "rpg": 5.9,
+     "apg": 4.7,
+     "note": "Before a season-ending knee injury in February",
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
+    },
+    {
+     "season": "2023-24",
+     "grade": "12",
+     "ppg": 12.9,
+     "rpg": 6.0,
+     "apg": 5.5,
+     "tpm": 34,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    }
+   ]
+  },
+  {
+   "name": "Deunte Phifer",
+   "school": "waverly",
+   "grad_year": "2024",
+   "bio": "Committed to Lansing Community College.",
+   "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "11",
+     "ppg": 13.5,
+     "rpg": 4.8,
+     "apg": 3.8,
+     "spg": 2.0,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
+    },
+    {
+     "season": "2023-24",
+     "grade": "12",
+     "ppg": 17.9,
+     "rpg": 6.5,
+     "apg": 3.2,
+     "spg": 2.1,
+     "bpg": 1.8,
+     "ft_pct": 0.77,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    }
+   ]
+  },
+  {
+   "name": "Brennan Walton",
+   "school": "okemos",
+   "grad_year": "2024",
+   "bio": "Post player on Okemos' 2023-24 team that went 19-5 and finished second in the CAAC Blue.",
+   "seasons": [
+    {
+     "season": "2023-24",
+     "grade": "12",
+     "ppg": 14.5,
+     "rpg": 7.1,
+     "apg": 2.7,
+     "src": "Lansing State Journal Dream Team, May 3, 2024"
+    }
+   ],
+   "height": "6-5"
+  },
+  {
+   "name": "Bryce Kurncz",
+   "school": "dewitt",
+   "grad_year": "2023",
+   "bio": "Finished as DeWitt's career scoring leader with 1,266 points.",
+   "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "12",
+     "ppg": 22.3,
+     "rpg": 6.3,
+     "apg": 2.3,
+     "spg": 1.1,
+     "tpm": 36,
+     "fg_pct": 0.451,
+     "ft_pct": 0.784,
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
+    }
+   ]
+  },
+  {
+   "name": "Darrius Welch",
+   "school": "waverly",
+   "grad_year": "2023",
+   "bio": "Committed to Adrian College.",
+   "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "12",
+     "ppg": 13.9,
+     "rpg": 8.3,
+     "apg": 1.8,
+     "spg": 2.0,
+     "bpg": 1.4,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
+    }
+   ]
+  },
+  {
+   "name": "Teddy Williams",
+   "school": "grand-ledge",
+   "grad_year": "2023",
+   "bio": "Had 20 double-doubles in 21 games as a senior.",
+   "seasons": [
+    {
+     "season": "2022-23",
+     "grade": "12",
+     "gp": 21,
+     "ppg": 19.1,
+     "rpg": 14.8,
+     "spg": 1.5,
+     "bpg": 2.7,
+     "src": "Lansing State Journal Dream Team, April 29, 2023"
     }
    ]
   }
