@@ -1,18 +1,148 @@
 {
-  "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have.",
-  "players": [
+ "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have.",
+ "players": [
+  {
+   "name": "Kelvin (KJ) Torbert, Jr.",
+   "school": "east-lansing",
+   "grad_year": "2026",
+   "bio": "Michigan's 2026 Mr. Basketball and the Michigan Sports Writers' Division 1 player of the year. Led East Lansing to CAAC Blue, district and regional titles and the Division 1 state final as a senior. Signed with Bowling Green.",
+   "seasons": [
     {
-      "_example": "Delete this example once real entries exist. It is skipped because it has no 'name'.",
-      "school": "east-lansing",
-      "grad_year": "1997",
-      "pos": "F",
-      "height": "6-7",
-      "aka": [],
-      "bio": "One or two sentences from a clipping.",
-      "seasons": [
-        {"season": "1996-97", "grade": "12", "gp": 22, "ppg": 18.4, "rpg": 9.1, "src": "Lansing State Journal, March 1997"}
-      ],
-      "links": [{"label": "LSJ clipping", "url": ""}]
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 25.0,
+     "rpg": 6.0,
+     "spg": 2.7,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Marrion May-Cook",
+   "school": "everett",
+   "grad_year": "2027",
+   "bio": "Passed 1,000 career points as a junior in 2025-26.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "11",
+     "ppg": 20.3,
+     "rpg": 5.0,
+     "apg": 4.0,
+     "spg": 3.0,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Brandon Mercer, II",
+   "school": "holt",
+   "grad_year": "2026",
+   "bio": "Made 47 3-pointers and shot just over 50% from the field as a senior.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 13.3,
+     "tpm": 47,
+     "fg_pct": 0.505,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Maddox Newburg",
+   "school": "grand-ledge",
+   "grad_year": "2027",
+   "bio": "Helped Grand Ledge to third in the CAAC Blue as a junior.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "11",
+     "ppg": 14.8,
+     "rpg": 7.7,
+     "apg": 2.3,
+     "spg": 1.5,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Xavier Pendergrass",
+   "school": "waverly",
+   "grad_year": "2026",
+   "bio": "Helped Waverly to second in the CAAC Blue as a senior. Committed to Northwood.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 14.2,
+     "rpg": 6.5,
+     "bpg": 1.8,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Dequarius (DQ) Stewart, Jr.",
+   "school": "east-lansing",
+   "grad_year": "2026",
+   "bio": "Senior on East Lansing's 2025-26 CAAC Blue, district and regional champions and Division 1 state runners-up.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 10.0,
+     "rpg": 6.0,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Keyshawn Summerville",
+   "school": "sexton",
+   "grad_year": "2026",
+   "bio": "Finished as Sexton's career scoring leader with 1,967 points. Michigan Sports Writers first-team all-state in Division 2; led Sexton to CAAC White and district titles as a senior.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 21.7,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Derek Thomas, II",
+   "school": "waverly",
+   "grad_year": "2026",
+   "bio": "Made 33 3-pointers and shot 80% at the line as a senior. Committed to Lansing Community College.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "12",
+     "ppg": 21.7,
+     "rpg": 7.0,
+     "tpm": 33,
+     "ft_pct": 0.8,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  },
+  {
+   "name": "Kingston Thomas",
+   "school": "east-lansing",
+   "grad_year": "2027",
+   "bio": "Michigan Sports Writers second-team all-state in Division 1 as a junior, on East Lansing's state runner-up team.",
+   "seasons": [
+    {
+     "season": "2025-26",
+     "grade": "11",
+     "ppg": 14.0,
+     "rpg": 6.0,
+     "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ]
+  }
+ ]
 }

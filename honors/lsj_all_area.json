@@ -1,0 +1,416 @@
+{
+ "_note": "Lansing State Journal Greater Lansing Dream Team and all-area teams (Jack Norman, from LSJ clippings). Separate from all-conference and all-state. Only schools the site covers are kept; each season keeps counts of the full list. team: poy (LSJ Player of the Year), dream (Dream Team), first/second/hm (for years the all-area team is tiered), area (an untiered all-area team), coy (Coach of the Year; division coaches use coy with a division). division: the all-area team's division or class when the LSJ splits it; blank for Player of the Year and Dream Team. grade: 9-12 as printed. name uses the site's spelling; listed_as keeps the LSJ spelling when different.",
+ "seasons": [
+  {
+   "season": "2025-26",
+   "teams_note": "Player of the Year, a nine-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team and coach for each of Divisions 1-4.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 9,
+    "area": 55,
+    "coy": 5
+   },
+   "left_out": "One Dream Team pick and the overall Coach of the Year (both Pewamo-Westphalia), and all-area picks from schools the site doesn't cover, including every Division 3 and 4 pick.",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  }
+ ],
+ "picks": [
+  {
+   "season": "2025-26",
+   "name": "Kelvin (KJ) Torbert, Jr.",
+   "listed_as": "KJ Torbert",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Marrion May-Cook",
+   "listed_as": "Marrion May",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Brandon Mercer, II",
+   "listed_as": "Brandon Mercer",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Maddox Newburg",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Xavier Pendergrass",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Dequarius (DQ) Stewart, Jr.",
+   "listed_as": "DeQuarius Stewart",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Keyshawn Summerville",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Derek Thomas, II",
+   "listed_as": "Derek Thomas II",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Kingston Thomas",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Michael Aimery",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Cayden Ali",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Ian Curtis",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Mason Dowdy",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Luke Goss",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Braden James",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Layken Johnson",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Landon Kurncz",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Brendan Mensing",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Keagan Noble",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Mikah Williams",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Preston Williams",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Kivon Brown, Jr.",
+   "listed_as": "Kivon Brown",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Evan Colosky",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Kaden Dickerson",
+   "listed_as": "Kayden Dickerson",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)",
+   "note": "Spelled Kayden on the LSJ list; Kaden on the CAAC all-conference list."
+  },
+  {
+   "season": "2025-26",
+   "name": "Brogan Ide",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Seth Hahnenberg",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Hunter Kinkema",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Zach Kulesza",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Markese Murray",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Bryce Pratl",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Tommy Pratt",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Travis Satterla",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Zach Snitgen",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Tej Virk",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "Ray Mitchell",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "Division 1",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  },
+  {
+   "season": "2025-26",
+   "name": "DeLeon Dearing",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "coy",
+   "division": "Division 2",
+   "grade": "",
+   "src": "Greater Lansing boys basketball Dream Team and all-area, 2025-26 (Lansing State Journal, Brian Calloway, April 28, 2026)"
+  }
+ ]
+}

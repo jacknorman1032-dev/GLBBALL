@@ -8,7 +8,7 @@ This repo replaced the claude.ai Project's file storage on Nov 3, 2026, when the
 - `site-build/` — `build.py` + `template.html` + `overrides.json` build the page; then the patches in `POST_BUILD_PATCHES.md` run in order. `README.md` there documents the build.
 - `site-build/logos/*.png` — school logos (real PNGs; the Project kept them as `.png.b64`).
 - `site-build/uniforms/*.svg` — uniform drawings (see `UNIFORMS.md`).
-- `honors/` — BCAM all-state (`bcam_allstate.json`) and all-conference (`all_conference.json`).
+- `honors/` — BCAM all-state (`bcam_allstate.json`), all-conference (`all_conference.json`) and the Lansing State Journal Dream Team / all-area teams (`lsj_all_area.json`).
 - `game-logs/` — parsed season-by-season game logs and corrections.
 - `research/` — per-school research files.
 
