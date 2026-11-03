@@ -38,7 +38,7 @@ function mrYear(p,s){const m=mrMatch(p,s);return m?m.year:''}
 const MRV=__MRV__;
 const ORD=n=>n+(['th','st','nd','rd'][(n%100>10&&n%100<14)?0:n%10]||'th');
 function mrfFor(p,s){const a=mrToks(p.name);return (MRV.finalists||[]).filter(f=>{const b=mrToks(f.name);return f.school===s.id&&a.at(-1)===b.at(-1)&&b.slice(0,-1).some(w=>a.slice(0,-1).includes(w))})}
-function mrfChip(f){return `<span class="chip" title="${esc((f.points?f.points+' points · ':'')+(f.src||MRV.src||''))}">${esc(f.year)} Hal Schram Mr. Basketball Finalist${f.place?' ('+ORD(f.place)+')':''}</span>`}
+function mrfChip(f){return `<span class="chip" title="${esc((f.points?f.points+' points · ':'')+(f.src||MRV.src||''))}">${esc(f.year)} Hal Schram Mr. Basketball${f.place>5?': '+ORD(f.place)+' in Voting':' Finalist'+(f.place?' ('+ORD(f.place)+')':'')}</span>`}
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
   const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
@@ -94,7 +94,7 @@ function profChips(p){
     (p.aab?aaChip(p.aab).replace(/<\/span>$/,(p.aa.length>1?' ×'+p.aa.length:'')+'</span>'):'')+
     (p.ex&&(p.ex.seasons||[]).length?'<span class="chip">Stats</span>':'');
 }
-function profScore(p){return (p.mr?100:0)+p.mrf.length*30+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='poyf'?5:x.team==='dream'?4:2),0)}
+function profScore(p){return (p.mr?100:0)+p.mrf.reduce((a,f)=>a+(f.place<=5?30:15),0)+p.hon.reduce((a,h)=>a+Math.max(1,8-HON_TIER[h.tier].rank),0)+p.poy*6+p.top*3+p.ac.length+p.aa.reduce((a,x)=>a+(x.team==='poy'?6:x.team==='poyf'?5:x.team==='dream'?4:2),0)}
 const PF_STATS=[['gp','GP',0],['pts','PTS',0],['ppg','PPG',1],['reb','REB',0],['rpg','RPG',1],['ast','AST',0],['apg','APG',1],['stl','STL',0],['spg','SPG',1],['blk','BLK',0],['bpg','BPG',1],['tpm','3PM',0],['fgm','FGM',0],['fga','FGA',0],['fg_pct','FG%',2],['ft_pct','FT%',2]];
 function pfVal(x,k,t){const v=x[k];if(v==null||v==='')return '';if(t===1)return typeof v==='number'?v.toFixed(1):esc(v);if(t===2)return typeof v==='number'?(v<=1?(v*100).toFixed(1):v.toFixed(1))+'%':esc(v);return esc(v)}
 function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts','reb','ast','stl','blk','fgm','fga'].includes(k)).map(([k,l,t])=>pfVal(x,k,t)+' '+l.toLowerCase().replace('3pm','3PM').replace('fg%','FG').replace('ft%','FT')).join(' · ')}
@@ -116,7 +116,7 @@ function pfAbout(p){
   // ---- honors
   const H=[];
   if(p.mr)H.push(p.mr==='retro'?`the ${p.mry} BCAM Retro Mr. Basketball`:`the ${p.mry} Hal Schram Mr. Basketball`);
-  p.mrf.forEach(f=>H.push(`a ${f.year} Hal Schram Mr. Basketball finalist${f.place?' ('+ORD(f.place)+' in the voting'+(f.points?', '+f.points+' points':'')+')':''}`));
+  p.mrf.forEach(f=>{const pts=f.points?', '+Number(f.points).toLocaleString('en-US')+' points':'';H.push(f.place>5?`${ORD(f.place)} in the ${f.year} Hal Schram Mr. Basketball voting${pts?' ('+pts.slice(2)+')':''}`:`a ${f.year} Hal Schram Mr. Basketball finalist${f.place?' ('+ORD(f.place)+' in the voting'+pts+')':''}`)});
   const TW={'1st Team':'first team','2nd Team':'second team','3rd Team':'third team','4th Team':'fourth team','5th Team':'fifth team','6th Team':'sixth team','Hon. Mention':'honorable mention'};
   if(p.hon.length){const ses=[...new Set(p.hon.map(h=>h.season))].sort(),b=p.best,sh=HON_TIER[b.tier].short;
     const lab=b.tier==='dream'?`${b.selector} all-class Dream Team`:`${b.selector} ${b.level&&!/dream/i.test(b.level)?b.level+' ':''}${TW[sh]||sh.toLowerCase()}`;
@@ -275,7 +275,7 @@ function viewPlayers2(){
       <div class="controls">
         <label for="pdsch">School</label><select id="pdsch"><option value="all">All schools</option>${SCHOOLS.filter(s=>PROF.some(p=>p.school===s.id)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
         <label for="pddec">Class</label><select id="pddec"><option value="all">All classes</option>${decs.map(d=>`<option value="${d}">${d+1}-${String(d+10).slice(-2)}</option>`).join('')}<option value="none">Unknown</option></select>
-        <label for="pdhon">Honor</label><select id="pdhon"><option value="all">Any honor</option><option value="state">All-state</option><option value="first">All-state 1st team / Free Press Dream Team</option><option value="conf">All-conference (not HM)</option><option value="poy">League Player of the Year</option><option value="lsjdt">LSJ Dream Team / POY</option><option value="lsj">LSJ all-area (any)</option><option value="mr">Mr. Basketball winner</option><option value="mrf">Mr. Basketball finalist</option><option value="stats">Has season stats</option></select>
+        <label for="pdhon">Honor</label><select id="pdhon"><option value="all">Any honor</option><option value="state">All-state</option><option value="first">All-state 1st team / Free Press Dream Team</option><option value="conf">All-conference (not HM)</option><option value="poy">League Player of the Year</option><option value="lsjdt">LSJ Dream Team / POY</option><option value="lsj">LSJ all-area (any)</option><option value="mr">Mr. Basketball winner</option><option value="mrf">Mr. Basketball finalist or top 10</option><option value="stats">Has season stats</option></select>
         <label for="pdsort">Sort</label><select id="pdsort"><option value="class">Newest class</option><option value="honors">Most decorated</option><option value="name">Last name</option></select>
         <input type="search" id="pdq" placeholder="Search player" aria-label="Search player"><span class="eyebrow num" id="pdcount"></span>
       </div>

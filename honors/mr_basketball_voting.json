@@ -1,68 +1,190 @@
 {
- "_note": "Hal Schram Mr. Basketball voting places for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: 2 = runner-up; null when the source lists a player without a place. 'listed' on each year is how many players the source names that year (winner included). The detroitpslbasketball.com page names no runners-up for 1981-2007 (2006 comes from BCAM's vote totals) and only some for 2008-10, so finalists from those years are missing until another source fills them in. points: total voting points when the source gives them.",
- "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026",
+ "_note": "Hal Schram Mr. Basketball voting for Greater Lansing players who finished behind the winner (winners are in the build's mr_basketball list). place: finishing place in the voting; points: voting points. Places 1-5 show as 'Finalist'; 6th and lower as '[place] in Voting', since the award named no short list then. 'years' is how many players the source lists each year (winner included); the ballot was cut to five finalists from 2006-07. Sources: peschstats.com for 1981-2019 (Jack's text), detroitpslbasketball.com for 2020-26, BCAM's 2005-06 vote sheet.",
+ "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)",
  "years": {
+  "1981": 11,
+  "1982": 5,
+  "1983": 5,
+  "1984": 6,
+  "1985": 10,
+  "1986": 10,
+  "1987": 9,
+  "1988": 10,
+  "1989": 10,
+  "1990": 10,
+  "1991": 10,
+  "1992": 12,
+  "1993": 12,
+  "1994": 10,
+  "1995": 10,
+  "1996": 10,
+  "1997": 12,
+  "1998": 10,
+  "1999": 10,
+  "2000": 10,
+  "2001": 10,
+  "2002": 10,
+  "2003": 10,
+  "2004": 10,
+  "2005": 8,
+  "2006": 10,
+  "2007": 5,
+  "2008": 4,
+  "2009": 5,
+  "2010": 6,
+  "2011": 5,
+  "2012": 5,
+  "2013": 5,
+  "2014": 5,
+  "2015": 3,
+  "2016": 5,
+  "2017": 6,
+  "2018": 5,
+  "2019": 4,
   "2026": 5,
   "2025": 4,
   "2024": 4,
   "2023": 5,
   "2022": 5,
   "2021": 5,
-  "2020": 5,
-  "2019": 4,
-  "2018": 5,
-  "2017": 6,
-  "2016": 5,
-  "2015": 3,
-  "2014": 5,
-  "2013": 5,
-  "2012": 5,
-  "2011": 5,
-  "2008": 3,
-  "2006": 10
+  "2020": 5
  },
  "finalists": [
+  {
+   "year": "1987",
+   "name": "Todd Jenks",
+   "school": "haslett",
+   "place": 3,
+   "points": 139,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1990",
+   "name": "Jason Bossard",
+   "school": "charlotte",
+   "place": 6,
+   "points": 101,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1990",
+   "name": "Kareem Washington",
+   "school": "sexton",
+   "place": 7,
+   "points": 68,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1993",
+   "name": "Saddi Washington",
+   "school": "sexton",
+   "place": 10,
+   "points": 57,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1994",
+   "name": "Antwann Jones",
+   "school": "sexton",
+   "place": 5,
+   "points": 140,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1996",
+   "name": "Ron Banks",
+   "school": "sexton",
+   "place": 8,
+   "points": 105,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1998",
+   "name": "Thomas Jackson",
+   "school": "east-lansing",
+   "place": 3,
+   "points": 165,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1999",
+   "name": "Kevin Lee",
+   "school": "everett",
+   "place": 10,
+   "points": 45,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "2004",
+   "name": "Al Horford",
+   "school": "grand-ledge",
+   "place": 5,
+   "points": 127,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "2004",
+   "name": "Goran Suton",
+   "school": "everett",
+   "place": 8,
+   "points": 88,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "2005",
+   "name": "Erik Kangas",
+   "school": "dewitt",
+   "place": 7,
+   "points": 204,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)"
+  },
   {
    "year": "2006",
    "name": "Johnathon Jones",
    "school": "okemos",
    "place": 4,
    "points": 207,
-   "src": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026",
-   "note": "Top-five vote-getter (Free Press 'fab five'); 289 ballots.",
-   "listed_as": "Jonathan Jones"
+   "listed_as": "Johnathan Jones",
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026); BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026",
+   "note": "Top-five vote-getter (Free Press 'fab five'); 289 ballots. BCAM's sheet prints Jonathan Jones."
   },
   {
    "year": "2011",
    "name": "LaDontae Henton",
    "school": "eastern",
    "place": 2,
-   "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
+   "points": 1746,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026); detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
   },
   {
    "year": "2012",
    "name": "Denzel Valentine",
    "school": "sexton",
    "place": 2,
-   "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
+   "points": 1895,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026); detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
   },
   {
    "year": "2015",
    "name": "Trevor Manuel",
    "school": "everett",
    "place": 3,
-   "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
+   "points": 2837,
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026); detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
   },
   {
    "year": "2018",
    "name": "Brandon Johns, Jr.",
    "school": "east-lansing",
    "place": 2,
+   "points": 2792,
    "listed_as": "Brandon Johns",
-   "src": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
+   "src": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026); detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026"
   }
  ],
  "sources": {
-  "2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026"
+  "peschstats": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)",
+  "detroitpsl": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026",
+  "bcam2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026"
  }
 }
