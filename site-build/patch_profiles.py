@@ -25,15 +25,15 @@ CODE = r'''// ---- player profiles (patch_profiles.py)
 const PSTATS=__PSTATS__;
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
-  const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>home[pkey(c.name)+'|'+o.school]=sc.id)));
+  const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
   const aka={};PSTATS.players.forEach(x=>(x.aka||[]).forEach(a=>aka[pkey(a)+'|'+x.school]=pkey(x.name)));
-  const keyOf=(n,sc)=>{let k=pkey(n);k=aka[k+'|'+sc]||k;return k+'|'+(home[k+'|'+sc]||sc)};
+  const keyOf=(n,sc,se)=>{let k=pkey(n);k=aka[k+'|'+sc]||k;const h=home[k+'|'+sc],y=se?+String(se).slice(0,4):null;return k+'|'+(h&&(y==null||(y>=h.a&&y<=h.b))?h.id:sc)};
   const M=new Map();
-  const get=(n,sc)=>{const k=keyOf(n,sc);if(!M.has(k))M.set(k,{k,school:k.split('|')[1],names:[],hon:[],ac:[],lead:[],ex:null});return M.get(k)};
-  HON.forEach(h=>{if(!byId[h.school])return;const p=get(h.name,h.school);p.hon.push(h);p.names.push([h.season,h.name])});
-  AC_PLAYERS.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school);p.ac.push(x);p.names.push([x.season,x.name])});
+  const get=(n,sc,se)=>{const k=keyOf(n,sc,se);if(!M.has(k))M.set(k,{k,school:k.split('|')[1],names:[],hon:[],ac:[],lead:[],ex:null});return M.get(k)};
+  HON.forEach(h=>{if(!byId[h.school])return;const p=get(h.name,h.school,h.season);p.hon.push(h);p.names.push([h.season,h.name])});
+  AC_PLAYERS.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school,x.season);p.ac.push(x);p.names.push([x.season,x.name])});
   PSTATS.players.forEach(x=>{if(!byId[x.school])return;const p=get(x.name,x.school);p.ex=x;p.names.push(['9999',x.name])});
-  AC_LEAD.forEach(x=>{if(!x.school)return;const k=keyOf(x.name,x.school);if(M.has(k))M.get(k).lead.push(x)});
+  AC_LEAD.forEach(x=>{if(!x.school)return;const k=keyOf(x.name,x.school,x.season);if(M.has(k))M.get(k).lead.push(x)});
   const list=[...M.values()],seen={};
   list.forEach(p=>{
     p.names.sort((a,b)=>b[0].localeCompare(a[0]));p.name=p.names[0][1];
@@ -61,8 +61,8 @@ const PF=(()=>{
   return {list,keyOf,by:Object.fromEntries(list.map(p=>[p.k,p])),id:Object.fromEntries(list.map(p=>[p.id,p]))};
 })();
 const PROF=PF.list;
-function profFor(n,sc){return sc?PF.by[PF.keyOf(n,sc)]||null:null}
-function plink(n,sc){const p=profFor(n,sc);return p?`<a class="plink" href="#player-${p.id}">${esc(n)}</a>`:esc(n)}
+function profFor(n,sc,se){return sc?PF.by[PF.keyOf(n,sc,se)]||null:null}
+function plink(n,sc,se){const p=profFor(n,sc,se);return p?`<a class="plink" href="#player-${p.id}">${esc(n)}</a>`:esc(n)}
 function profChips(p){
   const b=p.best;
   return (p.mr?`<span class="chip gold">${p.mr==='retro'?'Retro ':''}Mr. Basketball</span>`:'')+
@@ -79,8 +79,9 @@ function viewProfile(id){
   const p=PF.id[id];if(!p)return viewPlayers2();
   const s=byId[p.school],st=(p.ex&&p.ex.seasons)||[];
   const others=[...new Set([...p.hon,...p.ac].map(x=>x.school))].filter(x=>x!==p.school&&byId[x]);
+  const seOf=o=>{const a=[...new Set([...p.hon,...p.ac].filter(x=>x.school===o).map(x=>x.season))].sort();const c=p.card&&(p.card.also||[]).find(x=>x.school===o);return c&&c.seasons?c.seasons:a.length>1?a[0]+' to '+a.at(-1):a[0]||''};
   const sub=[p.grad?'Class of '+p.grad:'',p.pos,p.ex&&p.ex.height].filter(Boolean).map(esc).join(' · ');
-  const head=`<div class="shead${s.logo?' has-logo':''}" style="${colorVars(s)}">${s.logo?`<span class="slogo-box"><img class="slogo" src="${esc(s.logo)}" alt="${esc(s.name)} logo" style="--ls:${s.logo_scale||1}"></span>`:''}<div class="stext"><div class="eyebrow"><a href="#school-${s.id}" style="color:inherit">${esc(s.name)}</a>${others.map(o=>` · <a href="#school-${o}" style="color:inherit">${esc(byId[o].short||byId[o].name)}</a>`).join('')}</div><h1>${esc(p.name)}</h1>${sub?`<div class="eyebrow">${sub}</div>`:''}</div></div>`;
+  const head=`<div class="shead${s.logo?' has-logo':''}" style="${colorVars(s)}">${s.logo?`<span class="slogo-box"><img class="slogo" src="${esc(s.logo)}" alt="${esc(s.name)} logo" style="--ls:${s.logo_scale||1}"></span>`:''}<div class="stext"><div class="eyebrow"><a href="#school-${s.id}" style="color:inherit">${esc(s.name)}</a></div>${others.length?`<div class="eyebrow">Also played at ${others.map(o=>`<a href="#school-${o}" style="color:inherit">${esc(byId[o].name)}</a>${seOf(o)?' ('+esc(seOf(o))+')':''}`).join(', ')}</div>`:''}<h1>${esc(p.name)}</h1>${sub?`<div class="eyebrow">${sub}</div>`:''}</div></div>`;
   const champ=x=>{const L=ALLCONF.leagues.find(L=>L.season===x.season&&L.league===x.league);const r=L&&L.standings.find(r=>r[3]===1&&areaId(r[0])===x.school);return r?` <span class="acx-ch">League champs${r[1]!=null?' '+r[1]+'-'+r[2]:''}</span>`:''};
   const rows=p.seasons.map(se=>{
     const g=p.gr[se],hs=p.hon.filter(h=>h.season===se).sort((a,b)=>HON_TIER[a.tier].rank-HON_TIER[b.tier].rank),as=p.ac.filter(x=>x.season===se).sort((a,b)=>AC_TEAM[a.team].rank-AC_TEAM[b.team].rank),ls=p.lead.filter(x=>x.season===se).sort((a,b)=>Object.keys(AC_CAT).indexOf(a.cat)-Object.keys(AC_CAT).indexOf(b.cat)),ss=st.filter(x=>x.season===se);
@@ -89,7 +90,8 @@ function viewProfile(id){
     if(as.length)lines.push(`<div class="pf-line"><span class="pf-k">All-conference</span>${as.map(x=>`<span class="chip${x.team==='poy'?' gold':['first','second','third'].includes(x.team)?' full':''}" title="${esc(x.listed_team||'')}">${esc(x.league+' · '+(x.team==='first'&&x.listed_team&&!/1st|first/i.test(x.listed_team)?x.listed_team:AC_TEAM[x.team].label))}</span>`).join('')}${champ(as[0])}</div>`);
     if(ls.length)lines.push(`<div class="pf-line"><span class="pf-k">Area leaders</span><span>${ls.map(x=>`${x.shown||AC_CAT[x.cat].fmt(x.value)} ${AC_CAT[x.cat].unit} <span class="note">(#${x.rank} of ${x.of})</span>`).join(' · ')}</span></div>`);
     ss.forEach(x=>{const l=pfLine(x);if(l||x.note)lines.push(`<div class="pf-line"><span class="pf-k">Stats</span><span>${l}${x.note?` <span class="note">${esc(x.note)}</span>`:''}</span></div>`)});
-    return `<div class="pf-row"><div class="pf-se">${esc(se)}${g?`<small>${GR_YR[g]}${p.inf[se]?' <span title="Inferred from class year">(est.)</span>':''}</small>`:''}</div><div class="pf-it">${lines.join('')}</div></div>`}).join('');
+    const ws=[...new Set([...hs,...as].map(x=>x.school))].filter(x=>x!==p.school&&byId[x]);
+    return `<div class="pf-row"><div class="pf-se">${esc(se)}${g?`<small>${GR_YR[g]}${p.inf[se]?' <span title="Inferred from class year">(est.)</span>':''}</small>`:''}${ws.map(o=>`<a class="pf-sch" href="#school-${o}" style="${colorVars(byId[o])}">${esc(byId[o].short||byId[o].name)}</a>`).join('')}</div><div class="pf-it">${lines.join('')}</div></div>`}).join('');
   const cols=PF_STATS.filter(([k])=>st.some(x=>x[k]!=null&&x[k]!==''));
   const tbl=cols.length?`<div class="block"><h2>Season stats</h2><div class="tbl"><table><thead><tr><th>Season</th><th>Gr</th>${cols.map(c=>`<th class="r">${c[1]}</th>`).join('')}</tr></thead><tbody>${st.slice().sort((a,b)=>a.season.localeCompare(b.season)).map(x=>`<tr><td>${esc(x.season)}</td><td>${p.gr[x.season]?GR_YR[p.gr[x.season]]:''}</td>${cols.map(([k,l,t])=>`<td class="num">${pfVal(x,k,t)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`:'';
   const c=p.card,ex=p.ex||{};
@@ -133,7 +135,7 @@ function viewPlayers2(){
       else rows.sort((a,b)=>(+b.grad||0)-(+a.grad||0)||profScore(b)-profScore(a)||a.name.localeCompare(b.name));
       $('#pdcount').textContent=rows.length+(rows.length===1?' player':' players');
       const xs=lim?rows.slice(0,lim):rows;
-      const card=p=>{const s=byId[p.school];return `<a class="pdc" href="#player-${p.id}" style="${colorVars(s)}"><span class="ps">${esc(s.short||s.name)}${p.grad?' · '+p.grad:''}${p.pos?' · '+esc(p.pos):''}</span><span class="pn">${esc(p.name)}</span><span class="meta">${profChips(p)}</span></a>`};
+      const card=p=>{const s=byId[p.school];return `<a class="pdc" href="#player-${p.id}" style="${colorVars(s)}"><span class="ps">${esc(s.short||s.name)}${[...new Set([...p.hon,...p.ac].map(x=>x.school))].filter(x=>x!==p.school&&byId[x]).map(o=>' / '+esc(byId[o].short||byId[o].name)).join('')}${p.grad?' · '+p.grad:''}${p.pos?' · '+esc(p.pos):''}</span><span class="pn">${esc(p.name)}</span><span class="meta">${profChips(p)}</span></a>`};
       let html='';
       if(so==='class'){const g=[];xs.forEach(p=>{const k=p.grad?'Class of '+p.grad:'Class year unknown';if(!g.length||g.at(-1)[0]!==k)g.push([k,[]]);g.at(-1)[1].push(p)});
         html=g.map(([k,ps])=>`<h3 class="pd-h">${esc(k)} <span class="note">${ps.length}</span></h3><div class="pdgrid">${ps.map(card).join('')}</div>`).join('')}
@@ -172,13 +174,18 @@ rep("if(h.startsWith('school-'))html=viewSchool(h.slice(7));\n  else html=",
 rep('players:viewPlayers,', 'players:viewPlayers2,')
 rep("if(a.getAttribute('href')==='#'+(h||'home'))", "if(a.getAttribute('href')==='#'+(h.startsWith('player-')?'players':(h||'home')))")
 
+# upgrade links written by the first version of this script (no season argument)
+for a, b in [('plink(x.name,x.school)}', 'plink(x.name,x.school,x.season)}'), ('plink(h.name,h.school)}', 'plink(h.name,h.school,h.season)}'),
+             ('plink(n,hs[0].school)}', 'plink(n,hs[0].school,hs[0].season)}'), ('plink(p.x.name,p.x.school)}', 'plink(p.x.name,p.x.school,p.x.season)}'),
+             ('plink(p.name,sid)}', 'plink(p.name,sid,p.last)}')]:
+    s = s.replace(a, b)
 # ---- name links into profiles
-rep('<li><span class="acn">${esc(x.name)}${x.note?', '<li><span class="acn">${plink(x.name,x.school)}${x.note?')
-rep('<li><span class="acn">${esc(h.name)}</span><span class="meta">${a.map(honChipFull)', '<li><span class="acn">${plink(h.name,h.school)}</span><span class="meta">${a.map(honChipFull)')
-rep('<li><span class="acn">${esc(h.name)} <span class="note">${r.a.length} selections', '<li><span class="acn">${plink(h.name,h.school)} <span class="note">${r.a.length} selections')
-rep('return `<li><span class="acn">${esc(n)}</span><span class="meta">${hs.map(', 'return `<li><span class="acn">${plink(n,hs[0].school)}</span><span class="meta">${hs.map(')
-rep(">${esc(p.x.name)}${p.mvp?'<b>MVP</b>':''}", ">${plink(p.x.name,p.x.school)}${p.mvp?'<b>MVP</b>':''}")
-rep('<li><span class="acx-nm">${esc(p.name)}', '<li><span class="acx-nm">${plink(p.name,sid)}')
+rep('<li><span class="acn">${esc(x.name)}${x.note?', '<li><span class="acn">${plink(x.name,x.school,x.season)}${x.note?')
+rep('<li><span class="acn">${esc(h.name)}</span><span class="meta">${a.map(honChipFull)', '<li><span class="acn">${plink(h.name,h.school,h.season)}</span><span class="meta">${a.map(honChipFull)')
+rep('<li><span class="acn">${esc(h.name)} <span class="note">${r.a.length} selections', '<li><span class="acn">${plink(h.name,h.school,h.season)} <span class="note">${r.a.length} selections')
+rep('return `<li><span class="acn">${esc(n)}</span><span class="meta">${hs.map(', 'return `<li><span class="acn">${plink(n,hs[0].school,hs[0].season)}</span><span class="meta">${hs.map(')
+rep(">${esc(p.x.name)}${p.mvp?'<b>MVP</b>':''}", ">${plink(p.x.name,p.x.school,p.x.season)}${p.mvp?'<b>MVP</b>':''}")
+rep('<li><span class="acx-nm">${esc(p.name)}', '<li><span class="acx-nm">${plink(p.name,sid,p.last)}')
 rep("${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(",
     "${profFor(p.name,s.id)?`<a class=\"note\" href=\"#player-${profFor(p.name,s.id).id}\">Full profile →</a> `:''}${p.source?`<a class=\"note\" href=\"${esc(String(p.source).split(")
 
@@ -195,6 +202,7 @@ CSS = '''.plink{color:inherit;text-decoration:none;border-bottom:1px dotted curr
 .pf-row{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
 .pf-se{font-weight:700;white-space:nowrap}.pf-se small{display:block;font-weight:400;color:var(--muted);font-size:13px}
 .pf-it{display:grid;gap:6px;min-width:0}.pf-line{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.pf-sch{display:table;margin-top:4px;font-family:var(--cond);font-weight:600;font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:3px;background:var(--c1);color:var(--ct);box-shadow:inset -3px 0 0 var(--c2);text-decoration:none;white-space:nowrap}
 .pf-k{font-family:var(--cond);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);min-width:100px}
 @media (max-width:640px){.pfboard div{padding:8px 6px}.pfboard .v{font-size:20px}.pfboard .k{font-size:10px;letter-spacing:.04em}.pf-row{grid-template-columns:62px 1fr;gap:8px}.pf-k{min-width:0;flex-basis:100%}#pp-all .controls select{flex:1 1 40%;min-width:0}#pp-all .controls label{display:none}#pdq{flex:1 1 100%}}
 '''
