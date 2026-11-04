@@ -3654,6 +3654,27 @@
      "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
     }
    ]
+  },
+  {
+   "name": "Johnathon Jones",
+   "school": "okemos",
+   "grad_year": "2006",
+   "pos": "G",
+   "height": "6-0",
+   "bio": "Finished his career with Okemos' career records for points, assists and steals, and led the Chieftains to the 2006 Class A state final, a double-overtime loss to Saginaw Arthur Hill. His 38 points in that final tied for eighth-most in MHSAA finals history and fifth in Class A. Fourth in 2006 Mr. Basketball voting and runner-up for AP Class A Player of the Year. Signed with Oakland.",
+   "bio_src": "Lansing State Journal, 'Jones took his game, team to new levels' (Geoff Kimmerly; April 23, 2006, p. 1C)",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 21.6,
+     "apg": 5.6,
+     "spg": 2.9,
+     "ft_pct": 0.76,
+     "note": "49 percent on 2-pointers, 40 percent on 3-pointers",
+     "src": "Lansing State Journal, 'Jones took his game, team to new levels' (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
   }
  ]
 }
