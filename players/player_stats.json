@@ -1128,7 +1128,7 @@
    "name": "Denzel Valentine",
    "school": "sexton",
    "grad_year": "2012",
-   "bio": "The Lansing State Journal's 2011-12 Player of the Year and the AP Class B player of the year, he nearly averaged a triple-double as a senior and led Sexton to a second straight Class B state title. Runner-up to Bay City Western's Matt Costello in Mr. Basketball voting. Overcame two knee surgeries as a freshman; signed with Michigan State. Son of Sexton coach Carlton Valentine; brother of Drew Valentine (Sexton, then Oakland).",
+   "bio": "The Lansing State Journal's 2011-12 Player of the Year and the AP Class B player of the year, he nearly averaged a triple-double as a senior (about 14 points, 11 rebounds and 9 assists) as Sexton went 27-1 and won a second straight Class B title. He was also a Detroit Free Press and Detroit News Dream Team pick and runner-up to Bay City Western's Matt Costello in Mr. Basketball voting. As a junior he was first-team Class B all-state and an LSJ Dream Team pick, and had 17 points, 6 rebounds and 3 assists in the 2011 final, Sexton's first state title in 51 years. Attended the 2011 NBA Top 100 Camp; Rivals ranked him No. 81 nationally and the ESPNU 100 had him No. 98. Overcame two knee surgeries as a freshman; signed with Michigan State, where his father had lettered four seasons (1985-88). Son of Sexton coach Carlton Valentine and Kathy Valentine; brother of Drew Valentine (Sexton, then Oakland).",
    "seasons": [
     {
      "season": "2009-10",
@@ -1160,7 +1160,8 @@
     }
    ],
    "height": "6-5",
-   "pos": "G"
+   "pos": "G",
+   "bio_src": "https://msuspartans.com/roster.aspx?rp_id=578"
   },
   {
    "name": "Fredrick Edmond",
