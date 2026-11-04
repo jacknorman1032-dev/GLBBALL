@@ -1266,6 +1266,16 @@
    "bio": "The Lansing State Journal's 2010-11 Player of the Year and the state's Class A Player of the Year as a senior. Second in Mr. Basketball voting. Signed with Dayton.",
    "seasons": [
     {
+     "season": "2007-08",
+     "grade": "9",
+     "ppg": 15.7,
+     "rpg": 14.7,
+     "apg": 3.3,
+     "bpg": 2.6,
+     "note": "312 rebounds, 32nd in state history for a single season; Class A all-state; multiple Division I offers",
+     "src": "Lansing State Journal Dream Team, 2007-08"
+    },
+    {
      "season": "2008-09",
      "grade": "10",
      "ppg": 20.4,
@@ -1598,6 +1608,15 @@
    "bio": "LSJ Dream Team and Class B all-state as a senior, shooting 59 percent from the floor with 25 3-pointers. Signed with Michigan State.",
    "seasons": [
     {
+     "season": "2007-08",
+     "grade": "10",
+     "ppg": 15.4,
+     "rpg": 7.6,
+     "bpg": 4.2,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2007-08"
+    },
+    {
      "season": "2008-09",
      "grade": "11",
      "ppg": 16.5,
@@ -1769,6 +1788,16 @@
    "bio": "LSJ Dream Team and Class B all-state as a senior. Had Division I and II college opportunities but was weighing other options for academics.",
    "seasons": [
     {
+     "season": "2007-08",
+     "grade": "11",
+     "ppg": 12.7,
+     "rpg": 3.0,
+     "apg": 1.7,
+     "spg": 1.6,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2007-08"
+    },
+    {
      "season": "2008-09",
      "grade": "12",
      "ppg": 22.5,
@@ -1786,6 +1815,17 @@
    "pos": "F",
    "bio": "LSJ Dream Team and Class B all-state as a senior after returning from a knee injury. Signed with Oakland. Son of Sexton coach Carlton Valentine; brother of Denzel Valentine.",
    "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "11",
+     "ppg": 13.0,
+     "rpg": 10.9,
+     "apg": 2.2,
+     "spg": 2.3,
+     "bpg": 1.6,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2007-08"
+    },
     {
      "season": "2008-09",
      "grade": "12",
@@ -1863,6 +1903,15 @@
    "pos": "G",
    "seasons": [
     {
+     "season": "2007-08",
+     "grade": "11",
+     "ppg": 12.4,
+     "apg": 3.6,
+     "spg": 2.9,
+     "note": "All-CAAC Red",
+     "src": "Lansing State Journal all-area, 2007-08"
+    },
+    {
      "season": "2008-09",
      "grade": "12",
      "ppg": 16.5,
@@ -1870,6 +1919,169 @@
      "apg": 2.5,
      "note": "All-state honorable mention",
      "src": "Lansing State Journal all-area, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Charlie Woods",
+   "school": "east-lansing",
+   "grad_year": "2008",
+   "bio": "The Lansing State Journal's 2007-08 Player of the Year. Led East Lansing to its first state semifinal since 1958 and earned Class A all-state special mention.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 17.5,
+     "tpm": 52,
+     "src": "Lansing State Journal Dream Team, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Zach Saylor",
+   "school": "waverly",
+   "grad_year": "2008",
+   "height": "6-8",
+   "pos": "C",
+   "bio": "LSJ Dream Team and Class B all-state as a senior. Signed with Central Michigan.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "rpg": 9.6,
+     "fg_pct": 0.57,
+     "note": "Averaged 16-plus points (the decimal is cut off in the screenshot)",
+     "src": "Lansing State Journal Dream Team, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "JaVaughn Acree-Manuel",
+   "school": "sexton",
+   "grad_year": "2008",
+   "height": "6-0",
+   "pos": "G",
+   "bio": "LSJ Dream Team and Class A all-state as a senior; a Division I college prospect.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 16.3,
+     "spg": 3.9,
+     "tpm": 30,
+     "src": "Lansing State Journal Dream Team, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Ryan Erickson",
+   "school": "okemos",
+   "grad_year": "2008",
+   "height": "6-0",
+   "pos": "G",
+   "bio": "Was leaning toward playing at Air Force.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 16.2,
+     "apg": 4.5,
+     "note": "Nearly four rebounds per game",
+     "src": "Lansing State Journal all-area, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Joe Powers",
+   "school": "holt",
+   "grad_year": "2008",
+   "height": "6-2",
+   "pos": "F",
+   "bio": "Headed to Lansing Community College.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 12.2,
+     "rpg": 4.8,
+     "spg": 2.1,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Jordan Schafer",
+   "school": "grand-ledge",
+   "grad_year": "2008",
+   "height": "6-4",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 12.3,
+     "rpg": 6.7,
+     "apg": 1.3,
+     "spg": 1.2,
+     "note": "All-CAAC Blue; Division III prospect",
+     "src": "Lansing State Journal all-area, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Brandon Binkley",
+   "school": "dewitt",
+   "grad_year": "2008",
+   "height": "5-11",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 15.2,
+     "rpg": 3.1,
+     "apg": 2.1,
+     "spg": 1.3,
+     "tpm": 40,
+     "note": "Division II prospect",
+     "src": "Lansing State Journal all-area, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Max Gover",
+   "school": "lansing-catholic",
+   "grad_year": "2008",
+   "height": "6-5",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 10.2,
+     "rpg": 5.1,
+     "apg": 2.1,
+     "src": "Lansing State Journal all-area, 2007-08"
+    }
+   ]
+  },
+  {
+   "name": "Sean Romsek",
+   "school": "fowlerville",
+   "grad_year": "2008",
+   "height": "6-2",
+   "pos": "G",
+   "bio": "Headed to UMass-Lowell.",
+   "seasons": [
+    {
+     "season": "2007-08",
+     "grade": "12",
+     "ppg": 17.4,
+     "rpg": 4.4,
+     "spg": 1.9,
+     "tpm": 44,
+     "src": "Lansing State Journal all-area, 2007-08"
     }
    ]
   }
