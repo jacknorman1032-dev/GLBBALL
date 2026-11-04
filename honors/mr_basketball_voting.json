@@ -186,7 +186,8 @@
   "peschstats": "peschstats.com, Michigan Mr. Basketball voting results by year (peschstats.com/mrbasketball.htm; text from Jack, Nov 3, 2026)",
   "detroitpsl": "detroitpslbasketball.com, \"Hal Schram Mr. Basketball Award\" winners and runners-up (https://www.detroitpslbasketball.com/mr-basketball/), from Jack, Nov 3, 2026",
   "bcam2006": "BCAM, \"2005-2006 Mr Basketball Vote Totals\" (bcam.org, 05-06-kool-vote-article_0.pdf; with Detroit Free Press, March 21, 2006), screenshot from Jack, Nov 3, 2026",
-  "bcam_retro": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  "bcam_retro": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)",
+  "mhsaa_retro_7s": "MHSAA, \"BCAM Names 7s Retro Mr. Basketball Winners\" (May 1, 2017; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners), from Jack, Nov 3, 2026"
  },
  "retro": [
   {
@@ -211,6 +212,17 @@
    "note": "Lansing Central, filed under Sexton."
   },
   {
+   "year": "1937",
+   "season": "1936-37",
+   "name": "Eugene Brogan",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing St. Mary",
+   "winner": false,
+   "src": "MHSAA, \"BCAM Names 7s Retro Mr. Basketball Winners\" (May 1, 2017; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners), from Jack, Nov 3, 2026",
+   "listed_as": "Gene Brogan",
+   "note": "Lansing St. Mary, filed under Lansing Catholic. Key player on back-to-back Class C champions."
+  },
+  {
    "year": "1945",
    "season": "1944-45",
    "name": "Tom Petroff",
@@ -218,6 +230,16 @@
    "listed_school": "Lansing Eastern",
    "winner": false,
    "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1947",
+   "season": "1946-47",
+   "name": "Bob Nagel",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "winner": false,
+   "src": "MHSAA, \"BCAM Names 7s Retro Mr. Basketball Winners\" (May 1, 2017; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners), from Jack, Nov 3, 2026",
+   "note": "Free Press first team; also the 1947 Class A pole vault champion."
   },
   {
    "year": "1953",
@@ -275,6 +297,16 @@
    "listed_school": "Lansing Eastern",
    "winner": false,
    "src": "BCAM Retro Mr. Basketball project, winners and nominees by year (text from Jack, Nov 3, 2026)"
+  },
+  {
+   "year": "1977",
+   "season": "1976-77",
+   "name": "Jay Vincent",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "winner": false,
+   "src": "MHSAA, \"BCAM Names 7s Retro Mr. Basketball Winners\" (May 1, 2017; https://www.mhsaa.com/sports/boys-basketball/stories/bcam-names-7s-retro-mr-basketball-winners), from Jack, Nov 3, 2026",
+   "note": "Finalist the year Magic Johnson won; second-leading vote-getter on the UPI all-state team, 1,512 career points."
   }
  ]
 }
