@@ -1102,6 +1102,17 @@
    "bio": "The Lansing State Journal's 2011-12 Player of the Year and the AP Class B player of the year, he nearly averaged a triple-double as a senior and led Sexton to a second straight Class B state title. Runner-up to Bay City Western's Matt Costello in Mr. Basketball voting. Overcame two knee surgeries as a freshman; signed with Michigan State. Son of Sexton coach Carlton Valentine; brother of Drew Valentine (Sexton, then Oakland).",
    "seasons": [
     {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 10.6,
+     "rpg": 5.3,
+     "apg": 6.5,
+     "spg": 3.9,
+     "bpg": 1.1,
+     "note": "Third varsity season; Class B all-state; verbal commitment to Michigan State",
+     "src": "Lansing State Journal Dream Team, April 3, 2011"
+    },
+    {
      "season": "2011-12",
      "grade": "12",
      "ppg": 14.0,
@@ -1109,7 +1120,9 @@
      "apg": 9.0,
      "src": "Lansing State Journal Player of the Year, April 22, 2012"
     }
-   ]
+   ],
+   "height": "6-5",
+   "pos": "G"
   },
   {
    "name": "Fredrick Edmond",
@@ -1134,6 +1147,16 @@
    "bio": "LSJ Dream Team and Class A first-team all-state as a senior. Okemos upset Eastern in overtime to win its district, then won a regional before losing in the Class A quarterfinals.",
    "seasons": [
     {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 23.0,
+     "apg": 2.4,
+     "spg": 2.1,
+     "tpm": 63,
+     "note": "Class A all-state; shared CAAC Blue title; more than 10 Division I offers",
+     "src": "Lansing State Journal Dream Team, April 3, 2011"
+    },
+    {
      "season": "2011-12",
      "grade": "12",
      "ppg": 21.0,
@@ -1141,7 +1164,9 @@
      "tpm": 66,
      "src": "Lansing State Journal Dream Team, April 22, 2012"
     }
-   ]
+   ],
+   "height": "6-0",
+   "pos": "G"
   },
   {
    "name": "Stevie Repichowski",
@@ -1150,6 +1175,15 @@
    "bio": "LSJ Dream Team and Class B first-team all-state as a senior. Lansing Catholic was ranked No. 2 in Class B much of the season; its only losses were to East Lansing and state champion Sexton.",
    "seasons": [
     {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 12.0,
+     "rpg": 3.3,
+     "tpm": 46,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    },
+    {
      "season": "2011-12",
      "grade": "12",
      "ppg": 21.0,
@@ -1157,7 +1191,9 @@
      "tpm": 61,
      "src": "Lansing State Journal Dream Team, April 22, 2012"
     }
-   ]
+   ],
+   "height": "6-4",
+   "pos": "F"
   },
   {
    "name": "Bryn Forbes",
@@ -1181,12 +1217,224 @@
    "bio": "LSJ Dream Team and Class B first-team all-state as a senior. Sexton's only loss was 81-80 to a Detroit Pershing team ranked No. 1 in Class A for part of the season. Signed with Iowa.",
    "seasons": [
     {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 12.3,
+     "rpg": 4.6,
+     "apg": 4.1,
+     "spg": 3.2,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    },
+    {
      "season": "2011-12",
      "grade": "12",
      "ppg": 14.0,
      "apg": 4.0,
      "note": "Nearly three steals per game",
      "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ],
+   "height": "6-0",
+   "pos": "G"
+  },
+  {
+   "name": "LaDontae Henton",
+   "school": "eastern",
+   "grad_year": "2011",
+   "height": "6-7",
+   "pos": "F",
+   "bio": "The Lansing State Journal's 2010-11 Player of the Year and the state's Class A Player of the Year as a senior. Second in Mr. Basketball voting. Signed with Dayton.",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 25.2,
+     "rpg": 14.5,
+     "apg": 5.2,
+     "src": "Lansing State Journal Dream Team, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Mack McKearney",
+   "school": "okemos",
+   "grad_year": "2011",
+   "height": "6-1",
+   "pos": "G",
+   "bio": "LSJ Dream Team and Class A all-state honorable mention as a senior, shooting 48 percent from the floor for a team that shared the CAAC Blue title. Signed with Dartmouth.",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 16.9,
+     "rpg": 7.4,
+     "apg": 4.3,
+     "bpg": 1.3,
+     "fg_pct": 48,
+     "src": "Lansing State Journal Dream Team, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Tyrin Wade",
+   "school": "sexton",
+   "grad_year": "2011",
+   "height": "6-5",
+   "pos": "F",
+   "bio": "LSJ Dream Team and Class B all-state as a senior on Sexton's 2010-11 Class B state champions.",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 16.8,
+     "rpg": 7.5,
+     "bpg": 1.7,
+     "tpm": 20,
+     "src": "Lansing State Journal Dream Team, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Devlin Bell",
+   "school": "east-lansing",
+   "grad_year": "2011",
+   "height": "6-4",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 15.0,
+     "rpg": 6.5,
+     "tpm": 59,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Scott Besko",
+   "school": "st-johns",
+   "grad_year": "2011",
+   "height": "5-9",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 19.3,
+     "tpm": 52,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Tracy Edmond",
+   "school": "east-lansing",
+   "grad_year": "2012",
+   "height": "5-9",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 11.0,
+     "apg": 5.0,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Skyelar Moore",
+   "school": "waverly",
+   "grad_year": "2011",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 18.1,
+     "tpm": 31,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Charles Tucker, Jr.",
+   "school": "eastern",
+   "height": "6-0",
+   "pos": "G",
+   "aka": [
+    "Cha Cha Tucker"
+   ],
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "10",
+     "ppg": 10.9,
+     "apg": 8.3,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Jordan Johnson",
+   "school": "dewitt",
+   "grad_year": "2011",
+   "height": "6-0",
+   "pos": "F",
+   "bio": "Signed with Ferris State for football.",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 22.0,
+     "rpg": 8.3,
+     "tpm": 35,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Dylan Schultz",
+   "school": "williamston",
+   "grad_year": "2011",
+   "height": "6-1",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 14.7,
+     "rpg": 6.3,
+     "spg": 3.6,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Travis Wells",
+   "school": "eaton-rapids",
+   "grad_year": "2011",
+   "height": "6-0",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "12",
+     "ppg": 21.0,
+     "apg": 4.7,
+     "tpm": 60,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, April 3, 2011"
     }
    ]
   }
