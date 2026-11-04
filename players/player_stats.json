@@ -2426,7 +2426,9 @@
    "school": "east-lansing",
    "grad_year": "2019",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
-   "seasons": []
+   "seasons": [],
+   "varsity_from": "2015-16",
+   "varsity_to": "2018-19"
   },
   {
    "name": "Kellen Lott",
