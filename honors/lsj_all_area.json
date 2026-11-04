@@ -54,7 +54,7 @@
   },
   {
    "season": "2021-22",
-   "teams_note": "Three Player of the Year finalists, a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
+   "teams_note": "Three Player of the Year finalists (the winner, named later, is marked Player of the Year), a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
    "full_counts": {
     "poyf": 3,
     "dream": 3,
@@ -67,7 +67,7 @@
   },
   {
    "season": "2020-21",
-   "teams_note": "Three Player of the Year finalists (the winner was announced later, at the LSJ Sports Awards), a nine-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
+   "teams_note": "Three Player of the Year finalists (the winner, named later, is marked Player of the Year) (the winner was announced later, at the LSJ Sports Awards), a nine-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
    "full_counts": {
     "poyf": 3,
     "dream": 9,
@@ -1842,11 +1842,11 @@
    "listed_as": "",
    "school": "williamston",
    "listed_school": "Williamston",
-   "team": "poyf",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "See the Greater Lansing boys basketball Dream Team and all-area selections, 2021-22 (Lansing State Journal, Brian Calloway, April 24, 2022)",
-   "note": "One of three LSJ Player of the Year finalists; the story names no single winner."
+   "note": "Named a finalist when the list ran; won Player of the Year (Jack, Nov 3, 2026)."
   },
   {
    "season": "2021-22",
@@ -2332,11 +2332,11 @@
    "listed_as": "",
    "school": "fowlerville",
    "listed_school": "Fowlerville",
-   "team": "poyf",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "These are the Greater Lansing boys basketball Dream Team and all-area selections, 2020-21 (Lansing State Journal, Brian Calloway, updated May 9, 2021)",
-   "note": "One of three LSJ Player of the Year finalists; the winner was to be announced at the LSJ Sports Awards in June."
+   "note": "Named a finalist when the list ran; won Player of the Year (Jack, Nov 3, 2026)."
   },
   {
    "season": "2020-21",
