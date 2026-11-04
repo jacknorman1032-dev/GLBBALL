@@ -109,7 +109,7 @@
    "name": "Dequarius (DQ) Stewart, Jr.",
    "school": "east-lansing",
    "grad_year": "2026",
-   "bio": "Senior on East Lansing's 2025-26 CAAC Blue, district and regional champions and Division 1 state runners-up. Son of Dequarius Stewart, a 1995-96 CAC all-league pick at Lansing Sexton.",
+   "bio": "Son of Dequarius Stewart, a 1995-96 CAC all-league pick at Lansing Sexton.",
    "seasons": [
     {
      "season": "2025-26",
@@ -118,7 +118,8 @@
      "rpg": 6.0,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
     }
-   ]
+   ],
+   "varsity_from": "2023-24"
   },
   {
    "name": "Keyshawn Summerville",

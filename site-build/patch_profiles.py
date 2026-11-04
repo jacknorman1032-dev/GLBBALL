@@ -138,8 +138,18 @@ function pfAbout(p){
   if(aDt.length)J.push(`to the Dream Team in ${yrs(aDt)}`);
   if(aAr.length)J.push(`all-area in ${yrs(aAr)}`);
   if(aHm.length)J.push(`all-area honorable mention in ${yrs(aHm)}`);
-  const out=[];if(H.length)out.push(`${lastN} was ${and(H)}.`);
-  if(J.length)out.push(`${H.length?'The Lansing State Journal named him':'The Lansing State Journal named '+lastN} ${and(J)}.`);
+  const out=[];
+  // one honored season: name it once ("As a senior in 2025-26, Stewart was all-state (...), all-conference and an LSJ Dream Team pick.")
+  const hSe=new Set([...p.hon,...p.ac,...p.aa].map(x=>x.season).concat(p.mrf.map(f=>(+f.year-1)+'-'+f.year.slice(-2)),p.mrn.map(f=>f.season)));
+  if(hSe.size===1&&!p.mr&&(H.length+J.length)>1){const se=[...hSe][0],g=p.gr[se]&&!p.inf[se]?{9:'freshman',10:'sophomore',11:'junior',12:'senior'}[p.gr[se]]:'';
+    const strip=t=>t.split(' in '+se).join('').replace(/^all-state \((.*)\)$/,'all-state ($1)');
+    const LJ=[];if(aPoy.length)LJ.push('the LSJ Player of the Year');if(aFin.length)LJ.push('an LSJ Player of the Year finalist');if(aDt.length)LJ.push('an LSJ Dream Team pick');if(aAr.length)LJ.push('LSJ all-area');if(aHm.length)LJ.push('LSJ all-area honorable mention');
+    const hs=H.map(strip).map(t=>t.replace(/^all-state \(([^)]*)\)$/,'all-state ($1)'));
+    const allState=p.hon.length?`all-state (${(()=>{const b=p.best,sh=HON_TIER[b.tier].short;return b.tier==='dream'?b.selector+' all-class Dream Team':b.selector+' '+(b.level&&!/dream/i.test(b.level)?b.level+' ':'')+(TW[sh]||sh.toLowerCase())})()})`:'';
+    const items=[...p.mrf.map(f=>H.find(h=>h.includes(f.year+' Hal Schram'))).filter(Boolean),allState,...hs.filter(t=>/^all-conference/.test(t)),...p.mrn.map(f=>`a ${f.year} BCAM Retro Mr. Basketball nominee`),...LJ].filter(Boolean);
+    out.push(`${g?'As a '+g+' in '+se:'In '+se}, ${lastN} was ${and(items)}.`)}
+  else{if(H.length)out.push(`${lastN} was ${and(H)}.`);
+  if(J.length)out.push(`${H.length?'The Lansing State Journal named him':'The Lansing State Journal named '+lastN} ${and(J)}.`)}
   // ---- transfers: seasons at another covered school (notable card's `also`, else picks there)
   {const hy=[...p.hon,...p.ac,...p.aa].filter(x=>x.school===p.school).map(x=>+x.season.slice(0,4));
    const al=((p.card&&p.card.also)||[]).filter(o=>byId[o.school]).map(o=>({school:o.school,seasons:o.seasons||'',note:o.note||''}));
@@ -192,7 +202,7 @@ function pfAbout(p){
     const rec=!nRec?'':nRec===span.length?`went ${recStr(W,L,T)}${rs}`:`went ${recStr(W,L,T)} in ${yrs(recSe)}${reg?' (regular season)':''}`;
     if(rec||T2.length||R2.length){
       const oldNick=s.id==='okemos'&&+span[0].slice(0,4)<2022;// Okemos were the Chiefs until the early 2020s (now Wolves)
-      const who=oldNick?(span.length>1?'the team':s.short||s.name):s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?`In ${span[0]}`:`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
+      const who=oldNick?(span.length>1?'the team':s.short||s.name):s.nickname?'the '+s.nickname:s.short||s.name,when=span.length===1?(hSe.size===1&&hSe.has(span[0])?'That season':`In ${span[0]}`):`In his seasons at ${s.short||s.name} (${span[0]} to ${span.at(-1)})`;
       const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
       out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
