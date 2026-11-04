@@ -55,11 +55,11 @@ function aaGroups(rows,opt={}){
 }
 function aaPanel(){
   const el=$('#haa');if(!el)return;
-  const draw=()=>{const sc=$('#aasch').value,t=$('#aatier').value,q=$('#aaq').value.trim().toLowerCase();
-    const rows=AA.filter(x=>(sc==='all'||x.school===sc)&&(t==='all'||(t==='top'?AA_TOP(x):t==='coy'?x.team==='coy':x.team!=='coy'&&!AA_TOP(x)))&&(!q||x.name.toLowerCase().includes(q)||(x.listed_as||'').toLowerCase().includes(q)));
+  const draw=()=>{const sc=$('#aasch').value,se=$('#aase').value,t=$('#aatier').value,q=$('#aaq').value.trim().toLowerCase();
+    const rows=AA.filter(x=>(sc==='all'||x.school===sc)&&(se==='all'||x.season===se)&&(t==='all'||(t==='top'?AA_TOP(x):t==='coy'?x.team==='coy':x.team!=='coy'&&!AA_TOP(x)))&&(!q||x.name.toLowerCase().includes(q)||(x.listed_as||'').toLowerCase().includes(q)));
     $('#aacount').textContent=rows.length+(rows.length===1?' pick':' picks');
     $('#aalist').innerHTML=rows.length?aaGroups(rows):'<p class="empty">No picks match.</p>'};
-  ['#aasch','#aatier'].forEach(x=>$(x).onchange=draw);$('#aaq').oninput=draw;draw();
+  ['#aasch','#aase','#aatier'].forEach(x=>$(x).onchange=draw);$('#aaq').oninput=draw;draw();
 }
 function aaPanelHTML(){
   const n=t=>AA.filter(x=>x.team===t).length,se=[...new Set(AA.map(x=>x.season))].sort();
@@ -68,6 +68,7 @@ function aaPanelHTML(){
     <div class="board" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))"><div><span class="v">${n('poy')}</span><span class="k">Player of the Year</span></div>${n('poyf')?`<div><span class="v">${n('poyf')}</span><span class="k">POY finalists</span></div>`:''}<div><span class="v">${n('dream')}</span><span class="k">Dream Team</span></div><div><span class="v">${AA_PLAYERS.length-n('poy')-n('poyf')-n('dream')}</span><span class="k">All-Area</span></div><div><span class="v">${n('coy')}</span><span class="k">Coach of the Year</span></div></div>
     <div class="controls" id="haa">
       <label for="aasch">School</label><select id="aasch"><option value="all">All schools</option>${SCHOOLS.filter(s=>AA.some(x=>x.school===s.id)).map(s=>`<option value="${s.id}">${esc(s.name)}</option>`).join('')}</select>
+      <label for="aase">Season</label><select id="aase"><option value="all">All seasons</option>${se.slice().reverse().map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')}</select>
       <label for="aatier">Honor</label><select id="aatier"><option value="all">All honors</option><option value="top">Player of the Year / Dream Team</option><option value="area">All-Area</option><option value="coy">Coach of the Year</option></select>
       <input type="search" id="aaq" placeholder="Search player" aria-label="Search player"><span class="eyebrow num" id="aacount"></span>
     </div>
@@ -101,6 +102,10 @@ k = s.find('// ---- player profiles (patch_profiles.py)')
 if k < 0: k = s.index('function route(){')
 s = s[:k] + CODE + s[k:]
 
+# ---- phone layout for the LSJ filters (season dropdown added Nov 3, 2026)
+AA_CSS = '@media (max-width:640px){#haa select{flex:1 1 30%;min-width:0}#haa label{display:none}#aaq{flex:1 1 100%}}'
+if AA_CSS not in s:
+    s = s.replace('</style>', AA_CSS + '\n</style>', 1)
 # ---- router and school People tab
 if 'honors:viewHonors3,' not in s:
     rep('honors:viewHonors2,', 'honors:viewHonors3,')
