@@ -173,6 +173,19 @@
    "season": "2012-13",
    "teams_note": "Only the Player of the Year is on file; the full Dream Team and all-area list hasn't been found yet.",
    "src": "LSJ Player of the Year 2012-13, from Jack (Nov 3, 2026); the full 2012-13 Dream Team and all-area list is not on file"
+  },
+  {
+   "season": "2011-12",
+   "teams_note": "Player of the Year, a five-player Dream Team and Coach of the Year across all classes, then a five-player all-area team and coach for each of Classes A-D and one honorable mention list for all classes. Grades are as printed.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 5,
+    "area": 20,
+    "hm": 20,
+    "coy": 5
+   },
+   "left_out": "All-area picks and coaches from schools the site doesn't cover, including every Class C and D pick, Class B's Tanner McCarn (Olivet) and Devin Allen (Stockbridge), and seven honorable mentions. Corunna's M.J. Myles (honorable mention) is a brother of East Lansing's Mikhail and Westin Myles.",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
   }
  ],
  "picks": [
@@ -5941,6 +5954,337 @@
    "division": "",
    "grade": "12",
    "src": "LSJ Player of the Year 2012-13, from Jack (Nov 3, 2026); the full 2012-13 Dream Team and all-area list is not on file"
+  },
+  {
+   "season": "2011-12",
+   "name": "Denzel Valentine",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)",
+   "note": "Averaged 14 points, 11 rebounds and nine assists; AP Class B player of the year and Mr. Basketball runner-up. Coached by his father, Carlton Valentine, the LSJ Coach of the Year."
+  },
+  {
+   "season": "2011-12",
+   "name": "Fredrick Edmond",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Chris Harrison-Docks",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Stevie Repichowski",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Bryn Forbes",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Anthony Clemmons",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Rashaun Carroll",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Taylor Moton",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Tracy Edmond",
+   "listed_as": "Tracey Edmond",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jakob Somerville",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Ryan Anderson",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Aubrey Parrish",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jalen Hayes",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jared Krausz",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Charles Tucker, Jr.",
+   "listed_as": "Cha Cha Tucker",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "hm",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Brian Morton",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "hm",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Javon Haines",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Dee Roberts",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Collin Jones",
+   "listed_as": "Colin Jones",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "",
+   "grade": "10",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Joe Varlesi",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jordan Herron",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jimmy Kodet",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Amari George",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Jonathan Harden",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Don'Quall Jackson",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "",
+   "grade": "10",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Nick Iacobellis",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "John McAdoo",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Carlton Valentine",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Dan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
+  },
+  {
+   "season": "2011-12",
+   "name": "Darren Zwick",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, Player of the Year, Dream Team, all-area and Coach of the Year, 2011-12 (Dick Hoekstra, April 22, 2012, p. 10D)"
   }
  ]
 }

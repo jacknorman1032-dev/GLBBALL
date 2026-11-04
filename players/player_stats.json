@@ -1094,6 +1094,101 @@
      "src": "Detroit Free Press all-state teams, April 7, 2013, p. C10"
     }
    ]
+  },
+  {
+   "name": "Denzel Valentine",
+   "school": "sexton",
+   "grad_year": "2012",
+   "bio": "The Lansing State Journal's 2011-12 Player of the Year and the AP Class B player of the year, he nearly averaged a triple-double as a senior and led Sexton to a second straight Class B state title. Runner-up to Bay City Western's Matt Costello in Mr. Basketball voting. Overcame two knee surgeries as a freshman; signed with Michigan State. Son of Sexton coach Carlton Valentine; brother of Drew Valentine (Sexton, then Oakland).",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 14.0,
+     "rpg": 11.0,
+     "apg": 9.0,
+     "src": "Lansing State Journal Player of the Year, April 22, 2012"
+    }
+   ]
+  },
+  {
+   "name": "Fredrick Edmond",
+   "school": "eastern",
+   "grad_year": "2012",
+   "bio": "LSJ Dream Team and Class A first-team all-state as a senior. Eastern was ranked No. 1 in Class A when it lost to Class B No. 1 Sexton before a sold-out crowd at Eastern's Don Johnson Fieldhouse; the LSJ gave the Quakers' record as 19-4.",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 24.0,
+     "rpg": 13.0,
+     "spg": 3.5,
+     "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ]
+  },
+  {
+   "name": "Chris Harrison-Docks",
+   "school": "okemos",
+   "grad_year": "2012",
+   "bio": "LSJ Dream Team and Class A first-team all-state as a senior. Okemos upset Eastern in overtime to win its district, then won a regional before losing in the Class A quarterfinals.",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 21.0,
+     "spg": 5.0,
+     "tpm": 66,
+     "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ]
+  },
+  {
+   "name": "Stevie Repichowski",
+   "school": "lansing-catholic",
+   "grad_year": "2012",
+   "bio": "LSJ Dream Team and Class B first-team all-state as a senior. Lansing Catholic was ranked No. 2 in Class B much of the season; its only losses were to East Lansing and state champion Sexton.",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 21.0,
+     "apg": 5.0,
+     "tpm": 61,
+     "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ]
+  },
+  {
+   "name": "Bryn Forbes",
+   "school": "sexton",
+   "grad_year": "2012",
+   "bio": "LSJ Dream Team and Class B first-team all-state as a senior, when Sexton went 27-1 and won a second straight Class B title in its third straight state final. Signed with Cleveland State.",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 17.0,
+     "tpm": 59,
+     "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ]
+  },
+  {
+   "name": "Anthony Clemmons",
+   "school": "sexton",
+   "grad_year": "2012",
+   "bio": "LSJ Dream Team and Class B first-team all-state as a senior. Sexton's only loss was 81-80 to a Detroit Pershing team ranked No. 1 in Class A for part of the season. Signed with Iowa.",
+   "seasons": [
+    {
+     "season": "2011-12",
+     "grade": "12",
+     "ppg": 14.0,
+     "apg": 4.0,
+     "note": "Nearly three steals per game",
+     "src": "Lansing State Journal Dream Team, April 22, 2012"
+    }
+   ]
   }
  ]
 }
