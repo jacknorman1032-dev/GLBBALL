@@ -546,7 +546,7 @@
    "name": "Marcus Wourman, Jr.",
    "school": "east-lansing",
    "grad_year": "2021",
-   "bio": "East Lansing went 19-2 and finished second in the CAAC Blue in his junior season. Led East Lansing to district and regional titles as a senior.",
+   "bio": "East Lansing went 19-2 and finished second in the CAAC Blue in his junior season. Played at Hope College (2022-23 to 2025-26), where he won MIAA Tournament titles in 2022-23 and 2023-24 and was All-MIAA second team as a sophomore.",
    "seasons": [
     {
      "season": "2019-20",
@@ -562,6 +562,15 @@
      "apg": 4.6,
      "spg": 2.6,
      "src": "Lansing State Journal Dream Team, May 9, 2021"
+    }
+   ],
+   "varsity_from": "2017-18",
+   "varsity_to": "2020-21",
+   "pos": "G",
+   "links": [
+    {
+     "label": "Hope College roster bio",
+     "url": "https://athletics.hope.edu/sports/mens-basketball/roster/marcus-wourman/10379"
     }
    ]
   },
