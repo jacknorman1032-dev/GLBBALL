@@ -1455,6 +1455,14 @@ function pfAbout(p){
       const cl=[rec,T2.length?'won '+and(T2):'',R2.length?'reached '+and(R2):''].filter(Boolean).map(c=>span.length===1?c.split(' in '+span[0]).join(''):c);
       out.push(`${when}, ${who} ${cl.length>2?cl.slice(0,-1).join(', ')+' and '+cl.at(-1):cl.join(' and ')}.`)}
   }
+  // ---- postseason games the game log marks canceled (the 2020 tournament, stopped by the coronavirus)
+  if(mine.length){const a2=analyze(s),y0=Math.min(...mine.map(x=>+x.slice(0,4))),y1=Math.max(...mine.map(x=>+x.slice(0,4)));
+    const MO=['January','February','March','April','May','June','July','August','September','October','November','December'];
+    ((s.games)||[]).filter(g=>g[5]==='Canceled'&&isPost(g)&&+g[1].slice(0,4)>=y0&&+g[1].slice(0,4)<=y1).forEach(g=>{
+      const d=g[0]?new Date(g[0]+'T12:00:00'):null,ds=d?` on ${MO[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`:'',
+        who=s.nickname&&!(s.id==='okemos'&&+g[1].slice(0,4)<2022)?'the '+s.nickname:s.short||s.name;
+      const why=/^2020-03/.test(g[0]||'')?'when the coronavirus ended the season':'when it was canceled';
+      out.push(`${y0===y1?'They':'In '+g[1]+', '+who} were set to play ${g[2]} in the ${g[4].toLowerCase()}${ds}, ${why}.`)})}
   // ---- career points (player_stats career_points, optional career_seasons)
   if(ex.career_points)out.push(`He finished his high school career with ${Number(ex.career_points).toLocaleString('en-US')} points${ex.career_seasons?' over '+(NW[ex.career_seasons]||ex.career_seasons)+' season'+(ex.career_seasons>1?'s':''):''}.`);
   // ---- last season's averages
