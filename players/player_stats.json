@@ -2361,7 +2361,9 @@
    "school": "east-lansing",
    "grad_year": "2018",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
-   "seasons": []
+   "seasons": [],
+   "varsity_from": "2015-16",
+   "varsity_to": "2017-18"
   },
   {
    "name": "Justin McAbee",
