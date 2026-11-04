@@ -955,7 +955,9 @@
    "name": "Willie Brown, Jr.",
    "school": "sexton",
    "bio": "Son of Willie Brown, who played at Lansing Eastern (2006-07 CAAC-I first team and Free Press all-state sixth team; 2005-06 all-conference honorable mention).",
-   "seasons": []
+   "seasons": [],
+   "grad_year": "2027",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)"
   },
   {
    "name": "Andrel Anthony, Jr.",
@@ -2536,7 +2538,9 @@
    "varsity_from": "2017-18",
    "varsity_to": "2018-19",
    "bio": "Brother of David Wilkerson (East Lansing, Class of 2021).",
-   "seasons": []
+   "seasons": [],
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)"
   },
   {
    "name": "Brevin Jackson",
@@ -2635,6 +2639,342 @@
    "height": "6-4",
    "pos": "G",
    "bio_src": "https://msuspartans.com/roster.aspx?rp_id=8794"
+  },
+  {
+   "name": "Tyler Bowzer",
+   "school": "charlotte",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Alan Smith",
+   "school": "dewitt",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Alec Guillaume",
+   "school": "dewitt",
+   "grad_year": "2017",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Brendan Mensing",
+   "school": "dewitt",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Collin McCrackin",
+   "school": "dewitt",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Dan VanDreumel",
+   "school": "dewitt",
+   "grad_year": "2008",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Donovan Tarn",
+   "school": "dewitt",
+   "grad_year": "2016",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Zach Nevison",
+   "school": "dewitt",
+   "grad_year": "2024",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Brian Spencer",
+   "school": "east-lansing",
+   "grad_year": "2009",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Tyler Tucker",
+   "school": "east-lansing",
+   "grad_year": "2011",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Ian Curtis",
+   "school": "eastern",
+   "grad_year": "2027",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Kyren McKnight",
+   "school": "eastern",
+   "grad_year": "2023",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Raul Romero",
+   "school": "eastern",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Wyatt Soli",
+   "school": "fowlerville",
+   "grad_year": "2025",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Javel Lewis",
+   "school": "grand-ledge",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Jayke Houghton",
+   "school": "grand-ledge",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Luke Smith",
+   "school": "grand-ledge",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Blake Lampman",
+   "school": "haslett",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Brennan Boettcher",
+   "school": "haslett",
+   "grad_year": "2021",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Brogan Ide",
+   "school": "haslett",
+   "grad_year": "2027",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Darek Wroblak",
+   "school": "haslett",
+   "grad_year": "2016",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Eddy Tang",
+   "school": "haslett",
+   "grad_year": "2021",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Hunter Nash",
+   "school": "haslett",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Jaden Thelen",
+   "school": "haslett",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Jake Tahaney",
+   "school": "haslett",
+   "grad_year": "2016",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Kale Schiebner",
+   "school": "haslett",
+   "grad_year": "2020",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Lonnie Smith",
+   "school": "haslett",
+   "grad_year": "2022",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Luke Blattert",
+   "school": "haslett",
+   "grad_year": "2025",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Patrick Hintz",
+   "school": "haslett",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Ty Andrades",
+   "school": "haslett",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Wardrell Wicker",
+   "school": "haslett",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Zack Nartker",
+   "school": "haslett",
+   "grad_year": "2023",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Artavious King",
+   "school": "holt",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Caleb Cooper",
+   "school": "holt",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Jason Kline",
+   "school": "holt",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Malachi McClain",
+   "school": "holt",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Mikah Williams",
+   "school": "holt",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Myles Baker",
+   "school": "holt",
+   "grad_year": "2017",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Robera Mengesha",
+   "school": "holt",
+   "grad_year": "2017",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Gavin Greathouse",
+   "school": "mason",
+   "grad_year": "2028",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Layken Johnson",
+   "school": "mason",
+   "grad_year": "2029",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Luke Goss",
+   "school": "mason",
+   "grad_year": "2027",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Mason Dowdy",
+   "school": "mason",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Hudson Grienke",
+   "school": "okemos",
+   "grad_year": "2023",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Trevor Smith",
+   "school": "okemos",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Mario Murray",
+   "school": "sexton",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Tommy Pratt",
+   "school": "williamston",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Zach Kulesza",
+   "school": "williamston",
+   "grad_year": "2026",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
   }
  ]
 }
