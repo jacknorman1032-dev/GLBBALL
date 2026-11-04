@@ -2458,7 +2458,7 @@
    "grad_year": "2021",
    "height": "6-4",
    "pos": "G",
-   "bio": "After graduating from East Lansing in 2021 he went on to postgraduate prep school at Liberty Heights. His Grand Valley State bio credits him with averages of 12 points, six assists and four rebounds as a senior and 967 career high school points. In college he started 11 games at Spartanburg Methodist in 2022-23 (10.8 points a game, with a season-high 27 against East Georgia State), missed 2023-24 at Youngstown State with an injury, played in 28 games there in 2024-25, and joined Grand Valley State as a redshirt junior guard in 2025-26.",
+   "bio": "After graduating from East Lansing in 2021 he went on to postgraduate prep school at Liberty Heights. His Grand Valley State bio credits him with averages of 12 points, six assists and four rebounds as a senior and 967 career high school points. In college he started 11 games at Spartanburg Methodist in 2022-23 (10.8 points a game, with a season-high 27 against East Georgia State), missed 2023-24 at Youngstown State with an injury, played in 28 games there in 2024-25, and joined Grand Valley State as a redshirt junior guard in 2025-26. His brother, Jonathan Armstead-Wilkerson, played for East Lansing in 2017-18 and 2018-19.",
    "college": "Spartanburg Methodist (2022-23); Youngstown State (2023-25); Grand Valley State (2025-26)",
    "links": [
     {
@@ -2477,6 +2477,14 @@
      "note": "Freshman season, then transferred to East Lansing (Jack, Nov 3, 2026)"
     }
    ]
+  },
+  {
+   "name": "Jonathan Armstead-Wilkerson",
+   "school": "east-lansing",
+   "varsity_from": "2017-18",
+   "varsity_to": "2018-19",
+   "bio": "Brother of David Wilkerson (East Lansing, Class of 2021).",
+   "seasons": []
   }
  ]
 }
