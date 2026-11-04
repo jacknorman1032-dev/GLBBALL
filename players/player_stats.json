@@ -1089,7 +1089,9 @@
      "url": "https://statenews.com/article/2010/03/miss_basketball_leads_east_lansing_to_state_title"
     }
    ],
-   "grad_year": "2017"
+   "grad_year": "2017",
+   "varsity_from": "2013-14",
+   "varsity_to": "2016-17"
   },
   {
    "name": "Jalen Hayes",
@@ -2387,6 +2389,15 @@
    "school": "east-lansing",
    "grad_year": "2026",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "DeAndre Robinson",
+   "school": "east-lansing",
+   "grad_year": "2017",
+   "varsity_from": "2013-14",
+   "varsity_to": "2016-17",
+   "grad_note": "Four-year varsity player, 2013-14 to 2016-17 (Jack, Nov 3, 2026); junior in 2015-16 per the CAAC list",
    "seasons": []
   }
  ]
