@@ -93,7 +93,7 @@
   },
   {
    "season": "2018-19",
-   "teams_note": "Three Player of the Year finalists (the winner was announced later, at the LSJ Sports Awards), a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
+   "teams_note": "Three Player of the Year finalists; the winner, announced later at the LSJ Sports Awards, is marked Player of the Year, a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4.",
    "full_counts": {
     "poyf": 3,
     "dream": 3,
@@ -106,7 +106,7 @@
   },
   {
    "season": "2017-18",
-   "teams_note": "Three Player of the Year finalists (the winner was announced later, at the LSJ Sports Awards), a three-player Dream Team and co-Coaches of the Year across all classes, then an untiered all-area team, honorable mention and coaches for each of Classes A-D.",
+   "teams_note": "Three Player of the Year finalists; the winner, announced later at the LSJ Sports Awards, is marked Player of the Year, a three-player Dream Team and co-Coaches of the Year across all classes, then an untiered all-area team, honorable mention and coaches for each of Classes A-D.",
    "full_counts": {
     "poyf": 3,
     "dream": 3,
@@ -2787,11 +2787,11 @@
    "listed_as": "",
    "school": "okemos",
    "listed_school": "Okemos",
-   "team": "poyf",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "Meet the Lansing area boys high school basketball Dream Team and all-area, 2018-19 (Lansing State Journal, Brian Calloway, April 14, 2019)",
-   "note": "One of three LSJ Player of the Year finalists; the winner was to be announced at the LSJ Sports Awards in June."
+   "note": "Named a finalist when the list ran; won Player of the Year at the LSJ Sports Awards (Jack, Nov 3, 2026)."
   },
   {
    "season": "2018-19",
@@ -3732,11 +3732,11 @@
    "listed_as": "Brandon Johns",
    "school": "east-lansing",
    "listed_school": "East Lansing",
-   "team": "poyf",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "Meet the high school boys basketball Dream Team and all-area selections, 2017-18 (Lansing State Journal, Brian Calloway, April 15, 2018, updated April 18, 2018)",
-   "note": "One of three LSJ Player of the Year finalists; the winner was to be announced at the LSJ Sports Awards."
+   "note": "Named a finalist when the list ran; won Player of the Year at the LSJ Sports Awards (Jack, Nov 3, 2026)."
   },
   {
    "season": "2017-18",
