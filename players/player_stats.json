@@ -2601,6 +2601,27 @@
    "grad_year": "2012",
    "grad_note": "Confirmed by Jack, Nov 4, 2026",
    "seasons": []
+  },
+  {
+   "name": "Conner George",
+   "school": "okemos",
+   "grad_year": "2015",
+   "bio": "A 6-4 guard for coach Jeff Wonch, he led Okemos to the Class A district finals as a senior, shooting 48 percent from the field and 83 percent at the line with 38 three-pointers. Besides his LSJ Dream Team and BCAM all-state picks in 2015, he was AP Class A honorable mention all-state. He turned down Division II and III offers to walk on at Michigan State, redshirted in 2015-16, won the Tim Bograkos Walk-On Award in 2016-17 and earned a scholarship in 2017-18. A three-time Academic All-Big Ten and two-time NABC Honors Court pick, he played in the 2019 NCAA Tournament and finished his bachelor's degree in three years. His mother, Cathy George, is Michigan State's volleyball coach; his father is Jerry George.",
+   "seasons": [
+    {
+     "season": "2014-15",
+     "grade": "12",
+     "ppg": 23.0,
+     "rpg": 10.6,
+     "fg_pct": 0.48,
+     "ft_pct": 0.83,
+     "tpm": 38,
+     "src": "Michigan State roster bio, 2019-20"
+    }
+   ],
+   "height": "6-4",
+   "pos": "G",
+   "bio_src": "https://msuspartans.com/roster.aspx?rp_id=8794"
   }
  ]
 }
