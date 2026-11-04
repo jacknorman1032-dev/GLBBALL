@@ -2191,6 +2191,153 @@
      "src": "Lansing State Journal all-area, April 15, 2007"
     }
    ]
+  },
+  {
+   "name": "Ivan Parker",
+   "school": "okemos",
+   "grad_year": "2006",
+   "height": "6-1",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 9.5,
+     "apg": 2.3,
+     "spg": 2.1,
+     "note": "All-CAAC-1 first team",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Lendyn Davis",
+   "school": "sexton",
+   "grad_year": "2006",
+   "height": "5-10",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 20.5,
+     "apg": 5.7,
+     "rpg": 5.3,
+     "spg": 4.5,
+     "note": "Class A all-state special mention; Division II prospect",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Lexis Carter",
+   "school": "everett",
+   "grad_year": "2006",
+   "height": "5-11",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 13.2,
+     "apg": 5.0,
+     "spg": 2.5,
+     "note": "All-CAAC-1 first team; Division II prospect",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Gerald Busby",
+   "school": "east-lansing",
+   "grad_year": "2006",
+   "height": "6-8",
+   "pos": "C",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 18.8,
+     "rpg": 10.7,
+     "bpg": 3.1,
+     "note": "Class A all-state honorable mention; Division I prospect",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Craig Everts",
+   "school": "grand-ledge",
+   "grad_year": "2006",
+   "height": "6-4",
+   "pos": "C",
+   "bio": "Headed to Albion College.",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 15.8,
+     "rpg": 6.2,
+     "bpg": 1.4,
+     "tpm": 42,
+     "note": "All-CAAC-1 first team",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Cameron Duncan",
+   "school": "waverly",
+   "grad_year": "2006",
+   "height": "6-0",
+   "pos": "G",
+   "bio": "Headed to Lansing Community College.",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 14.5,
+     "rpg": 4.6,
+     "spg": 2.2,
+     "note": "All-CAAC-2 first team",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Mike Chrisman",
+   "school": "haslett",
+   "grad_year": "2006",
+   "height": "6-3",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "12",
+     "ppg": 10.3,
+     "rpg": 5.8,
+     "note": "All-CAAC-3 first team; Division III prospect",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
+  },
+  {
+   "name": "Aaron Nichols",
+   "school": "lansing-catholic",
+   "grad_year": "2007",
+   "height": "5-11",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2005-06",
+     "grade": "11",
+     "ppg": 16.1,
+     "rpg": 4.3,
+     "tpm": 39,
+     "note": "All-CAAC-3 first team",
+     "src": "Lansing State Journal all-area, April 23, 2006"
+    }
+   ]
   }
  ]
 }
