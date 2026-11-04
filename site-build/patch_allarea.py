@@ -88,7 +88,7 @@ function aaSchoolSec(s){
   const xs=AA.filter(x=>x.school===s.id);if(!xs.length)return '';
   const top=xs.filter(AA_TOP),pl=xs.filter(x=>x.team!=='coy'),ls=[...new Set(xs.map(x=>x.season))].sort().pop(),lt=pl.filter(x=>x.season===ls).sort((a,b)=>AA_TEAM[a.team].rank-AA_TEAM[b.team].rank);
   const pv=`<div class="pv">${top.length?`<div class="pv-c"><span class="pv-x f">${top.length} Dream Team${top.some(x=>x.team==='poy'||x.team==='poyf')?' / POY':''}</span></div>`:''}${lt.length?`<p class="pv-t">Latest, ${esc(ls)}: ${lt.slice(0,2).map(x=>`<b>${esc(x.name)}</b> (${esc(AA_TEAM[x.team].short)})`).join(', ')}${lt.length>2?` and ${lt.length-2} more`:''}</p>`:''}<span class="pv-more">See all picks</span></div>`;
-  return `<details class="block fold"><summary><h2>LSJ Dream Team / All-Area</h2><span class="eyebrow num">${pl.length} pick${pl.length===1?'':'s'}</span>${pv}</summary><div class="fold-body">${aaGroups(xs,{school:true})}<a class="note" href="#honors" onclick="HON_TAB='aa'">All schools</a></div></details>`;
+  return `<details class="block fold"><summary><h2>LSJ Dream Team / All-Area</h2><span class="eyebrow num">${pl.length} pick${pl.length===1?'':'s'}</span>${pv}</summary><div class="fold-body">${aaGroups(xs,{school:true})}<a class="note" href="#lsj">All schools</a></div></details>`;
 }
 // ---- end LSJ all-area
 '''
