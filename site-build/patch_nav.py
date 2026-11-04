@@ -104,6 +104,19 @@ function gsInit(){
   box.onmousedown=e=>{const a=e.target.closest('.gs-r');if(a){e.preventDefault();go(res[+a.dataset.i])}};
   inp.onblur=()=>setTimeout(close,120);
 }
+// Back button (Jack, Nov 3, 2026): top of every page but Home. Steps back through pages visited on the site
+// (NAV_STACK; tab clicks rewrite the address and don't count); on a page opened directly, goes to its parent.
+const NAV_STACK=[];
+function navParent(h){if(h.startsWith('player-'))return '#players';if(h.startsWith('school-'))return '#programs';return {allconf:'#honors',lsj:'#honors',mrbasketball:'#honors',rivalries:'#programs'}[h]||'#home'}
+function backBar(h,H0){
+  const base=H0.split('/')[0];
+  if(NAV_STACK.length>1&&NAV_STACK[NAV_STACK.length-2]===base)NAV_STACK.pop();
+  else if(NAV_STACK[NAV_STACK.length-1]!==base)NAV_STACK.push(base);
+  if(h==='home'||!h)return;
+  const v=$('#app').querySelector('section.view');if(!v)return;
+  v.insertAdjacentHTML('afterbegin','<a class="backbtn" href="'+navParent(h)+'" id="backbtn">‹ Back</a>');
+  $('#backbtn').onclick=e=>{if(NAV_STACK.length>1){e.preventDefault();history.back()}};
+}
 // ---- end navigation
 '''
 i = s.find('// ---- navigation (patch_nav.py)')
@@ -120,6 +133,7 @@ rep("  if(h.startsWith('school-'))html=viewSchool(h.slice(7));",
     "  if(NAV_VIEWS[h])html=NAV_VIEWS[h]();\n  else if(h.startsWith('school-'))html=viewSchool(h.slice(7));")
 rep("  $('#schoolpick').value=h.startsWith('school-')?h.slice(7):'';\n",
     "  $('#schoolpick').value=h.startsWith('school-')?h.slice(7):'';\n  navAfter(h);gsInit();\n")
+rep("  navAfter(h);gsInit();\n", "  navAfter(h);gsInit();backBar(h,H0);\n")
 
 # ---- top nav: five links (patch_allconf re-adds All-Conference on a re-run; this removes it again)
 NAV = '''  <nav class="tabs" aria-label="Sections">
@@ -154,6 +168,8 @@ CSS = '''.hubnav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;borde
 .gs-none{padding:10px 12px;color:var(--muted);font-size:14px}
 .foot-links a{color:var(--maple-ink)}
 .hubnav .hs{display:none}
+.backbtn{justify-self:start;font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase;color:var(--maple-ink);text-decoration:none;padding:4px 10px 4px 6px;margin:-14px 0 -14px -6px;border-radius:var(--r)}
+.backbtn:hover{background:var(--sunk)}
 @media (min-width:721px){nav.tabs{flex:0 0 auto}.gs{flex:1 1 200px;max-width:320px;margin-left:auto}}
 @media (max-width:720px){.gs{order:2;flex:1 1 0}.schoolpick{display:none}.gs-res{left:auto;right:0;width:min(92vw,360px)}
   nav.tabs{justify-content:space-between;gap:0;margin-inline:-4px}nav.tabs a{font-size:13px;letter-spacing:.01em;padding:6px 4px}
