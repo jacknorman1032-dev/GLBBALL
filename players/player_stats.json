@@ -1077,6 +1077,23 @@
      "url": "https://statenews.com/article/2010/03/miss_basketball_leads_east_lansing_to_state_title"
     }
    ]
+  },
+  {
+   "name": "Jalen Hayes",
+   "school": "sexton",
+   "grad_year": "2013",
+   "bio": "The only returning starter from Sexton's two straight Class B state champions (2011 and 2012), Hayes took over the team's leadership as a senior.",
+   "college": "Oakland",
+   "seasons": [
+    {
+     "season": "2012-13",
+     "grade": "12",
+     "ppg": 18.0,
+     "rpg": 11.5,
+     "bpg": 3.0,
+     "src": "Detroit Free Press all-state teams, April 7, 2013, p. C10"
+    }
+   ]
   }
  ]
 }

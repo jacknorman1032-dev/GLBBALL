@@ -271,6 +271,13 @@ HONORS += [
     note="Lansing Central won the 1935 Class A title. " + LC),
 ]
 
+# 2012-13 Class B first team (Jack, Nov 3, 2026: newspapers.com clipping of the Free Press all-state page). The 2010s source
+# page has no 2012-13 Greater Lansing picks, so this comes from the paper itself.
+SRC13 = "Detroit Free Press all-state teams, April 7, 2013, p. C10 (newspapers.com clipping from Jack, Nov 3, 2026)"
+HONORS += [
+ hx(SRC13, "2012-13", "Jalen Hayes", "sexton", "Lansing Sexton", "first", "Class B", "First Team", "Sr"),
+]
+
 # Notable player cards added with these honors (Jack, Nov 2, 2026). Inserted at the start of the school's list;
 # the page sorts players by class. Grad year inferred from his all-state seasons and his 1942-43 start at MSU.
 ADD_PLAYERS = [("east-lansing", {"name": "Tom King", "grad_year": "1942",
