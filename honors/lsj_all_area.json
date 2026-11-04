@@ -219,8 +219,8 @@
   },
   {
    "season": "2005-06",
-   "teams_note": "An all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. The Dream Team itself ran on the section front (1C), which isn't on file. Grades are as printed.",
-   "left_out": "The Dream Team (on page 1C, not on file; the Johnathon Jones story on 6C continues from there), Class B coach Greg Hebden (Perry; also AP Class B Coach of the Year), Class C and D all-area teams and coaches, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky and Andy Clark (Perry); Class A honorable mentions Brett Richards and Cody McKim (Howell); Class B honorable mentions Trent Miller and John Balice (Ionia), Alex Erickson (Lakewood), Justin Munson and Pat Schiffer (Ovid-Elsie), Dennis Meaney (Perry) and Zach Reilly (Stockbridge); and every Class C and D honorable mention.",
+   "teams_note": "Player of the Year Johnathon Jones (Okemos) from the front-page teaser, then an all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. The Dream Team itself ran on the section front (1C), which isn't on file. Grades are as printed.",
+   "left_out": "The rest of the Dream Team (on page 1C, not on file; the Johnathon Jones story on 6C continues from there), Class B coach Greg Hebden (Perry; also AP Class B Coach of the Year), Class C and D all-area teams and coaches, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky and Andy Clark (Perry); Class A honorable mentions Brett Richards and Cody McKim (Howell); Class B honorable mentions Trent Miller and John Balice (Ionia), Alex Erickson (Lakewood), Justin Munson and Pat Schiffer (Ovid-Elsie), Dennis Meaney (Perry) and Zach Reilly (Stockbridge); and every Class C and D honorable mention.",
    "src": "Lansing State Journal, all-area teams and honorable mention, 2005-06 (compiled and written by Geoff Kimmerly; April 23, 2006, p. 6C)"
   }
  ],
@@ -8296,6 +8296,18 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2005-06",
+   "name": "Johnathon Jones",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal, front-page teaser, April 23, 2006, p. 1 (Dream Team story on 1C, not on file)",
+   "note": "From the front-page teaser ('Dream Team leader'; Jack, Nov 4, 2026). The rest of the Dream Team is on 1C, not on file."
   },
   {
    "season": "2005-06",
