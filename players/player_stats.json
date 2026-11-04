@@ -1266,6 +1266,17 @@
    "bio": "The Lansing State Journal's 2010-11 Player of the Year and the state's Class A Player of the Year as a senior. Second in Mr. Basketball voting. Signed with Dayton.",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "10",
+     "ppg": 20.4,
+     "rpg": 14.5,
+     "apg": 3.4,
+     "bpg": 2.7,
+     "spg": 1.8,
+     "note": "Class A all-state for the second season",
+     "src": "Lansing State Journal Dream Team, 2008-09"
+    },
+    {
      "season": "2009-10",
      "grade": "11",
      "ppg": 24.8,
@@ -1465,6 +1476,15 @@
    "pos": "F",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "10",
+     "ppg": 13.0,
+     "rpg": 5.1,
+     "spg": 4.1,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
+    {
      "season": "2010-11",
      "grade": "12",
      "ppg": 14.7,
@@ -1502,6 +1522,15 @@
    "bio": "LSJ Dream Team and Class A all-state as a senior, in his third varsity season. Committed to Michigan.",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 17.2,
+     "rpg": 11.2,
+     "bpg": 2.9,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
+    {
      "season": "2009-10",
      "grade": "12",
      "ppg": 21.0,
@@ -1519,6 +1548,16 @@
    "pos": "F",
    "bio": "LSJ Dream Team and Class A all-state special mention as a senior. His 104 blocks that season were a school record, and he finished his career with 1,164 points. Signed with Wright State.",
    "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 20.4,
+     "rpg": 10.2,
+     "bpg": 3.7,
+     "fg_pct": 0.56,
+     "note": "Class A all-state honorable mention; Division I prospect",
+     "src": "Lansing State Journal Dream Team, 2008-09"
+    },
     {
      "season": "2009-10",
      "grade": "12",
@@ -1558,6 +1597,15 @@
    "pos": "C",
    "bio": "LSJ Dream Team and Class B all-state as a senior, shooting 59 percent from the floor with 25 3-pointers. Signed with Michigan State.",
    "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 16.5,
+     "rpg": 10.4,
+     "bpg": 2.4,
+     "note": "All-state special mention",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
     {
      "season": "2009-10",
      "grade": "12",
@@ -1607,6 +1655,15 @@
    "bio": "Part of 71 wins over four seasons at Holt.",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 14.0,
+     "apg": 3.6,
+     "tpm": 29,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
+    {
      "season": "2009-10",
      "grade": "12",
      "ppg": 11.8,
@@ -1643,6 +1700,14 @@
    "pos": "G",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 15.9,
+     "tpm": 35,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
+    {
      "season": "2009-10",
      "grade": "12",
      "ppg": 20.3,
@@ -1661,6 +1726,15 @@
    "pos": "G",
    "seasons": [
     {
+     "season": "2008-09",
+     "grade": "11",
+     "ppg": 13.6,
+     "apg": 4.2,
+     "tpm": 48,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2008-09"
+    },
+    {
      "season": "2009-10",
      "grade": "12",
      "ppg": 16.7,
@@ -1669,6 +1743,128 @@
      "tpm": 49,
      "note": "All-state honorable mention",
      "src": "Lansing State Journal all-area, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Travis Bader",
+   "school": "okemos",
+   "pos": "G",
+   "bio": "The Lansing State Journal's 2008-09 Player of the Year as a senior, when he averaged 20.5 points, made 90 percent of his free throws and had a team-best six dunks for a 21-3 Okemos team.",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 20.5,
+     "ft_pct": 0.9,
+     "src": "Lansing State Journal Dream Team, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Austin Nichols",
+   "school": "lansing-catholic",
+   "height": "6-1",
+   "pos": "G",
+   "bio": "LSJ Dream Team and Class B all-state as a senior. Had Division I and II college opportunities but was weighing other options for academics.",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 22.5,
+     "rpg": 4.7,
+     "spg": 2.6,
+     "src": "Lansing State Journal Dream Team, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Drew Valentine",
+   "school": "sexton",
+   "grad_year": "2009",
+   "height": "6-5",
+   "pos": "F",
+   "bio": "LSJ Dream Team and Class B all-state as a senior after returning from a knee injury. Signed with Oakland. Son of Sexton coach Carlton Valentine; brother of Denzel Valentine.",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 16.2,
+     "rpg": 9.1,
+     "spg": 2.3,
+     "apg": 2.2,
+     "src": "Lansing State Journal Dream Team, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Joe Estrada",
+   "school": "grand-ledge",
+   "grad_year": "2009",
+   "height": "6-3",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 15.8,
+     "apg": 6.2,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Hans Harris",
+   "school": "waverly",
+   "grad_year": "2009",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 15.8,
+     "rpg": 5.2,
+     "tpm": 36,
+     "note": "All-CAAC Red",
+     "src": "Lansing State Journal all-area, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Rico Stewart",
+   "school": "eastern",
+   "grad_year": "2009",
+   "height": "5-8",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 17.7,
+     "apg": 4.6,
+     "spg": 3.2,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2008-09"
+    }
+   ]
+  },
+  {
+   "name": "Nate Duhon",
+   "school": "sexton",
+   "grad_year": "2009",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2008-09",
+     "grade": "12",
+     "ppg": 16.5,
+     "spg": 3.5,
+     "apg": 2.5,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2008-09"
     }
    ]
   }

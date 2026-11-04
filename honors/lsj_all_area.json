@@ -198,6 +198,12 @@
    "teams_note": "Player of the Year and a Dream Team across all classes, then a five-player all-area team and coach for each class, and honorable mention lists by class. Grades are as printed (freshman, sophomore, etc.).",
    "left_out": "Class C and D all-area teams (no covered schools in what's visible) and honorable mentions from schools the site doesn't cover: Joe Blanchett and Justin Carsten (Owosso) in Class A; Nathan Bryans (Lakewood), Jeff O'Brien (Stockbridge) and Chris Robinson (Ovid-Elsie) in Class B; Danny Antcliff (Saranac), Brandon Brown and Cameron Garrett (Bath) in Class C. The Dream Team screenshot may not show every pick, so no full-list count is recorded.",
    "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2009-10 (date not in the screenshots; printed with the all-league teams, which ran April 4, 2010)"
+  },
+  {
+   "season": "2008-09",
+   "teams_note": "Player of the Year and a four-player Dream Team across all classes, then a five-player all-area team and coach for each of Classes A-D, and honorable mention lists by class. Selections by LSJ prep sports editor Geoff Kimmerly with input from area coaches. Grades are as printed.",
+   "left_out": "Class C and D all-area teams and coaches (Luke Pohl, Pewamo-Westphalia; Mike DeLano, Lansing Christian) and honorable mentions from schools the site doesn't cover: Joe Blanchett (Owosso) in Class A; Thomas Lovachis and Jeff O'Brien (Stockbridge), Alec Lynn (Ionia) and Gabe Shellenbarger (Lakewood) in Class B; Dillon Bates (Laingsburg) and Tyler DeLap (Carson City-Crystal) in Class C. The Class C honorable mention list may continue past the screenshot, so no full-list count is recorded.",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
   }
  ],
  "picks": [
@@ -7135,6 +7141,371 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2009-10 (date not in the screenshots; printed with the all-league teams, which ran April 4, 2010)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Travis Bader",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)",
+   "note": "Averaged 20.5 points for a 21-3 Okemos team, made 90 percent of his free throws and had a team-best six dunks."
+  },
+  {
+   "season": "2008-09",
+   "name": "Cole Darling",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Austin Nichols",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "LaDontae Henton",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Drew Valentine",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Joe Estrada",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Hans Harris",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Jon Horford",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Donlunto Jackson",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Rico Stewart",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)",
+   "note": "Possibly the Darickieo Stewart (Eastern) on the 2008-09 all-league list; not yet confirmed."
+  },
+  {
+   "season": "2008-09",
+   "name": "Nate Duhon",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Dylan Schultz",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Andrew Lerg",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Alex Gauna",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Zach Wedesky",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Adarius Beard",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Casey Kloeckner",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Matt McKenzie",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Skyelar Moore",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Cody Morrison",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Eric Smith",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Tom Sperry",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Alex Archambeau",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Jordan Gorshe",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Paul Jorgensen",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Taylor Farr",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Chet LaFave",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Dylan Monette",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Josh Pleyte",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Zach Porritt",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Garrett Swain",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Matt Essell",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
+  },
+  {
+   "season": "2008-09",
+   "name": "Darren Zwick",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2008-09 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-league teams, which ran April 12, 2009)"
   }
  ]
 }
