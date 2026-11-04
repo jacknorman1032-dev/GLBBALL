@@ -2288,6 +2288,15 @@
    "pos": "C",
    "seasons": [
     {
+     "season": "2004-05",
+     "grade": "11",
+     "ppg": 13.0,
+     "rpg": 7.0,
+     "bpg": 1.8,
+     "note": "All-CAAC-1; listed at 6-7",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    },
+    {
      "season": "2005-06",
      "grade": "12",
      "ppg": 18.8,
@@ -3613,6 +3622,15 @@
    "bio": "Led the area in scoring as a senior and made the Class B all-state first team. Headed to Toledo.",
    "seasons": [
     {
+     "season": "2004-05",
+     "grade": "11",
+     "ppg": 12.2,
+     "rpg": 6.5,
+     "bpg": 2.0,
+     "note": "All-CAAC-2",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    },
+    {
      "grade": "12",
      "ppg": 22.8,
      "rpg": 8.8,
@@ -3653,6 +3671,16 @@
    "height": "6-8",
    "seasons": [
     {
+     "season": "2004-05",
+     "grade": "10",
+     "ppg": 12.0,
+     "rpg": 7.3,
+     "bpg": 2.9,
+     "spg": 1.4,
+     "note": "All-CAAC-1; listed at 6-6",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    },
+    {
      "grade": "11",
      "ppg": 15.0,
      "rpg": 11.4,
@@ -3685,6 +3713,17 @@
    "bio_src": "Lansing State Journal, 'Jones took his game, team to new levels' (Geoff Kimmerly; April 23, 2006, p. 1C)",
    "seasons": [
     {
+     "season": "2004-05",
+     "grade": "11",
+     "ppg": 18.8,
+     "rpg": 3.9,
+     "apg": 7.0,
+     "spg": 3.2,
+     "tpm": 41,
+     "note": "Class A all-state special mention; CAAC-1 Player of the Year; Okemos finished No. 10 in the state",
+     "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+    },
+    {
      "season": "2005-06",
      "grade": "12",
      "ppg": 21.6,
@@ -3716,6 +3755,144 @@
      "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
     }
    ]
+  },
+  {
+   "name": "Clyde McKinney, Jr.",
+   "school": "everett",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 17.9,
+     "rpg": 5.0,
+     "apg": 4.0,
+     "note": "Class A all-state",
+     "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "G",
+   "height": "5-10",
+   "bio": "Helped Everett win the 2004 Class A state title as a junior; Class A all-state as a senior. Headed to Oakland."
+  },
+  {
+   "name": "Erik Kangas",
+   "school": "dewitt",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 17.1,
+     "rpg": 6.0,
+     "apg": 2.3,
+     "tpm": 65,
+     "note": "Class B all-state; seventh in Mr. Basketball voting",
+     "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "G",
+   "height": "6-3",
+   "bio": "Class B all-state and seventh in 2005 Mr. Basketball voting. Headed to Oakland."
+  },
+  {
+   "name": "Muhammad El-Amin",
+   "school": "holt",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 12.9,
+     "rpg": 6.4,
+     "apg": 2.5,
+     "spg": 2.1,
+     "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "F",
+   "height": "6-4",
+   "bio": "One of the state's top defenders on Holt's 2005 Class A state champions. Division II prospect who might start at a junior college."
+  },
+  {
+   "name": "Andy Clark",
+   "school": "holt",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 11.0,
+     "rpg": 3.0,
+     "spg": 1.0,
+     "note": "All-CAAC-1 honorable mention",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "F",
+   "height": "6-3"
+  },
+  {
+   "name": "Herschel Rodgers",
+   "school": "waverly",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 14.5,
+     "rpg": 8.0,
+     "apg": 4.0,
+     "spg": 3.0,
+     "note": "All-CAAC-2",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "G",
+   "height": "6-0"
+  },
+  {
+   "name": "Aaron Miller",
+   "school": "haslett",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 16.7,
+     "rpg": 8.8,
+     "bpg": 2.4,
+     "note": "Class B all-state honorable mention",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "F",
+   "height": "6-5"
+  },
+  {
+   "name": "Anthony Fernandez",
+   "school": "lansing-catholic",
+   "seasons": [
+    {
+     "season": "2004-05",
+     "grade": "12",
+     "ppg": 21.7,
+     "rpg": 4.7,
+     "tpm": 84,
+     "note": "All-CAAC-3 first team",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+    }
+   ],
+   "grad_year": "2005",
+   "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
+   "pos": "G",
+   "height": "6-1"
   }
  ]
 }

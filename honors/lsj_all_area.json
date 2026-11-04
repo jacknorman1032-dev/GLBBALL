@@ -222,6 +222,17 @@
    "teams_note": "Player of the Year Johnathon Jones (Okemos) and a four-player Dream Team across all classes on the section front (1C; selections by a panel of area coaches, individual honors by prep editor Geoff Kimmerly), then an all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. Grades are as printed.",
    "left_out": "Class B coach Greg Hebden (Perry; also AP Class B Coach of the Year), Class C and D all-area teams and coaches, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky and Andy Clark (Perry); Class A honorable mentions Brett Richards and Cody McKim (Howell); Class B honorable mentions Trent Miller and John Balice (Ionia), Alex Erickson (Lakewood), Justin Munson and Pat Schiffer (Ovid-Elsie), Dennis Meaney (Perry) and Zach Reilly (Stockbridge); and every Class C and D honorable mention.",
    "src": "Lansing State Journal, Dream Team (p. 1C) and all-area teams and honorable mention (p. 6C), 2005-06 (Geoff Kimmerly; April 23, 2006)"
+  },
+  {
+   "season": "2004-05",
+   "teams_note": "Player of the Year and a four-player Dream Team across all classes on the section front (1C; all-area selections by a panel of area coaches, player and coaches of the year by prep editor Geoff Kimmerly), then a five-player all-area team and coach for each class, an overall Coach of the Year and honorable mention lists by class on page 8C. Grades are as printed.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 4,
+    "hm": 45
+   },
+   "left_out": "Player of the Year Zane Gay (Olivet; 22.4 points, 10.8 rebounds, 2,004 career points, Class C champions), Class B all-area Jordan Sipkovsky (Perry), Corey Thelen and Travis Willard (Lakewood), Class C and D all-area teams and coaches (no covered schools; Jack, Nov 4, 2026), and honorable mentions from schools the site doesn't cover: Andy Clark (Perry), Zac Reilly (Stockbridge) and Tyler Beglin (Lakewood) in Class B, coach Greg Hebden (Perry), and every Class C and D honorable mention.",
+   "src": "Lansing State Journal, Dream Team (p. 1C) and all-area teams, coaches and honorable mention (p. 8C), 2004-05 (Geoff Kimmerly; April 10, 2005)"
   }
  ],
  "picks": [
@@ -8674,6 +8685,405 @@
    "grade": "",
    "src": "Lansing State Journal, all-area teams and honorable mention, 2005-06 (compiled and written by Geoff Kimmerly; April 23, 2006, p. 6C)",
    "note": "21st season. Holt went 21-3, finished second in the CAAC-1 and ended No. 4 in the final Class A rankings, after a short stretch as the unanimous No. 1 in February."
+  },
+  {
+   "season": "2004-05",
+   "name": "Clyde McKinney, Jr.",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Erik Kangas",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Muhammad El-Amin",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Johnathon Jones",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, 2004-05 (Geoff Kimmerly; April 10, 2005, p. 1C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Andy Clark",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Paul Crosby",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Gerald Busby",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Herschel Rodgers",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Shane Ross",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Aaron Miller",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Anthony Fernandez",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Tyler Reed",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "John Lierman",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "David Foreman",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Lendyn Davis",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Drew Yancey",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Ivan Parker",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Chad Somerville",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "David Oesterle",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Andy Schmitt",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Cody Drogt",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Dannie Bolden",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Steve Beaudouin",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Brad Pentecost",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Drew Kimichik",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Sean Scott",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Dan Jorgensen",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Chad Richardson",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Eric McCoy",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Nathan Mayes",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Brandon Deane",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Nathan Turner",
+   "listed_as": "Nate Turner",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Calvin Hissong",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)"
+  },
+  {
+   "season": "2004-05",
+   "name": "Bruce Larner",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)",
+   "note": "Overall Coach of the Year (also AP Class A Coach of the Year). Holt went 26-2 and won the Class A state title, its first district title under Larner having come only a year earlier; ranked fifth entering the tournament, the Rams beat No. 1 Benton Harbor in the regional. Larner got his 200th win in the semifinal and stood at 201-239 after 20 seasons."
+  },
+  {
+   "season": "2004-05",
+   "name": "Dan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)",
+   "note": "Led an inexperienced team to a 17-4 record, including a win over state champion Holt, and a No. 10 state ranking."
+  },
+  {
+   "season": "2004-05",
+   "name": "Rob Porritt",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)",
+   "note": "Haslett went 24-2, won the CAAC-3 title and reached the Class B state semifinals for the second time in six years."
   }
  ]
 }
