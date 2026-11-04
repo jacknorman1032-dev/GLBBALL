@@ -1102,6 +1102,15 @@
    "bio": "The Lansing State Journal's 2011-12 Player of the Year and the AP Class B player of the year, he nearly averaged a triple-double as a senior and led Sexton to a second straight Class B state title. Runner-up to Bay City Western's Matt Costello in Mr. Basketball voting. Overcame two knee surgeries as a freshman; signed with Michigan State. Son of Sexton coach Carlton Valentine; brother of Drew Valentine (Sexton, then Oakland).",
    "seasons": [
     {
+     "season": "2009-10",
+     "grade": "10",
+     "ppg": 10.9,
+     "rpg": 6.3,
+     "apg": 5.8,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    },
+    {
      "season": "2010-11",
      "grade": "11",
      "ppg": 10.6,
@@ -1146,6 +1155,16 @@
    "grad_year": "2012",
    "bio": "LSJ Dream Team and Class A first-team all-state as a senior. Okemos upset Eastern in overtime to win its district, then won a regional before losing in the Class A quarterfinals.",
    "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "10",
+     "ppg": 18.0,
+     "apg": 3.5,
+     "spg": 2.5,
+     "ft_pct": 0.82,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    },
     {
      "season": "2010-11",
      "grade": "11",
@@ -1247,6 +1266,17 @@
    "bio": "The Lansing State Journal's 2010-11 Player of the Year and the state's Class A Player of the Year as a senior. Second in Mr. Basketball voting. Signed with Dayton.",
    "seasons": [
     {
+     "season": "2009-10",
+     "grade": "11",
+     "ppg": 24.8,
+     "rpg": 14.5,
+     "bpg": 2.6,
+     "spg": 2.3,
+     "apg": 2.5,
+     "note": "Class A all-state for the third time; third Dream Team",
+     "src": "Lansing State Journal Dream Team, 2009-10"
+    },
+    {
      "season": "2010-11",
      "grade": "12",
      "ppg": 25.2,
@@ -1284,6 +1314,14 @@
    "pos": "F",
    "bio": "LSJ Dream Team and Class B all-state as a senior on Sexton's 2010-11 Class B state champions.",
    "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "11",
+     "ppg": 15.6,
+     "rpg": 5.3,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    },
     {
      "season": "2010-11",
      "grade": "12",
@@ -1355,6 +1393,14 @@
    "pos": "G",
    "seasons": [
     {
+     "season": "2009-10",
+     "grade": "11",
+     "ppg": 15.7,
+     "tpm": 45,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    },
+    {
      "season": "2010-11",
      "grade": "12",
      "ppg": 18.1,
@@ -1373,6 +1419,15 @@
     "Cha Cha Tucker"
    ],
    "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "9",
+     "ppg": 10.6,
+     "apg": 6.8,
+     "spg": 1.6,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2009-10"
+    },
     {
      "season": "2010-11",
      "grade": "10",
@@ -1435,6 +1490,185 @@
      "tpm": 60,
      "note": "All-state honorable mention",
      "src": "Lansing State Journal all-area, April 3, 2011"
+    }
+   ]
+  },
+  {
+   "name": "Jon Horford",
+   "school": "grand-ledge",
+   "grad_year": "2010",
+   "height": "6-9",
+   "pos": "C",
+   "bio": "LSJ Dream Team and Class A all-state as a senior, in his third varsity season. Committed to Michigan.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 21.0,
+     "rpg": 13.0,
+     "bpg": 5.0,
+     "src": "Lansing State Journal Dream Team, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Cole Darling",
+   "school": "holt",
+   "grad_year": "2010",
+   "height": "6-7",
+   "pos": "F",
+   "bio": "LSJ Dream Team and Class A all-state special mention as a senior. His 104 blocks that season were a school record, and he finished his career with 1,164 points. Signed with Wright State.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 20.8,
+     "rpg": 10.1,
+     "bpg": 4.1,
+     "fg_pct": 0.53,
+     "src": "Lansing State Journal Dream Team, 2009-10"
+    }
+   ],
+   "career_points": 1164
+  },
+  {
+   "name": "Cameron Sanchez",
+   "school": "eastern",
+   "grad_year": "2010",
+   "height": "6-1",
+   "pos": "G",
+   "bio": "LSJ Dream Team and Class A all-state honorable mention as a senior; a Division II college prospect in basketball and football.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 14.6,
+     "rpg": 6.3,
+     "apg": 5.9,
+     "spg": 4.3,
+     "src": "Lansing State Journal Dream Team, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Alex Gauna",
+   "school": "eaton-rapids",
+   "grad_year": "2010",
+   "height": "6-9",
+   "pos": "C",
+   "bio": "LSJ Dream Team and Class B all-state as a senior, shooting 59 percent from the floor with 25 3-pointers. Signed with Michigan State.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 21.9,
+     "rpg": 11.5,
+     "bpg": 2.8,
+     "fg_pct": 0.59,
+     "tpm": 25,
+     "src": "Lansing State Journal Dream Team, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Steven Haney, Jr.",
+   "school": "east-lansing",
+   "grad_year": "2013",
+   "height": "6-5",
+   "pos": "F",
+   "aka": [
+    "Steve Haney"
+   ],
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "9",
+     "ppg": 14.4,
+     "rpg": 4.2,
+     "ft_pct": 0.71,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2009-10"
+    }
+   ],
+   "also": [
+    {
+     "school": "eastern",
+     "seasons": "2010-11",
+     "note": "Transferred to Lansing Eastern (confirmed by Jack, Nov 2, 2026)"
+    }
+   ]
+  },
+  {
+   "name": "Donlunto Jackson",
+   "school": "holt",
+   "grad_year": "2010",
+   "height": "5-8",
+   "pos": "G",
+   "bio": "Part of 71 wins over four seasons at Holt.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 11.8,
+     "apg": 3.0,
+     "note": "All-CAAC Blue",
+     "src": "Lansing State Journal all-area, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Alex Archambeau",
+   "school": "eaton-rapids",
+   "grad_year": "2010",
+   "height": "6-4",
+   "pos": "F",
+   "bio": "Set Eaton Rapids' school record for total steals.",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 15.0,
+     "rpg": 7.0,
+     "spg": 2.5,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Andrew Lerg",
+   "school": "dewitt",
+   "grad_year": "2010",
+   "height": "5-11",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 20.3,
+     "tpm": 50,
+     "ft_pct": 0.75,
+     "note": "All-state special mention",
+     "src": "Lansing State Journal all-area, 2009-10"
+    }
+   ]
+  },
+  {
+   "name": "Zach Wedesky",
+   "school": "fowlerville",
+   "grad_year": "2010",
+   "height": "6-0",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "2009-10",
+     "grade": "12",
+     "ppg": 16.7,
+     "apg": 6.0,
+     "spg": 3.3,
+     "tpm": 49,
+     "note": "All-state honorable mention",
+     "src": "Lansing State Journal all-area, 2009-10"
     }
    ]
   }
