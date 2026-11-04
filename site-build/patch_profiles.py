@@ -109,7 +109,7 @@ function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts',
 // seasons. player_stats.json can set "about" (custom text; a blank line starts a new paragraph; it replaces the bio and the notable
 // card's accolades, which stay in the data) or "about": false (no paragraph) for a player, and
 // "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored, and
-// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks, "also" ([{"school","seasons","note"}],
+// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks (at the player's own school or another), "also" ([{"school","seasons","note"}],
 // seasons at another covered school, like a notable card's also), and "career_points" (with
 // optional "career_seasons") for a career scoring total.
 function pfAbout(p){
@@ -180,8 +180,9 @@ function pfAbout(p){
     const clsOf=se=>{const r=[...hs.champ,...hs.ru].find(x=>norm(x.season)===se);if(r&&r.class)return r.class;const h=p.hon.concat(HON).find(h=>h.season===se&&h.school===p.school&&h.level&&/^(Class|Division)/.test(h.level));return h?h.level.replace(/ \(.*$/,''):''};
     const recSe=[];let W=0,L=0,T=0,nRec=0,reg=false,distKnown=true,lgKnown=true,dist=0,regl=0,lg=0;const champ=[],runner=[],four=[];
     span.forEach(se=>{
-      const gs=a&&a.seasons.find(x=>x.season===se&&x.n);
-      if(gs){W+=gs.w;L+=gs.l;T+=gs.t;nRec++;recSe.push(se)}
+      const gs=a&&a.seasons.find(x=>x.season===se&&x.n),htr=(ex&&ex.team_records||{})[se],hpr=htr&&parseRecord(htr);
+      if(hpr){W+=hpr.w;L+=hpr.l;T+=hpr.t;nRec++;recSe.push(se)}
+      else if(gs){W+=gs.w;L+=gs.l;T+=gs.t;nRec++;recSe.push(se)}
       else{const r=ALLCONF.leagues.map(L=>L.season===se&&L.standings.find(r=>areaId(r[0])===s.id&&r[4]!=null)).find(Boolean);if(r){W+=r[4];L+=r[5];nRec++;reg=true;recSe.push(se)}}
       const fin=gs&&gs.games.some(isPost)?gs.finish:null,y=+se.slice(0,4);
       if(fin){if(fin!=='out')dist++;if(['reg','ff','ru','champ'].includes(fin))regl++}
