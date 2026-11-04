@@ -1,5 +1,5 @@
 {
- "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have. 'about' (optional): custom text for the automatic first paragraph of the profile's About section, or false to hide that paragraph. 'varsity_from' / 'varsity_to' (optional, e.g. \"2021-22\"): first / last varsity season when it is outside the seasons the player was honored; the About paragraph's team record uses it. 'team_records' (optional, e.g. {\"2022-23\": \"18-5\"}): full-season team records the data lacks, by season; used before game logs and regular-season standings. 'career_points' / 'career_seasons' (optional): career scoring total and how many seasons it covers, stated in the About paragraph.",
+ "_note": "Player profile extras (Jack, Nov 3, 2026). Every player with an all-state or all-conference pick already gets a profile automatically; add a player here only to give their profile season stats, a bio, a height, links, or a grad-year / position fix. Match is by name (case, punctuation and Jr./II suffixes ignored) and school id. 'aka' merges other spellings into this profile. Season stat fields are all optional: gp, pts, ppg, reb, rpg, ast, apg, stl, spg, blk, bpg, fgm, fga, fg_pct, tpm (3-pointers made), ft_pct, grade, note, src. Leave out what the clipping doesn't have. 'about' (optional): custom text for the automatic first paragraph of the profile's About section, or false to hide that paragraph. 'varsity_from' / 'varsity_to' (optional, e.g. \"2021-22\"): first / last varsity season when it is outside the seasons the player was honored; the About paragraph's team record uses it. 'team_records' (optional, e.g. {\"2022-23\": \"18-5\"}): full-season team records the data lacks, by season; used before game logs and regular-season standings. 'career_points' / 'career_seasons' (optional): career scoring total and how many seasons it covers, stated in the About paragraph. 'college' (optional): replaces the notable card's College line on the profile, or false to hide it.",
  "players": [
   {
    "name": "Kelvin (KJ) Torbert, Jr.",
@@ -770,6 +770,14 @@
      "rpg": 10.1,
      "fg_pct": 0.61,
      "src": "Lansing State Journal Dream Team, April 15, 2018"
+    }
+   ],
+   "college": false,
+   "about": "Johns was the 2017 AP Class A Player of the Year and all-state all four seasons, including AP first team in 2016, 2017 and 2018 and the Free Press and Detroit News Dream Teams as a senior, when he was also named to BCAM's Best of the Best. He was all-conference all four years, the Lansing State Journal's Player of the Year in 2016 and 2017, runner-up for the 2018 Hal Schram Mr. Basketball (2,792 points) and No. 60 in ESPN's national top 100.\n\nIn his four seasons (2014-15 to 2017-18), the Trojans went 81-15. They went unbeaten in the regular season in 2015-16 (23-1) and 2016-17 (24-1), winning the CAAC Blue and a district title both years, then won district and regional titles in 2017-18 (22-4) before a 58-55 state quarterfinal loss to West Ottawa. As a senior he averaged 26.0 points and 10.1 rebounds, finishing with more than 1,800 career points.\n\nHe played four seasons at Michigan (2018-19 to 2021-22), reaching three Sweet 16s and the 2021 Elite Eight, then spent his graduate season at VCU (2022-23).",
+   "links": [
+    {
+     "label": "VCU: Rams sign transfer Brandon Johns Jr. (April 2022)",
+     "url": "https://vcuathletics.com/news/2022/4/22/mens-basketball-rams-sign-transfer-brandon-johns-jr.aspx"
     }
    ]
   },

@@ -248,7 +248,7 @@ function viewProfile(id){
   const c=p.card,ex=p.ex||{};
   const auto=pfAbout(p);
   const custom=typeof ex.about==='string'&&ex.about.trim();
-  const about=[auto?auto.split(/\n\s*\n/).map(t=>`<p>${esc(t.trim())}</p>`).join(''):'',!custom&&ex.bio?`<p>${esc(ex.bio)}</p>`:'',!custom&&c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',c&&c.college?`<p><b>College:</b> ${esc(c.college)}</p>`:'',c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
+  const about=[auto?auto.split(/\n\s*\n/).map(t=>`<p>${esc(t.trim())}</p>`).join(''):'',!custom&&ex.bio?`<p>${esc(ex.bio)}</p>`:'',!custom&&c&&c.accolades?`<p>${esc(c.accolades)}</p>`:'',(ex.college===false?'':(ex.college||c&&c.college)?`<p><b>College:</b> ${esc(ex.college||c.college)}</p>`:''),c&&c.pro?`<p><b>Pro:</b> ${esc(c.pro)}</p>`:''].join('');
   const srcs=[...new Set([...p.hon.map(h=>h.selector==='BCAM'&&/ballstate\.pdf$/.test(h.src||'')?'BCAM all-state list ('+h.season+')':h.src),...p.ac.map(x=>x.src),...p.aa.map(x=>x.src),...p.mrf.map(f=>f.src),...p.lead.map(x=>x.src),...st.map(x=>x.src),...((ex.links||[]).filter(l=>l.url).map(l=>l.label||l.url))].filter(Boolean))];
   const nSe=p.seasons.length;
   return `<section class="view">${head}
