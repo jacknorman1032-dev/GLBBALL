@@ -530,7 +530,7 @@
    "name": "Mason Woods",
    "school": "east-lansing",
    "grad_year": "2022",
-   "bio": "Senior on East Lansing's 2021-22 CAAC Blue and district champions (18-5).",
+   "bio": "",
    "seasons": [
     {
      "season": "2021-22",
@@ -540,7 +540,9 @@
      "spg": 1.3,
      "src": "Lansing State Journal Dream Team, April 24, 2022"
     }
-   ]
+   ],
+   "varsity_from": "2018-19",
+   "varsity_to": "2021-22"
   },
   {
    "name": "Marcus Wourman, Jr.",
