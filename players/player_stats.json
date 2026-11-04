@@ -1088,7 +1088,8 @@
      "label": "State News: Miss Basketball leads East Lansing to state title (March 2010)",
      "url": "https://statenews.com/article/2010/03/miss_basketball_leads_east_lansing_to_state_title"
     }
-   ]
+   ],
+   "grad_year": "2017"
   },
   {
    "name": "Jalen Hayes",
@@ -2343,6 +2344,48 @@
    "name": "Malik Jones",
    "school": "east-lansing",
    "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Justin McAbee",
+   "school": "east-lansing",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Noah Schon",
+   "school": "east-lansing",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Jack Morse",
+   "school": "east-lansing",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Ethan Dunn",
+   "school": "east-lansing",
+   "grad_year": "2022",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Andrew Wells, Jr.",
+   "school": "east-lansing",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 3, 2026",
+   "seasons": []
+  },
+  {
+   "name": "Kellen Lott",
+   "school": "east-lansing",
+   "grad_year": "2026",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
    "seasons": []
   }
