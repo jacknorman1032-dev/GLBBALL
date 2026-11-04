@@ -3781,6 +3781,17 @@
    "school": "dewitt",
    "seasons": [
     {
+     "season": "2003-04",
+     "grade": "11",
+     "ppg": 18.9,
+     "rpg": 5.0,
+     "apg": 1.5,
+     "tpm": 83,
+     "ft_pct": 0.907,
+     "note": "Class B all-state honorable mention; listed as a 6-4 forward; Division I prospect",
+     "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+    },
+    {
      "season": "2004-05",
      "grade": "12",
      "ppg": 17.1,
@@ -3893,6 +3904,67 @@
    "grad_note": "From the Lansing State Journal's printed grade, April 10, 2005",
    "pos": "G",
    "height": "6-1"
+  },
+  {
+   "name": "Al Horford",
+   "school": "grand-ledge",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 21.1,
+     "rpg": 13.0,
+     "bpg": 4.9,
+     "blk": 112,
+     "note": "18 double-doubles and a triple-double; 1,239 career points; fifth in Mr. Basketball voting; 34 points, 17 rebounds and 7 blocks against Everett",
+     "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "C",
+   "height": "6-8",
+   "bio": "Three-year varsity player who set seven Grand Ledge career records, including 1,239 points, and led the Comets to their first CAC title in 2002-03. As a senior he was AP Class A Player of the Year and all-state for the second time, finished fifth in Mr. Basketball voting and led Grand Ledge to an 18-5 record and a No. 7 state ranking before losing to eventual champion Everett in the district final. Committed to Florida.",
+   "bio_src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+  },
+  {
+   "name": "Derick Nelson",
+   "school": "everett",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 17.5,
+     "rpg": 10.3,
+     "note": "Class A all-state first team",
+     "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "F",
+   "height": "6-4",
+   "bio": "Class A all-state first team on Everett's 2004 Class A state champions; scored 31 points in the state semifinal win over Pontiac Northern. Division I prospect."
+  },
+  {
+   "name": "Goran Suton",
+   "school": "everett",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 15.2,
+     "rpg": 12.8,
+     "bpg": 4.4,
+     "note": "Class A all-state special mention; eighth in Mr. Basketball voting",
+     "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "C",
+   "height": "6-10",
+   "bio": "Center on Everett's 2004 Class A state champions; Class A all-state special mention and eighth in Mr. Basketball voting. Headed to Michigan State."
   }
  ]
 }

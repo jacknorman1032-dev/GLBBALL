@@ -233,6 +233,17 @@
    },
    "left_out": "Player of the Year Zane Gay (Olivet; 22.4 points, 10.8 rebounds, 2,004 career points, Class C champions), Class B all-area Jordan Sipkovsky (Perry), Corey Thelen and Travis Willard (Lakewood), Class C and D all-area teams and coaches (no covered schools; Jack, Nov 4, 2026), and honorable mentions from schools the site doesn't cover: Andy Clark (Perry), Zac Reilly (Stockbridge) and Tyler Beglin (Lakewood) in Class B, coach Greg Hebden (Perry), and every Class C and D honorable mention.",
    "src": "Lansing State Journal, Dream Team (p. 1C) and all-area teams, coaches and honorable mention (p. 8C), 2004-05 (Geoff Kimmerly; April 10, 2005)"
+  },
+  {
+   "season": "2003-04",
+   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fab five' with the Player of the Year) and Coach of the Year on the sports front. Grades are as printed. The all-area teams and honorable mention aren't on file yet.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 4,
+    "coy": 1
+   },
+   "left_out": "Dream Team pick Clint Tobias (Lakewood). All-area teams and honorable mention not on file yet.",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
   }
  ],
  "picks": [
@@ -9084,6 +9095,63 @@
    "grade": "",
    "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2004-05 (compiled and written by Geoff Kimmerly; April 10, 2005, p. 8C)",
    "note": "Haslett went 24-2, won the CAAC-3 title and reached the Class B state semifinals for the second time in six years."
+  },
+  {
+   "season": "2003-04",
+   "name": "Al Horford",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)",
+   "note": "Also AP Class A Player of the Year. Set seven Grand Ledge career records and led the Comets to their first CAC title in 2002-03."
+  },
+  {
+   "season": "2003-04",
+   "name": "Erik Kangas",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Derick Nelson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Goran Suton",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Johnny Jones",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)",
+   "note": "Everett went 26-2 and won the Class A state title, its first since 1977, after finishing No. 2 in the regular-season AP poll and winning the CAAC Division 1 title. Jones had a 335-208 boys record over 24 seasons and had led the Everett girls to state titles in 2000 and 2001."
   }
  ]
 }
