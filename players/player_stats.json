@@ -3575,6 +3575,85 @@
    "grad_year": "2020",
    "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
    "seasons": []
+  },
+  {
+   "name": "Nathan Turner",
+   "school": "haslett",
+   "grad_year": "2006",
+   "grad_note": "From the Lansing State Journal's printed grade, April 23, 2006",
+   "pos": "G",
+   "height": "5-9",
+   "bio": "Led Haslett to a combined 48-4 record over 2004-05 and 2005-06. Committed to play football at Western Michigan as a preferred walk-on; also had a basketball offer from Saginaw Valley State.",
+   "seasons": [
+    {
+     "grade": "12",
+     "ppg": 13.4,
+     "apg": 7.2,
+     "season": "2005-06",
+     "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
+  },
+  {
+   "name": "Shane Ross",
+   "school": "waverly",
+   "grad_year": "2006",
+   "grad_note": "From the Lansing State Journal's printed grade, April 23, 2006",
+   "pos": "C",
+   "height": "6-6",
+   "bio": "Led the area in scoring as a senior and made the Class B all-state first team. Headed to Toledo.",
+   "seasons": [
+    {
+     "grade": "12",
+     "ppg": 22.8,
+     "rpg": 8.8,
+     "bpg": 1.1,
+     "note": "Area-high scoring average",
+     "season": "2005-06",
+     "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
+  },
+  {
+   "name": "John Lierman",
+   "school": "holt",
+   "grad_year": "2006",
+   "grad_note": "From the Lansing State Journal's printed grade, April 23, 2006",
+   "pos": "G",
+   "height": "6-4",
+   "bio": "Class A all-state honorable mention as a senior. Headed to Aquinas College.",
+   "seasons": [
+    {
+     "grade": "12",
+     "ppg": 20.0,
+     "rpg": 6.5,
+     "apg": 2.0,
+     "spg": 2.8,
+     "tpm": 45,
+     "season": "2005-06",
+     "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
+  },
+  {
+   "name": "Paul Crosby",
+   "school": "holt",
+   "grad_year": "2007",
+   "grad_note": "From the Lansing State Journal's printed grade, April 23, 2006",
+   "pos": "C",
+   "height": "6-7",
+   "seasons": [
+    {
+     "grade": "11",
+     "ppg": 15.0,
+     "rpg": 11.4,
+     "bpg": 3.7,
+     "tpm": 11,
+     "note": "34 percent on 3-pointers; Class A all-state first team; described as a Division I prospect",
+     "season": "2005-06",
+     "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
   }
  ]
 }
