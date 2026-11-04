@@ -768,6 +768,16 @@
    "bio": "AP Class A Player of the Year as a junior, when East Lansing finished a second straight unbeaten regular season (24-1). Finished his career with more than 1,800 points; East Lansing went 22-4 with district and regional titles his senior year.",
    "seasons": [
     {
+     "season": "2015-16",
+     "grade": "10",
+     "ppg": 19.7,
+     "rpg": 10.3,
+     "spg": 1.9,
+     "bpg": 2.9,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    },
+    {
      "season": "2016-17",
      "grade": "11",
      "ppg": 20.6,
@@ -953,6 +963,89 @@
    "school": "dewitt",
    "seasons": [],
    "bio": "Younger brother of Bryce Kurncz."
+  },
+  {
+   "name": "Malek Adams",
+   "school": "grand-ledge",
+   "grad_year": "2016",
+   "bio": "Senior guard on Grand Ledge's 2015-16 team (16-7), second in the CAAC Blue.",
+   "seasons": [
+    {
+     "season": "2015-16",
+     "grade": "12",
+     "ppg": 19.3,
+     "rpg": 6.0,
+     "apg": 5.1,
+     "spg": 2.7,
+     "fg_pct": 0.48,
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    }
+   ]
+  },
+  {
+   "name": "Brandon Allen",
+   "school": "haslett",
+   "grad_year": "2016",
+   "bio": "Set Haslett's career scoring record as a senior.",
+   "seasons": [
+    {
+     "season": "2015-16",
+     "grade": "12",
+     "ppg": 24.2,
+     "apg": 3.1,
+     "spg": 2.0,
+     "tpm": 60,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    }
+   ]
+  },
+  {
+   "name": "Riley Lewis",
+   "school": "williamston",
+   "grad_year": "2016",
+   "bio": "Set Williamston's career records for points and assists and led the area in scoring as a senior, when Williamston shared the CAAC White title and reached the Class B state semifinals. Went on to Hope.",
+   "seasons": [
+    {
+     "season": "2015-16",
+     "grade": "12",
+     "ppg": 27.7,
+     "spg": 2.9,
+     "tpm": 66,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    }
+   ]
+  },
+  {
+   "name": "Jamyrin Jackson",
+   "school": "everett",
+   "grad_year": "2016",
+   "bio": "Led Everett (16-11) to Class A district and regional titles and its second straight state semifinal as a senior.",
+   "seasons": [
+    {
+     "season": "2015-16",
+     "grade": "12",
+     "ppg": 17.0,
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    }
+   ]
+  },
+  {
+   "name": "Tony Poljan",
+   "school": "lansing-catholic",
+   "grad_year": "2016",
+   "bio": "Set Lansing Catholic's career scoring record as a senior, when the Cougars shared the CAAC White title. Also a quarterback, he signed to play football at Central Michigan.",
+   "seasons": [
+    {
+     "season": "2015-16",
+     "grade": "12",
+     "ppg": 19.2,
+     "rpg": 10.5,
+     "note": "Regular season",
+     "src": "Lansing State Journal Dream Team, April 17, 2016"
+    }
+   ]
   }
  ]
 }
