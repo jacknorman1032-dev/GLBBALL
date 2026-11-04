@@ -168,6 +168,11 @@
    },
    "left_out": "The Player of the Year and Coach of the Year (both Pewamo-Westphalia), and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick. Corunna's Mikhail Myles (Class B all-area) is noted on his East Lansing profile.",
    "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2012-13",
+   "teams_note": "Only the Player of the Year is on file; the full Dream Team and all-area list hasn't been found yet.",
+   "src": "LSJ Player of the Year 2012-13, from Jack (Nov 3, 2026); the full 2012-13 Dream Team and all-area list is not on file"
   }
  ],
  "picks": [
@@ -5925,6 +5930,17 @@
    "division": "Class B",
    "grade": "",
    "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2012-13",
+   "name": "Jalen Hayes",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ Player of the Year 2012-13, from Jack (Nov 3, 2026); the full 2012-13 Dream Team and all-area list is not on file"
   }
  ]
 }
