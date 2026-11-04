@@ -1248,8 +1248,14 @@
    "name": "Bryn Forbes",
    "school": "sexton",
    "grad_year": "2012",
-   "bio": "LSJ Dream Team and Class B first-team all-state as a senior, when Sexton went 27-1 and won a second straight Class B title in its third straight state final. Signed with Cleveland State.",
+   "bio": "A 6-3 guard for coach Carlton Valentine, he played alongside Denzel Valentine in three straight state finals: the 2010 Class B final as a sophomore, then the 2011 and 2012 titles. As a junior he averaged 13.6 points for the 26-2 champions and scored 29 in the 2011 semifinal. LSJ Dream Team and Class B first-team all-state (Free Press and Detroit News) as a senior, when Sexton went 27-1; Michigan State's bio puts his senior averages at 19.0 points, 5.0 rebounds and 3.0 assists with 60 three-pointers, and he had 19 points and 7 assists in the 2012 final. Signed with Cleveland State, where he was the 2013 Horizon League Newcomer of the Year and set the school record with 81 threes in 2013-14, then transferred home to Michigan State and reached the 2015 Final Four. Son of Brandon and Sue Forbes.",
    "seasons": [
+    {
+     "season": "2010-11",
+     "grade": "11",
+     "ppg": 13.6,
+     "src": "Michigan State roster bio, 2015-16"
+    },
     {
      "season": "2011-12",
      "grade": "12",
@@ -1257,7 +1263,10 @@
      "tpm": 59,
      "src": "Lansing State Journal Dream Team, April 22, 2012"
     }
-   ]
+   ],
+   "height": "6-3",
+   "pos": "G",
+   "bio_src": "https://msuspartans.com/roster.aspx?rp_id=535"
   },
   {
    "name": "Anthony Clemmons",
