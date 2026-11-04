@@ -80,7 +80,7 @@
   },
   {
    "season": "2019-20",
-   "teams_note": "Three Player of the Year finalists, a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4. The season ended early (coronavirus).",
+   "teams_note": "Three Player of the Year finalists (the winner, named later, is marked Player of the Year), a three-player Dream Team and Coach of the Year across all divisions, then an untiered all-area team, honorable mention and coaches for each of Divisions 1-4. The season ended early (coronavirus).",
    "full_counts": {
     "poyf": 3,
     "dream": 3,
@@ -3220,11 +3220,11 @@
    "listed_as": "",
    "school": "williamston",
    "listed_school": "Williamston",
-   "team": "poyf",
+   "team": "poy",
    "division": "",
    "grade": "10",
    "src": "Meet the Greater Lansing high school boys basketball Dream Team and all-area, 2019-20 (Lansing State Journal, Brian Calloway, April 12, 2020)",
-   "note": "One of three LSJ Player of the Year finalists; the story names no winner."
+   "note": "Named a finalist when the list ran; won Player of the Year (Jack, Nov 3, 2026)."
   },
   {
    "season": "2019-20",
