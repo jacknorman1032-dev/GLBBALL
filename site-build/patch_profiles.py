@@ -108,7 +108,8 @@ function pfLine(x){return PF_STATS.filter(([k])=>x[k]!=null&&x[k]!==''&&!['pts',
 // seasons. player_stats.json can set "about" (custom text; a blank line starts a new paragraph; it replaces the bio and the notable
 // card's accolades, which stay in the data) or "about": false (no paragraph) for a player, and
 // "varsity_from" / "varsity_to" (e.g. "2021-22") when his varsity years go beyond the seasons he was honored, and
-// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks, and "career_points" (with
+// "team_records" ({"2022-23": "18-5"}) for full-season team records the data lacks, "also" ([{"school","seasons","note"}],
+// seasons at another covered school, like a notable card's also), and "career_points" (with
 // optional "career_seasons") for a career scoring total.
 function pfAbout(p){
   const ex=p.ex||{};if(ex.about===false)return '';if(typeof ex.about==='string'&&ex.about.trim())return ex.about;
@@ -152,7 +153,7 @@ function pfAbout(p){
   if(J.length)out.push(`${H.length?'The Lansing State Journal named him':'The Lansing State Journal named '+lastN} ${and(J)}.`)}
   // ---- transfers: seasons at another covered school (notable card's `also`, else picks there)
   {const hy=[...p.hon,...p.ac,...p.aa].filter(x=>x.school===p.school).map(x=>+x.season.slice(0,4));
-   const al=((p.card&&p.card.also)||[]).filter(o=>byId[o.school]).map(o=>({school:o.school,seasons:o.seasons||'',note:o.note||''}));
+   const al=[...((p.card&&p.card.also)||[]),...(ex.also||[])].filter(o=>byId[o.school]).map(o=>({school:o.school,seasons:o.seasons||'',note:o.note||''}));
    const fromPicks=[...new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school!==p.school&&byId[x.school]).map(x=>x.school))].filter(o=>!al.some(a=>a.school===o)).map(o=>{const ss=[...new Set([...p.hon,...p.ac,...p.aa].filter(x=>x.school===o).map(x=>x.season))].sort();return {school:o,seasons:ss.length>1?ss[0]+' to '+ss.at(-1):ss[0],note:''}});
    [...al,...fromPicks].forEach(o=>{const oy=(o.seasons.match(/\d{4}/g)||[]).map(Number);if(!oy.length)return;const o2=byId[o.school].short||byId[o.school].name,h2=s.short||s.name;
      const fr=/freshman/i.test(o.note)?'his freshman season':/sophomore/i.test(o.note)?'his sophomore season':'';
@@ -226,8 +227,8 @@ function pfAbout(p){
 function viewProfile(id){
   const p=PF.id[id];if(!p)return viewPlayers2();
   const s=byId[p.school],st=(p.ex&&p.ex.seasons)||[];
-  const others=[...new Set([...p.hon,...p.ac,...p.aa].map(x=>x.school))].filter(x=>x!==p.school&&byId[x]);
-  const seOf=o=>{const a=[...new Set([...p.hon,...p.ac].filter(x=>x.school===o).map(x=>x.season))].sort();const c=p.card&&(p.card.also||[]).find(x=>x.school===o);return c&&c.seasons?c.seasons:a.length>1?a[0]+' to '+a.at(-1):a[0]||''};
+  const others=[...new Set([...p.hon,...p.ac,...p.aa].map(x=>x.school).concat(((p.ex&&p.ex.also)||[]).map(o=>o.school)))].filter(x=>x!==p.school&&byId[x]);
+  const seOf=o=>{const a=[...new Set([...p.hon,...p.ac].filter(x=>x.school===o).map(x=>x.season))].sort();const c=[...((p.card&&p.card.also)||[]),...((p.ex&&p.ex.also)||[])].find(x=>x.school===o);return c&&c.seasons?c.seasons:a.length>1?a[0]+' to '+a.at(-1):a[0]||''};
   const sub=[p.grad?'Class of '+p.grad:'',p.pos,p.ex&&p.ex.height].filter(Boolean).map(esc).join(' · ');
   const head=`<div class="shead${s.logo?' has-logo':''}" style="${colorVars(s)}">${s.logo?`<span class="slogo-box"><img class="slogo" src="${esc(s.logo)}" alt="${esc(s.name)} logo" style="--ls:${s.logo_scale||1}"></span>`:''}<div class="stext"><div class="eyebrow"><a href="#school-${s.id}" style="color:inherit">${esc(s.name)}</a></div>${others.length?`<div class="eyebrow">Also played at ${others.map(o=>`<a href="#school-${o}" style="color:inherit">${esc(byId[o].name)}</a>${seOf(o)?' ('+esc(seOf(o))+')':''}`).join(', ')}</div>`:''}<h1>${esc(p.name)}</h1>${sub?`<div class="eyebrow">${sub}</div>`:''}</div></div>`;
   const champ=x=>{const L=ALLCONF.leagues.find(L=>L.season===x.season&&L.league===x.league);const r=L&&L.standings.find(r=>r[3]===1&&areaId(r[0])===x.school);return r?` <span class="acx-ch">League champs${r[1]!=null?' '+r[1]+'-'+r[2]:''}</span>`:''};
