@@ -2426,9 +2426,31 @@
    "school": "east-lansing",
    "grad_year": "2019",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
-   "seasons": [],
+   "seasons": [
+    {
+     "season": "2018-19",
+     "grade": "12",
+     "ppg": 10.0,
+     "rpg": 5.0,
+     "apg": 2.0,
+     "src": "Eastern Michigan men's basketball roster bio (2023-24)"
+    }
+   ],
    "varsity_from": "2015-16",
-   "varsity_to": "2018-19"
+   "varsity_to": "2018-19",
+   "pos": "G",
+   "aka": [
+    "Andrew Wells II",
+    "Andrew Wells"
+   ],
+   "bio": "Also lettered in football, baseball and track and field at East Lansing, and played four seasons for the Lansing Prospectors. After a postgraduate season at International Sports Academy (2019-20), he played guard at Eastern Michigan from 2020-21 through 2023-24. His father and grandfather also attended EMU; his father played on the Eagles' 1977 basketball team before transferring to Michigan State for track and field.",
+   "college": "International Sports Academy (2019-20, postgraduate); Eastern Michigan (2020-24, guard)",
+   "links": [
+    {
+     "label": "Eastern Michigan men's basketball roster: Andrew Wells II (2023-24)",
+     "url": "https://emueagles.com/sports/mens-basketball/roster/andrew-wells/13702"
+    }
+   ]
   },
   {
    "name": "Kellen Lott",
