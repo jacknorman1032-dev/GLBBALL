@@ -1111,8 +1111,8 @@
    "name": "Jalen Hayes",
    "school": "sexton",
    "grad_year": "2013",
-   "bio": "The only returning starter from Sexton's two straight Class B state champions (2011 and 2012), Hayes took over the team's leadership as a senior.",
-   "college": "Oakland",
+   "bio": "A 6-7 forward, he took over as Sexton's leader as a senior, the only starter back from the title teams. He also led the Michigan Mustangs to a 2012 AAU national championship. At Oakland he missed most of his first season with mononucleosis, then made the Horizon League All-Freshman team in 2014-15 and was all-league in each of his four seasons, one of two Oakland players to do it; as a redshirt senior in 2017-18 he averaged 18.8 points, second in the league, alongside Kendrick Nunn. He finished with 966 rebounds (fourth in school history) and 38 double-doubles (third), and earned a business administration degree in December 2017. Son of Denon and Myra Hayes; twin brother of Jawan Hayes.",
+   "college": "Oakland (2013-18): Horizon League All-Freshman (2015), second-team All-Horizon League (2016), first team (2017, 2018); 1,807 career points, eighth in school history",
    "seasons": [
     {
      "season": "2012-13",
@@ -1122,7 +1122,10 @@
      "bpg": 3.0,
      "src": "Detroit Free Press all-state teams, April 7, 2013, p. C10"
     }
-   ]
+   ],
+   "height": "6-7",
+   "pos": "F",
+   "bio_src": "https://goldengrizzlies.com/sports/mens-basketball/roster/jalen-hayes/575"
   },
   {
    "name": "Denzel Valentine",
