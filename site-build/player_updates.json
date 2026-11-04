@@ -1,7 +1,7 @@
 {
   "_note": "Player facts confirmed by Jack Norman. build.py applies these on top of the research files (matched by school id and exact player name), so a rebuild never undoes them. Add new confirmations here instead of editing research/*.json.",
   "okemos": {
-    "Anthony Ianni": {"grad_year": "2006", "_confirmed": "Jack, Oct 28, 2026"},
+    "Anthony Ianni": {"grad_year": "2007", "_confirmed": "Jack, Nov 3, 2026 (senior in 2006-07 per the LSJ all-area list, April 15, 2007; was 2006, Oct 28)"},
     "Travis Bader": {"grad_year": "2009", "_confirmed": "Jack, Oct 28, 2026 (resolves the 2009-vs-2010 note in research/okemos_holt_gl_waverly.json)"}
   },
   "dewitt": {

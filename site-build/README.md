@@ -78,7 +78,7 @@ Canceled games excluded; forfeits count as wins but are left out of scoring aver
 - Added 1/22/1999 Sexton home vs Waverly, L 63-66 (league). Sexton 1998-99 now 13-9 (8-6), matching the header.
 - Player names: "Cameron Hutson" and "Kelvin (KJ) Torbert, Jr." (updated in research/east_lansing_region.json).
 - Clyde McKinney Jr. (Everett): Class of 2005 (updated in overrides.json).
-- Grad years confirmed by Jack, now in `site-build/player_updates.json` so rebuilds keep them (done Oct 28, 2026; matches the live site): Anthony Ianni (Okemos) 2006; Travis Bader (Okemos) 2009, which resolves the 2009-vs-2010 note in research/okemos_holt_gl_waverly.json; Erik Kangas (DeWitt) 2005; Derick Nelson (Everett) 2004; Bob Fata (Lansing Catholic) 1986; Austin Nichols (Lansing Catholic) 2009. The research files still show these blank; that's expected.
+- Grad years confirmed by Jack, now in `site-build/player_updates.json` so rebuilds keep them (done Oct 28, 2026; matches the live site): Anthony Ianni (Okemos) 2007 (corrected from 2006 on Nov 3, 2026: the LSJ lists him as a senior in 2006-07); Travis Bader (Okemos) 2009, which resolves the 2009-vs-2010 note in research/okemos_holt_gl_waverly.json; Erik Kangas (DeWitt) 2005; Derick Nelson (Everett) 2004; Bob Fata (Lansing Catholic) 1986; Austin Nichols (Lansing Catholic) 2009. The research files still show these blank; that's expected.
 
 ## Still open
 - Grad years Jack has but hasn't sent yet: Bob Davis (may have meant Bob Fata — ask), Joe Wenzel, John Yatchak, Dallas Canfield, Jim Cassel. Add them to player_updates.json.
