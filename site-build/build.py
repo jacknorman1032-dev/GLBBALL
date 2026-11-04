@@ -55,7 +55,7 @@ for f in sorted(glob.glob(os.path.join(RESEARCH, '*.json'))):
     for k in extra:
         extra[k] += d.get(k, []) or []
     for m in d.get('mr_basketball_retro', []) or []:
-        extra['mr_basketball'].append({**m, 'retro': True, 'name': m['name'].replace("Earvin 'Magic' Johnson", 'Earvin "Magic" Johnson'),
+        extra['mr_basketball'].append({**m, 'retro': True, 'name': m['name'].replace("Earvin 'Magic' Johnson", 'Earvin (Magic) Johnson').replace('Earvin "Magic" Johnson', 'Earvin (Magic) Johnson'),
                                        'college': '' if m.get('college') == 'none listed' else m.get('college', '')})
 
 OVERRIDES_FILE = os.path.join(HERE, 'overrides.json')

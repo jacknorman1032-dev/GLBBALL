@@ -148,7 +148,7 @@ HONORS += [
 # 1970s (Jack, Nov 2, 2026). Lower teams often give surnames only; those entries keep the surname and say so.
 SRC70 = "Detroit Free Press all-state, via detroitpslbasketball.com (https://www.detroitpslbasketball.com/all-time-psl-all-state-selections/freepall-state/free-press-all-state-1970s/)"
 SN = "The Free Press list gives only the surname."
-MJ = 'Earvin "Magic" Johnson'
+MJ = 'Earvin (Magic) Johnson'
 HONORS += [
  hx(SRC70, "1978-79", "Travis Stanley", "eastern", "Lansing Eastern", "second", "Class A", "Second Team"),
  hx(SRC70, "1978-79", "Todd Shumway", "grand-ledge", "Grand Ledge", "sixth", "Class A", "Sixth Team", listed_as="Shumway",
