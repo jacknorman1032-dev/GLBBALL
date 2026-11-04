@@ -155,6 +155,19 @@
    },
    "left_out": "One Dream Team pick, and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick.",
    "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2013-14",
+   "teams_note": "Player of the Year, a five-player Dream Team and Coach of the Year across all classes, then an untiered all-area team, honorable mention and coach for each of Classes A-D. Grades are as printed.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 5,
+    "area": 25,
+    "hm": 35,
+    "coy": 5
+   },
+   "left_out": "The Player of the Year and Coach of the Year (both Pewamo-Westphalia), and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick. Corunna's Mikhail Myles (Class B all-area) is noted on his East Lansing profile.",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
   }
  ],
  "picks": [
@@ -5571,6 +5584,347 @@
    "division": "Class A",
    "grade": "",
    "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Dequandre Dentmond",
+   "listed_as": "DeQuandre Dentmond",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Tony Poljan",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "dream",
+   "division": "",
+   "grade": "10",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Marcus Moore",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Don'Quall Jackson",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Doug Bradfield",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Cassell Jones",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Mike Fomby",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Brandon Allen",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "10",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Collin Jones",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Josh Borta",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Edward Smith",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Tameron Williams-Baker",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "JT Houghton",
+   "listed_as": "J.T. Houghton",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Austin Ervin",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Da'Vontay Haines",
+   "listed_as": "DaVontay Haines",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Malek Adams",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "10",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Akil Mitchell",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Austin Johnson",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Cameron Picard",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Patrick Harney",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Andrew Eible",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Nate Colon",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Zachary Gustafson",
+   "listed_as": "Zac Gustafson",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Ryan Watters",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Jared McDaniel",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Matthew Fata",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Tom Cotter",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Riley Lewis",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "10",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Ryan Peterson",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Matt Essell",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
+  },
+  {
+   "season": "2013-14",
+   "name": "Jason Bauer",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, All-Area teams, 2013-14 (Lansing State Journal via USA Today High School Sports, April 4, 2014)"
   }
  ]
 }
