@@ -2952,8 +2952,14 @@
    "name": "Trevor Smith",
    "school": "okemos",
    "grad_year": "2026",
-   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
-   "seasons": []
+   "grad_note": "Freshman season at Okemos (2022-23), then Brother Rice (Jack, Nov 4, 2026)",
+   "seasons": [],
+   "varsity_from": "2022-23",
+   "varsity_to": "2022-23",
+   "bio": "Played his freshman season (2022-23) at Okemos, on the team with KJ Torbert and Brandon Mercer, II, then transferred to Birmingham Brother Rice for the rest of his high school career. As a senior at Brother Rice in 2025-26 he made the Catholic High School League's All-League team, as voted by the league's men's coaches association.",
+   "team_records": {
+    "2022-23": "18-5"
+   }
   },
   {
    "name": "Mario Murray",
