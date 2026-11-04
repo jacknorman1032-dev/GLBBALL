@@ -210,6 +210,12 @@
    "teams_note": "Player of the Year and a Dream Team across all classes, then a five-player all-area team and coach for each class, and honorable mention lists by class. Selections by LSJ prep sports editor Geoff Kimmerly with input from area coaches. Grades are as printed.",
    "left_out": "Dream Team pick Eli Redman (Bath, Class C all-state), Class C and D all-area teams, and honorable mentions from schools the site doesn't cover: Michael Barbour, Nick Hilley and Eddie Salazar (Lakewood), Jake Blake and Adam Follett (Alma), Thomas Lovachis and Sam Tervo (Stockbridge), C.J. Lott (Ovid-Elsie), Kenneth Quick (Maple Valley) and Ryan Reister (Ionia), all Class B. The Dream Team screenshot may not show every pick, so no full-list count is recorded.",
    "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2007-08 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-conference teams, which ran April 6, 2008)"
+  },
+  {
+   "season": "2006-07",
+   "teams_note": "An all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. The Dream Team itself ran on the section front (1C), which isn't on file. Grades are as printed.",
+   "left_out": "The Dream Team (on page 1C, not on file; Holt's Paul Crosby, whose story continues on 6C, was on it per the site's research), Coach of the Year Jeff Wonch (Bath; later Okemos' coach), Class C and D all-area teams, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky (Perry, the area's top scorer at 21.7 points), Alex Erickson (Lakewood) and Pat Schiffer (Ovid-Elsie); Class B honorable mentions Matt Loomis and Seth Hubbard (Alma), John Balice (Ionia), Nick Hilley (Lakewood) and Dennis Meaney (Perry); and every Class C and D honorable mention.",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
   }
  ],
  "picks": [
@@ -7998,6 +8004,292 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2007-08 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-conference teams, which ran April 6, 2008)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Charlie Woods",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "JaVaughn Acree-Manuel",
+   "listed_as": "Javaughn Manuel",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Anthony Ianni",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Willie Brown",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Mike Kebler",
+   "listed_as": "Michael Kebler",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Mike Repovz",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Josh Armstead",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Zach Saylor",
+   "listed_as": "Zack Saylor",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Joe Powers",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Chase Parker",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Edward Thomas",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Zack Maurer",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Keith Manning",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Alex Schmidt",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Matt Naeyaert",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Bridger Buche",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Sean Romsek",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Max Gover",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Sam Celentino",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Ryan Jones",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Caleb Herrick",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Alex Gauna",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "9",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Michael Margraf",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Garrett St. Charles",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Doug Fleming",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Darren Zwick",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
   }
  ]
 }
