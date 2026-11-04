@@ -3366,6 +3366,209 @@
    "grad_year": "2023",
    "grad_note": "Confirmed by Jack, Nov 4, 2026",
    "seasons": []
+  },
+  {
+   "name": "Mason Bennett",
+   "school": "dewitt",
+   "grad_year": "2015",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Adam Jacobs",
+   "school": "east-lansing",
+   "grad_year": "2000",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Alex Lapka",
+   "school": "east-lansing",
+   "grad_year": "2007",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Brad Pentecost",
+   "school": "east-lansing",
+   "grad_year": "2005",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Dana Thomas",
+   "school": "east-lansing",
+   "grad_year": "1998",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Ellington Fields",
+   "school": "east-lansing",
+   "grad_year": "2004",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Justin Howenstine",
+   "school": "east-lansing",
+   "grad_year": "2005",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Justin Nault",
+   "school": "east-lansing",
+   "grad_year": "2000",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Kevin Hagan",
+   "school": "east-lansing",
+   "grad_year": "2004",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Khirese Leek",
+   "school": "east-lansing",
+   "grad_year": "2007",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Matt Tijerina",
+   "school": "east-lansing",
+   "grad_year": "2000",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Nick Parisian",
+   "school": "east-lansing",
+   "grad_year": "1999",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Pat Ott",
+   "school": "east-lansing",
+   "grad_year": "2002",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Raphael Seeman",
+   "school": "east-lansing",
+   "grad_year": "1997",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Ryan Hosler",
+   "school": "east-lansing",
+   "grad_year": "2000",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Avery McKinney",
+   "school": "haslett",
+   "grad_year": "2017",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Luke Sleeper",
+   "school": "haslett",
+   "grad_year": "2016",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Colin Day",
+   "school": "lansing-catholic",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Jack Jacobs",
+   "school": "lansing-catholic",
+   "grad_year": "2023",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Josh Kramer",
+   "school": "lansing-catholic",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Josh Risner",
+   "school": "lansing-catholic",
+   "grad_year": "2020",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Matt Plaehn",
+   "school": "lansing-catholic",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Connor Richardson",
+   "school": "mason",
+   "grad_year": "2020",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Garren Lattig",
+   "school": "mason",
+   "grad_year": "2019",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Ryan Greathouse",
+   "school": "mason",
+   "grad_year": "2025",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Tyler Baker",
+   "school": "mason",
+   "grad_year": "2024",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Gerald Sambaer, III",
+   "school": "okemos",
+   "grad_year": "2018",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Marc Nobis",
+   "school": "portland",
+   "grad_year": "2023",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
+  },
+  {
+   "name": "Emmanuel Jones",
+   "school": "sexton",
+   "grad_year": "2020",
+   "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
+   "seasons": []
   }
  ]
 }
