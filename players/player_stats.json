@@ -2467,7 +2467,16 @@
     }
    ],
    "seasons": [],
-   "grad_note": "Graduated from East Lansing in 2021, then postgraduate prep school at Liberty Heights (Jack, Nov 3, 2026)"
+   "grad_note": "Graduated from East Lansing in 2021, then postgraduate prep school at Liberty Heights (Jack, Nov 3, 2026)",
+   "varsity_from": "2019-20",
+   "varsity_to": "2020-21",
+   "also": [
+    {
+     "school": "dewitt",
+     "seasons": "2017-18",
+     "note": "Freshman season, then transferred to East Lansing (Jack, Nov 3, 2026)"
+    }
+   ]
   }
  ]
 }
