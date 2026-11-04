@@ -142,6 +142,19 @@
    },
    "left_out": "All-area picks and coaches from schools the site doesn't cover, including every Class C and D pick.",
    "src": "Boys basketball Dream Team, all-area, 2015-16 (Lansing State Journal, Brian Calloway, updated April 17, 2016)"
+  },
+  {
+   "season": "2014-15",
+   "teams_note": "Player of the Year, a five-player Dream Team and Coach of the Year across all classes, then an untiered all-area team, honorable mention and coach for each of Classes A-D. The saved copy may drop a name where its pages break.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 5,
+    "area": 20,
+    "hm": 43,
+    "coy": 5
+   },
+   "left_out": "One Dream Team pick, and all-area picks and coaches from schools the site doesn't cover, including every Class C and D pick.",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
   }
  ],
  "picks": [
@@ -5172,6 +5185,392 @@
    "grade": "",
    "src": "Boys basketball Dream Team, all-area, 2015-16 (Lansing State Journal, Brian Calloway, updated April 17, 2016)",
    "note": "Class B Coach of the Year, listed jointly with Jason Bauer (both Williamston)."
+  },
+  {
+   "season": "2014-15",
+   "name": "Trevor Manuel",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Brandon Allen",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Conner George",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Cassell Jones",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Riley Lewis",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Malek Adams",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Jamyrin Jackson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Brandon Johns, Jr.",
+   "listed_as": "Brandon Johns",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Tanner Reha",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Tyler Bates",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Evan Conn",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Deshae Doll",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Austin Ervin",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Jaron Faulds",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Dontre' Garrett",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Emmanuel Gildo",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "JT Houghton",
+   "listed_as": "J.T. Houghton",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Mikhail Myles",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Josh Smith",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Trent Stone",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Matthew Fata",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Jared McDaniel",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Tony Poljan",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Sy Barnett",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)",
+   "note": "At Charlotte before transferring to Williamston (same player as Williamston's Sy Barnett, 2016-17)."
+  },
+  {
+   "season": "2014-15",
+   "name": "Connor Collins",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Matt Donley",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Sam Goodman",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Keiton Hall",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "John Hudgins",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Travis Jecks",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Malik Mack",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Keyen Shepler",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Darek Wroblak",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Desmond Ferguson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
+  },
+  {
+   "season": "2014-15",
+   "name": "Scott Lewis",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "LSJ boys basketball Dream Team, all-area, 2014-15 (Lansing State Journal, Brian Calloway, April 21, 2015, updated April 22, 2015)"
   }
  ]
 }

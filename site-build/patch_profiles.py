@@ -45,7 +45,8 @@ function mrnChip(f){return `<span class="chip" title="${esc(f.src||'')}">${esc(f
 function mrfChip(f){return `<span class="chip" title="${esc((f.points?f.points+' points · ':'')+(f.src||MRV.src||''))}">${esc(f.year)} Hal Schram Mr. Basketball${f.place>5?': '+ORD(f.place)+' in Voting':' Finalist'+(f.place?' ('+ORD(f.place)+')':'')}</span>`}
 const YR_GR={Fr:9,So:10,Jr:11,Sr:12},GR_YR={9:'Fr',10:'So',11:'Jr',12:'Sr'};
 const PF=(()=>{
-  const home={};SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
+  const home={};PSTATS.players.forEach(x=>(x.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(y=>+y.slice(0,4));home[pkey(x.name)+'|'+o.school]={id:x.school,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}}));
+  SCHOOLS.forEach(sc=>(sc.notable_players||[]).forEach(c=>(c.also||[]).forEach(o=>{const ys=(String(o.seasons||'').match(/\d{4}-\d{2}/g)||[]).map(x=>+x.slice(0,4));home[pkey(c.name)+'|'+o.school]={id:sc.id,a:ys.length?Math.min(...ys):0,b:ys.length?Math.max(...ys):9999}})));
   const aka={};PSTATS.players.forEach(x=>(x.aka||[]).forEach(a=>aka[pkey(a)+'|'+x.school]=pkey(x.name)));
   const keyOf=(n,sc,se)=>{let k=pkey(n);k=aka[k+'|'+sc]||k;const h=home[k+'|'+sc],y=se?+String(se).slice(0,4):null;return k+'|'+(h&&(y==null||(y>=h.a&&y<=h.b))?h.id:sc)};
   const M=new Map();
