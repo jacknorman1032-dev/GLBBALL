@@ -383,7 +383,7 @@
    "name": "Bryce Kurncz",
    "school": "dewitt",
    "grad_year": "2023",
-   "bio": "Finished as DeWitt's career scoring leader with 1,266 points.",
+   "bio": "Finished as DeWitt's career scoring leader with 1,266 points. Older brother of Landon Kurncz.",
    "seasons": [
     {
      "season": "2022-23",
@@ -935,6 +935,12 @@
    "school": "east-lansing",
    "seasons": [],
    "bio": "Younger brother of Andrel Anthony, Jr."
+  },
+  {
+   "name": "Landon Kurncz",
+   "school": "dewitt",
+   "seasons": [],
+   "bio": "Younger brother of Bryce Kurncz."
   }
  ]
 }
