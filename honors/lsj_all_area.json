@@ -213,9 +213,9 @@
   },
   {
    "season": "2006-07",
-   "teams_note": "An all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. The Dream Team itself ran on the section front (1C), which isn't on file. Grades are as printed.",
-   "left_out": "The Dream Team (on page 1C, not on file; Holt's Paul Crosby, whose story continues on 6C, was on it per the site's research), Coach of the Year Jeff Wonch (Bath; later Okemos' coach), Class C and D all-area teams, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky (Perry, the area's top scorer at 21.7 points), Alex Erickson (Lakewood) and Pat Schiffer (Ovid-Elsie); Class B honorable mentions Matt Loomis and Seth Hubbard (Alma), John Balice (Ionia), Nick Hilley (Lakewood) and Dennis Meaney (Perry); and every Class C and D honorable mention.",
-   "src": "Lansing State Journal, all-area teams and honorable mention, 2006-07 (compiled and written by Geoff Kimmerly; April 15, 2007, p. 6C)"
+   "teams_note": "Player of the Year Paul Crosby (Holt) and a four-player Dream Team across all classes on the section front (1C; selections by prep sports editor Geoff Kimmerly with input from area coaches), then an all-area team and coach for each of Classes A-D and honorable mention lists by class, plus an overall Coach of the Year, on page 6C. Grades are as printed.",
+   "left_out": "Dream Team picks Peter Bunn (Lansing Christian, Class D all-state) and Eli Redman (Bath, Class C champions), Coach of the Year Jeff Wonch (Bath; later Okemos' coach), Class C and D all-area teams, and picks from schools the site doesn't cover: Class B all-area Jordan Sipkovsky (Perry, the area's top scorer at 21.7 points), Alex Erickson (Lakewood) and Pat Schiffer (Ovid-Elsie); Class B honorable mentions Matt Loomis and Seth Hubbard (Alma), John Balice (Ionia), Nick Hilley (Lakewood) and Dennis Meaney (Perry); and every Class C and D honorable mention.",
+   "src": "Lansing State Journal, Dream Team (p. 1C) and all-area teams and honorable mention (p. 6C), 2006-07 (Geoff Kimmerly; April 15, 2007)"
   },
   {
    "season": "2005-06",
@@ -8010,6 +8010,40 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal Dream Team, all-area and honorable mention, 2007-08 (selections by prep sports editor Geoff Kimmerly; date not in the screenshots; printed with the all-conference teams, which ran April 6, 2008)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Paul Crosby",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)",
+   "note": "Holt's winningest player: 66-11 in three seasons after transferring from Sexton as a sophomore, including the 2005 Class A title."
+  },
+  {
+   "season": "2006-07",
+   "name": "Aaron Nichols",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
+  },
+  {
+   "season": "2006-07",
+   "name": "Jason Hill",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
   },
   {
    "season": "2006-07",

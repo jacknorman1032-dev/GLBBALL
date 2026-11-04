@@ -2358,7 +2358,7 @@
    "name": "Aaron Nichols",
    "school": "lansing-catholic",
    "grad_year": "2007",
-   "height": "5-11",
+   "height": "6-1",
    "pos": "G",
    "seasons": [
     {
@@ -2369,6 +2369,15 @@
      "tpm": 39,
      "note": "All-CAAC-3 first team",
      "src": "Lansing State Journal all-area, April 23, 2006"
+    },
+    {
+     "season": "2006-07",
+     "grade": "12",
+     "ppg": 18.3,
+     "rpg": 4.0,
+     "apg": 3.5,
+     "note": "Class B all-state special mention; called arguably the area's top perimeter defender; Division I interest",
+     "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
     }
    ]
   },
@@ -3641,7 +3650,7 @@
    "grad_year": "2007",
    "grad_note": "From the Lansing State Journal's printed grade, April 23, 2006",
    "pos": "C",
-   "height": "6-7",
+   "height": "6-8",
    "seasons": [
     {
      "grade": "11",
@@ -3652,8 +3661,19 @@
      "note": "34 percent on 3-pointers; Class A all-state first team; described as a Division I prospect",
      "season": "2005-06",
      "src": "Lansing State Journal Dream Team, 2005-06 (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    },
+    {
+     "season": "2006-07",
+     "grade": "12",
+     "ppg": 18.4,
+     "rpg": 10.2,
+     "bpg": 3.2,
+     "note": "Class A all-state for the second time; scored fewer than 10 points only three times",
+     "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
     }
-   ]
+   ],
+   "bio": "Transferred from Sexton as a sophomore and became Holt's winningest player, going 66-11 in three seasons, including the 2005 Class A state title. Led the 19-6 Rams to the 2006-07 regional finals; 2006-07 Lansing State Journal Player of the Year.",
+   "bio_src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
   },
   {
    "name": "Johnathon Jones",
@@ -3673,6 +3693,27 @@
      "ft_pct": 0.76,
      "note": "49 percent on 2-pointers, 40 percent on 3-pointers",
      "src": "Lansing State Journal, 'Jones took his game, team to new levels' (Geoff Kimmerly; April 23, 2006, p. 1C)"
+    }
+   ]
+  },
+  {
+   "name": "Jason Hill",
+   "school": "mason",
+   "grad_year": "2007",
+   "grad_note": "From the Lansing State Journal's printed grade, April 15, 2007",
+   "pos": "F",
+   "height": "6-6",
+   "bio": "Class A all-state honorable mention as a senior. Headed to Aquinas College.",
+   "seasons": [
+    {
+     "season": "2006-07",
+     "grade": "12",
+     "ppg": 19.0,
+     "rpg": 7.0,
+     "bpg": 1.6,
+     "gp": 21,
+     "note": "Scored fewer than 10 points only once",
+     "src": "Lansing State Journal Dream Team, 2006-07 (Geoff Kimmerly; April 15, 2007, p. 1C)"
     }
    ]
   }
