@@ -163,7 +163,7 @@ for sid, name, short, aliases in BASE:
                 t['record'] = fix[(sid, t['season'])]
     if sid == 'east-lansing' and not any(x['season'] == '1931-32' for x in s.get('state_runner_ups', [])):
         s.setdefault('state_runner_ups', []).append({'season': '1931-32', 'class': 'Class C', 'final_opponent': 'Kalamazoo St. Augustine', 'final_score': '5-10', 'source': 'https://www.mhsaa.com/sports/boys-basketball/past-champions'})
-    GAME_FILES = {'east-lansing': 'el_games.json', 'sexton': 'sexton_games.json', 'williamston': 'williamston_games.json'}
+    GAME_FILES = {'east-lansing': 'el_games.json', 'sexton': 'sexton_games.json', 'williamston': 'williamston_games.json', 'waverly': 'waverly_games.json'}
     if sid in GAME_FILES and os.path.exists(os.path.join(HERE, GAME_FILES[sid])):
         s['games'] = json.load(open(os.path.join(HERE, GAME_FILES[sid])))
         # single-game fixes, matched by date + opponent as the log has it. Optional fields:

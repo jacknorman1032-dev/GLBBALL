@@ -105,7 +105,10 @@ s = s[:k] + CODE + s[k:]
 # ---- phone layout for the LSJ filters (season dropdown added Nov 3, 2026)
 AA_CSS = '@media (max-width:640px){#haa select{flex:1 1 30%;min-width:0}#haa label{display:none}#aaq{flex:1 1 100%}}'
 if AA_CSS not in s:
-    s = s.replace('</style>', AA_CSS + '\n</style>', 1)
+    # into the page's own stylesheet: a page saved from the live artifact starts with the publish wrapper's
+    # <style>, which republishing replaces, so the first </style> is not safe (Nov 5, 2026)
+    k = s.index('</style>', s.index('--maple-ink')) if '--maple-ink' in s else s.index('</style>')
+    s = s[:k] + AA_CSS + '\n' + s[k:]
 # ---- router and school People tab
 if 'honors:viewHonors3,' not in s:
     rep('honors:viewHonors2,', 'honors:viewHonors3,')

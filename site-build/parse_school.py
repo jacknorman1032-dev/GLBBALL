@@ -1,5 +1,5 @@
 """Parse a school's season text list (Jack's format) into the site's game tuples.
-Handles tournament rounds written out ("* District Semifinal at Fowlerville") or as codes (*DQ, *DS ...),
+Handles forfeits (FFW/FFL), tournament rounds written out ("* District Semifinal at Fowlerville") or as codes (*DQ, *DS ...),
 4-digit or 2-digit years, and tournament notes on the same line or the next line.
 League games = regular-season games vs the opponents passed with --league.
 
@@ -20,12 +20,13 @@ ROUNDS = ['District Quarterfinal', 'District Semifinal', 'District Final', 'Regi
 CODES = {'DQ': 'District Quarterfinal', 'DS': 'District Semifinal', 'DF': 'District Final', 'RS': 'Regional Semifinal',
          'RF': 'Regional Final', 'SQ': 'State Quarterfinal', 'SS': 'State Semifinal', 'SF': 'State Final'}
 VENUES = {'Breslin Center': 'the Breslin Center', 'Eastern': 'Lansing Eastern', 'Waverly': 'Lansing Waverly',
-          'KC': 'Kalamazoo Central', 'Lakewood': 'Lake Odessa Lakewood'}
+          'KC': 'Kalamazoo Central', 'Lakewood': 'Lake Odessa Lakewood', 'EL': 'East Lansing', 'GL': 'Grand Ledge',
+          'Smithville (OH)': 'Smithville, Ohio', 'St Johns': 'St. Johns'}
 NAMES = {'Ottawa Hills': 'Grand Rapids Ottawa Hills'}
 
 SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?')
 COACH = re.compile(r'^Head Coach:\s*(.*)$')
-GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((W|L|T)\s+(\d+)-(\d+)\)(.*)$')
+GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((FFW|FFL|W|L|T)\s+(\d+)-(\d+)\)(.*)$')
 
 season = coach = None; header = None; games = []
 for raw in open(a.src, encoding='utf-8').read().splitlines():
@@ -58,12 +59,17 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
         v = VENUES.get(v, v)
         if v and v not in SELF and v != NAMES.get(opp, opp):
             note = f'Played at {v}.'
+    elif re.match(r'at\s', tail):  # a venue with no event name, e.g. "* at Smithville (OH)"
+        v = tail[3:].strip(); note = f'Played at {VENUES.get(v, v)}.'
     elif tail:
         note = 'Played in the ' + re.sub(r'^the\s+', '', tail, flags=re.I).rstrip('.') + '.'
     opp = NAMES.get(opp.strip(), opp.strip())
     site = {'vs': 'H', 'at': 'R', '(n)': 'N'}[where]
     typ = rnd or ('League' if opp in LEAGUE and not note else 'Non-League')
-    games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, site, typ, res, int(us), int(them), coach, 0, '', 0, '', '', ''], note=note))
+    ff = int(res.startswith('FF'))  # forfeit, stored like EL's log: result W/L, flag 1, note 'Forfeit win/loss'
+    if ff:
+        res = res[2:]; note = ('Forfeit win' if res == 'W' else 'Forfeit loss') + (' ' + note if note else '')
+    games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, site, typ, res, int(us), int(them), coach, ff, '', 0, '', '', ''], note=note))
 
 out = []
 for g in games:
