@@ -3713,6 +3713,15 @@
    "bio_src": "Lansing State Journal, 'Jones took his game, team to new levels' (Geoff Kimmerly; April 23, 2006, p. 1C)",
    "seasons": [
     {
+     "season": "2003-04",
+     "grade": "10",
+     "ppg": 16.5,
+     "apg": 6.2,
+     "tpm": 37,
+     "note": "Class A all-state honorable mention; Division I prospect",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    },
+    {
      "season": "2004-05",
      "grade": "11",
      "ppg": 18.8,
@@ -3760,6 +3769,15 @@
    "name": "Clyde McKinney, Jr.",
    "school": "everett",
    "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "11",
+     "ppg": 12.0,
+     "apg": 4.4,
+     "tpm": 31,
+     "note": "All-CAAC-1 first team; Division I prospect; listed at 5-9",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    },
     {
      "season": "2004-05",
      "grade": "12",
@@ -3832,6 +3850,16 @@
    "name": "Andy Clark",
    "school": "holt",
    "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "11",
+     "ppg": 13.3,
+     "rpg": 4.0,
+     "spg": 1.0,
+     "tpm": 33,
+     "note": "All-CAAC-1 first team; listed as a 6-2 forward",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    },
     {
      "season": "2004-05",
      "grade": "12",
@@ -3965,6 +3993,122 @@
    "pos": "C",
    "height": "6-10",
    "bio": "Center on Everett's 2004 Class A state champions; Class A all-state special mention and eighth in Mr. Basketball voting. Headed to Michigan State."
+  },
+  {
+   "name": "Doug DeMartin",
+   "school": "mason",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 13.7,
+     "apg": 4.7,
+     "spg": 2.7,
+     "note": "All-CAAC-2 first team",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "G",
+   "height": "6-0",
+   "bio": "Division I soccer prospect."
+  },
+  {
+   "name": "Nate Duncan",
+   "school": "waverly",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 12.4,
+     "apg": 4.4,
+     "spg": 1.8,
+     "note": "All-CAAC-2 first team; college prospect",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "G",
+   "height": "6-0"
+  },
+  {
+   "name": "Danny Bird",
+   "school": "haslett",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 14.5,
+     "rpg": 5.3,
+     "tpm": 30,
+     "note": "All-CAAC-3 first team",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "F",
+   "height": "6-3"
+  },
+  {
+   "name": "Matt Kellogg",
+   "school": "dewitt",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 10.6,
+     "rpg": 6.6,
+     "bpg": 1.7,
+     "note": "All-CAAC-3 first team",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "C",
+   "height": "6-5",
+   "bio": "Headed to Kalamazoo College."
+  },
+  {
+   "name": "Brett Liles",
+   "school": "eaton-rapids",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 11.4,
+     "rpg": 7.7,
+     "bpg": 1.0,
+     "note": "All-CAAC-2 first team",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "C",
+   "height": "6-3"
+  },
+  {
+   "name": "Mac Miller",
+   "school": "williamston",
+   "seasons": [
+    {
+     "season": "2003-04",
+     "grade": "12",
+     "ppg": 15.0,
+     "apg": 4.6,
+     "note": "Class B all-state honorable mention",
+     "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+    }
+   ],
+   "grad_year": "2004",
+   "grad_note": "From the Lansing State Journal's printed grade, April 11, 2004",
+   "pos": "G",
+   "height": "5-11",
+   "bio": "Four-year starter at Williamston. Headed to Spring Arbor."
   }
  ]
 }

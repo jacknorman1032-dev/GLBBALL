@@ -236,14 +236,15 @@
   },
   {
    "season": "2003-04",
-   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fab five' with the Player of the Year) and Coach of the Year on the sports front. Grades are as printed. The all-area teams and honorable mention aren't on file yet.",
+   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fab five' with the Player of the Year) and Coach of the Year on the sports front, then a five-player all-area team and coach for Class A and Class B and honorable mention lists by class on page 6C (honorees picked by a panel of mid-Michigan coaches). Grades are as printed.",
    "full_counts": {
     "poy": 1,
     "dream": 4,
-    "coy": 1
+    "coy": 3,
+    "hm": 67
    },
-   "left_out": "Dream Team pick Clint Tobias (Lakewood). All-area teams and honorable mention not on file yet.",
-   "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)"
+   "left_out": "Dream Team pick Clint Tobias (Lakewood); Class B all-area Corey Thelen (Lakewood); Class C and D all-area teams (no covered schools; Jack, Nov 4, 2026); honorable mentions from schools the site doesn't cover: Jacob West (Howell) in Class A; Brett Lark (Alma), Jordan Fuller (Ionia), Tyler Beglin and Travis Willard (Lakewood), Jason Latz (Ovid-Elsie), Jordan Sipkovsky (Perry), Rhet Smith and Nate Marcum (Stockbridge) in Class B; and every Class C and D honorable mention.",
+   "src": "Lansing State Journal, Dream Team (sports front) and all-area teams, coaches and honorable mention (p. 6C), 2003-04 (Geoff Kimmerly; April 11, 2004)"
   }
  ],
  "picks": [
@@ -9152,6 +9153,404 @@
    "grade": "",
    "src": "Lansing State Journal Dream Team, 2003-04 (Geoff Kimmerly; April 11, 2004, sports front, newspapers.com page 28)",
    "note": "Everett went 26-2 and won the Class A state title, its first since 1977, after finishing No. 2 in the regular-season AP poll and winning the CAAC Division 1 title. Jones had a 335-208 boys record over 24 seasons and had led the Everett girls to state titles in 2000 and 2001."
+  },
+  {
+   "season": "2003-04",
+   "name": "Andy Clark",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Doug DeMartin",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Nate Duncan",
+   "listed_as": "Nathan Duncan",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Johnathon Jones",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Clyde McKinney, Jr.",
+   "listed_as": "Clyde McKinney",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Bruce Larner",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)",
+   "note": "19th season. Holt went 14-10 and won its first district title since 1974 despite losing its only returning starter before the season."
+  },
+  {
+   "season": "2003-04",
+   "name": "Danny Bird",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Matt Kellogg",
+   "listed_as": "Mat Kellogg",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Brett Liles",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Mac Miller",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Ron Marlan",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)",
+   "note": "First season. DeWitt went 19-8, finished third in the CAAC-3 and, unranked, reached the Class B state final as runner-up."
+  },
+  {
+   "season": "2003-04",
+   "name": "Ellington Fields",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Alvin Bonds",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Andre Collins-Riddle",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Mike Stevenson",
+   "listed_as": "Michael Stevenson",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Dannie Bolden",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "John Lierman",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "David Oesterle",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Matt Wagner",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Joe Harrington",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Ryan Bertee",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "T.J. Witt",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Marcus Winston",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Ron Ferguson",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Andre Griffin",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Frank Tyson",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Chad Richardson",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Dan Blemaster",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Matt DeBow",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Scott Addison",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Matt Peterson",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Brad Benjamin",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Adam Zubal",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Andrew Lewis",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Dave Hayes",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2003-04",
+   "name": "Drew Kimichik",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
   }
  ]
 }
