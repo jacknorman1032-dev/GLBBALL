@@ -2782,7 +2782,21 @@
    "school": "haslett",
    "grad_year": "2019",
    "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
-   "seasons": []
+   "seasons": [],
+   "pos": "G",
+   "college": "Oakland (2019-24): point guard and five-season letterwinner; program-record 143 career games, 1,078 points; Horizon League second team 2023-24 (12.6 points, 3.0 assists) on the Horizon League champions that beat Kentucky in the NCAA Tournament",
+   "bio": "Point guard who played five seasons at Oakland (2019-24), setting the program record with 143 career games and scoring 1,078 points. As a graduate senior he made the Horizon League second team on the league champions that upset Kentucky in the 2024 NCAA Tournament. Spent two seasons as a graduate manager at Michigan State under Tom Izzo, then joined Greg Kampe's Oakland staff as assistant coach and director of operations in July 2026.",
+   "bio_src": "https://goldengrizzlies.com/news/2026/7/2/mens-basketball-lampman-named-assistant-coach-director-of-operations.aspx",
+   "links": [
+    {
+     "label": "Oakland roster bio",
+     "url": "https://goldengrizzlies.com/sports/mens-basketball/roster/blake-lampman/9970"
+    },
+    {
+     "label": "Oakland: Lampman named assistant coach (July 2026)",
+     "url": "https://goldengrizzlies.com/news/2026/7/2/mens-basketball-lampman-named-assistant-coach-director-of-operations.aspx"
+    }
+   ]
   },
   {
    "name": "Brennan Boettcher",
