@@ -1858,7 +1858,7 @@
    "grad_year": "2009",
    "height": "6-5",
    "pos": "F",
-   "bio": "LSJ Dream Team and Class B all-state as a senior after returning from a knee injury. Signed with Oakland. Son of Sexton coach Carlton Valentine; brother of Denzel Valentine.",
+   "bio": "LSJ Dream Team and Class B all-state as a senior after returning from a knee injury. Son of Sexton coach Carlton Valentine, a Michigan State standout in the 1980s, and brother of Denzel Valentine, the 2015 national player of the year at MSU.\n\nAt Oakland (2009-13) he became the program's winningest player, part of teams that won 87 games and reached two NCAA Tournaments. He then spent two seasons as a graduate manager under Tom Izzo at Michigan State (including the 2015 Final Four), two as an Oakland assistant (2015-17) and four on Porter Moser's staff at Loyola Chicago (2017-21), where he ran the defense: the Ramblers reached the 2018 Final Four and the 2021 Sweet 16, and the 2020-21 team led the nation in scoring defense.\n\nNamed Loyola's head coach in 2021 at 30, the youngest in Division I, he won 25 games and the Missouri Valley tournament title in his first season and took the Ramblers to the NCAA Tournament. In 2023-24 they went 23-10 and shared the Atlantic 10 regular-season title; in 2024-25 they went 25-12 and reached the NIT semifinals. Illinois Basketball Coaches Association college coach of the year in 2024-25 (co-winner in 2023-24).",
    "seasons": [
     {
      "season": "2007-08",
@@ -1879,6 +1879,14 @@
      "spg": 2.3,
      "apg": 2.2,
      "src": "Lansing State Journal Dream Team, 2008-09"
+    }
+   ],
+   "bio_src": "https://loyolaramblers.com/staff-directory/drew-valentine/205",
+   "college": "Oakland (2009-13): program's winningest player, 87 wins, two NCAA Tournaments",
+   "links": [
+    {
+     "label": "Loyola Chicago head coach bio",
+     "url": "https://loyolaramblers.com/staff-directory/drew-valentine/205"
     }
    ]
   },
