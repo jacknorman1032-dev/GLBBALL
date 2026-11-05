@@ -18,7 +18,7 @@ ROUNDS = {'DQ': 'District Quarterfinal', 'DS': 'District Semifinal', 'DF': 'Dist
           'SQ': 'State Quarterfinal', 'SS': 'State Semifinal', 'SF': 'State Final'}
 VENUES = {'SJ': 'St. Johns', 'EV': 'Lansing Everett', 'Eastern': 'Lansing Eastern', 'GRCC': 'Grand Rapids Community College',
           'LCC': 'Lansing Catholic', 'KC': 'Kalamazoo Central', 'Lumen Christi': 'Jackson Lumen Christi',
-          'Lakewood': 'Lake Odessa Lakewood', 'Waverly': 'Lansing Waverly'}
+          'Lakewood': 'Lake Odessa Lakewood', 'Waverly': 'Lansing Waverly', 'Everett': 'Lansing Everett'}
 
 GAME = re.compile(r'\((\d{1,2})/(\d{1,2})/(\d{2,4})\)?\s*(vs|at|\(n\))\s+(.+?)\s*\((W|L|T)\s+(\d+)-(\d+)\)|\((\d{1,2})/(\d{1,2})/(\d{2})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((Canceled)\)')
 SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?')  # league record optional
@@ -123,7 +123,7 @@ for s, gs in by.items():
         for k in range(first + 1, len(seq)):
             if not seq[k]['code']: seq[k]['code'] = order[min(7, order.index(seq[k - 1]['code']) + 1)]
 
-CAAC_A = {'Lansing Everett', 'Lansing Eastern', 'Lansing Waverly', 'East Lansing', 'Holt', 'Grand Ledge', 'Jackson'}
+CAAC_A = {'Lansing Everett', 'Lansing Eastern', 'Lansing Waverly', 'East Lansing', 'Holt', 'Grand Ledge', 'Jackson', 'Lansing Hill'}  # Hill: league through 1980-81, when it closed
 GOLD = {'St Johns', 'Mason', 'Lansing Waverly', 'Jackson Northwest', 'Jackson Lumen Christi', 'Owosso'}
 BLUE = {'Lansing Everett', 'Lansing Eastern', 'East Lansing', 'Holt', 'Grand Ledge', 'Jackson', 'Okemos'}
 # 2018-19 on: Sexton in the CAAC White with Charlotte, Eaton Rapids, Ionia, Lansing Catholic, Portland (matches the 1-9 header)

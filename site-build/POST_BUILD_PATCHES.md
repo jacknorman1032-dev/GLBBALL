@@ -4,7 +4,7 @@
 
 1. `python3 -I add_uniforms.py greater-lansing-hoops.html`: Uniforms section on school pages (see UNIFORMS.md).
 2. `python3 -I patch_players.py greater-lansing-hoops.html`: notable players newest graduating class first; players with no grad year go last.
-3. `python3 -I patch_board.py greater-lansing-hoops.html`: "Regional titles" count on each stat board plus a note. Sexton (log now starts 1980-81) and Williamston (2021-22 only) counts are minimums. District titles+ is intentionally broader than district final wins.
+3. `python3 -I patch_board.py greater-lansing-hoops.html`: "Regional titles" count on each stat board plus a note. Sexton (log now starts 1979-80) and Williamston (2021-22 only) counts are minimums. District titles+ is intentionally broader than district final wins.
 4. `python3 -I patch_fold.py greater-lansing-hoops.html`: collapsible-section styles.
 5. `python3 -I patch_layout.py greater-lansing-hoops.html`: school pages in tabs (Overview, History, People, Records, Sources). Replaces viewSchool, so it must run after 1-4.
 6. `python3 -I patch_opps.py greater-lansing-hoops.html`: Most-played opponents shows 25.
