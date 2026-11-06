@@ -15,7 +15,8 @@ for b in re.split(r'(?=Date/Time:)', t)[1:]:  # one block per game, so a missing
     d = (mo, dy, yr or (season.group(1) if int(mo) >= 7 else season.group(2)))
     sc = re.match(r'[\d-]*', f('Score')).group(0)
     wl = f('W/L'); wl = {'WF': 'FFW', 'LF': 'FFL'}.get(wl, wl)  # MHSAA marks forfeits WF / LF
-    games.append((*d, f('Host'), f('Opponent'), wl, sc, ''))
+    games.append((*d, f('Host'), f('Opponent'), wl, sc, f('Status')))
 print(f'{season.group(1)}/{season.group(2)} | {rec.group(1)}-{rec.group(2)}')
 for mo, dy, yr, host, opp, wl, sc, ot in games:
-    print(f"({int(mo):02}/{int(dy):02}/{yr[2:]}) {'vs' if host == 'H' else 'at' if host == 'A' else '(n)'} {opp.strip()} ({wl} {sc})")
+    res = f'({wl} {sc})' if sc else '(Canceled)' if re.match(r'cancel', ot, re.I) else f'({ot or "no result"})'
+    print(f"({int(mo):02}/{int(dy):02}/{yr[2:]}) {'vs' if host == 'H' else 'at' if host == 'A' else '(n)'} {opp.strip()} {res}")
