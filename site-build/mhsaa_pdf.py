@@ -10,7 +10,9 @@ rec = re.search(r'Record:\s*\((\d+)-(\d+)\)', t)
 games = []
 for b in re.split(r'(?=Date/Time:)', t)[1:]:  # one block per game, so a missing field can't borrow the next game's
     f = lambda k: (re.search(k + r':[ \t]*(.*)', b) or [None, ''])[1].strip()
-    d = re.match(r'Date/Time:\s*(\d+)/(\d+)/(\d{4})', b).groups()
+    mo, dy, yr = re.match(r'Date/Time:\s*(\d+)/(\d+)(?:/(\d{4}))?', b).groups()
+    # MHSAA drops the year on dates in the printing year; infer it from the season (July onward = first year)
+    d = (mo, dy, yr or (season.group(1) if int(mo) >= 7 else season.group(2)))
     sc = re.match(r'[\d-]*', f('Score')).group(0)
     wl = f('W/L'); wl = {'WF': 'FFW', 'LF': 'FFL'}.get(wl, wl)  # MHSAA marks forfeits WF / LF
     games.append((*d, f('Host'), f('Opponent'), wl, sc, ''))
