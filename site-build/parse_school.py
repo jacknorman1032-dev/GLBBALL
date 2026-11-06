@@ -72,6 +72,8 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
         v = VENUES.get(v, v)
         if v and v not in SELF and v != NAMES.get(opp, opp):
             note = f'Played at {v}.'
+        elif v and v == NAMES.get(opp, opp) and where == 'vs':
+            where = 'at'  # "vs Mason ... *DS at Mason": played on the opponent's floor
     elif re.match(r'at\s', tail):  # a venue with no event name, e.g. "* at Smithville (OH)"
         v = tail[3:].strip(); note = f'Played at {VENUES.get(v, v)}.'
     elif tail:
