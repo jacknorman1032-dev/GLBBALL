@@ -1,5 +1,5 @@
 """Parse a school's season text list (Jack's format) into the site's game tuples.
-Handles forfeits (FFW/FFL), tournament rounds written out ("* District Semifinal at Fowlerville") or as codes (*DQ, *DS ...),
+Handles forfeits (FFW/FFL), canceled games ("(Canceled <reason>)"), tournament rounds written out ("* District Semifinal at Fowlerville") or as codes (*DQ, *DS ...),
 4-digit or 2-digit years, and tournament notes on the same line or the next line.
 League games = regular-season games vs the opponents passed with --league.
 
@@ -28,6 +28,8 @@ SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\)
 COACH = re.compile(r'^Head Coach:\s*(.*)$')
 GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((FFW|FFL|W|L|T)\s+(\d+)-(\d+)\)(.*)$')
 
+CANCEL = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\(Cancell?ed\s*(.*?)\)\s*$', re.I)
+
 season = coach = None; header = None; games = []
 for raw in open(a.src, encoding='utf-8').read().splitlines():
     line = raw.strip()
@@ -38,6 +40,16 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
         header = tuple(int(x) if x else None for x in m.groups()[2:]); continue
     m = COACH.match(line)
     if m: coach = re.sub(r'\s*\(.*?\)', '', m.group(1)).strip(); continue
+    m = CANCEL.match(line)
+    if m:  # e.g. "(01/22/19) vs Williamston (Canceled Inclement Weather)"; stored like Sexton's canceled games
+        mo, dy, yr, where, opp, why = m.groups()
+        y0 = int(season[:4]); year = y0 if int(mo) >= 7 else y0 + 1
+        assert int(yr[-2:]) == year % 100, ('date year does not fit the season', line)
+        opp = NAMES.get(opp.strip(), opp.strip())
+        note = 'Canceled' + (f' because of {why.strip().lower()}' if why.strip() else '') + '.'
+        games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, {'vs': 'H', 'at': 'R', '(n)': 'N'}[where],
+                               'Non-League', 'Canceled', None, None, coach, 0, '', 0, '', '', ''], note=note))
+        continue
     m = GAME.match(line)
     if not m:
         # tournament note on its own line, for the previous game
