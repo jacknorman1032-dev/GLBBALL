@@ -46,7 +46,8 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
         y0 = int(season[:4]); year = y0 if int(mo) >= 7 else y0 + 1
         assert int(yr[-2:]) == year % 100, ('date year does not fit the season', line)
         opp = NAMES.get(opp.strip(), opp.strip())
-        note = 'Canceled' + (f' because of {why.strip().lower()}' if why.strip() else '') + '.'
+        why = re.sub(r'^(due to|because of|for)\s+', '', why.strip(), flags=re.I).lower()
+        note = 'Canceled' + (f' because of {why}' if why else '') + '.'
         games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, {'vs': 'H', 'at': 'R', '(n)': 'N'}[where],
                                'Non-League', 'Canceled', None, None, coach, 0, '', 0, '', '', ''], note=note))
         continue
