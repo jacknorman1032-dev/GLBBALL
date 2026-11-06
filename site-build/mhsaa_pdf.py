@@ -12,7 +12,8 @@ for b in re.split(r'(?=Date/Time:)', t)[1:]:  # one block per game, so a missing
     f = lambda k: (re.search(k + r':[ \t]*(.*)', b) or [None, ''])[1].strip()
     d = re.match(r'Date/Time:\s*(\d+)/(\d+)/(\d{4})', b).groups()
     sc = re.match(r'[\d-]*', f('Score')).group(0)
-    games.append((*d, f('Host'), f('Opponent'), f('W/L'), sc, ''))
+    wl = f('W/L'); wl = {'WF': 'FFW', 'LF': 'FFL'}.get(wl, wl)  # MHSAA marks forfeits WF / LF
+    games.append((*d, f('Host'), f('Opponent'), wl, sc, ''))
 print(f'{season.group(1)}/{season.group(2)} | {rec.group(1)}-{rec.group(2)}')
 for mo, dy, yr, host, opp, wl, sc, ot in games:
     print(f"({int(mo):02}/{int(dy):02}/{yr[2:]}) {'vs' if host == 'H' else 'at' if host == 'A' else '(n)'} {opp.strip()} ({wl} {sc})")

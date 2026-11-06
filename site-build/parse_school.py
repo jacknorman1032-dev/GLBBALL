@@ -90,7 +90,8 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
     typ = rnd or ('League' if opp in LEAGUE and not note else 'Non-League')
     ff = int(res.startswith('FF'))  # forfeit, stored like EL's log: result W/L, flag 1, note 'Forfeit win/loss'
     if ff:
-        res = res[2:]; note = ('Forfeit win' if res == 'W' else 'Forfeit loss') + (' ' + note if note else '')
+        res = res[2:]; note = ('Forfeit win' if res == 'W' else 'Forfeit loss') + \
+            ('; score shown is the on-court score' if int(us) + int(them) > 2 else '') + (' ' + note if note else '')
     games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, site, typ, res, int(us), int(them), coach, ff, '', 0, '', '', ''], note=note))
 
 out = []
