@@ -28,7 +28,7 @@ SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\)
 COACH = re.compile(r'^Head Coach:\s*(.*)$')
 GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((FFW|FFL|W|L|T)\s+(\d+)-(\d+)\)(.*)$')
 
-CANCEL = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\(Cancell?ed\s*(.*?)\)\s*$', re.I)
+CANCEL = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\(Cancell?ed\s*(.*?)\)\s*(.*)$', re.I)
 
 season = coach = None; header = None; games = []
 for raw in open(a.src, encoding='utf-8').read().splitlines():
@@ -42,21 +42,28 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
     if m: coach = re.sub(r'\s*\(.*?\)', '', m.group(1)).strip(); continue
     m = CANCEL.match(line)
     if m:  # e.g. "(01/22/19) vs Williamston (Canceled Inclement Weather)"; stored like Sexton's canceled games
-        mo, dy, yr, where, opp, why = m.groups()
+        mo, dy, yr, where, opp, why, tail = m.groups()
+        tail = tail.replace('*', ' ').strip()
+        cm = re.search(r'\b(DQ|DS|DF|RS|RF|SQ|SS|SF)\b', tail)
+        rnd = next((r for r in ROUNDS if r.lower() in tail.lower()), None) or (CODES[cm.group(1)] if cm else None)
+        vm = re.search(r'\bat\s+(.+)$', tail); v = VENUES.get(vm.group(1).strip(), vm.group(1).strip()) if vm else ''
         y0 = int(season[:4]); year = y0 if int(mo) >= 7 else y0 + 1
         assert int(yr[-2:]) == year % 100, ('date year does not fit the season', line)
         opp = NAMES.get(opp.strip(), opp.strip())
-        why = re.sub(r'^(due to|because of|for)\s+', '', why.strip(), flags=re.I).lower()
+        why = re.sub(r'^(due to|because of|for)\s+', '', why.strip(), flags=re.I)
+        why = ' '.join(w if re.fullmatch(r'[A-Z0-9-]{2,}', w) else w.lower() for w in why.split())  # keeps COVID-19
         note = 'Canceled' + (f' because of {why}' if why else '') + '.'
+        if rnd and v and v not in SELF: note += f' {rnd} scheduled at {v}.'
         games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, {'vs': 'H', 'at': 'R', '(n)': 'N'}[where],
-                               'Non-League', 'Canceled', None, None, coach, 0, '', 0, '', '', ''], note=note))
+                               rnd or 'Non-League', 'Canceled', None, None, coach, 0, '', 0, '', '', ''], note=note))
         continue
     m = GAME.match(line)
     if not m:
         # tournament note on its own line, for the previous game
         note = line.strip('* ').strip()
         if games and note and not games[-1]['note']:
-            games[-1]['note'] = 'Played in the ' + re.sub(r'^the\s+', '', note, flags=re.I) + '.'
+            games[-1]['note'] = (note.rstrip('.') + '.') if re.match(r'played\b', note, re.I) else \
+                'Played in the ' + re.sub(r'^the\s+', '', note, flags=re.I) + '.'
         continue
     mo, dy, yr, where, opp, res, us, them, tail = m.groups()
     y0 = int(season[:4]); year = y0 if int(mo) >= 7 else y0 + 1
