@@ -21,7 +21,7 @@ CODES = {'DQ': 'District Quarterfinal', 'DS': 'District Semifinal', 'DF': 'Distr
          'RF': 'Regional Final', 'SQ': 'State Quarterfinal', 'SS': 'State Semifinal', 'SF': 'State Final'}
 VENUES = {'Breslin Center': 'the Breslin Center', 'Eastern': 'Lansing Eastern', 'Waverly': 'Lansing Waverly',
           'KC': 'Kalamazoo Central', 'Lakewood': 'Lake Odessa Lakewood', 'EL': 'East Lansing', 'GL': 'Grand Ledge',
-          'Smithville (OH)': 'Smithville, Ohio', 'St Johns': 'St. Johns'}
+          'Smithville (OH)': 'Smithville, Ohio', 'St Johns': 'St. Johns', 'VanAndel Arena': 'Van Andel Arena'}
 NAMES = {'Ottawa Hills': 'Grand Rapids Ottawa Hills'}
 
 SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?')
