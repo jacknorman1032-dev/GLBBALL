@@ -87,7 +87,7 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
         note = 'Played in the ' + re.sub(r'^the\s+', '', tail, flags=re.I).rstrip('.') + '.'
     opp = NAMES.get(opp.strip(), opp.strip())
     site = {'vs': 'H', 'at': 'R', '(n)': 'N'}[where]
-    typ = rnd or ('League' if opp in LEAGUE and not note else 'Non-League')
+    typ = rnd or ('League' if opp in LEAGUE and not note.startswith('Played in') else 'Non-League')  # a bare venue ('Played at ...') keeps a league game league
     ff = int(res.startswith('FF'))  # forfeit, stored like EL's log: result W/L, flag 1, note 'Forfeit win/loss'
     if ff:
         res = res[2:]; note = ('Forfeit win' if res == 'W' else 'Forfeit loss') + \
