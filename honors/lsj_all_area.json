@@ -245,6 +245,17 @@
    },
    "left_out": "Dream Team pick Clint Tobias (Lakewood); Class B all-area Corey Thelen (Lakewood); Class C and D all-area teams (no covered schools; Jack, Nov 4, 2026); honorable mentions from schools the site doesn't cover: Jacob West (Howell) in Class A; Brett Lark (Alma), Jordan Fuller (Ionia), Tyler Beglin and Travis Willard (Lakewood), Jason Latz (Ovid-Elsie), Jordan Sipkovsky (Perry), Rhet Smith and Nate Marcum (Stockbridge) in Class B; and every Class C and D honorable mention.",
    "src": "Lansing State Journal, Dream Team (sports front) and all-area teams, coaches and honorable mention (p. 6C), 2003-04 (Geoff Kimmerly; April 11, 2004)"
+  },
+  {
+   "season": "2002-03",
+   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fabulous five' with the Player of the Year) and Coach of the Year on the sports front; the all-area teams for each class were inside on page 4C.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 4,
+    "coy": 1
+   },
+   "left_out": "Dream Team picks Garret Bushong (Ionia; Class B all-state special mention, Mid-Michigan A first team, Purdue football) and Taylor Thelen (Pewamo-Westphalia; all-CMAC first team, Class C all-state special mention), from schools the site doesn't cover. The page 4C all-area teams aren't entered yet.",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)"
   }
  ],
  "picks": [
@@ -9551,6 +9562,54 @@
    "division": "Class B",
    "grade": "11",
    "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2003-04 (April 11, 2004, p. 6C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Justin Ingram",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "note": "6-3 point guard; 22.6 points, 5.2 assists and 5 rebounds a game for a 13-9 Waverly team. Class A all-state first team and the Capital Area Conference's Most Valuable Player; signed with Toledo. His sister Alayne was the 1997 LSJ Player of the Year (girls)."
+  },
+  {
+   "season": "2002-03",
+   "name": "Al Horford",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "note": "6-8 center; 18.1 points, 11.7 rebounds, 3.3 blocked shots and 2.7 assists a game. Class A all-state and Capital Area Conference first teams."
+  },
+  {
+   "season": "2002-03",
+   "name": "Joe DeMartin",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "note": "6-2 guard; 16 points a game and 48 3-pointers. Co-Most Valuable Player of the Capital Circuit."
+  },
+  {
+   "season": "2002-03",
+   "name": "Tony Sweet",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "note": "Seventh-year coach; Grand Ledge went 20-2, won its first Capital Area Conference title, set a school record for wins and finished No. 4 in the final AP Class A poll. CAC Coach of the Year for the second time; the school's winningest coach at 96-59."
   }
  ]
 }
