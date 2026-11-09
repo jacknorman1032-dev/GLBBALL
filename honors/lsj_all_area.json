@@ -284,6 +284,19 @@
    },
    "left_out": "Dream Team picks Patrick Yelsik (Ashley) and J.T. Jones (Ithaca); Class B all-area Jim Dugan (Stockbridge), Brett Patterson (Ionia) and Mike Shauver (Perry) and Class B coach Scott Swinehart (Ionia); the Class C and D teams and coaches (no covered schools); honorable mentions from schools the site doesn't cover: David Hoy (Howell), Steve Boge and Carter Lewis (Mount Pleasant) and Eric Cameron (Owosso) in Class A; Nick Lombardi (Alma), Curt Campbell (Stockbridge), Jake Schrock (Lakewood), Kris Southwell (Perry) and Garret Bushong (Ionia) in Class B; and all of Classes C and D.",
    "src": "Lansing State Journal, Dream Team (sports front, p. 15) and all-area teams, coaches and honorable mention (p. 4C), 2000-01 (Geoff Kimmerly; April 20, 2001)"
+  },
+  {
+   "season": "1999-00",
+   "teams_note": "Player of the Year and a six-player Dream Team ('The magnificent seven') and Coach of the Year, then a seven-player all-area team, coach and honorable mention for each of Classes A to D, all on one page.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 6,
+    "coy": 5,
+    "area": 26,
+    "hm": 23
+   },
+   "left_out": "Dream Team picks Richard Britton (Olivet) and Patrick Yelsik (Ashley); Class A all-area Chris Schell (Mount Pleasant) and Ryan Walter (Ionia); Class B all-area Jeremy Clark (Perry), Luke Farrell (Lakewood) and Zach Loynes (Ovid-Elsie); honorable mentions Matt Magee (Ionia) and Eric Cameron (Owosso) in Class A, Kris Southwell (Perry) and Adam Vibber (Alma) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools; Portland St. Patrick is not Portland High).",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
   }
  ],
  "picks": [
@@ -10837,6 +10850,320 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Marcus Taylor",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "LSJ Player of the Year for the third time. 6-3 guard; 26 points, 6.5 rebounds and 5.4 assists a game for a 25-2 Waverly team that won a third straight Capital Area Conference title and the Class A state championship. Michigan's Mr. Basketball, McDonald's All-American, USA TODAY first-team All-American and a Naismith final-five pick; his 2,448 career points were sixth in MHSAA history and the most by a Class A player, breaking Earvin (Magic) Johnson's area record. Signed with Michigan State."
+  },
+  {
+   "season": "1999-00",
+   "name": "Cortney Scott",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "6-6 center; 15 points and 9 rebounds a game. Class A all-state honorable mention."
+  },
+  {
+   "season": "1999-00",
+   "name": "Doug Lepisto",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "5-11 guard; 15.3 points and 5.4 assists a game and 32 3-pointers. Class A all-state honorable mention."
+  },
+  {
+   "season": "1999-00",
+   "name": "Jake Govorchin",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "6-7 center; 13 points and 10 rebounds a game. Class A all-state honorable mention."
+  },
+  {
+   "season": "1999-00",
+   "name": "Matt McClure",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "6-5 forward; 21.2 points and 10.9 rebounds a game and 26 3-pointers. Class A all-state honorable mention."
+  },
+  {
+   "season": "1999-00",
+   "name": "Phil Odlum",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)",
+   "note": "Led Waverly to the Class A state title (25-2); also Coach of the Year from BCAM and the Detroit Free Press. 384-223 as a high school coach, including 255-183 in 20 years at Waverly."
+  },
+  {
+   "season": "1999-00",
+   "name": "Jeff Burgess",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "John Coleman",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Sean Schafer",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Travis Schellhammer",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Matt Tijerina",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Dan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Brendan Brogan",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Luke McKenna",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Ryan Walker",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Chip Woodbury",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Rob Porritt",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Maurice Benson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Jason Franklin",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Levi Rost",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Joe Gonzales",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Barrott Vos",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Adam Donovan",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Aaron Schafer",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Brian Miller",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Jake Fienup",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Cory Coe",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1999-00",
+   "name": "Jordon Goodman",
+   "listed_as": "Jordy Goodman",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
   }
  ]
 }
