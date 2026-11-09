@@ -248,14 +248,16 @@
   },
   {
    "season": "2002-03",
-   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fabulous five' with the Player of the Year) and Coach of the Year on the sports front; the all-area teams for each class were inside on page 4C.",
+   "teams_note": "Player of the Year, a four-player Dream Team (the 'Fabulous five' with the Player of the Year) and Coach of the Year on the sports front, then a five-player all-area team, coach and honorable mention for each class on page 4C.",
    "full_counts": {
     "poy": 1,
     "dream": 4,
-    "coy": 1
+    "coy": 3,
+    "area": 10,
+    "hm": 31
    },
-   "left_out": "Dream Team picks Garret Bushong (Ionia; Class B all-state special mention, Mid-Michigan A first team, Purdue football) and Taylor Thelen (Pewamo-Westphalia; all-CMAC first team, Class C all-state special mention), from schools the site doesn't cover. The page 4C all-area teams aren't entered yet.",
-   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)"
+   "left_out": "Dream Team picks Garret Bushong (Ionia) and Taylor Thelen (Pewamo-Westphalia); Class A all-area Steve Boge (Mt. Pleasant); Class B all-area Scott Secor (Lakewood) and Josh Reilly (Stockbridge) and Class B coach Scott Swinehart (Ionia); honorable mentions from schools the site doesn't cover: Chad Battle (Mt. Pleasant) in Class A; Matt Walter and Joe Buys (Ionia), Jason Latz (Ovid-Elsie), Chris Holton (Alma), Clint Tobias (Lakewood), Chris Hebden and Alex Doerner (Perry), E.J. Sura (Shepherd) and Nate Marcum (Stockbridge) in Class B. The Class C and D teams further down page 4C aren't entered yet.",
+   "src": "Lansing State Journal, Dream Team (sports front) and all-area teams, coaches and honorable mention (p. 4C), 2002-03 (Geoff Kimmerly; April 13, 2003)"
   }
  ],
  "picks": [
@@ -9572,7 +9574,7 @@
    "team": "poy",
    "division": "",
    "grade": "12",
-   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; April 13, 2003, sports front)",
    "note": "6-3 point guard; 22.6 points, 5.2 assists and 5 rebounds a game for a 13-9 Waverly team. Class A all-state first team and the Capital Area Conference's Most Valuable Player; signed with Toledo. His sister Alayne was the 1997 LSJ Player of the Year (girls)."
   },
   {
@@ -9584,7 +9586,7 @@
    "team": "dream",
    "division": "",
    "grade": "11",
-   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; April 13, 2003, sports front)",
    "note": "6-8 center; 18.1 points, 11.7 rebounds, 3.3 blocked shots and 2.7 assists a game. Class A all-state and Capital Area Conference first teams."
   },
   {
@@ -9596,7 +9598,7 @@
    "team": "dream",
    "division": "",
    "grade": "12",
-   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; April 13, 2003, sports front)",
    "note": "6-2 guard; 16 points a game and 48 3-pointers. Co-Most Valuable Player of the Capital Circuit."
   },
   {
@@ -9608,8 +9610,328 @@
    "team": "coy",
    "division": "",
    "grade": "",
-   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; sports front, spring 2003)",
+   "src": "Lansing State Journal Dream Team, 2002-03 ('Fabulous five', Geoff Kimmerly; April 13, 2003, sports front)",
    "note": "Seventh-year coach; Grand Ledge went 20-2, won its first Capital Area Conference title, set a school record for wins and finished No. 4 in the final AP Class A poll. CAC Coach of the Year for the second time; the school's winningest coach at 96-59."
+  },
+  {
+   "season": "2002-03",
+   "name": "Kyle Maunus",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "James Petty",
+   "listed_as": "James Petty III",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Clark Woods",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Ben Hess",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Dave Kalchik",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)",
+   "note": "19th-year coach; Mason went 18-5 after 6-15 in 2001-02 and shared the Capital Circuit title, its first league championship since 1991."
+  },
+  {
+   "season": "2002-03",
+   "name": "Kevin Maloney",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Dave Stintzi",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "David Flood",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Ryan Woods",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Jeremy Taylor",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Luke Osterhouse",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Paul Stoll",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Alvin Bonds",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Marcus Winston",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Carson Butler",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Nate Duncan",
+   "listed_as": "Nathan Duncan",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Joe Harrington",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Doug DeMartin",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Lance Underwood",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Pat Dean",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Justin Murray",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Evan Jones",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Brett Liles",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Mac Miller",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Dave Hayes",
+   "listed_as": "David Hayes",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Josh Hartman",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Danny Bird",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Brent McIntosh",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
+  },
+  {
+   "season": "2002-03",
+   "name": "Matt Kellogg",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal, all-area teams, coaches and honorable mention, 2002-03 (April 13, 2003, p. 4C)"
   }
  ]
 }
