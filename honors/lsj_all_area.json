@@ -271,6 +271,19 @@
    },
    "left_out": "Dream Team picks Joe Schramm (Laingsburg) and Zach Ingles (Greenville) and Coach of the Year Scott Pischea (Fowler); Class A all-area Garret Bushong (Ionia); Class B all-area Nick Lombardi (Alma); the Class C and D teams and coaches (Laingsburg, Olivet, Ithaca, Pewamo-Westphalia, Fowler, Potterville, Lansing Christian; no covered schools); honorable mentions from schools the site doesn't cover: Eric Cameron and Jay Creighton (Owosso), Steve Boge and Uche Okonkwo (Mount Pleasant), Taylor Jorgensen (Greenville), Robbie Kuhtz and Mike Fuller (Ionia) and Neil Carl (Howell) in Class A; Scott Secor and Clint Tobias (Lakewood), Chandler Cole (Perry), Derek Parmenter and Josh Latz (Ovid-Elsie), Brett Lark (Alma), Kirk Starnes (Shepherd), Josh Reilly and Shawn Marshall (Stockbridge) in Class B; and all of Classes C and D.",
    "src": "Lansing State Journal, Dream Team (sports front, p. 25) and all-area teams, coaches and honorable mention (p. 9C), 2001-02 (Geoff Kimmerly; April 7, 2002)"
+  },
+  {
+   "season": "2000-01",
+   "teams_note": "Player of the Year, a four-player Dream Team ('The Fabulous 5' with the Player of the Year) and Coach of the Year on the sports front, then a five-player all-area team and coach for each of Classes A to D and honorable mention by class on page 4C.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 4,
+    "coy": 5,
+    "area": 20,
+    "hm": 59
+   },
+   "left_out": "Dream Team picks Patrick Yelsik (Ashley) and J.T. Jones (Ithaca); Class B all-area Jim Dugan (Stockbridge), Brett Patterson (Ionia) and Mike Shauver (Perry) and Class B coach Scott Swinehart (Ionia); the Class C and D teams and coaches (no covered schools); honorable mentions from schools the site doesn't cover: David Hoy (Howell), Steve Boge and Carter Lewis (Mount Pleasant) and Eric Cameron (Owosso) in Class A; Nick Lombardi (Alma), Curt Campbell (Stockbridge), Jake Schrock (Lakewood), Kris Southwell (Perry) and Garret Bushong (Ionia) in Class B; and all of Classes C and D.",
+   "src": "Lansing State Journal, Dream Team (sports front, p. 15) and all-area teams, coaches and honorable mention (p. 4C), 2000-01 (Geoff Kimmerly; April 20, 2001)"
   }
  ],
  "picks": [
@@ -10412,6 +10425,418 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal's 2002 all-area basketball teams, coaches and honorable mention (April 7, 2002, p. 9C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Anton Currie",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2000-01 ('The Fabulous 5', Geoff Kimmerly; April 20, 2001, sports front, newspapers.com page 15)",
+   "note": "6-6 forward; 16.7 points, 9.8 rebounds and three blocked shots a game for a 23-2 Okemos team that won the Capital Circuit, a district title and the school's first Class A regional game (54-52 over Ann Arbor Pioneer). Class A all-state special mention. Okemos' third LSJ Player of the Year after Jason Price (shared, 1996) and Mark Kissling (shared, 1998)."
+  },
+  {
+   "season": "2000-01",
+   "name": "Jeremy Shane",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, 2000-01 ('The Fabulous 5', Geoff Kimmerly; April 20, 2001, sports front, newspapers.com page 15)",
+   "note": "5-8 guard; 17.5 points a game and 30 3-pointers; led Sexton to the Class A quarterfinals."
+  },
+  {
+   "season": "2000-01",
+   "name": "Levi Rost",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team, 2000-01 ('The Fabulous 5', Geoff Kimmerly; April 20, 2001, sports front, newspapers.com page 15)",
+   "note": "6-6 forward; 16.5 points and 10 rebounds a game and 53 3-pointers; led St. Johns to a Mid-Michigan A title."
+  },
+  {
+   "season": "2000-01",
+   "name": "Dan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team, 2000-01 ('The Fabulous 5', Geoff Kimmerly; April 20, 2001, sports front, newspapers.com page 15)",
+   "note": "Seventh year at Okemos (231 wins in 12 seasons, five at Williamston); 23-2, another Capital Circuit title and a district championship after losing four starters, including two Dream Team players. Also AP special mention; the LSJ's Class A Coach of the Year in 1999-00."
+  },
+  {
+   "season": "2000-01",
+   "name": "Mike Bailey",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Brian Kushion",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Ross Malatinsky",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "James McCulloh",
+   "listed_as": "Jay McCulloh",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Zach VanDuinen",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Mike Major",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)",
+   "note": "Led Sexton to district and regional titles and the Class A quarterfinals despite finishing the regular season below .500."
+  },
+  {
+   "season": "2000-01",
+   "name": "Cory Coe",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Mark Williams",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Pete Mireles",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Reuben Jackson",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Scott Allen",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Adam Vanlerberghe",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Judan Wilson",
+   "listed_as": "Judah Wilson",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Jayson Vincent",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Sabah Khourey",
+   "listed_as": "Sabah Khoury",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Dante Adams",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Justin Ingram",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Josh Morgan",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Pete Ott",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Joe Wohlsheid",
+   "listed_as": "Joe Wohlscheid",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Matt Bohnet",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Kyree McKnight",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Mitch Rhodes",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Gregory Truvillion",
+   "listed_as": "Greg Truvillion",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Alonzo Mans",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Brian Miller",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Derrick Mudri",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Bobby Maddelein",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Matt Jex",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Tyler Milner",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Kevin Maloney",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Jordon Goodman",
+   "listed_as": "Jordy Goodman",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
+  },
+  {
+   "season": "2000-01",
+   "name": "Brian Abbott",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 2001 all-area basketball teams, coaches and honorable mention (April 20, 2001, p. 4C)"
   }
  ]
 }
