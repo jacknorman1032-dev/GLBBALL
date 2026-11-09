@@ -339,9 +339,10 @@
   },
   {
    "season": "1995-96",
-   "teams_note": "'The Great 8' (the area's top eight players, chosen by a panel of eight coaches; no Player of the Year named on this page) and a Great 8 Coach of the Year, then a five-player team with a captain and coach for each of Classes A to D, and special mention lists (stored as honorable mention).",
+   "teams_note": "'The Great 8' (the area's top eight players, chosen by a panel of eight coaches; no Player of the Year named on this page; Price and Banks stored as co-Players of the Year per a 2001 LSJ article, confirmed by Jack) and a Great 8 Coach of the Year, then a five-player team with a captain and coach for each of Classes A to D, and special mention lists (stored as honorable mention).",
    "full_counts": {
-    "dream": 8,
+    "poy": 2,
+    "dream": 6,
     "coy": 5,
     "area": 20,
     "hm": 52
@@ -12338,11 +12339,11 @@
    "listed_as": "",
    "school": "okemos",
    "listed_school": "Okemos",
-   "team": "dream",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "Lansing State Journal 'The Great 8' and all-area teams, 1995-96 (Bob Gross; April 4, 1996, p. 4C, newspapers.com page 20)",
-   "note": "Named to the Great 8 (the LSJ's top eight area players). 6-1 guard and three-year starter; 20.1 points a game, team leader in assists and steals; Capital Circuit MVP; more than 1,000 career points. Also on the 1994-95 Super Six. A 2001 LSJ article says Price shared the 1996 Player of the Year award with Sexton's Ron Banks; this page names no Player of the Year."
+   "note": "Co-Player of the Year with Ron Banks (Sexton) (Jack, Nov 9, 2026; per a 2001 LSJ article, as the 1996 page names no Player of the Year). Named to the Great 8. 6-1 guard and three-year starter; 20.1 points a game, team leader in assists and steals; Capital Circuit MVP; more than 1,000 career points. Also on the 1994-95 Super Six."
   },
   {
    "season": "1995-96",
@@ -12350,11 +12351,11 @@
    "listed_as": "",
    "school": "sexton",
    "listed_school": "Sexton",
-   "team": "dream",
+   "team": "poy",
    "division": "",
    "grade": "12",
    "src": "Lansing State Journal 'The Great 8' and all-area teams, 1995-96 (Bob Gross; April 4, 1996, p. 4C, newspapers.com page 20)",
-   "note": "Named to the Great 8 (the LSJ's top eight area players). 6-5 forward; 21.3 points a game; two-time Class A all-state and a McDonald's All-American West team selection. Also on the 1994-95 Super Six. A 2001 LSJ article says he shared the 1996 Player of the Year award with Okemos' Jason Price."
+   "note": "Co-Player of the Year with Jason Price (Okemos) (Jack, Nov 9, 2026; per a 2001 LSJ article, as the 1996 page names no Player of the Year). Named to the Great 8. 6-5 forward; 21.3 points a game; two-time Class A all-state and a McDonald's All-American West team selection. Also on the 1994-95 Super Six."
   },
   {
    "season": "1995-96",
