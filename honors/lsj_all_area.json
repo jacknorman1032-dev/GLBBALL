@@ -349,6 +349,17 @@
    },
    "left_out": "Great 8 picks Bruce Hungerford (Fowler) and Bill Thomas (Ionia); Class B team Chad Allen (Stockbridge) and Matt Goodemoot (Lakewood, captain); the rest of the Class C team and coach Jerry Reese (Maple Valley); the Class D team and coach Dennis Smith (Fowler); special mentions Wayne Piercefield (Ionia) in Class A, Blake Elsie (Lakewood), Chad Collins (Stockbridge), Scott Eldridge and Chris Seelbach (Alma), Mike Cerny and T.J. Phillips (Ovid-Elsie) in Class B, all of Class C except Lansing Catholic's two, and all of Class D.",
    "src": "Lansing State Journal 'The Great 8' and all-area teams, 1995-96 (Bob Gross; April 4, 1996, p. 4C, newspapers.com page 20)"
+  },
+  {
+   "season": "1994-95",
+   "teams_note": "'Super Six' (the area's six best, chosen by a panel of coaches; co-captains Nate Whitson of Olivet and Jay Leitz of DeWitt; no Player of the Year named) and a Coach of the Year, then a five-player first team and coach for each of Classes A to D, with special mention players (stored as honorable mention) and special mention coaches (not stored).",
+   "full_counts": {
+    "dream": 6,
+    "coy": 5,
+    "area": 20
+   },
+   "left_out": "Super Six co-captain Nate Whitson (Olivet); Class B first team Bill Thomas (Ionia); the Class C team (Laingsburg, Pewamo-Westphalia, Carson City-Crystal, Olivet) and coach Rob Fleming (Olivet); the Class D team and coach Dennis Smith (Fowler); Class B special mentions Matt Goodemoot (Lakewood), Tate Schanski (Perry), Chad Allen (Stockbridge), Scott Eldridge and Chris Seelbach (Alma), Casey Kilduff (Ionia) and Wes Darling (Ovid-Elsie); all Class C special mentions except Lansing Catholic's Carlos Fernandez and Williamston's Nick Lycos; all of Class D; special mention coaches (Class A Dan Stolz, Okemos, and Mike Major, Sexton; Class B Scott Swinehart, Ionia, and Dave Kalchik, Mason). The page's all-league lists for each conference are not entered here.",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
   }
  ],
  "picks": [
@@ -12379,7 +12390,7 @@
    "division": "",
    "grade": "12",
    "src": "Lansing State Journal 'The Great 8' and all-area teams, 1995-96 (Bob Gross; April 4, 1996, p. 4C, newspapers.com page 20)",
-   "note": "Named to the Great 8 (the LSJ's top eight area players). 6-2 center; 16.9 points a game; 1,151 career points. Also on the 1994-95 Super Six."
+   "note": "Named to the Great 8 (the LSJ's top eight area players). 6-2 center; 16.9 points a game; 1,151 career points. The 1996 article says he was on the 1994-95 Super Six, but the 1995 page has him on the Class B first team."
   },
   {
    "season": "1995-96",
@@ -12792,6 +12803,432 @@
    "division": "Class C",
    "grade": "",
    "src": "Lansing State Journal 'The Great 8' and all-area teams, 1995-96 (Bob Gross; April 4, 1996, p. 4C, newspapers.com page 20)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Ron Banks",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "11",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Super Six (the only repeater from 1993-94). 6-5 forward; 22.4 points and 11 rebounds a game for a 17-6 Sexton team that tied Everett for the CAC title; unanimous all-CAC; AP Class A all-state."
+  },
+  {
+   "season": "1994-95",
+   "name": "Desmond Ferguson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "dream",
+   "division": "12",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Super Six. 6-5 guard; 20 points and nine rebounds a game; led Everett to a share of the CAC title and a Class A district title. CAC MVP."
+  },
+  {
+   "season": "1994-95",
+   "name": "Jason Price",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "11",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Super Six. 6-0 guard; 16.2 points a game and 43 3-pointers; led Okemos to a second straight Capital Circuit title. AP Class A special mention."
+  },
+  {
+   "season": "1994-95",
+   "name": "Jay Leitz",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "dream",
+   "division": "12",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Super Six co-captain. 5-10 guard; 12 points and 10 assists a game for a DeWitt team that went 20-0 in the regular season and reached the Class B semifinals. AP Class B honorable mention."
+  },
+  {
+   "season": "1994-95",
+   "name": "Jon Vertalka",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "dream",
+   "division": "12",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Super Six. 6-7 center; 18 points, 12.4 rebounds and 3.2 blocks a game; all-CAC first team."
+  },
+  {
+   "season": "1994-95",
+   "name": "Jim Lutzke",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "coy",
+   "division": "",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Coach of the Year: DeWitt went 20-0 in the regular season, won the Ingham County League and Class B district and regional titles, and lost to East Grand Rapids in the Class B semifinals (25-1). BCAM Region 6 and overall Class B Coach of the Year; 159-56 career, 53-21 at DeWitt."
+  },
+  {
+   "season": "1994-95",
+   "name": "Kyle Guerrant",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Eric Thompson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Ben Bakken",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Matt Hulteen",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Matt Feldpausch",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Johnny Jones",
+   "listed_as": "John Jones",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Everett went 19-5."
+  },
+  {
+   "season": "1994-95",
+   "name": "Eric Parson",
+   "listed_as": "Eric Parsons",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Jason Kreider",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Casey Laughlin",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Jason Feig",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Ken Curtis",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)",
+   "note": "Fowlerville went 19-5."
+  },
+  {
+   "season": "1994-95",
+   "name": "John Elworth",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Carl Rosario",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Tim Schram",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Dequarius Stewart",
+   "listed_as": "Dquarius Stewart",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Travis Silvas",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Rory Nevins",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Joe Fletcher",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Clayton Burch",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Joe Nees",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Aaron Gurley",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Don Oesterle",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Robert Bobeda",
+   "listed_as": "Rob Bobeda",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Marvin Beland",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Nick Douglass",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Steve Myers",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Griffin Loynes",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Ben Spitzley",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Derek Smith",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "K.C. Church",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Carlos Fernandez",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1994-95",
+   "name": "Nick Lycos",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
   }
  ]
 }
