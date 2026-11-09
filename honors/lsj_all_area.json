@@ -297,6 +297,19 @@
    },
    "left_out": "Dream Team picks Richard Britton (Olivet) and Patrick Yelsik (Ashley); Class A all-area Chris Schell (Mount Pleasant) and Ryan Walter (Ionia); Class B all-area Jeremy Clark (Perry), Luke Farrell (Lakewood) and Zach Loynes (Ovid-Elsie); honorable mentions Matt Magee (Ionia) and Eric Cameron (Owosso) in Class A, Kris Southwell (Perry) and Adam Vibber (Alma) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools; Portland St. Patrick is not Portland High).",
    "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1998-99",
+   "teams_note": "Player of the Year, a four-player Dream Team and Coach of the Year, then a five-player all-area team, coach and honorable mention for each of Classes A to D, all on one page (3C). Grades are given only for the Dream Team.",
+   "full_counts": {
+    "poy": 1,
+    "dream": 4,
+    "coy": 5,
+    "area": 20,
+    "hm": 41
+   },
+   "left_out": "Dream Team picks Kyle Barker (Ionia), Dwight Crow (Stockbridge) and Curt Hungerford (Fowler) and Coach of the Year Dan Anibal (Bath); Class B all-area Matt Johnson (Alma) and Luke Farrell (Lakewood); honorable mentions Ryan Walter (Ionia), Justin Scherlock (Mount Pleasant), Josh Hrcka (Owosso) and Eric Keppen (Howell) in Class A, Rob Wise (Alma) and Matt Matulewicz (Ovid-Elsie) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools).",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
   }
  ],
  "picks": [
@@ -11164,6 +11177,316 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal Dream Team ('The magnificent seven') and all-area teams, 1999-2000 (Geoff Kimmerly; April 22, 2000, newspapers.com page 17)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Marcus Taylor",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "poy",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)",
+   "note": "6-3 point guard; 28.9 points, 7.9 rebounds and 3.6 assists a game, the highest scoring average ever in mid-Michigan (Earvin Johnson averaged 28.7 at Everett in 1976-77). Waverly went 21-3 with 16 straight wins and repeated as Capital Area Conference and Class A district champions. AP Class A all-state. The LSJ notes he was co-Player of the Year in 1997-98."
+  },
+  {
+   "season": "1998-99",
+   "name": "Jason Bauer",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)",
+   "note": "6-8 forward; 18.5 points and 11 rebounds a game. AP Class B all-state honorable mention; Ingham County League first team."
+  },
+  {
+   "season": "1998-99",
+   "name": "Travis Meister",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Cortney Scott",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Davelle Hoskins",
+   "listed_as": "Da'Velle Hoskins",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Jeff Burgess",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Kevin Lee",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Dave Kalchik",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Adam Kulesza",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Jason Stubbs",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Scott Elliott",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Bob Duffey",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Dominick Brown",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Matt McClure",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Chris Hawkins",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Travis Schellhammer",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Jake Govorchin",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Doug Lepisto",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Matt McCoy",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Paul VanDyke",
+   "listed_as": "Paul Van Dyke",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Jeff Smith",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Brendan Brogan",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Sam Spadafore",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Zeb Kennedy",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Brian Mull",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Keith Pohl",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Nick Taylor",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1998-99",
+   "name": "Dale Miller",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
   }
  ]
 }
