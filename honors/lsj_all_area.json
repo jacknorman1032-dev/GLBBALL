@@ -323,6 +323,18 @@
    },
    "left_out": "Dream Team pick John Thelen (Pewamo-Westphalia) and Coach of the Year Luke Pohl (Pewamo-Westphalia); Class A all-area Ryan Basler (Ionia); Class B all-area Ryan Westendorp (Lakewood) and Dwight Crow (Stockbridge); honorable mentions Justin Sherlock (Mount Pleasant) and Kyle Barker (Ionia) in Class A, Jason Elenbaas and Chad Clum (Lakewood), Matt Johnson (Alma), Eric Cowles (Perry) and Mike Muzaca (Stockbridge) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools).",
    "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1996-97",
+   "teams_note": "Player of the Year and a nine-player Dream Team (the first 10-player Dream Team; 'They rate a perfect 10') on the sports front, then a five-player all-area team and a coach of the year for each of Classes A to D on page 4C, continued on 5C (the Class C remainder, Class D and honorable mentions).",
+   "full_counts": {
+    "poy": 1,
+    "dream": 9,
+    "coy": 4,
+    "area": 20
+   },
+   "left_out": "Dream Team picks Brandon Woodworth (Laingsburg), Jason Elenbaas (Lakewood) and Chris Seelbach (Alma); Class C coach Greg Mitchell (Laingsburg) and Class D coach James Lemier (Morrice); Class C all-area John Thelen (Pewamo-Westphalia), Andy McGee (Laingsburg), Eric Ream (Dansville) and Spencer Wideman (Ithaca). Page 5C (the rest of Class C, Class D and honorable mentions) isn't entered yet.",
+   "src": "Lansing State Journal, Dream Team (sports front, p. 19) and all-area teams (p. 4C, continued 5C), 1996-97 (Tom Gantert; April 24, 1997)"
   }
  ],
  "picks": [
@@ -11794,8 +11806,8 @@
   },
   {
    "season": "1997-98",
-   "name": "Pat Rodgers",
-   "listed_as": "",
+   "name": "Pat Rogers",
+   "listed_as": "Pat Rodgers",
    "school": "portland",
    "listed_school": "Portland",
    "team": "hm",
@@ -11868,6 +11880,235 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Thomas Jackson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "poy",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team, 1996-97 ('They rate a perfect 10', Tom Gantert; April 24, 1997, sports front, newspapers.com page 19)",
+   "note": "5-10 point guard; 17.2 points, 7.1 assists and five steals a game for a 21-4 East Lansing team that won its first Capital Area Conference title and the Class A regional (over No. 2 Battle Creek Central and No. 4 Benton Harbor) before losing in the quarterfinals. Shared the CAC MVP award with Waverly's Marcus Taylor; chosen over Taylor by a committee of 10 coaches."
+  },
+  {
+   "season": "1996-97",
+   "name": "Marcus Taylor",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "dream",
+   "division": "",
+   "grade": "9",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-2 freshman; 24.6 points, five rebounds and five assists a game. Co-MVP of the Capital Area Conference and AP Class A all-state honorable mention."
+  },
+  {
+   "season": "1996-97",
+   "name": "Steve Ordiway",
+   "listed_as": "Steven Ordiway",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-4 forward; 20.4 points and 15.1 rebounds a game. Capital Area Conference first team."
+  },
+  {
+   "season": "1996-97",
+   "name": "Onome Scott-Emuakpor",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-8 forward; 16 points a game. Capital Area Conference first team."
+  },
+  {
+   "season": "1996-97",
+   "name": "Todd Crawley",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-0 guard; 37 points in the season opener against East Lansing. First-team Mid-Michigan B selection."
+  },
+  {
+   "season": "1996-97",
+   "name": "Pete Dakovic",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-7 center; 12.0 points and 10.7 rebounds a game. Ingham County League first team."
+  },
+  {
+   "season": "1996-97",
+   "name": "Marcel Terry",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "6-4 forward; 16.3 points a game. Capital Area Conference first team."
+  },
+  {
+   "season": "1996-97",
+   "name": "Raphael Seeman",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jamond Todd",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Davelle Hoskins",
+   "listed_as": "Da'Velle Hoskins",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Coye Bouyer",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jose Rivera",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Chris Ferguson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "Capital Area Conference Coach of the Year; East Lansing went 21-4, won its first CAC title and a Class A regional. The four class coaches replaced a single area Coach of the Year this season."
+  },
+  {
+   "season": "1996-97",
+   "name": "Jason Bauer",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jay Larner",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jeff Whitely",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Pat Rogers",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Lance Ellis",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Ray Kimball",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)",
+   "note": "AP Class B all-state special mention Coach of the Year; Portland went 18-3, won its first Ingham County League title (72-53 over Fowlerville) and beat then-No. 1 Albion 71-67."
+  },
+  {
+   "season": "1996-97",
+   "name": "Adam Kulesza",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class C",
+   "grade": "10",
+   "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
   }
  ]
 }
