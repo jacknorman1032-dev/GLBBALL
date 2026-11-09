@@ -360,6 +360,17 @@
    },
    "left_out": "Super Six co-captain Nate Whitson (Olivet); Class B first team Bill Thomas (Ionia); the Class C team (Laingsburg, Pewamo-Westphalia, Carson City-Crystal, Olivet) and coach Rob Fleming (Olivet); the Class D team and coach Dennis Smith (Fowler); Class B special mentions Matt Goodemoot (Lakewood), Tate Schanski (Perry), Chad Allen (Stockbridge), Scott Eldridge and Chris Seelbach (Alma), Casey Kilduff (Ionia) and Wes Darling (Ovid-Elsie); all Class C special mentions except Lansing Catholic's Carlos Fernandez and Williamston's Nick Lycos; all of Class D; special mention coaches (Class A Dan Stolz, Okemos, and Mike Major, Sexton; Class B Scott Swinehart, Ionia, and Dave Kalchik, Mason). The page's all-league lists for each conference are not entered here.",
    "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1993-94",
+   "teams_note": "'Fab Five' (no Player of the Year named) and a Coach of the Year, then a five-player all-area team and coach for each of Classes A to D, special mention by class (stored as honorable mention) and 'Top coaches' by class. Chosen by an eight-coach panel.",
+   "full_counts": {
+    "dream": 5,
+    "coy": 6,
+    "area": 20
+   },
+   "left_out": "Fab Five pick Adam Jones (Dansville) and Coach of the Year Dennis Smith (Fowler); Class B all-area Kris Tieber (Perry) and Jason Agostini (Ionia) and coach Scott Swinehart (Ionia); the Class C and D teams and coaches; special mentions Dane Sexton (Howell) in Class A, Ryan Powers (Alma), Dan Schwark (Ovid-Elsie), Tom Clark (Stockbridge) and Bill Thomas (Ionia) in Class B, all of Class C except Williamston's and Portland's, and all of Class D. Jeff Curtiss and Jeremy Martinez are written as on the same page's all-conference lists (Jeff Curtis, Jamey Martinez).",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
   }
  ],
  "picks": [
@@ -13229,6 +13240,331 @@
    "division": "Class C",
    "grade": "",
    "src": "Lansing State Journal 'Super Six' and first-team all-area by class, 1994-95 (Bob Gross; April 6, 1995, p. 4C, newspapers.com page 24)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Antwann Jones",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Fab Five. 6-6 center; 20.8 points and 13.5 rebounds a game; two-time Class A all-state; fourth in Mr. Basketball voting; unanimous two-time all-conference."
+  },
+  {
+   "season": "1993-94",
+   "name": "Ron Banks",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "10",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Fab Five. 6-5 forward; 21.8 points and 10.5 rebounds a game for the 21-2 CAC champions. CAC Player of the Year."
+  },
+  {
+   "season": "1993-94",
+   "name": "Dan Wendt",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Fab Five. 6-5 forward and team captain; 17.1 points and 8.3 rebounds a game for the 20-4 Capital Circuit champions; unanimous all-conference."
+  },
+  {
+   "season": "1993-94",
+   "name": "Adam Quiring",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Fab Five. 6-2 guard; 16.7 points and 7.6 assists a game; unanimous all-conference."
+  },
+  {
+   "season": "1993-94",
+   "name": "Pat Hoag",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Desmond Ferguson",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "area",
+   "division": "Class A",
+   "grade": "11",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Zach Parsons",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jim Baker",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "area",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jason Price",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "area",
+   "division": "Class A",
+   "grade": "10",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Mike Major",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Sexton went 21-2 and won the CAC and a Class A district title."
+  },
+  {
+   "season": "1993-94",
+   "name": "Stan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)",
+   "note": "Okemos went 20-0 in the regular season and won the Capital Circuit."
+  },
+  {
+   "season": "1993-94",
+   "name": "Chad Wilberding",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jason Kreider",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "10",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Steve Myers",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "area",
+   "division": "Class B",
+   "grade": "11",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Dequarius Stewart",
+   "listed_as": "DeQuarius Stewart",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Cheo Walker",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Carl Rosario",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Tim Schram",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Demetrius Hodge",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jeff Curtis",
+   "listed_as": "Jeff Curtiss",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jamey Martinez",
+   "listed_as": "Jeremy Martinez",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Bill Drinkwater",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Brad Fackler",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Casey Laughlin",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Jason Feig",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Griffin Loynes",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Nick Lycos",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Mark Pohl",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
+  },
+  {
+   "season": "1993-94",
+   "name": "Kyle Crandall",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal 'Fab Five' and all-area teams by class, 1993-94 (Bob Gross; April 14, 1994, p. 4B, newspapers.com page 14)"
   }
  ]
 }
