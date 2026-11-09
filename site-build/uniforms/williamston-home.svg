@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="Williamston home uniform">
+  <defs>
+    <clipPath id="wihJerseyClip"><path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="wihShortsClip"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+
+  <!-- Shorts: white, gray waistband, single green side stripe, green hem band, green serif W on the right leg (viewer's left) -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#ffffff"/>
+  <g clip-path="url(#wihShortsClip)">
+    <polygon points="27.5,166 30.5,166 22.5,275 19.5,275" fill="#11643f"/>
+    <polygon points="129.5,166 132.5,166 140.5,275 137.5,275" fill="#11643f"/>
+    <path d="M0,270.5 L68,270.5 M92,270.5 L160,270.5" stroke="#11643f" stroke-width="5"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <text x="41" y="263" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="20" fill="#11643f" stroke="#0a3d26" stroke-width="0.5" paint-order="stroke">W</text>
+
+  <!-- Jersey: white, thin green V-neck and armhole binding, single green stripe down each side -->
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#ffffff"/>
+  <g clip-path="url(#wihJerseyClip)">
+    <rect x="28.5" y="72" width="3" height="96" fill="#11643f"/>
+    <rect x="128.5" y="72" width="3" height="96" fill="#11643f"/>
+    <g fill="none" stroke="#11643f">
+      <path d="M54,10 L80,34 L106,10" stroke-width="9"/>
+      <g stroke-width="6"><path d="M40,10 L40,40 Q38,68 22,78"/><path d="M120,10 L120,40 Q122,68 138,78"/></g>
+    </g>
+  </g>
+  <!-- gray waistband over the jersey hem -->
+  <rect x="22" y="160" width="116" height="9" fill="#8a8c8f" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22,160 L22,78 Q38,68 40,40 L40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,160" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Lettering: straight slab-serif HORNETS and number in green -->
+  <text x="80" y="76" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', 'Courier New', Georgia, serif" font-weight="700" font-size="14.5" letter-spacing="0.6" fill="#11643f">HORNETS</text>
+  <text x="80" y="122" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="40" fill="#11643f">0</text>
+</svg>
