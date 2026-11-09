@@ -43,7 +43,7 @@
    "name": "Marrion May-Cook",
    "school": "everett",
    "grad_year": "2027",
-   "bio": "Passed 1,000 career points as a junior in 2025-26.",
+   "bio": "Son of Mike May, a 1993-94 CAC honorable mention pick at Everett. Passed 1,000 career points as a junior in 2025-26.",
    "seasons": [
     {
      "season": "2025-26",
@@ -919,6 +919,12 @@
    "name": "Dequarius Stewart",
    "school": "sexton",
    "bio": "Father of East Lansing's Dequarius (DQ) Stewart, Jr., who made the LSJ Dream Team in 2025-26.",
+   "seasons": []
+  },
+  {
+   "name": "Mike May",
+   "school": "everett",
+   "bio": "Father of Everett's Marrion May-Cook (Class of 2027).",
    "seasons": []
   },
   {
