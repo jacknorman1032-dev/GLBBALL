@@ -316,7 +316,9 @@ for var in ('DATA', 'ALLCONF'):
                   # Jack, Nov 3, 2026: Kayden is the correct spelling (BCAM printed Kaden; kept in listed_as)
                   ('portland', 'Kaden Dickerson'): 'Kayden Dickerson',
                   # BCAM 2019-20 printed 'Browson Sysum' (Eaton Rapids); he is Bronson Sysum on the CAAC and LSJ lists
-                  ('eaton-rapids', 'Browson Sysum'): 'Bronson Sysum'}
+                  ('eaton-rapids', 'Browson Sysum'): 'Bronson Sysum',
+                  # Jack, Nov 8, 2026: BCAM 2009-10 'Zachary Wedesky' (Fowlerville) is Zach Wedesky on the CAAC lists
+                  ('fowlerville', 'Zachary Wedesky'): 'Zach Wedesky'}
         # player-card fixes (Jack, Nov 2, 2026): Paul Stoll was a senior in 2002-03 (LSJ CAC all-league), so Class of 2003
         GRAD = {('east-lansing', 'Paul Stoll'): '2003'}
         for sc in D['schools']:
