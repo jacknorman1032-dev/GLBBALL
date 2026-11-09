@@ -310,6 +310,19 @@
    },
    "left_out": "Dream Team picks Kyle Barker (Ionia), Dwight Crow (Stockbridge) and Curt Hungerford (Fowler) and Coach of the Year Dan Anibal (Bath); Class B all-area Matt Johnson (Alma) and Luke Farrell (Lakewood); honorable mentions Ryan Walter (Ionia), Justin Scherlock (Mount Pleasant), Josh Hrcka (Owosso) and Eric Keppen (Howell) in Class A, Rob Wise (Alma) and Matt Matulewicz (Ovid-Elsie) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools).",
    "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1997-98",
+   "teams_note": "Co-Players of the Year and a four-player Dream Team ('Super six') and Coach of the Year, then a five-player all-area team, coach and honorable mention for each of Classes A to D, all on page 7D. Grades are given only for the Dream Team.",
+   "full_counts": {
+    "poy": 2,
+    "dream": 4,
+    "coy": 5,
+    "area": 20,
+    "hm": 57
+   },
+   "left_out": "Dream Team pick John Thelen (Pewamo-Westphalia) and Coach of the Year Luke Pohl (Pewamo-Westphalia); Class A all-area Ryan Basler (Ionia); Class B all-area Ryan Westendorp (Lakewood) and Dwight Crow (Stockbridge); honorable mentions Justin Sherlock (Mount Pleasant) and Kyle Barker (Ionia) in Class A, Jason Elenbaas and Chad Clum (Lakewood), Matt Johnson (Alma), Eric Cowles (Perry) and Mike Muzaca (Stockbridge) in Class B; the Class C and D teams, coaches and honorable mentions (no covered schools).",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
   }
  ],
  "picks": [
@@ -11487,6 +11500,374 @@
    "division": "Class B",
    "grade": "",
    "src": "Lansing State Journal Dream Team and all-area team, 1998-99 (Tom Gantert; April 21, 1999, p. 3C, newspapers.com page 19)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Mark Kissling",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "poy",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)",
+   "note": "Co-Player of the Year with Waverly's Marcus Taylor. 6-9 forward; 20.7 points a game; all-Capital Circuit first team, AP Class A all-state honorable mention and Detroit Free Press second-team all-state. Okemos beat Waverly 62-51 with Kissling scoring 24. Signed with Dartmouth."
+  },
+  {
+   "season": "1997-98",
+   "name": "Marcus Taylor",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "poy",
+   "division": "",
+   "grade": "10",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)",
+   "note": "Co-Player of the Year with Okemos' Mark Kissling. 6-2 guard; 22.4 points a game for a 20-4 Waverly team that won a district title. Capital Area Conference first team and AP Class A all-state first team as a sophomore."
+  },
+  {
+   "season": "1997-98",
+   "name": "Jason Bauer",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "dream",
+   "division": "",
+   "grade": "11",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)",
+   "note": "6-8 center; 17.9 points a game. Ingham County League first team."
+  },
+  {
+   "season": "1997-98",
+   "name": "Steve Ordiway",
+   "listed_as": "Steven Ordiway",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)",
+   "note": "6-5 forward; 24.4 points a game. Capital Area Conference first team and AP Class A honorable mention."
+  },
+  {
+   "season": "1997-98",
+   "name": "Thomas Jackson",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)",
+   "note": "5-11 guard; Capital Area Conference first team and AP Class A all-state first team. Called the state's best point guard by Eastern coach Wes Youngblood."
+  },
+  {
+   "season": "1997-98",
+   "name": "Chad Chadwell",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Jari Brown",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Cortney Scott",
+   "listed_as": "Courtney Scott",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Mike Miller",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "area",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Dan Stolz",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Adam Kulesza",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Scott Elliott",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Jason Stubbs",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "area",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Bob Duffey",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Kevin Lee",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Jeff Hosler",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Eric Schellhammer",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Matt McCoy",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Davelle Hoskins",
+   "listed_as": "Da'Velle Hoskins",
+   "school": "sexton",
+   "listed_school": "Sexton",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Drew Doty",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Chad Wiseman",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Travis Meister",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Matt McClure",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Trever Carson",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Lou Detrisac",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Brendan Brogan",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Pat Rodgers",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Jeff Mulder",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Bryan Maloney",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Lance Ellis",
+   "listed_as": "",
+   "school": "portland",
+   "listed_school": "Portland",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Matt Sly",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Steve Blattert",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
+  },
+  {
+   "season": "1997-98",
+   "name": "Zeb Kennedy",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal All-Area Dream Team ('Super six') and all-area teams, 1997-98 (Tom Gantert; April 30, 1998, p. 7D, newspapers.com page 35)"
   }
  ]
 }
