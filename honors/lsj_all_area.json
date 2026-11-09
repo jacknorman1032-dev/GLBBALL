@@ -326,14 +326,15 @@
   },
   {
    "season": "1996-97",
-   "teams_note": "Player of the Year and a nine-player Dream Team (the first 10-player Dream Team; 'They rate a perfect 10') on the sports front, then a five-player all-area team and a coach of the year for each of Classes A to D on page 4C, continued on 5C (the Class C remainder, Class D and honorable mentions).",
+   "teams_note": "Player of the Year and a nine-player Dream Team (the first 10-player Dream Team; 'They rate a perfect 10') on the sports front, then a five-player all-area team and a coach of the year for each of Classes A to D on page 4C, continued on 5C (the rest of Class C, the Class D team and coach, and honorable mention by class).",
    "full_counts": {
     "poy": 1,
     "dream": 9,
     "coy": 4,
-    "area": 20
+    "area": 20,
+    "hm": 59
    },
-   "left_out": "Dream Team picks Brandon Woodworth (Laingsburg), Jason Elenbaas (Lakewood) and Chris Seelbach (Alma); Class C coach Greg Mitchell (Laingsburg) and Class D coach James Lemier (Morrice); Class C all-area John Thelen (Pewamo-Westphalia), Andy McGee (Laingsburg), Eric Ream (Dansville) and Spencer Wideman (Ithaca). Page 5C (the rest of Class C, Class D and honorable mentions) isn't entered yet.",
+   "left_out": "Dream Team picks Brandon Woodworth (Laingsburg), Jason Elenbaas (Lakewood) and Chris Seelbach (Alma); Class C coach Greg Mitchell (Laingsburg) and Class D coach Jim Lemier (Morrice); Class C all-area John Thelen (Pewamo-Westphalia), Andy McGee (Laingsburg), Eric Ream (Dansville) and Spencer Wideman (Ithaca); the Class D team (Fowler, Ashley, Morrice); honorable mentions Brian Basler and Brad Starks (Ionia), Ryan Delaney (Owosso), George King and Mike Soehl (Howell) in Class A; Eric Cowles (Perry), Ryan Westendorp (Lakewood), Carlos Ramirez (Alma) and Dwight Crow (Stockbridge) in Class B; all Class C honorable mentions except Lansing Catholic's two; all of Class D (Portland St. Patrick is not Portland High).",
    "src": "Lansing State Journal, Dream Team (sports front, p. 19) and all-area teams (p. 4C, continued 5C), 1996-97 (Tom Gantert; April 24, 1997)"
   }
  ],
@@ -12109,6 +12110,215 @@
    "division": "Class C",
    "grade": "10",
    "src": "Lansing State Journal Dream Team and all-area teams, 1996-97 (Tom Gantert; April 24, 1997, p. 4C, newspapers.com page 22)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Mark Kissling",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Kevin Lee",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jeff Hosler",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Dana Thomas",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "T.J. Wulff",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Travis Meister",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jacob Loggins",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Chad Wiseman",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Mike Doherty",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Troy Hansbarger",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Jari Brown",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Scott Schwab",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Gavin Gillette",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Dan Weeks",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Eric Dunckel",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Nathan Moyle",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Zac Dinning",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Brendan Brogan",
+   "listed_as": "Brandon Brogan",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
+  },
+  {
+   "season": "1996-97",
+   "name": "Pat DeVine",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal all-area teams and honorable mention, 1996-97 (Tom Gantert; April 24, 1997, p. 5C, newspapers.com page 23)"
   }
  ]
 }
