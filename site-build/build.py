@@ -167,7 +167,7 @@ for sid, name, short, aliases in BASE:
     if sid in GAME_FILES and os.path.exists(os.path.join(HERE, GAME_FILES[sid])):
         s['games'] = json.load(open(os.path.join(HERE, GAME_FILES[sid])))
         # single-game fixes, matched by date + opponent as the log has it. Optional fields:
-        # us/them (score; result recomputed), new_opp (opponent was wrong), site (H/R/N), new_date, type (game type / tournament round).
+        # us/them (score; result recomputed), new_opp (opponent was wrong), site (H/R/N), new_date, type (game type / tournament round), note.
         for c in CORRECTIONS.get('fix', []):
             if c['school'] != sid: continue
             hit = [g for g in s['games'] if g[0] == c['date'] and g[2] == c['opp']]
@@ -179,6 +179,7 @@ for sid, name, short, aliases in BASE:
             if 'site' in c: g[3] = c['site']
             if 'new_date' in c: g[0] = c['new_date']
             if 'type' in c: g[4] = c['type']
+            if 'note' in c: g[10] = c['note']
         # opponent renames (e.g. EL's pre-1943 "Lansing Sexton" games were really Lansing Central); count is checked
         for c in CORRECTIONS.get('rename', []):
             if c['school'] != sid: continue
