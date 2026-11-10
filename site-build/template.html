@@ -214,6 +214,7 @@ svg text{fill:var(--muted);font-family:var(--cond);font-size:12px}
 <div class="wrap foot">
   <div>Information compiled by Jack Norman (East Lansing Class of 2021) with help from Claude, an AI assistant made by Anthropic. A work in progress.</div>
   <div>&copy; 2026 Jack Norman. All rights reserved.</div>
+  <div>Have a correction, a box score, a photo or a story? Email <a href="mailto:trojanhistorian@gmail.com?subject=Greater%20Lansing%20Hoops%3A%20">trojanhistorian@gmail.com</a>.</div>
   <div>All game data: Lansing State Journal (newspapers.com) 1924-25 to 2004-05, MHSAA.com 2005-06 on, MHSAA brackets. Program histories for other schools come from MHSAA records and news sources linked on each page.</div>
 </div>
 
@@ -800,7 +801,7 @@ function viewData(){
   });
   return `<section class="view">
     <div class="block"><div class="eyebrow">Building the archive</div><h1>Add a school's games</h1>
-      <p class="lede">Each school gets one spreadsheet in the same shape as the East Lansing file. Send the finished file back in the chat and it goes into the site for everyone. You can also preview a file below to check it before sending.</p></div>
+      <p class="lede">Each school gets one spreadsheet in the same shape as the East Lansing file. Email the finished file to <a href="mailto:trojanhistorian@gmail.com?subject=Greater%20Lansing%20Hoops%3A%20game%20log">trojanhistorian@gmail.com</a> and it goes into the site for everyone. Corrections and photos are welcome at the same address. You can also preview a file below to check it before sending.</p></div>
     <div class="tbl"><table><thead><tr><th>School</th><th>Game log</th><th class="r">Games</th><th>Seasons</th></tr></thead><tbody>
       ${status.map(({s,a})=>`<tr><td>${schoolCell(s)}</td><td>${a?'<span class="chip full">Loaded</span>':'<span class="chip">Waiting</span>'}</td><td class="r">${a?a.total.n.toLocaleString():'—'}</td><td>${a?esc(a.seasons[0].season+' to '+a.seasons.at(-1).season):''}</td></tr>`).join('')}</tbody></table></div>
     <div class="two">
