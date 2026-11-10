@@ -27,7 +27,8 @@ json.dump(g, open(lp, 'w'), separators=(',', ':'))
 hp = os.path.join(ROOT, 'site/index.html'); h = open(hp).read()
 i = h.index('const DATA=') + len('const DATA='); d, end = json.JSONDecoder().raw_decode(h, i)
 sch = {s['id']: s for s in d['schools']}
-sch[a.sid]['games'] = g
+# replace only this season on the page: other seasons there carry corrections.json fixes the log files don't
+sch[a.sid]['games'] = sorted([r for r in sch[a.sid].get('games', []) if r[1] != season] + new, key=lambda r: r[0])
 open(hp, 'w').write(h[:i] + json.dumps(d, separators=(',', ':'), ensure_ascii=False) + h[end:])
 print(a.sid, 'log now', len(g), 'rows; seasons', sorted({r[1] for r in g})[0], 'to', sorted({r[1] for r in g})[-1])
 # cross-check with other schools' logs
