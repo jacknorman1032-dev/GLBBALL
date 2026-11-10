@@ -1,7 +1,7 @@
 # Schedule check
 
 Legend: **MISSING** = a game probably missing; **CHECK** = worth a look; **DATA** = conflicting or bad entry.
-Totals: 21 missing, 8 data, 76 check.
+Totals: 21 missing, 6 data, 76 check.
 
 
 ## East Lansing
@@ -116,9 +116,6 @@ Totals: 21 missing, 8 data, 76 check.
 **1977-78**
 - CHECK: 17 regular-season games (odd number) - a game may be missing
 
-**1978-79**
-- DATA: 1979-01-19 vs Lansing Sexton: score 65-52 here, 65-62 in their log
-
 **1981-82**
 - CHECK: 21-day gap between 1981-12-18 and 1982-01-08
 
@@ -167,9 +164,6 @@ Totals: 21 missing, 8 data, 76 check.
 **1975-76**
 - CHECK: 19 regular-season games (odd number) - a game may be missing
 - CHECK: 21-day gap between 1975-12-19 and 1976-01-09
-
-**1978-79**
-- DATA: 1979-01-19 vs East Lansing: score 62-65 here, 52-65 in their log
 
 **1980-81**
 - CHECK: 19 regular-season games (odd number) - a game may be missing

@@ -110,6 +110,14 @@
    "opp": "Lansing Sexton",
    "type": "District Quarterfinal",
    "_why": "Jack, Nov 9, 2026: 1988 EL-Sexton district game was a District Quarterfinal (EL log had District Semifinal)"
+  },
+  {
+   "school": "sexton",
+   "date": "1979-01-19",
+   "opp": "East Lansing",
+   "us": 52,
+   "them": 65,
+   "_why": "Jack, Nov 9, 2026: EL won 65-52 (Sexton's list had 62-65; matches EL log)"
   }
  ],
  "add": [
