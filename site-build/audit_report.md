@@ -1,7 +1,7 @@
 # Schedule check
 
 Legend: **MISSING** = a game probably missing; **CHECK** = worth a look; **DATA** = conflicting or bad entry.
-Totals: 21 missing, 16 data, 76 check.
+Totals: 21 missing, 8 data, 76 check.
 
 
 ## East Lansing
@@ -119,25 +119,17 @@ Totals: 21 missing, 16 data, 76 check.
 **1978-79**
 - DATA: 1979-01-19 vs Lansing Sexton: score 65-52 here, 65-62 in their log
 
-**1980-81**
-- DATA: Lansing Sexton log has 1981-02-20 vs us; ours says 1981-02-21
-
 **1981-82**
-- DATA: Lansing Sexton log has 1982-03-11 vs us; ours says 1982-03-10
 - CHECK: 21-day gap between 1981-12-18 and 1982-01-08
 
 **1982-83**
 - MISSING: 18 regular-season games vs. about 20 in nearby seasons
 - CHECK: 21-day gap between 1982-12-17 and 1983-01-07
 
-**1987-88**
-- DATA: Lansing Sexton log has 1988-03-09 vs us; ours says 1988-03-08
-
 **1996-97**
 - CHECK: 1997-01-21 vs Lansing Eastern: no score
 
 **1997-98**
-- DATA: Lansing Sexton log has 1998-02-02 vs us; ours says 1998-02-03
 - CHECK: Both league games vs Lansing Waverly listed as road
 
 **1999-00**
@@ -180,12 +172,10 @@ Totals: 21 missing, 16 data, 76 check.
 - DATA: 1979-01-19 vs East Lansing: score 62-65 here, 52-65 in their log
 
 **1980-81**
-- DATA: East Lansing log has 1981-02-21 vs us; ours says 1981-02-20
 - CHECK: 19 regular-season games (odd number) - a game may be missing
 
 **1981-82**
 - MISSING: 17 regular-season games vs. about 20 in nearby seasons
-- DATA: East Lansing log has 1982-03-10 vs us; ours says 1982-03-11
 - CHECK: 17 regular-season games (odd number) - a game may be missing
 - CHECK: 21-day gap between 1981-12-18 and 1982-01-08
 
@@ -196,14 +186,10 @@ Totals: 21 missing, 16 data, 76 check.
 - CHECK: 21-day gap between 1986-12-19 and 1987-01-09
 
 **1987-88**
-- DATA: East Lansing log has 1988-03-08 vs us; ours says 1988-03-09
 - CHECK: 19 regular-season games (odd number) - a game may be missing
 
 **1993-94**
 - CHECK: 19 regular-season games (odd number) - a game may be missing
-
-**1997-98**
-- DATA: East Lansing log has 1998-02-03 vs us; ours says 1998-02-02
 
 **1998-99**
 - CHECK: 21-day gap between 1998-12-18 and 1999-01-08

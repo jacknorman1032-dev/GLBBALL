@@ -75,6 +75,34 @@
    "us": 58,
    "them": 73,
    "_note": "Jack, Nov 8, 2026: Sexton won 73-58 (EL log had 53-78; matches Sexton's list)"
+  },
+  {
+   "school": "sexton",
+   "date": "1981-02-20",
+   "opp": "East Lansing",
+   "new_date": "1981-02-21",
+   "_why": "Jack, Nov 9, 2026: use East Lansing's log for EL-Sexton game dates"
+  },
+  {
+   "school": "sexton",
+   "date": "1982-03-11",
+   "opp": "East Lansing",
+   "new_date": "1982-03-10",
+   "_why": "Jack, Nov 9, 2026: use East Lansing's log for EL-Sexton game dates"
+  },
+  {
+   "school": "sexton",
+   "date": "1988-03-09",
+   "opp": "East Lansing",
+   "new_date": "1988-03-08",
+   "_why": "Jack, Nov 9, 2026: use East Lansing's log for EL-Sexton game dates"
+  },
+  {
+   "school": "sexton",
+   "date": "1998-02-02",
+   "opp": "East Lansing",
+   "new_date": "1998-02-03",
+   "_why": "Jack, Nov 9, 2026: use East Lansing's log for EL-Sexton game dates"
   }
  ],
  "add": [
