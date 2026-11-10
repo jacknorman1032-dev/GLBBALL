@@ -1,7 +1,7 @@
 # Schedule check
 
 Legend: **MISSING** = a game probably missing; **CHECK** = worth a look; **DATA** = conflicting or bad entry.
-Totals: 21 missing, 20 data, 76 check.
+Totals: 21 missing, 16 data, 76 check.
 
 
 ## East Lansing
@@ -209,7 +209,6 @@ Totals: 21 missing, 20 data, 76 check.
 - CHECK: 21-day gap between 1998-12-18 and 1999-01-08
 
 **2010-11**
-- DATA: 2011-03-09 vs DeWitt: score 86-68 here, 86-58 in their log
 - CHECK: 21-day gap between 2010-12-17 and 2011-01-07
 
 **2012-13**
@@ -223,9 +222,6 @@ Totals: 21 missing, 20 data, 76 check.
 
 **2016-17**
 - CHECK: 19 regular-season games (odd number) - a game may be missing
-
-**2018-19**
-- DATA: 2018-12-04 vs Lansing Waverly: score 69-83 here, 69-93 in their log
 
 **2021-22**
 - MISSING: 18 regular-season games vs. about 20 in nearby seasons
@@ -257,7 +253,6 @@ Totals: 21 missing, 20 data, 76 check.
 - CHECK: 21-day gap between 2016-12-13 and 2017-01-03
 
 **2018-19**
-- DATA: 2018-12-04 vs Lansing Sexton: score 93-69 here, 83-69 in their log
 - CHECK: 19 regular-season games (odd number) - a game may be missing
 
 **2021-22**
@@ -266,7 +261,6 @@ Totals: 21 missing, 20 data, 76 check.
 ## DeWitt
 
 **2010-11**
-- DATA: 2011-03-09 vs Lansing Sexton: score 58-86 here, 68-86 in their log
 - CHECK: 19 regular-season games (odd number) - a game may be missing
 - CHECK: Both league games vs Eaton Rapids listed as road
 - CHECK: 21-day gap between 2010-12-17 and 2011-01-07
