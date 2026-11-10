@@ -103,6 +103,13 @@
    "opp": "East Lansing",
    "new_date": "1998-02-03",
    "_why": "Jack, Nov 9, 2026: use East Lansing's log for EL-Sexton game dates"
+  },
+  {
+   "school": "east-lansing",
+   "date": "1988-03-08",
+   "opp": "Lansing Sexton",
+   "type": "District Quarterfinal",
+   "_why": "Jack, Nov 9, 2026: 1988 EL-Sexton district game was a District Quarterfinal (EL log had District Semifinal)"
   }
  ],
  "add": [
