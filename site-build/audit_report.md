@@ -1,31 +1,25 @@
 # Schedule check
 
 Legend: **MISSING** = a game probably missing; **CHECK** = worth a look; **DATA** = conflicting or bad entry.
-Totals: 25 missing, 20 data, 88 check.
+Totals: 21 missing, 20 data, 76 check.
 
 
 ## East Lansing
 
 **1924-25**
-- CHECK: 13 regular-season games (odd number) - a game may be missing
 - CHECK: 21-day gap between 1924-12-19 and 1925-01-09
 
 **1925-26**
-- MISSING: 11 regular-season games vs. about 13.5 in nearby seasons
-- CHECK: 11 regular-season games (odd number) - a game may be missing
 - CHECK: 1926-02-05 vs Grand Ledge: no score
 - CHECK: 1926-02-06 vs Tecumseh: no score
 - CHECK: 1926-03-05 vs Laingsburg: no score
 
 **1926-27**
-- CHECK: 15 regular-season games (odd number) - a game may be missing
 - CHECK: 21-day gap between 1926-12-17 and 1927-01-07
 
 **1927-28**
-- MISSING: 11 regular-season games vs. about 13.5 in nearby seasons
 - MISSING: League opponent Eaton Rapids played once (home) - road game missing?
 - MISSING: League opponent Grand Ledge played once (home) - road game missing?
-- CHECK: 11 regular-season games (odd number) - a game may be missing
 - CHECK: 21-day gap between 1927-12-16 and 1928-01-06
 
 **1928-29**
@@ -36,11 +30,9 @@ Totals: 25 missing, 20 data, 88 check.
 **1929-30**
 - MISSING: League opponent Eaton Rapids played once (road) - home game missing?
 - MISSING: League opponent Mason played once (road) - home game missing?
-- CHECK: 13 regular-season games (odd number) - a game may be missing
 
 **1930-31**
 - MISSING: League opponent Eaton Rapids played once (home) - road game missing?
-- CHECK: 15 regular-season games (odd number) - a game may be missing
 
 **1931-32**
 - MISSING: League opponent Charlotte played once (road) - home game missing?
@@ -66,33 +58,17 @@ Totals: 25 missing, 20 data, 88 check.
 - CHECK: 25-day gap between 1939-12-15 and 1940-01-09
 
 **1940-41**
-- CHECK: 13 regular-season games (odd number) - a game may be missing
 - CHECK: 22-day gap between 1940-12-19 and 1941-01-10
 
 **1941-42**
 - CHECK: 21-day gap between 1941-12-19 and 1942-01-09
 
 **1942-43**
-- MISSING: 11 regular-season games vs. about 13.5 in nearby seasons
-- CHECK: 11 regular-season games (odd number) - a game may be missing
 - CHECK: No tournament games listed
 - CHECK: 21-day gap between 1942-12-18 and 1943-01-08
 
 **1943-44**
-- MISSING: 12 regular-season games vs. about 14 in nearby seasons
 - CHECK: 25-day gap between 1943-12-17 and 1944-01-11
-
-**1944-45**
-- CHECK: 15 regular-season games (odd number) - a game may be missing
-
-**1945-46**
-- CHECK: 15 regular-season games (odd number) - a game may be missing
-
-**1947-48**
-- CHECK: 17 regular-season games (odd number) - a game may be missing
-
-**1949-50**
-- CHECK: 15 regular-season games (odd number) - a game may be missing
 
 **1950-51**
 - CHECK: 17 regular-season games (odd number) - a game may be missing

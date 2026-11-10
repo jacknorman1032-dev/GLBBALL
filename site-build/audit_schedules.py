@@ -15,6 +15,8 @@ from datetime import date
 REG = {'League', 'Non-League'}
 # COVID: the 2020 tournament stopped after districts; 2020-21 was a short season, leagues played each team once
 SHORT_SEASONS = {'2020-21'}
+# Before 1950-51 schedules were short and uneven (Jack, Nov 9, 2026): skip the game-count checks
+COUNT_CHECK_FROM = '1950-51'
 HALTED_TOURNEYS = {'2019-20'}
 
 def load(path):
@@ -55,7 +57,7 @@ def audit_season(sc, season, games, by_season, names, schools_by_id):
 
     # 1. regular-season count
     n = len(reg)
-    short = season in SHORT_SEASONS
+    short = season in SHORT_SEASONS or season < COUNT_CHECK_FROM
     if n % 2 and not short:
         out.append(('check', f'{n} regular-season games (odd number) - a game may be missing'))
     near = [len([g for g in by_season[s] if played(g) and g[4] in REG])
@@ -69,7 +71,7 @@ def audit_season(sc, season, games, by_season, names, schools_by_id):
     cnt = collections.Counter(g[2] for g in lg)
     for opp, k in sorted(cnt.items()):
         sites = [g[3] for g in lg if g[2] == opp]
-        if k == 1 and not short:
+        if k == 1 and season not in SHORT_SEASONS:
             other = 'road' if sites[0] == 'H' else 'home'
             out.append(('missing', f'League opponent {opp} played once ({"home" if sites[0]=="H" else "road" if sites[0]=="R" else "neutral"}) - {other} game missing?'))
         elif k == 2 and sites.count('H') != 1:
