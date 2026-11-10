@@ -139,6 +139,15 @@
    "opp": "Holt",
    "type": "League",
    "_why": "Jack, Nov 10, 2026: the CAAC Blue Quarterfinal counts as a league game (3-4 league), like DeWitt's 2020-21 log"
+  },
+  {
+   "school": "east-lansing",
+   "date": "2019-02-25",
+   "opp": "Lansing Everett",
+   "new_date": "2019-02-27",
+   "type": "District Semifinal",
+   "note": "District Semifinal at Okemos.",
+   "_why": "Jack, Nov 10, 2026: EL-Everett was 2/27/19, the District Semifinal (Everett beat Holt in the Quarterfinal on 2/25); ELHS spreadsheet had 2/25, Quarterfinal"
   }
  ],
  "add": [
