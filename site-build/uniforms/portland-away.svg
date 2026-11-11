@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 285" width="160" height="285" role="img" aria-label="Portland away uniform">
+  <defs>
+    <clipPath id="poaJ"><path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z"/></clipPath>
+    <clipPath id="poaS"><path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z"/></clipPath>
+  </defs>
+  <!-- Shorts: white, maroon hem piping and side slit trim, cardinal head on the right leg (viewer's left) -->
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="#f6f3ef"/>
+  <g clip-path="url(#poaS)" fill="none">
+    <path d='M0,267.5 L68,267.5 M92,267.5 L160,267.5' stroke='#7a1f2e' stroke-width='2'/><path d='M0,272.5 L68,272.5 M92,272.5 L160,272.5' stroke='#7a1f2e' stroke-width='3'/>
+    <path d="M18,232 L16.5,275 M142,232 L143.5,275" stroke="#7a1f2e" stroke-width="2.2"/>
+  </g>
+  <path d="M22,160 L138,160 L146,275 L92,275 L80,228 L68,275 L14,275 Z" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <image x="30" y="239.6" width="22" height="28.7" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAABACAMAAACEPG9KAAAAYFBMVEUeGBgpJCUjHBPaqh9dWVphXV1YGhn8+fw4MTSScBVpTw+xiBmjoqKeoaHS0dFGLS1CPUKRf39KQkZ/kX+qxsYAAAAIAQKzBjj9xSSPBSwuAg5PAxhzBCP+1SfCBzwUDQ6bw1FGAAAAIHRSTlOdZPD/GP7/AzX/////C/8oMg5BDgkA/f////7/////1BreB70AAAMJSURBVHjajZbrgqIwDIXbUu46zuwuhVKE93/LbZLeEcf8cBzlMycnSYG17GC8a6ePg01c2bBU+zFxVxQHlx8SE1NqJYg9PiOsLDNvBLHvT4gfe+W8z9oQI38nQJaeIYjh918JlDVHRvC3hGynzpbuCKeNvUnD7oz9gUJCaLL6jSqG4reIkDR2TXRImISgNFemsak94Pt1zgK709nvO/m65yBrzxBUxqfvszrXc726lvjYN0QOwE6ERE3a5LqoGAh57qBQRYK0mJNr2ZS8QFZV6iqm5ITMW4kAIU/mxmLINTk9MsJ25Ipw2sTfPMd1IRRQfXtNaL3PL3xmOWFLb6IIo98i+KbLzIIRKJDUMCQKs6ANObQnCBL3bKVmOljWdGX2JiAk7yjN2kyxZjSYkWD5EsZE4dN1bVz5ObFvpoB8fUrvho6MQBiXfM3kwd7s+NeVL2Qg1iDXFOLgJ7ZtbzQ0Xz2I4J6gNXLW4us+bzQJBitRMhAqWzxg7DW63Hx1/CuI2a8q9LDJuk8bKaZI6HRTY2zJBKO/JWFKwvuLRkETcaMSQqtzaJe8rmEbGWPiOJIjTr1ENKS41baMifGQnVaJZIm6FgkCH9ZC3EjVAy8Pp7WXVX8JUBGjpv8l67AIu4J6Mzp160vV9jfFrQnIDc1y55VqdmhvmuRL0GWkLmr0J0P0fTdBlntRqq+q0TEciTZBGh0rud0wQ1M9n8tSIXLcqYNSvWy6oATLsgzVOFZ0F3KHCt7aUk0xevv7S98v1bPBvfXHEPfzoF8BVtOyPPuMwOrNebJGAohCowJxP1z1+goA4kiIWIq5AIAQKYG61syuEeRf55ha4SfYrZttg8+Bb8a8jlQXIs1Sjf3QCBvNMNiuP4fcK69LratPUVWNCk+ESgwCHyMyQuatqJ5LD5abMIhHWxATL7q3PGGaVvtmUP6ozomWswwRkEYoAWN4MCXaEwHKOs4ZBjKDNWzsqWgpp1dEYp0IDPSuTe9qF9Fy79KQPDewt0+qMpb18xlhGedFcT//FRLJI/B/jCr7T2G6d+gAAAAASUVORK5CYII="/>
+
+  <!-- Jersey: white, maroon V-neck and armhole binding with a white gap and thin maroon inner line -->
+  <path d="M40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,166 L22,166 L22,78 Q38,68 40,40 Z" fill="#f6f3ef"/>
+  <g clip-path="url(#poaJ)" fill="none">
+    <path d="M54,10 L80,34 L106,10" stroke="#7a1f2e" stroke-width="11"/>
+    <path d="M54,10 L80,34 L106,10" stroke="#f6f3ef" stroke-width="5.5"/>
+    <path d="M54,10 L80,34 L106,10" stroke="#7a1f2e" stroke-width="2.6"/>
+    <g stroke-width="6"><path d="M40,10 L40,40 Q38,68 22,78" stroke="#7a1f2e"/><path d="M120,10 L120,40 Q122,68 138,78" stroke="#7a1f2e"/></g>
+    <g stroke-width="2"><path d="M44.8,10 L44.8,40 Q42.8,72 22,84" stroke="#7a1f2e"/><path d="M115.2,10 L115.2,40 Q117.2,72 138,84" stroke="#7a1f2e"/></g>
+  </g>
+  <rect x="22" y="160" width="116" height="9" fill="#141414" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22,160 L22,78 Q38,68 40,40 L40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,160" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Lettering: straight serif PORTLAND and number, maroon -->
+  <text x="80" y="76" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="14" letter-spacing="0.3" fill="#7a1f2e" >PORTLAND</text>
+  <text x="80" y="122" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="40" fill="#7a1f2e" stroke="#f6f3ef" stroke-width="1.6" paint-order="stroke">0</text>
+</svg>
