@@ -24,7 +24,16 @@
   <rect x="22" y="160" width="116" height="9" fill="#141414" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
   <path d="M22,160 L22,78 Q38,68 40,40 L40,10 L54,10 L80,34 L106,10 L120,10 L120,40 Q122,68 138,78 L138,160" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
 
-  <!-- Lettering: straight serif PORTLAND and number, white outlined in maroon -->
-  <text x="80" y="79" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="16.5" letter-spacing="1.2" fill="#f6f3ef" stroke="#7a1f2e" stroke-width="1.4" paint-order="stroke">PORTLAND</text>
-  <text x="80" y="122" text-anchor="middle" font-family="Rockwell, 'Roboto Slab', Georgia, 'Times New Roman', serif" font-weight="700" font-size="40" fill="#f6f3ef" stroke="#7a1f2e" stroke-width="2.4" paint-order="stroke">0</text>
+  <!-- Lettering: hand-drawn condensed block slab-serif PORTLAND in a slight arch and a slab 0 (white outlined in maroon) -->
+  <g fill="#ffffff" fill-rule="evenodd" stroke="#7a1f2e" stroke-width="1.83" stroke-linejoin="round" paint-order="stroke">
+    <path transform="translate(44.00,69.30) rotate(-6.2 4.10 5.73) scale(0.819)" d="M0,0 H7 Q10,0 10,4 Q10,8 7,8 H4.5 V12.2 H6 V14 H0 V12.2 H1.5 V1.8 H0 Z M4.5,2.4 V5.6 H6.4 Q7.2,5.6 7.2,4 Q7.2,2.4 6.4,2.4 Z"/>
+    <path transform="translate(52.93,67.71) rotate(-4.5 4.10 5.73) scale(0.819)" d="M3,0 H7 Q10,0 10,3 V11 Q10,14 7,14 H3 Q0,14 0,11 V3 Q0,0 3,0 Z M4.3,2.4 Q3.3,2.4 3.3,3.4 V10.6 Q3.3,11.6 4.3,11.6 H5.7 Q6.7,11.6 6.7,10.6 V3.4 Q6.7,2.4 5.7,2.4 Z"/>
+    <path transform="translate(61.86,66.62) rotate(-2.7 4.34 5.73) scale(0.819)" d="M0,0 H7 Q10,0 10,3.8 Q10,6.6 8,7.4 L10,12.2 H10.6 V14 H6.8 L4.9,8.4 H4.5 V12.2 H6 V14 H0 V12.2 H1.5 V1.8 H0 Z M4.5,2.4 V5.8 H6.4 Q7.2,5.8 7.2,4.1 Q7.2,2.4 6.4,2.4 Z"/>
+    <path transform="translate(71.28,66.07) rotate(-0.9 4.10 5.73) scale(0.819)" d="M0,0 H10 V4 H8.6 L8,2.4 H6.5 V12.2 H8 V14 H2 V12.2 H3.5 V2.4 H2 L1.4,4 H0 Z"/>
+    <path transform="translate(80.20,66.05) rotate(0.8 3.69 5.73) scale(0.819)" d="M0,0 H6 V1.8 H4.5 V11.6 H6.8 L7.6,9.6 H9 V14 H0 V12.2 H1.5 V1.8 H0 Z"/>
+    <path transform="translate(88.31,66.53) rotate(2.5 4.51 5.73) scale(0.819)" d="M3.2,0 H6.8 L10,12.2 H10.8 V14 H6.6 V12.2 H7.2 L6.7,10 H4.3 L3.8,12.2 H4.4 V14 H0.2 V12.2 H1 Z M4.8,7.8 H6.2 L5.5,4.4 Z"/>
+    <path transform="translate(98.06,67.65) rotate(4.4 4.51 5.73) scale(0.819)" d="M0,0 H4 L7.6,7.6 V1.8 H6.4 V0 H11 V1.8 H9.8 V14 H7.4 L3.4,5.6 V12.2 H4.6 V14 H0 V12.2 H1.2 V1.8 H0 Z"/>
+    <path transform="translate(107.81,69.30) rotate(6.2 4.10 5.73) scale(0.819)" d="M0,0 H6.5 Q10,0 10,4 V10 Q10,14 6.5,14 H0 V12.2 H1.5 V1.8 H0 Z M4.5,2.4 V11.6 H5.8 Q7,11.6 7,10.2 V3.8 Q7,2.4 5.8,2.4 Z"/>
+  </g>
+  <path transform="translate(72,90) scale(1)" d="M5,0 H11 Q16,0 16,5 V29 Q16,34 11,34 H5 Q0,34 0,29 V5 Q0,0 5,0 Z M6.8,5 Q5.6,5 5.6,6.2 V27.8 Q5.6,29 6.8,29 H9.2 Q10.4,29 10.4,27.8 V6.2 Q10.4,5 9.2,5 Z" fill="#ffffff" fill-rule="evenodd" stroke="#7a1f2e" stroke-width="2.2" stroke-linejoin="round" paint-order="stroke"/>
 </svg>
