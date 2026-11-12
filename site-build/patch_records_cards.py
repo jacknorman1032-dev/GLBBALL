@@ -5,6 +5,7 @@ import sys
 # under it, the date written out (Jan 4, 2011) plus the result. Same records and counts as patch_records.py.
 # On phones the Most-played opponents table gets tighter padding so its Win % column fits.
 # On desktop the two columns (records cards, opponents table) no longer stretch, which pushed the opponents table down.
+# Worst losses (Jack, Nov 12, 2026) sits next to Biggest wins: five widest losing margins, forfeits left out.
 # Biggest wins skips the games in BW_SKIP (EL's 61-4 over Grand Ledge in 1931, Jack, Nov 11, 2026).
 # Run after patch_records.py. Usage: python3 -I patch_records_cards.py page.html. Re-runnable.
 p = sys.argv[1]
@@ -26,6 +27,7 @@ NEW = r"""{// program records cards (patch_records_cards.py)
     grp('Best seasons',best.map(b=>li(recStr(b.w,b.l,b.t),esc(b.season),fmtPct(b.p)+coach(b))))+
     grp('Most points in a game',a.mostPts.slice(0,5).map(g=>li(g[6],'vs '+lk(g[2]),`${fmtDate(g[0])} · ${g[5]} ${g[6]}-${g[7]}`)))+
     grp('Biggest wins',a.bigWins.filter(g=>!BW_SKIP.includes(s.id+'|'+g[0]+'|'+g[2])).slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
+    grp('Worst losses',scored(a.seasons.flatMap(x=>x.games)).filter(g=>g[6]<g[7]).sort((x,y)=>(y[7]-y[6])-(x[7]-x[6])||(x[0]||'').localeCompare(y[0]||'')).slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[7]-g[6]}`)))+
     grp('Top individual games found',a.perf.slice(0,5).map(q=>li(q.pts,`${esc(q.name)} vs ${lk(q.g[2])}`,fmtDate(q.g[0]))))
   }</div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;}"""
 CSS = """/* program records cards (patch_records_cards.py) */
@@ -33,7 +35,7 @@ CSS = """/* program records cards (patch_records_cards.py) */
 .prec{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:12px 14px;min-width:0}
 .prec h3{font-size:14px;color:var(--muted);margin:0 0 4px}
 .prec ol{list-style:none;margin:0;padding:0}
-.prec li{display:grid;grid-template-columns:4.2em minmax(0,1fr);column-gap:12px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.prec li{display:grid;grid-template-columns:4.8em minmax(0,1fr);column-gap:12px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
 .prec li:first-child{border-top:0}
 .prec li b{grid-row:1/3;align-self:center;justify-self:center;text-align:center;font-size:19px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .prec .pm{grid-column:2;font-size:15px}
