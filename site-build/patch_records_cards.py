@@ -5,6 +5,7 @@ import sys
 # under it, the date written out (Jan 4, 2011) plus the result. Same records and counts as patch_records.py.
 # On phones the Most-played opponents table gets tighter padding so its Win % column fits.
 # On desktop the two columns (records cards, opponents table) no longer stretch, which pushed the opponents table down.
+# Longest win streaks shows the top five runs (season span, then dates) (Jack, Nov 12, 2026).
 # Worst losses (Jack, Nov 12, 2026) sits next to Biggest wins: five widest losing margins, forfeits left out.
 # Biggest wins skips the games in BW_SKIP (EL's 61-4 over Grand Ledge in 1931, Jack, Nov 11, 2026).
 # Run after patch_records.py. Usage: python3 -I patch_records_cards.py page.html. Re-runnable.
@@ -19,10 +20,14 @@ NEW = r"""{// program records cards (patch_records_cards.py)
   const grp=(t,items)=>items.length?`<div class="prec"><h3>${t}</h3><ol>${items.join('')}</ol></div>`:'';
   const li=(v,main,sub)=>`<li><b>${v}</b><span class="pm">${main}</span>${sub?`<span class="note">${sub}</span>`:''}</li>`;
   const coach=b=>b.coaches&&b.coaches.length?' · '+esc(b.coaches.join(' / ')):'';
+  // top 5 win streaks across all games in date order (Jack, Nov 12, 2026); same rule as a.streak: any non-win ends a run
+  const runs=(()=>{const gs=a.seasons.flatMap(x=>x.games).slice().sort((x,y)=>(x[0]||x[1]).localeCompare(y[0]||y[1]));const out=[];let c=null;
+    gs.forEach(g=>{if(g[5]==='W'){if(!c)c={len:0,s0:g[1],d0:g[0]};c.len++;c.s1=g[1];c.d1=g[0]}else{if(c)out.push(c);c=null}});if(c)out.push(c);
+    return out.filter(r=>r.len>=2).sort((x,y)=>y.len-x.len||(x.d0||'').localeCompare(y.d0||'')).slice(0,5)})();
   const mw=[...a.seasons].sort((x,y)=>y.w-x.w)[0];
   const best=[...a.seasons].filter(x=>x.n>=8).sort((x,y)=>y.p-x.p||y.w-x.w).slice(0,5);
   $('#records').innerHTML=`<div class="precs">${
-    grp('Longest win streak',[li(st.len,'straight wins',st.start?`${fmtDate(st.start[0])} to ${fmtDate(st.end[0])}`:'')])+
+    grp('Longest win streaks',runs.map(r=>li(r.len,r.s0===r.s1?esc(r.s0):`${esc(r.s0)} to ${esc(r.s1)}`,`${fmtDate(r.d0)} to ${fmtDate(r.d1)}`)))+
     grp('Most wins in a season',[li(mw.w,esc(mw.season),recStr(mw.w,mw.l,mw.t)+coach(mw))])+
     grp('Best seasons',best.map(b=>li(recStr(b.w,b.l,b.t),esc(b.season),fmtPct(b.p)+coach(b))))+
     grp('Most points in a game',a.mostPts.slice(0,5).map(g=>li(g[6],'vs '+lk(g[2]),`${fmtDate(g[0])} · ${g[5]} ${g[6]}-${g[7]}`)))+
