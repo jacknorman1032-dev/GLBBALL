@@ -1212,6 +1212,8 @@ function schoolDetail(s,a){
     {k:'dist',label:'District titles+',r:1},{k:'ff',label:'Final Fours',r:1},{k:'champ',label:'State titles',r:1}],a.coaches,{k:'first',dir:1});
   const st=a.streak;
   {// program records cards (patch_records_cards.py)
+  // games left out of Biggest wins (still in the logs and records): EL's 61-4 over Grand Ledge, 1/22/1931 (Jack, Nov 11, 2026)
+  const BW_SKIP=['east-lansing|1931-01-22|Grand Ledge'];
   const lk=n=>areaId(n)?`<a class="schoollink" href="#school-${areaId(n)}">${esc(n)}</a>`:esc(n);
   const grp=(t,items)=>items.length?`<div class="prec"><h3>${t}</h3><ol>${items.join('')}</ol></div>`:'';
   const li=(v,main,sub)=>`<li><b>${v}</b><span class="pm">${main}</span>${sub?`<span class="note">${sub}</span>`:''}</li>`;
@@ -1223,7 +1225,7 @@ function schoolDetail(s,a){
     grp('Most wins in a season',[li(mw.w,esc(mw.season),recStr(mw.w,mw.l,mw.t)+coach(mw))])+
     grp('Best seasons',best.map(b=>li(recStr(b.w,b.l,b.t),esc(b.season),fmtPct(b.p)+coach(b))))+
     grp('Most points in a game',a.mostPts.slice(0,5).map(g=>li(g[6],'vs '+lk(g[2]),`${fmtDate(g[0])} · ${g[5]} ${g[6]}-${g[7]}`)))+
-    grp('Biggest wins',a.bigWins.slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
+    grp('Biggest wins',a.bigWins.filter(g=>!BW_SKIP.includes(s.id+'|'+g[0]+'|'+g[2])).slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
     grp('Top individual games found',a.perf.slice(0,5).map(q=>li(q.pts,`${esc(q.name)} vs ${lk(q.g[2])}`,fmtDate(q.g[0]))))
   }</div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;}
   oppsDraw(s,a);

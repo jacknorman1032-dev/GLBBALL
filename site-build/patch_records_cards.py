@@ -5,12 +5,15 @@ import sys
 # under it, the date written out (Jan 4, 2011) plus the result. Same records and counts as patch_records.py.
 # On phones the Most-played opponents table gets tighter padding so its Win % column fits.
 # On desktop the two columns (records cards, opponents table) no longer stretch, which pushed the opponents table down.
+# Biggest wins skips the games in BW_SKIP (EL's 61-4 over Grand Ledge in 1931, Jack, Nov 11, 2026).
 # Run after patch_records.py. Usage: python3 -I patch_records_cards.py page.html. Re-runnable.
 p = sys.argv[1]
 s = open(p).read()
 OLD_START = "$('#records').innerHTML=`<div class=\"tbl\"><table><tbody>"
 OLD_END = "</tbody></table></div>${a.perf.length?'<p class=\"note\">Individual leaders exist only for games where box scores were found.</p>':''}`;"
 NEW = r"""{// program records cards (patch_records_cards.py)
+  // games left out of Biggest wins (still in the logs and records): EL's 61-4 over Grand Ledge, 1/22/1931 (Jack, Nov 11, 2026)
+  const BW_SKIP=['east-lansing|1931-01-22|Grand Ledge'];
   const lk=n=>areaId(n)?`<a class="schoollink" href="#school-${areaId(n)}">${esc(n)}</a>`:esc(n);
   const grp=(t,items)=>items.length?`<div class="prec"><h3>${t}</h3><ol>${items.join('')}</ol></div>`:'';
   const li=(v,main,sub)=>`<li><b>${v}</b><span class="pm">${main}</span>${sub?`<span class="note">${sub}</span>`:''}</li>`;
@@ -22,7 +25,7 @@ NEW = r"""{// program records cards (patch_records_cards.py)
     grp('Most wins in a season',[li(mw.w,esc(mw.season),recStr(mw.w,mw.l,mw.t)+coach(mw))])+
     grp('Best seasons',best.map(b=>li(recStr(b.w,b.l,b.t),esc(b.season),fmtPct(b.p)+coach(b))))+
     grp('Most points in a game',a.mostPts.slice(0,5).map(g=>li(g[6],'vs '+lk(g[2]),`${fmtDate(g[0])} · ${g[5]} ${g[6]}-${g[7]}`)))+
-    grp('Biggest wins',a.bigWins.slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
+    grp('Biggest wins',a.bigWins.filter(g=>!BW_SKIP.includes(s.id+'|'+g[0]+'|'+g[2])).slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
     grp('Top individual games found',a.perf.slice(0,5).map(q=>li(q.pts,`${esc(q.name)} vs ${lk(q.g[2])}`,fmtDate(q.g[0]))))
   }</div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;}"""
 CSS = """/* program records cards (patch_records_cards.py) */
@@ -38,7 +41,11 @@ CSS = """/* program records cards (patch_records_cards.py) */
 .two>.block:has(#records),.two>.block:has(#opps){align-content:start}
 @media (max-width:640px){#opps th,#opps td{padding-left:7px;padding-right:7px}#opps th:first-child,#opps td:first-child{padding-left:12px;white-space:normal}#opps th:last-child,#opps td:last-child{padding-right:12px}}
 /* end program records cards */"""
-if 'program records cards (patch_records_cards.py)' not in s:
+MARK = '{// program records cards (patch_records_cards.py)'
+if MARK in s:
+    a = s.index(MARK); b = s.index("found.</p>':''}`;}", a) + len("found.</p>':''}`;}")
+    s = s[:a] + NEW + s[b:]
+else:
     a = s.index(OLD_START); b = s.index(OLD_END, a) + len(OLD_END)
     assert s.count(OLD_START) == 1
     s = s[:a] + NEW + s[b:]
