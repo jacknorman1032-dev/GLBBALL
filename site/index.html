@@ -34,6 +34,19 @@ details.fold::details-content{min-width:0}
 #seasons>.tbl>table>tbody>tr.detail .inner{position:static;width:auto;overflow-x:auto;padding:6px 8px 12px}
 }
 /* end mobile-seasons */
+/* program records cards (patch_records_cards.py) */
+.precs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
+.prec{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:12px 14px;min-width:0}
+.prec h3{font-size:14px;color:var(--muted);margin:0 0 4px}
+.prec ol{list-style:none;margin:0;padding:0}
+.prec li{display:grid;grid-template-columns:4.2em minmax(0,1fr);column-gap:12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line)}
+.prec li:first-child{border-top:0}
+.prec li b{grid-row:1/3;font-size:19px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.prec .pm{grid-column:2;font-size:15px}
+.prec li .note{grid-column:2;font-size:13px}
+.two>.block:has(#records),.two>.block:has(#opps){align-content:start}
+@media (max-width:640px){#opps th,#opps td{padding-left:7px;padding-right:7px}#opps th:first-child,#opps td:first-child{padding-left:12px;white-space:normal}#opps th:last-child,#opps td:last-child{padding-right:12px}}
+/* end program records cards */
 </style></head><body>
 <title>Greater Lansing Hoops History</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1187,14 +1200,21 @@ function schoolDetail(s,a){
     {k:'w',label:'Record',r:1,fmt:r=>recStr(r.w,r.l,r.t)},{k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)},
     {k:'dist',label:'District titles+',r:1},{k:'ff',label:'Final Fours',r:1},{k:'champ',label:'State titles',r:1}],a.coaches,{k:'first',dir:1});
   const st=a.streak;
-  $('#records').innerHTML=`<div class="tbl"><table><tbody>
-    <tr><td>Longest win streak</td><td class="r"><b>${st.len}</b> <span class="note">${esc(st.start?.[0]||'')} to ${esc(st.end?.[0]||'')}</span></td></tr>
-    <tr><td>Most wins in a season</td><td class="r">${(()=>{const b=[...a.seasons].sort((x,y)=>y.w-x.w)[0];return `<b>${b.w}</b> <span class="note">${esc(b.season)}</span>`})()}</td></tr>
-    ${[...a.seasons].filter(x=>x.n>=8).sort((x,y)=>y.p-x.p||y.w-x.w).slice(0,5).map((b,i)=>`<tr><td>${i?'':'Best seasons'}</td><td class="r"><b>${recStr(b.w,b.l,b.t)}</b> <span class="note">${esc(b.season)}</span></td></tr>`).join('')}
-    ${a.mostPts.slice(0,5).map((g,i)=>`<tr><td>${i?'':'Most points in a game'}</td><td class="r"><b>${g[6]}</b> vs ${esc(g[2])} <span class="note">${esc(g[0])}</span></td></tr>`).join('')}
-    ${a.bigWins.slice(0,5).map((g,i)=>`<tr><td>${i?'':'Biggest wins'}</td><td class="r"><b>${g[6]}-${g[7]}</b> vs ${esc(g[2])} <span class="note">${esc(g[0])}</span></td></tr>`).join('')}
-    ${a.perf.slice(0,5).map((p,i)=>`<tr><td>${i?'':'Top individual games found'}</td><td class="r"><b>${p.pts}</b> ${esc(p.name)} vs ${esc(p.g[2])} <span class="note">${esc(p.g[0])}</span></td></tr>`).join('')}
-  </tbody></table></div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;
+  {// program records cards (patch_records_cards.py)
+  const lk=n=>areaId(n)?`<a class="schoollink" href="#school-${areaId(n)}">${esc(n)}</a>`:esc(n);
+  const grp=(t,items)=>items.length?`<div class="prec"><h3>${t}</h3><ol>${items.join('')}</ol></div>`:'';
+  const li=(v,main,sub)=>`<li><b>${v}</b><span class="pm">${main}</span>${sub?`<span class="note">${sub}</span>`:''}</li>`;
+  const coach=b=>b.coaches&&b.coaches.length?' · '+esc(b.coaches.join(' / ')):'';
+  const mw=[...a.seasons].sort((x,y)=>y.w-x.w)[0];
+  const best=[...a.seasons].filter(x=>x.n>=8).sort((x,y)=>y.p-x.p||y.w-x.w).slice(0,5);
+  $('#records').innerHTML=`<div class="precs">${
+    grp('Longest win streak',[li(st.len,'straight wins',st.start?`${fmtDate(st.start[0])} to ${fmtDate(st.end[0])}`:'')])+
+    grp('Most wins in a season',[li(mw.w,esc(mw.season),recStr(mw.w,mw.l,mw.t)+coach(mw))])+
+    grp('Best seasons',best.map(b=>li(recStr(b.w,b.l,b.t),esc(b.season),fmtPct(b.p)+coach(b))))+
+    grp('Most points in a game',a.mostPts.slice(0,5).map(g=>li(g[6],'vs '+lk(g[2]),`${fmtDate(g[0])} · ${g[5]} ${g[6]}-${g[7]}`)))+
+    grp('Biggest wins',a.bigWins.slice(0,5).map(g=>li(`${g[6]}-${g[7]}`,'vs '+lk(g[2]),`${fmtDate(g[0])} · by ${g[6]-g[7]}`)))+
+    grp('Top individual games found',a.perf.slice(0,5).map(q=>li(q.pts,`${esc(q.name)} vs ${lk(q.g[2])}`,fmtDate(q.g[0]))))
+  }</div>${a.perf.length?'<p class="note">Individual leaders exist only for games where box scores were found.</p>':''}`;}
   sortTable('opps',[{k:'name',label:'Opponent',fmt:r=>r.area?`<a class="schoollink" href="#school-${r.area}">${esc(r.name)}</a>`:esc(r.name)},{k:'n',label:'G',r:1},{k:'w',label:'Record',r:1,fmt:r=>recStr(r.w,r.l,r.t)},{k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)}],a.opponents.slice(0,25),{k:'n',dir:-1});
 }
 function expandRows(el,rs,cols){
