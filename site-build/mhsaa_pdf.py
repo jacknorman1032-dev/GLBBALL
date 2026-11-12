@@ -5,7 +5,7 @@ import re, sys
 t = open(sys.argv[1]).read()
 # drop page footers/headers so a game split across pages reads as one block
 t = re.sub(r'\n\s*https://www\.mhsaa\.com/printable-schedule\S*.*?\n\s*Page \d+ of \d+\s*\n:?', '\n', t)
-season = re.search(r'(\d{4})-(\d{4}) .*?Varsity', t)
+season = re.search(r'(\d{4})-(\d{4})\s[\s\S]*?Varsity', t)  # the team name can wrap to the next line
 rec = re.search(r'Record:\s*\((\d+)-(\d+)\)', t)
 games = []
 for b in re.split(r'(?=Date/Time:)', t)[1:]:  # one block per game, so a missing field can't borrow the next game's
