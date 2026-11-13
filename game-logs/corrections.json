@@ -188,6 +188,14 @@
    "us": 65,
    "them": 42,
    "_why": "Jack, Nov 13, 2026: Okemos won the District Final 65-42 (Holt's list); Okemos's list had 65-52"
+  },
+  {
+   "school": "east-lansing",
+   "date": "2019-02-01",
+   "opp": "Holt",
+   "us": 43,
+   "them": 28,
+   "_why": "Jack, Nov 13, 2026: EL won 43-28 (Holt's list); ELHS spreadsheet had 45-28"
   }
  ],
  "add": [
