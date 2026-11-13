@@ -61,6 +61,6 @@ if cs in s:
     a = s.index(cs); b = s.index('/* end program records cards */') + len('/* end program records cards */')
     s = s[:a] + CSS + s[b:]
 else:
-    i = s.index('</style>'); s = s[:i] + CSS + '\n' + s[i:]
+    i = s.index('</style>', s.index('/* Layout: a gym'))  # the page's own stylesheet; the publish service rebuilds the wrapper <style> before it; s = s[:i] + CSS + '\n' + s[i:]
 open(p, 'w').write(s)
 print('patch_records_cards: ok')

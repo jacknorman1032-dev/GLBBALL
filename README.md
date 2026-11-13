@@ -14,3 +14,5 @@ This repo replaced the claude.ai Project's file storage on Nov 3, 2026, when the
 - `site-build/audit_schedules.py` — schedule check: `python3 -I audit_schedules.py ../site/index.html [school-id] [--season 1975-76] [--out audit_report.md]`. Flags odd regular-season counts, league opponents played only once, league regulars missing from a season, tournament runs that don't end in a loss, long mid-season gaps, and games or scores that don't match another school's log. Run it after every new batch of schedules; the latest output is `site-build/audit_report.md`.
 
 To publish changes: patch `site/index.html` (or rebuild), then republish it to the existing artifact URL.
+
+Note (Nov 13, 2026): `site/index.html` starts with the publish service's wrapper (`<!doctype html>...<style>...</style></head><body>`). The service rebuilds that wrapper on every publish, so anything placed in its first `<style>` is lost. Patch scripts must add CSS to the page's own stylesheet (the `</style>` after `/* Layout: a gym`); patch_mobile_seasons.py, patch_records_cards.py and patch_opponents.py were fixed to do that.

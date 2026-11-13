@@ -52,7 +52,7 @@ if START in s:
     a = s.index(START); b = s.index(END) + len(END)
     s = s[:a] + CSS + s[b:]
 else:
-    i = s.index('</style>')
+    i = s.index('</style>', s.index('/* Layout: a gym'))  # the page's own stylesheet; the publish service rebuilds the wrapper <style> before it
     s = s[:i] + CSS + '\n' + s[i:]
 open(p, 'w').write(s)
 print('patch_mobile_seasons: ok')
