@@ -17,7 +17,7 @@ SELF = {a.school, a.school.replace('Lansing ', '')}
 
 ROUNDS = ['District Quarterfinal', 'District Semifinal', 'District Final', 'Regional Quarterfinal', 'Regional Semifinal',
           'Regional Final', 'State Quarterfinal', 'State Semifinal', 'State Final']
-CODES = {'DQ': 'District Quarterfinal', 'DS': 'District Semifinal', 'DF': 'District Final', 'RS': 'Regional Semifinal',
+CODES = {'DQ': 'District Quarterfinal', 'RQ': 'Regional Quarterfinal', 'DS': 'District Semifinal', 'DF': 'District Final', 'RS': 'Regional Semifinal',
          'RF': 'Regional Final', 'SQ': 'State Quarterfinal', 'SS': 'State Semifinal', 'SF': 'State Final'}
 VENUES = {'Breslin Center': 'the Breslin Center', 'Eastern': 'Lansing Eastern', 'Waverly': 'Lansing Waverly',
           'KC': 'Kalamazoo Central', 'Lakewood': 'Lake Odessa Lakewood', 'EL': 'East Lansing', 'GL': 'Grand Ledge',
@@ -44,7 +44,7 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
     if m:  # e.g. "(01/22/19) vs Williamston (Canceled Inclement Weather)"; stored like Sexton's canceled games
         mo, dy, yr, where, opp, why, tail = m.groups()
         tail = tail.replace('*', ' ').strip()
-        cm = re.search(r'\b(DQ|DS|DF|RS|RF|SQ|SS|SF)\b', tail)
+        cm = re.search(r'\b(DQ|DS|DF|RQ|RS|RF|SQ|SS|SF)\b', tail)
         rnd = next((r for r in ROUNDS if r.lower() in tail.lower()), None) or (CODES[cm.group(1)] if cm else None)
         vm = re.search(r'\bat\s+(.+)$', tail); v = VENUES.get(vm.group(1).strip(), vm.group(1).strip()) if vm else ''
         y0 = int(season[:4]); year = y0 if int(mo) >= 7 else y0 + 1
@@ -70,7 +70,7 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
     assert int(yr[-2:]) == year % 100, ('date year does not fit the season', line)
     tail = tail.replace('*', ' ').strip()
     rnd = next((r for r in ROUNDS if r.lower() in tail.lower()), None)
-    cm = re.search(r'\b(DQ|DS|DF|RS|RF|SQ|SS|SF)\b', tail)
+    cm = re.search(r'\b(DQ|DS|DF|RQ|RS|RF|SQ|SS|SF)\b', tail)
     if not rnd and cm: rnd = CODES[cm.group(1)]
     note = ''
     if rnd:
