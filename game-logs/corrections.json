@@ -244,6 +244,48 @@
    "date": "2006-02-07",
    "opp": "Lansing Everett",
    "note": "Double overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2004-12-14",
+   "opp": "Lansing Everett",
+   "note": "Overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2005-01-07",
+   "opp": "Lansing Sexton",
+   "note": "Double overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2005-01-21",
+   "opp": "Okemos",
+   "note": "Overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2005-02-08",
+   "opp": "Grand Ledge",
+   "note": "Overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2005-02-18",
+   "opp": "Okemos",
+   "note": "Double overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2005-03-11",
+   "opp": "Benton Harbor",
+   "note": "Overtime. Benton Harbor was ranked No. 1 in Class A."
+  },
+  {
+   "school": "sexton",
+   "date": "2005-01-07",
+   "opp": "Holt",
+   "note": "Double overtime."
   }
  ],
  "add": [
