@@ -316,6 +316,19 @@
    "date": "2004-02-03",
    "opp": "Holt",
    "note": "Overtime."
+  },
+  {
+   "school": "sexton",
+   "date": "2002-02-19",
+   "opp": "Holt",
+   "new_date": "2002-02-20",
+   "_why": "LSJ 2/21/02: Holt upset Sexton 56-40 'Wednesday' (2/20/02)"
+  },
+  {
+   "school": "holt",
+   "date": "2002-01-11",
+   "opp": "Jackson",
+   "note": "Overtime."
   }
  ],
  "add": [
