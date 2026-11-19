@@ -26,7 +26,7 @@ NAMES = {'Ottawa Hills': 'Grand Rapids Ottawa Hills', 'Oakridge': 'Muskegon Oakr
 
 SEASON = re.compile(r'^(\d{4})/(\d{2,4})\s*\|\s*(\d+)-(\d+)(?:\s*\((\d+)-(\d+)\))?')
 COACH = re.compile(r'^Head Coach:\s*(.*)$')
-GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((FFW|FFL|W|L|T)\s+(\d+)-(\d+)\)(.*)$')
+GAME = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\((FFW|FFL|W|L|T)\s+(\d+|\?+)-(\d+|\?+)\)(.*)$')
 
 CANCEL = re.compile(r'^\((\d{1,2})/(\d{1,2})/(\d{2,4})\)\s*(vs|at|\(n\))\s+(.+?)\s*\(Cancell?ed\s*(.*?)\)\s*(.*)$', re.I)
 
@@ -92,7 +92,8 @@ for raw in open(a.src, encoding='utf-8').read().splitlines():
     if ff:
         res = res[2:]; note = ('Forfeit win' if res == 'W' else 'Forfeit loss') + \
             ('; score shown is the on-court score' if int(us) + int(them) > 2 else '') + (' ' + note if note else '')
-    games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, site, typ, res, int(us), int(them), coach, ff, '', 0, '', '', ''], note=note))
+    num = lambda x: int(x) if x.isdigit() else None  # '???' = score not found
+    games.append(dict(row=[f'{year}-{int(mo):02}-{int(dy):02}', season, opp, site, typ, res, num(us), num(them), coach, ff, '', 0, '', '', ''], note=note))
 
 out = []
 for g in games:

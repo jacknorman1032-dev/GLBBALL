@@ -391,7 +391,7 @@ function fmtDate(d){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||'');return m?`${
 function gameRow(g,schoolName){
   const opp=areaId(g[2])?`<a class="schoollink" href="#school-${areaId(g[2])}">${esc(g[2])}</a>`:esc(g[2]);
   const ha=g[3]==='H'?'vs':g[3]==='R'?'at':'n';
-  const score=g[6]!=null?`${g[6]}-${g[7]}`:'';
+  const score=g[6]!=null?`${g[6]}-${g[7]}`:(g[5]==='W'||g[5]==='L'?'???':'');
   const post=isPost(g);
   const lead=[g[12]&&['Pts',g[12]],g[13]&&['Reb',g[13]],g[14]&&['Ast',g[14]]].filter(Boolean).map(([k,v])=>`<span><b>${k}</b> ${esc(v)}</span>`).join('');
   return `<tr><td class="gdate">${g[0]?fmtDate(g[0]):esc(g[1])}</td>
@@ -661,7 +661,7 @@ function viewRivalries(){
         {k:'w',label:`${esc(A.short||A.name)} record`,r:1,fmt:r=>recStr(r.w,r.l,r.t)},
         {k:'p',label:'Win %',r:1,fmt:r=>fmtPct(r.p)},
         {k:'first',label:'First met',sortv:r=>r.gs[0][1],fmt:r=>esc(r.gs[0][1])},
-        {k:'lastm',label:'Last meeting',sortv:r=>r.last[0]||r.last[1],fmt:r=>`<span class="${r.last[5]}">${r.last[5]}</span> ${r.last[6]??'—'}-${r.last[7]??'—'} <span class="note">${esc(r.last[0]||r.last[1])}</span>`},
+        {k:'lastm',label:'Last meeting',sortv:r=>r.last[0]||r.last[1],fmt:r=>`<span class="${r.last[5]}">${r.last[5]}</span> ${r.last[6]==null&&/^[WL]$/.test(r.last[5])?'???':`${r.last[6]??'—'}-${r.last[7]??'—'}`} <span class="note">${esc(r.last[0]||r.last[1])}</span>`},
         {k:'streak',label:'Streak',r:1,sortv:r=>r.streak,fmt:r=>`<span class="${r.streak[0]}">${r.streak}</span>`},
         {k:'big',label:'Biggest win',r:1,sortv:r=>r.big?r.big[6]-r.big[7]:null,fmt:r=>r.big&&r.big[6]>r.big[7]?`${r.big[6]}-${r.big[7]} <span class="note">${esc(r.big[1])}</span>`:'—'},
       ],rows,{k:'n',dir:-1,rowAttr:(r,i)=>`class="click" data-i="${i}" tabindex="0" aria-expanded="false"`,after:(el,rs)=>{
