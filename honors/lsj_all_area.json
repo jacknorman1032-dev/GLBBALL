@@ -404,6 +404,18 @@
    },
    "left_out": "Class A special mention Jamie Mahar (Howell); Class B all-area John Jackson (Perry) and Jason Sanders (Alma), and special mentions Brad Horman (Perry), Chris Duits (Lakewood) and Dean Woolcock (Stockbridge); the rest of Class C (Kurt Brown, Laingsburg; Jamie Cassady, Ithaca; Tyler Wohlfert, Pewamo-Westphalia; Scott Casteele, Maple Valley) and Coach of the Year Ron Kramer (Pewamo-Westphalia), and every Class C special mention except Williamston's Mike Smith; all of Class D (coach Tom Truscott, Potterville).",
    "src": "Lansing State Journal 'Fabulous Five' and all-area teams by class, 1990-91 (Bob Gross; March 28, 1991, p. 4D, newspapers.com page 44; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "teams_note": "'1990 Fabulous Five' (every member was all-state; no Player of the Year named) and a Coach of the Year chosen by a panel of 12 coaches, then a five-player first team, second team, special mention and coach for each of Classes A to D (special mention stored as honorable mention).",
+   "full_counts": {
+    "dream": 5,
+    "coy": 5,
+    "first": 20,
+    "second": 20
+   },
+   "left_out": "Fabulous Five pick Shaun Thompson (Vermontville Maple Valley; the area's top scorer at 32.6 points a game) and Coach of the Year Jerry McDevitt (Perry, 21-1, Ingham County League champions); Class A special mention Tim Basa (Howell); Class B first-team Eric Harrison (Alma), Tom Lewis and Ron Root (Perry) and James Teelander (Ovid-Elsie), second-team Darrin Hyde (Lakewood), Troy Droste (Ionia) and Brad Horman (Perry), and special mentions Dean Woolcock (Stockbridge), Steve Barker (Lakewood) and Dan Korienek (Ovid-Elsie); the rest of Class C (coach Jerry Reese, Maple Valley) and all of Class D (coach Gary Shestag, Ashley).",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
   }
  ],
  "picks": [
@@ -14676,6 +14688,407 @@
    "division": "Class C",
    "grade": "",
    "src": "Lansing State Journal 'Fabulous Five' and all-area teams by class, 1990-91 (Bob Gross; March 28, 1991, p. 4D, newspapers.com page 44; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Tim Kissman",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)",
+   "note": "Fabulous Five. 6-8 center; 29.5 points and 13 rebounds a game, second in the area; Class B all-state; Eaton Rapids' career leader in points and rebounds."
+  },
+  {
+   "season": "1989-90",
+   "name": "Jason Bossard",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)",
+   "note": "Fabulous Five. 6-4 guard; 29.5 points a game; led Charlotte to the Capital Circuit title; Class A all-state; high game of 53 points."
+  },
+  {
+   "season": "1989-90",
+   "name": "Kareem Washington",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)",
+   "note": "Fabulous Five. 6-4 forward; 24.4 points and 14 rebounds a game; led Sexton to the CAC title; Class A all-state; three-year starter."
+  },
+  {
+   "season": "1989-90",
+   "name": "Jeff Wendt",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "dream",
+   "division": "",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)",
+   "note": "Fabulous Five. 6-5 forward; 23.8 points and 13 rebounds a game; first-team Capital Circuit; two-year starter."
+  },
+  {
+   "season": "1989-90",
+   "name": "Andre Taylor",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "first",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Jeff Pepper",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "first",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Jon Njus",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "first",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Erik Kutas",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "first",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Tim Scott",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "team": "first",
+   "division": "Class A",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Mike Major",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "team": "coy",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)",
+   "note": "Sexton won the CAC title."
+  },
+  {
+   "season": "1989-90",
+   "name": "Jeremy Baragar",
+   "listed_as": "",
+   "school": "holt",
+   "listed_school": "Holt",
+   "team": "second",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Corey Henderson",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "second",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Scott Underhill",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "second",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Tom Marowelli",
+   "listed_as": "",
+   "school": "waverly",
+   "listed_school": "Waverly",
+   "team": "second",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Tony Benson",
+   "listed_as": "",
+   "school": "sexton",
+   "listed_school": "Lansing Sexton",
+   "team": "second",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Rodney Woods",
+   "listed_as": "",
+   "school": "everett",
+   "listed_school": "Everett",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Marc Matson",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Jason Sinke",
+   "listed_as": "",
+   "school": "st-johns",
+   "listed_school": "St. Johns",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Brent Maffett",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Shannon Norris",
+   "listed_as": "",
+   "school": "eastern",
+   "listed_school": "Lansing Eastern",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Chad Foltz",
+   "listed_as": "",
+   "school": "east-lansing",
+   "listed_school": "East Lansing",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Adam Brandt",
+   "listed_as": "",
+   "school": "grand-ledge",
+   "listed_school": "Grand Ledge",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Keith Lobsinger",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Chris Gill",
+   "listed_as": "",
+   "school": "charlotte",
+   "listed_school": "Charlotte",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Andy Wozniak",
+   "listed_as": "",
+   "school": "okemos",
+   "listed_school": "Okemos",
+   "team": "hm",
+   "division": "Class A",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Mike Prater",
+   "listed_as": "",
+   "school": "mason",
+   "listed_school": "Mason",
+   "team": "first",
+   "division": "Class B",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "John Benington",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "coy",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Chris Berkimer",
+   "listed_as": "",
+   "school": "dewitt",
+   "listed_school": "DeWitt",
+   "team": "second",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Mike King",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "second",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Ryan Ash",
+   "listed_as": "",
+   "school": "fowlerville",
+   "listed_school": "Fowlerville",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Joe Kazamer",
+   "listed_as": "",
+   "school": "lansing-catholic",
+   "listed_school": "Lansing Catholic Central",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Chris Tormala",
+   "listed_as": "",
+   "school": "haslett",
+   "listed_school": "Haslett",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Eric Mazur",
+   "listed_as": "",
+   "school": "eaton-rapids",
+   "listed_school": "Eaton Rapids",
+   "team": "hm",
+   "division": "Class B",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Matt Dunckel",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "first",
+   "division": "Class C",
+   "grade": "12",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Adam West",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "second",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
+  },
+  {
+   "season": "1989-90",
+   "name": "Mike Smith",
+   "listed_as": "",
+   "school": "williamston",
+   "listed_school": "Williamston",
+   "team": "hm",
+   "division": "Class C",
+   "grade": "",
+   "src": "Lansing State Journal '1990 Fabulous Five' and all-area teams by class, 1989-90 (Bob Gross; March 29, 1990, p. 4E, newspapers.com page 50; PDF from Jack, Nov 19, 2026)"
   }
  ]
 }
