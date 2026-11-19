@@ -734,7 +734,7 @@
    "name": "Noah Pruitt",
    "school": "okemos",
    "grad_year": "2020",
-   "bio": "Senior guard on Okemos' third straight CAAC Blue champion (18-4).",
+   "bio": "Senior guard on Okemos' third straight CAAC Blue champion (18-4). Son of Joe Pruitt, a 1994-95 CAC honorable mention pick at Lansing Sexton. Younger brother of C.J. Pruitt and older brother of Jaden and Branden Pruitt, who all played at Okemos.",
    "seasons": [
     {
      "season": "2019-20",
@@ -744,6 +744,33 @@
      "src": "Lansing State Journal Dream Team, April 12, 2020"
     }
    ]
+  },
+  {
+   "name": "C.J. Pruitt",
+   "school": "okemos",
+   "grad_year": "2016",
+   "bio": "Son of Joe Pruitt, a 1994-95 CAC honorable mention pick at Lansing Sexton. The oldest of four Pruitt brothers at Okemos; Noah, Jaden and Branden followed him.",
+   "seasons": []
+  },
+  {
+   "name": "Jaden Pruitt",
+   "school": "okemos",
+   "grad_year": "2022",
+   "bio": "Son of Joe Pruitt, a 1994-95 CAC honorable mention pick at Lansing Sexton. Younger brother of C.J. and Noah Pruitt and older brother of Branden Pruitt, who all played at Okemos.",
+   "seasons": []
+  },
+  {
+   "name": "Branden Pruitt",
+   "school": "okemos",
+   "grad_year": "2025",
+   "bio": "Son of Joe Pruitt, a 1994-95 CAC honorable mention pick at Lansing Sexton. The youngest of four Pruitt brothers at Okemos, after C.J., Noah and Jaden.",
+   "seasons": []
+  },
+  {
+   "name": "Joe Pruitt",
+   "school": "sexton",
+   "bio": "Father of C.J. (Class of 2016), Noah (2020), Jaden (2022) and Branden Pruitt (2025), who all played at Okemos.",
+   "seasons": []
   },
   {
    "name": "Jordan Henry",
