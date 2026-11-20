@@ -4183,6 +4183,28 @@
    "pos": "G",
    "height": "5-11",
    "bio": "Four-year starter at Williamston. Headed to Spring Arbor."
+  },
+  {
+   "name": "Jason Bossard",
+   "school": "charlotte",
+   "grad_year": "1990",
+   "bio": "Played at Grand Ledge as a junior (1988-89 CAC honorable mention), then transferred to Charlotte for his senior season. Scored 43 points with six 3-pointers in his first game for Charlotte, a school record at the time (LSJ preview, 1989-90). Averaged 29.5 points as a senior, led Charlotte to the Capital Circuit title, was Class A all-state and made the LSJ's 1990 Fabulous Five; his season high was 53 points.",
+   "seasons": [],
+   "also": [
+    {
+     "school": "grand-ledge",
+     "seasons": "1988-89",
+     "note": "Junior season"
+    }
+   ],
+   "varsity_from": "1988-89"
+  },
+  {
+   "name": "Jeff Pepper",
+   "school": "charlotte",
+   "grad_year": "1990",
+   "bio": "Transferred to Charlotte from Eaton Rapids for his senior season; scored 28 points in his first game for the Orioles (LSJ preview, 1989-90). LSJ Class A all-area first team as a senior.",
+   "seasons": []
   }
  ]
 }
