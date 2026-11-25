@@ -4233,6 +4233,12 @@
    "pos": "G",
    "seasons": [
     {
+     "season": "1986-87",
+     "grade": "11",
+     "ppg": 11.3,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    },
+    {
      "season": "1987-88",
      "grade": "12",
      "ppg": 15.0,
@@ -4372,12 +4378,19 @@
    "height": "6-0",
    "seasons": [
     {
+     "season": "1986-87",
+     "grade": "11",
+     "ppg": 10.2,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    },
+    {
      "season": "1987-88",
      "grade": "12",
      "ppg": 17.9,
      "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
     }
-   ]
+   ],
+   "pos": "G"
   },
   {
    "name": "Kyle Powell",
@@ -4389,6 +4402,155 @@
      "grade": "12",
      "ppg": 17.0,
      "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Todd Jenks",
+   "school": "haslett",
+   "height": "6-2",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 27.7,
+     "stl": 74,
+     "reb": 155,
+     "ft_pct": 82.7,
+     "fg_pct": 56.0,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Jim Paul",
+   "school": "east-lansing",
+   "height": "6-9",
+   "pos": "C",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 22.8,
+     "rpg": 11.0,
+     "blk": 47,
+     "fg_pct": 67.0,
+     "ft_pct": 72.5,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Carl Thomas",
+   "school": "everett",
+   "height": "6-3",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 22.0,
+     "rpg": 8.0,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Tom Lick",
+   "school": "eastern",
+   "height": "6-9",
+   "pos": "C",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 18.2,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Charles Thomas",
+   "school": "everett",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 14.2,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Toby Tucker",
+   "school": "okemos",
+   "height": "6-1",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 15.6,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Ericon Milton",
+   "school": "sexton",
+   "height": "6-7",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 16.2,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Jason Peterson",
+   "school": "charlotte",
+   "height": "6-1",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 19.1,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Joe Tomlin",
+   "school": "fowlerville",
+   "height": "6-1",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 15.6,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
+    }
+   ]
+  },
+  {
+   "name": "Andy Herner",
+   "school": "williamston",
+   "height": "6-2",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1986-87",
+     "grade": "12",
+     "ppg": 22.3,
+     "src": "Lansing State Journal Fabulous Five and class teams, 1986-87 (April 9, 1987)"
     }
    ]
   }
