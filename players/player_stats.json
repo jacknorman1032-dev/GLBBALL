@@ -2815,7 +2815,8 @@
    "school": "grand-ledge",
    "grad_year": "2018",
    "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
-   "seasons": []
+   "seasons": [],
+   "bio": "Son of Jason Houghton, who played at Lansing Waverly (1992-93 all-conference first team and LSJ all-area); brother of JT and Jared Houghton (Jack, Nov 25, 2026)."
   },
   {
    "name": "Luke Smith",
@@ -4922,6 +4923,24 @@
      "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
     }
    ]
+  },
+  {
+   "name": "Jason Houghton",
+   "school": "waverly",
+   "bio": "Father of Grand Ledge's JT, Jayke and Jared Houghton (Jack, Nov 25, 2026).",
+   "seasons": []
+  },
+  {
+   "name": "JT Houghton",
+   "school": "grand-ledge",
+   "bio": "Son of Jason Houghton, who played at Lansing Waverly (1992-93 all-conference first team and LSJ all-area); older brother of Jayke and Jared Houghton (Jack, Nov 25, 2026).",
+   "seasons": []
+  },
+  {
+   "name": "Jared Houghton",
+   "school": "grand-ledge",
+   "bio": "Son of Jason Houghton, who played at Lansing Waverly (1992-93 all-conference first team and LSJ all-area); younger brother of JT and Jayke Houghton (Jack, Nov 25, 2026).",
+   "seasons": []
   }
  ]
 }
