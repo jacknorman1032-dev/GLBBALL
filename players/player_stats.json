@@ -4777,8 +4777,14 @@
    "name": "Bob Fata",
    "school": "lansing-catholic",
    "height": "6-3",
-   "pos": "",
+   "pos": "F",
    "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "11",
+     "ppg": 15.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    },
     {
      "season": "1985-86",
      "grade": "12",
@@ -4786,6 +4792,134 @@
      "rpg": 12.4,
      "apg": 2.3,
      "src": "Lansing State Journal Fabulous Five and class teams, 1985-86 (March 27, 1986)"
+    }
+   ]
+  },
+  {
+   "name": "Marty Martens",
+   "school": "st-johns",
+   "height": "6-5",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 22.0,
+     "rpg": 10.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Scooter Tropf",
+   "school": "holt",
+   "height": "6-7",
+   "pos": "C",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 20.0,
+     "rpg": 12.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Eric Allaire",
+   "school": "mason",
+   "height": "6-5",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 27.0,
+     "rpg": 7.0,
+     "apg": 3.0,
+     "spg": 3.0,
+     "fg_pct": 59.0,
+     "ft_pct": 81.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Vernon Norris",
+   "school": "eastern",
+   "height": "6-5",
+   "pos": "C",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 17.0,
+     "rpg": 11.0,
+     "fg_pct": 57.0,
+     "ft_pct": 73.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Denell Dismuke",
+   "school": "eastern",
+   "height": "6-0",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 16.7,
+     "rpg": 6.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "John Smoltz",
+   "school": "waverly",
+   "height": "6-3",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 19.0,
+     "rpg": 6.0,
+     "apg": 4.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Kent Clark",
+   "school": "eaton-rapids",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "12",
+     "ppg": 23.0,
+     "rpg": 7.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
+    }
+   ]
+  },
+  {
+   "name": "Eric Nordmann",
+   "school": "williamston",
+   "height": "6-5",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1984-85",
+     "grade": "11",
+     "ppg": 17.6,
+     "rpg": 10.0,
+     "bpg": 2.0,
+     "src": "Lansing State Journal all-area team, 1984-85 (March 28, 1985)"
     }
    ]
   }
