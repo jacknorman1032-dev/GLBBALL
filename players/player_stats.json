@@ -4205,6 +4205,190 @@
    "grad_year": "1990",
    "bio": "Transferred to Charlotte from Eaton Rapids for his senior season; scored 28 points in his first game for the Orioles (LSJ preview, 1989-90). LSJ Class A all-area first team as a senior.",
    "seasons": []
+  },
+  {
+   "name": "Gabe Lenneman",
+   "school": "lansing-catholic",
+   "grad_year": "2018",
+   "_confirmed": "Jack, Nov 21, 2026"
+  },
+  {
+   "name": "Mike Kirksey",
+   "school": "okemos",
+   "height": "6-2",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 17.0,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Charles Pasley",
+   "school": "eastern",
+   "height": "5-10",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 15.0,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Barry Zaremba",
+   "school": "williamston",
+   "height": "5-9",
+   "pos": "G",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 20.8,
+     "tpm": 44,
+     "ft_pct": 76.8,
+     "ast": 98,
+     "stl": 71,
+     "note": "1,051 career points in three seasons",
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Rob DeCook",
+   "school": "grand-ledge",
+   "height": "6-5",
+   "pos": "F",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "11",
+     "ppg": 16.5,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Reggie Smith",
+   "school": "sexton",
+   "height": "6-3",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 16.6,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Darren Zwick",
+   "school": "holt",
+   "height": "5-9",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 14.2,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Rex Bell",
+   "school": "eastern",
+   "height": "5-10",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 13.9,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Tom Penix",
+   "school": "st-johns",
+   "height": "6-6",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 17.9,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Matt Morgan",
+   "school": "eaton-rapids",
+   "height": "6-5",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 19.5,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Vern Elliott",
+   "school": "mason",
+   "height": "6-1",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 14.2,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Bob Stabler",
+   "school": "haslett",
+   "height": "6-0",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 19.5,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Dean Bradley",
+   "school": "haslett",
+   "height": "6-0",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 17.9,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
+  },
+  {
+   "name": "Kyle Powell",
+   "school": "lansing-catholic",
+   "height": "5-8",
+   "seasons": [
+    {
+     "season": "1987-88",
+     "grade": "12",
+     "ppg": 17.0,
+     "src": "Lansing State Journal Fabulous Five and all-area teams, 1987-88 (April 7, 1988)"
+    }
+   ]
   }
  ]
 }
