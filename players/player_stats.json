@@ -49,7 +49,7 @@
      "opp": "Lansing Sexton",
      "result": "W 73-58",
      "title": "Game-high 27 against Sexton",
-     "text": "Torbert scored a game-high 27 points as East Lansing beat Sexton 73-58, combining with Kingston Thomas for 15 first-quarter points."
+     "text": "Torbert scored a game-high 27 points as East Lansing beat Sexton 73-58, combining with Kingston Thomas for 15 first-quarter points. WLNS reported 25 points for Torbert and 23 for Thomas."
     },
     {
      "date": "2025-12-13",
@@ -543,7 +543,7 @@
    "name": "Derek Thomas, II",
    "school": "waverly",
    "grad_year": "2026",
-   "bio": "Played varsity as a sophomore on Waverly's 2023-24 district champions. Made 33 3-pointers and shot 80% at the line as a senior. Committed to Lansing Community College. Waverly went 20-4 and finished second in the CAAC Blue in his junior season.",
+   "bio": "Played varsity as a sophomore on Waverly's 2023-24 district champions. Made 33 3-pointers and shot 80% at the line as a senior. Committed to Lansing Community College. Waverly went 20-4 and finished second in the CAAC Blue in his junior season. Reached 1,000 career points on Dec. 9, 2025, against Holt, the seventh Waverly player to do it (WLNS).",
    "seasons": [
     {
      "season": "2024-25",
@@ -634,6 +634,18 @@
      "result": "W 86-84 (2OT)",
      "title": "Game-high 24 in two overtimes",
      "text": "Thomas had a game-high 24 points as Waverly (11-2, 7-1 CAAC Blue) outlasted Holt 86-84 in double overtime."
+    },
+    {
+     "date": "2025-12-09",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Lansing Waverly",
+     "opp": "Holt",
+     "result": "W 81-77",
+     "src": "WLNS (Desherion McBroom), Dec. 10, 2025: \"East Lansing takes down Lansing Sexton; Waverly defeats Holt\" (via Yahoo Sports)",
+     "url": "https://sports.yahoo.com/articles/highlights-east-lansing-takes-down-051546685.html",
+     "title": "1,000 career points",
+     "text": "Thomas reached 1,000 career points in Waverly's 81-77 home win over Holt, becoming the seventh player in program history to do it."
     }
    ]
   },
