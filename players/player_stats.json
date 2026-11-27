@@ -37,7 +37,156 @@
    },
    "career_points": 2009,
    "career_seasons": 4,
-   "about": "The 2026 Hal Schram Mr. Basketball, Torbert and his father, Kelvin Torbert (2001, Flint Northwestern), are the first father and son to both win the award. He was also the Michigan Sports Writers' 2026 Division 1 Player of the Year, the Lansing State Journal's Player of the Year in 2024-25 and 2025-26, a four-time all-state pick (including AP Division 1 first team in 2023-24 and the Free Press all-class Dream Team as a senior) and all-conference all four seasons.\n\nHe played his freshman season (2022-23) at Okemos, where the team went 18-5, before transferring to East Lansing. In his three seasons there the Trojans went 79-6, won three CAAC Blue titles, three district titles, three regional titles and the 2024-25 Division 1 state championship, and reached the Division 1 state final in 2025-26. As a senior he averaged 25.0 points, 6.0 rebounds and 2.7 steals, and he finished his career with 2,009 points."
+   "about": "The 2026 Hal Schram Mr. Basketball, Torbert and his father, Kelvin Torbert (2001, Flint Northwestern), are the first father and son to both win the award. He was also the Michigan Sports Writers' 2026 Division 1 Player of the Year, the Lansing State Journal's Player of the Year in 2024-25 and 2025-26, a four-time all-state pick (including AP Division 1 first team in 2023-24 and the Free Press all-class Dream Team as a senior) and all-conference all four seasons.\n\nHe played his freshman season (2022-23) at Okemos, where the team went 18-5, before transferring to East Lansing. In his three seasons there the Trojans went 79-6, won three CAAC Blue titles, three district titles, three regional titles and the 2024-25 Division 1 state championship, and reached the Division 1 state final in 2025-26. As a senior he averaged 25.0 points, 6.0 rebounds and 2.7 steals, and he finished his career with 2,009 points.",
+   "moments": [
+    {
+     "date": "2025-12-09",
+     "season": "2025-26",
+     "event": "Battle for Lansing",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 9, 2025: \"Kingston Thomas ready to put tools to use for East Lansing boys basketball\"",
+     "url": "",
+     "opp": "Lansing Sexton",
+     "result": "W 73-58",
+     "title": "Game-high 27 against Sexton",
+     "text": "Torbert scored a game-high 27 points as East Lansing beat Sexton 73-58, combining with Kingston Thomas for 15 first-quarter points."
+    },
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Detroit King",
+     "result": "W 41-40",
+     "title": "Buzzer-beater to beat Detroit King",
+     "text": "Down 40-38 with eight seconds left, Torbert hit a 3 at the buzzer to give East Lansing a 41-40 win over Detroit King. He finished with 13 points and six rebounds as the Trojans moved to 4-0."
+    },
+    {
+     "date": "2025-12-18",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "East Lansing",
+     "result": "W 74-62",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 18, 2025: \"DeQuarius Stewart helps lift East Lansing basketball past Waverly in area showdown\"",
+     "url": "",
+     "title": "23 and 11 in a battle of unbeatens",
+     "text": "Torbert had 23 points and 11 rebounds, and he and Kingston Thomas hit key late baskets as East Lansing held off Waverly's comeback to win 74-62 in a matchup of unbeaten CAAC Blue teams."
+    },
+    {
+     "date": "2025-12-28",
+     "season": "2025-26",
+     "event": "Motor City Roundball Classic",
+     "opp": "Brother Rice",
+     "site": "Ferndale",
+     "result": "W 62-41",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 29, 2025: \"Star guard Jordan McDaniel finds kryptonite vs East Lansing\"",
+     "url": "",
+     "title": "24 points and the defensive assignment",
+     "text": "Torbert scored a game-high 24 points, with two open-court dunks, and set up four 3-pointers by Kellen Lott and Tyree Anthony. Defensively he took the lead on Brother Rice star Jordan McDaniel, who scored 14 in the first half and three in the second as East Lansing turned a one-point halftime lead into a 62-41 win, its 31st straight."
+    },
+    {
+     "date": "2026-01-10",
+     "season": "2025-26",
+     "event": "GottaGetIt Hoop Classic",
+     "opp": "Rockford",
+     "site": "East Kentwood",
+     "result": "W 80-71 (OT)",
+     "src": "MLive (Patrick Nothaft), Jan. 11, 2026: \"KJ Torbert's 39 points lead top-ranked East Lansing past No. 2 Rockford\"",
+     "url": "https://www.mlive.com/highschoolsports/2026/01/kj-torberts-39-points-lead-top-ranked-east-lansing-past-no-2-rockford.html",
+     "title": "39 points in a No. 1 vs. No. 2 overtime win",
+     "text": "In front of more than 2,000 fans, Torbert scored 39 points, with five 3-pointers, as top-ranked East Lansing beat No. 2 Rockford. After Rockford rallied from 10 down to take a 67-65 lead, his floater tied it with 10 seconds left, and he stole the ball near half court for a last-second layup try at the regulation buzzer. Then he scored East Lansing's first eight points of overtime to pull away.",
+     "quote": "I've been built for moments like that"
+    },
+    {
+     "date": "2026-02-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 81-64",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 6, 2026: \"KJ Torbert adds to Mr. Basketball candidacy, helps East Lansing top Waverly\"",
+     "url": "",
+     "title": "39 points and a buzzer-beater from near half court",
+     "text": "With Kingston Thomas out injured, Torbert scored 39 points with eight rebounds at Waverly. He tied the game at halftime with a 3 from just inside half court at the buzzer, then scored 17 in the fourth quarter as a 53-48 lead became a 17-point win. It was East Lansing's 40th straight win and gave the Trojans a two-game lead in the CAAC Blue.",
+     "quote": "To me he's hands down Mr. Basketball",
+     "quote_by": "East Lansing coach Ray Mitchell"
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 1 District Final",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 92-78",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 27, 2026: \"East Lansing boys basketball adds to district title streak with win over Waverly\"",
+     "url": "",
+     "title": "30 points for a sixth straight district title",
+     "text": "Torbert scored 30 points with four steals as East Lansing built a 51-24 halftime lead on eight first-half 3-pointers and beat rival Waverly for the third time that season, winning the program's sixth straight district title."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 1 Regional Final",
+     "opp": "Kalamazoo Central",
+     "site": "Kalamazoo Loy Norrix",
+     "result": "W 68-39",
+     "src": "Lansing State Journal (Brian Calloway), March 5, 2026: \"KJ Torbert, Kingston Thomas power East Lansing basketball to regional title\"",
+     "url": "",
+     "title": "15-point third quarter breaks it open",
+     "text": "After Kingston Thomas got East Lansing the halftime lead, Torbert took over with 15 points in the third quarter by attacking the basket. He finished with 28 points and six rebounds as the Trojans won their fourth straight Division 1 regional title."
+    },
+    {
+     "date": "2026-03-09",
+     "season": "2025-26",
+     "event": "Hal Schram Mr. Basketball Award",
+     "site": "Detroit Free Press",
+     "title": "Mr. Basketball, like his father",
+     "text": "Torbert was named Michigan's Mr. Basketball with 3,625 points in the voting, well ahead of runner-up Cameron Ryans of Grand Rapids Northview (1,962). He and his father, Kelvin Torbert (Flint Northwestern, 2001), became the first father and son to win the award, and he was the fourth Greater Lansing winner and the first since Waverly's Marcus Taylor in 2000. He had led the area in regular-season scoring at 25.8 points a game, with 6.2 rebounds, 2.7 steals and 58 3-pointers.",
+     "quote": "It's a dream come true",
+     "src": "Lansing State Journal (Brian Calloway), March 9, 2026: \"East Lansing star KJ Torbert crowned Mr. Basketball winner\"",
+     "url": ""
+    },
+    {
+     "date": "2026-03-10",
+     "season": "2025-26",
+     "event": "Division 1 State Quarterfinal",
+     "opp": "Ann Arbor Pioneer",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "result": "W 72-60",
+     "src": "Lansing State Journal (Brian Calloway), March 10, 2026: \"East Lansing basketball takes another big step in quest for title repeat\"",
+     "url": "",
+     "title": "17 first-half points to take control",
+     "text": "Torbert scored 17 of his team-high 24 points in the first half, when East Lansing hit five 3-pointers in a 25-12 second quarter to take control. He added six assists and four rebounds as the Trojans reached the Breslin for the second straight season."
+    },
+    {
+     "date": "2026-03-13",
+     "season": "2025-26",
+     "event": "Division 1 State Semifinal",
+     "opp": "Brother Rice",
+     "site": "Breslin Center",
+     "result": "W 55-52",
+     "src": "Lansing State Journal (Nathaniel Bott), March 13, 2026: \"KJ Torbert delivers 3 in final seconds, sends East Lansing to title game\"",
+     "url": "",
+     "title": "Step-back 3 sends East Lansing to the final",
+     "text": "With the game tied 52-52 in the closing seconds, Torbert hit a step-back 3-pointer with under two seconds left to put the Trojans in the Division 1 final. He scored 24 points, 11 of them in the third quarter after a quiet first half, and with East Lansing down 45-40 late he set up Tyree Anthony's corner 3, then drove for the basket that tied it at 45.",
+     "quote": "This is the stuff you dream of"
+    },
+    {
+     "date": "2026-03-14",
+     "season": "2025-26",
+     "event": "Division 1 State Final",
+     "opp": "Rockford",
+     "site": "Breslin Center",
+     "result": "L 50-54",
+     "src": "Lansing State Journal (Brian Calloway), March 14, 2026: \"East Lansing boys basketball denied in bid for repeat in D1 state final\"",
+     "url": "",
+     "title": "28 points in his final game",
+     "text": "In his last high school game, Torbert scored a game-high 28 points and tied the Division 1 final at 50 with a 3-pointer late in the fourth quarter. Rockford doubled him the rest of the way. Afterward he said he expected East Lansing to be back at the Breslin the next season."
+    }
+   ]
   },
   {
    "name": "Marrion May-Cook",
@@ -53,6 +202,20 @@
      "apg": 4.0,
      "spg": 3.0,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ],
+   "moments": [
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Lansing Catholic",
+     "result": "W 58-41",
+     "title": "28 points against Lansing Catholic",
+     "text": "May-Cook scored 28 points as Everett beat Lansing Catholic 58-41."
     }
    ]
   },
@@ -115,6 +278,33 @@
      "bpg": 1.8,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
     }
+   ],
+   "moments": [
+    {
+     "date": "2026-02-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "East Lansing",
+     "site": "Lansing Waverly",
+     "result": "L 64-81",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 6, 2026: \"KJ Torbert adds to Mr. Basketball candidacy, helps East Lansing top Waverly\"",
+     "url": "",
+     "title": "17 points against top-ranked East Lansing",
+     "text": "Pendergrass scored 17 points for Waverly against Division 1 top-ranked East Lansing."
+    },
+    {
+     "date": "2026-02-25",
+     "season": "2025-26",
+     "event": "Division 1 District Semifinal",
+     "opp": "Grand Ledge",
+     "site": "Lansing Waverly",
+     "result": "W 97-71",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 25, 2026: \"Waverly thumps Grand Ledge, sets up showdown with East Lansing\"",
+     "url": "",
+     "title": "Alley-oops and five blocks",
+     "text": "Pendergrass had 14 points and five blocks and brought the home crowd up with several alley-oop dunks as Waverly ran past Grand Ledge 97-71 to reach the district final.",
+     "quote": "Nobody here is selfish"
+    }
    ]
   },
   {
@@ -131,7 +321,84 @@
      "src": "Lansing State Journal Dream Team, April 28, 2026"
     }
    ],
-   "varsity_from": "2023-24"
+   "varsity_from": "2023-24",
+   "moments": [
+    {
+     "date": "2025-12-18",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "East Lansing",
+     "result": "W 74-62",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 18, 2025: \"DeQuarius Stewart helps lift East Lansing basketball past Waverly in area showdown\"",
+     "url": "",
+     "title": "Stepping up as the third option",
+     "text": "In a matchup of unbeatens, Stewart had 18 points and six rebounds, 11 of them in the first half as East Lansing built a 38-18 halftime lead over Waverly. Showing more of his game than in past seasons, he hit a 3 and drove to the basket off the dribble.",
+     "quote": "He's one of the best-kept secrets in the state",
+     "quote_by": "East Lansing coach Ray Mitchell"
+    },
+    {
+     "date": "2025-12-21",
+     "season": "2025-26",
+     "event": "D-Zone Invitational",
+     "opp": "Roseville",
+     "site": "Hazel Park",
+     "result": "W 63-60",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 23, 2025: \"DeQuarius Stewart emerging as star for No. 1 East Lansing basketball\"",
+     "url": "",
+     "title": "Game-winning and-one against Roseville",
+     "text": "With the game tied and Roseville holding for the last shot, Kingston Thomas and Kellen Lott forced a steal with 10 seconds left, and Tyree Anthony threw the ball ahead to a streaking Stewart. He laid it in left-handed through contact and made the free throw for a 63-60 win, East Lansing's 30th straight. He finished with 15 points, including two dunks.",
+     "quote": "Losing is not an option"
+    },
+    {
+     "date": "2026-01-10",
+     "season": "2025-26",
+     "event": "GottaGetIt Hoop Classic",
+     "opp": "Rockford",
+     "site": "East Kentwood",
+     "result": "W 80-71 (OT)",
+     "src": "MLive (Patrick Nothaft), Jan. 11, 2026: \"KJ Torbert's 39 points lead top-ranked East Lansing past No. 2 Rockford\"",
+     "url": "https://www.mlive.com/highschoolsports/2026/01/kj-torberts-39-points-lead-top-ranked-east-lansing-past-no-2-rockford.html",
+     "title": "And-one to finish off Rockford",
+     "text": "Stewart scored 15 points, and his 3-point play late in overtime sealed top-ranked East Lansing's 80-71 win over No. 2 Rockford."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 1 District Final",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 92-78",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 27, 2026: \"East Lansing boys basketball adds to district title streak with win over Waverly\"",
+     "url": "",
+     "title": "20-point double-double for the district title",
+     "text": "Stewart had 20 points and 10 rebounds as East Lansing beat Waverly 92-78 for its sixth straight district title."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 1 Regional Final",
+     "opp": "Kalamazoo Central",
+     "site": "Kalamazoo Loy Norrix",
+     "result": "W 68-39",
+     "src": "Lansing State Journal (Brian Calloway), March 5, 2026: \"KJ Torbert, Kingston Thomas power East Lansing basketball to regional title\"",
+     "url": "",
+     "title": "Nine rebounds in the regional title win",
+     "text": "Stewart had 8 points and 9 rebounds as East Lansing pulled away from Kalamazoo Central for its fourth straight regional title."
+    },
+    {
+     "date": "2026-03-13",
+     "season": "2025-26",
+     "event": "Division 1 State Semifinal",
+     "opp": "Brother Rice",
+     "site": "Breslin Center",
+     "result": "W 55-52",
+     "src": "Lansing State Journal (Nathaniel Bott), March 13, 2026: \"KJ Torbert delivers 3 in final seconds, sends East Lansing to title game\"",
+     "url": "",
+     "title": "8 points, 8 rebounds in a one-possession semifinal",
+     "text": "Stewart had 8 points and 8 rebounds in the one-possession win, including two late free throws that kept East Lansing ahead by three."
+    }
+   ]
   },
   {
    "name": "Keyshawn Summerville",
@@ -156,7 +423,57 @@
    ],
    "career_points": 1967,
    "career_seasons": 4,
-   "about": "Sexton's career scoring leader with 1,967 points, Summerville was all-conference all four seasons (2022-23 to 2025-26). As a senior he was all-state in Division 2, named to BCAM's Best and the Michigan Sports Writers' first team. The Lansing State Journal named him all-area as a freshman and sophomore and to its Dream Team as a junior and senior.\n\nIn his four seasons the Big Reds went 72-24 and won 2 league titles, 2 district titles and a regional title. He averaged 19.8 points as a junior, with 46 3-pointers and 76% free-throw shooting, and 21.7 points as a senior, when Sexton won the CAAC White and a district title."
+   "about": "Sexton's career scoring leader with 1,967 points, Summerville was all-conference all four seasons (2022-23 to 2025-26). As a senior he was all-state in Division 2, named to BCAM's Best and the Michigan Sports Writers' first team. The Lansing State Journal named him all-area as a freshman and sophomore and to its Dream Team as a junior and senior.\n\nIn his four seasons the Big Reds went 72-24 and won 2 league titles, 2 district titles and a regional title. He averaged 19.8 points as a junior, with 46 3-pointers and 76% free-throw shooting, and 21.7 points as a senior, when Sexton won the CAAC White and a district title.",
+   "moments": [
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Detroit Cass Tech",
+     "result": "W 86-81",
+     "title": "25 points to beat Cass Tech",
+     "text": "Summerville scored 25 points as Sexton beat Detroit Cass Tech 86-81."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 2 District Final",
+     "opp": "Charlotte",
+     "site": "Lansing Eastern",
+     "result": "W 56-42",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 27, 2026: \"Big second half propels Sexton hoops to second straight district title\"",
+     "url": "",
+     "title": "Second-half spark for a second straight district title",
+     "text": "Down seven at halftime to a Charlotte team Sexton had beaten twice, Summerville scored the first five points of the third quarter to start a 7-0 run, and the J-Dubbs pulled away in the fourth. He finished with 22 points and seven rebounds for Sexton's second straight district title."
+    },
+    {
+     "date": "2026-03-03",
+     "season": "2025-26",
+     "event": "Division 2 Regional Semifinal",
+     "opp": "Michigan Center",
+     "site": "Fowlerville",
+     "result": "W 58-55",
+     "src": "Lansing State Journal (Brian Calloway), March 3, 2026: \"Sexton boys basketball hangs on late to advance to regional final\"",
+     "url": "",
+     "title": "Closing it out at the line",
+     "text": "After Michigan Center cut a 13-point halftime lead to one, Summerville scored 10 of his team-high 23 points in the fourth quarter, eight of them in the final 2:53, and went 6-for-6 at the free-throw line in the quarter. When Michigan Center called a timeout it didn't have with 0.3 seconds left, he made both technical free throws to seal the win and send Sexton to the regional final."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 2 Regional Final",
+     "opp": "Chelsea",
+     "site": "Fowlerville",
+     "result": "L 45-51",
+     "src": "Lansing State Journal (Nathaniel Bott), March 5, 2026: \"Lansing Sexton's season ends with regional final loss to Chelsea\"",
+     "url": "",
+     "title": "21 points in his final game",
+     "text": "In a regional final rematch with Chelsea, Summerville led Sexton with 21 points in his final game. His senior class won the CAAC White title and back-to-back district titles and reached back-to-back regional finals, and coach Deleon Dearing credited the group with bringing a spark back to the school and the program."
+    }
+   ]
   },
   {
    "name": "Derek Thomas, II",
@@ -179,6 +496,32 @@
      "tpm": 33,
      "ft_pct": 0.8,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
+    }
+   ],
+   "moments": [
+    {
+     "date": "2026-02-25",
+     "season": "2025-26",
+     "event": "Division 1 District Semifinal",
+     "opp": "Grand Ledge",
+     "site": "Lansing Waverly",
+     "result": "W 97-71",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 25, 2026: \"Waverly thumps Grand Ledge, sets up showdown with East Lansing\"",
+     "url": "",
+     "title": "18 and 10 in a district semifinal rout",
+     "text": "Thomas led Waverly with 18 points and 10 rebounds as the Warriors led by 18 at halftime and stayed more than 20 ahead the rest of the way, setting up a district final at home against East Lansing."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 1 District Final",
+     "opp": "East Lansing",
+     "site": "Lansing Waverly",
+     "result": "L 78-92",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 27, 2026: \"East Lansing boys basketball adds to district title streak with win over Waverly\"",
+     "url": "",
+     "title": "22 second-half points in the district final",
+     "text": "Thomas scored 22 of his game-high 29 points after halftime as Waverly rallied from a 51-24 halftime deficit to within 10 with 4:29 left."
     }
    ]
   },
@@ -206,7 +549,121 @@
      "url": "https://www.wilx.com/2026/07/10/east-lansing-basketball-standout-kingston-thomas-transferring-indiana-prep-school-senior-year/"
     }
    ],
-   "varsity_from": "2023-24"
+   "varsity_from": "2023-24",
+   "moments": [
+    {
+     "date": "2025-12-09",
+     "season": "2025-26",
+     "event": "Battle for Lansing",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 9, 2025: \"Kingston Thomas ready to put tools to use for East Lansing boys basketball\"",
+     "url": "",
+     "opp": "Lansing Sexton",
+     "result": "W 73-58",
+     "title": "Season-high 23 against Sexton",
+     "text": "Unhappy with his season opener, Thomas bounced back with a season-high 23 points as East Lansing beat Sexton 73-58 to move to 2-0. He and KJ Torbert combined for 15 points in the first quarter for a 17-8 lead the Trojans built on from there.",
+     "quote": "I have all the tools, but I just have to put them to use"
+    },
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Detroit King",
+     "result": "W 41-40",
+     "title": "15 and 8 in a buzzer-beater win",
+     "text": "Thomas led East Lansing with 15 points and eight rebounds in a 41-40 win over Detroit King that KJ Torbert won with a 3 at the buzzer."
+    },
+    {
+     "date": "2025-12-18",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "East Lansing",
+     "result": "W 74-62",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 18, 2025: \"DeQuarius Stewart helps lift East Lansing basketball past Waverly in area showdown\"",
+     "url": "",
+     "title": "24 points in a battle of unbeatens",
+     "text": "Thomas led East Lansing with 24 points and five rebounds, and he and KJ Torbert hit key late baskets to hold off Waverly 74-62 in a matchup of unbeaten CAAC Blue teams."
+    },
+    {
+     "date": "2025-12-21",
+     "season": "2025-26",
+     "event": "D-Zone Invitational",
+     "opp": "Roseville",
+     "site": "Hazel Park",
+     "result": "W 63-60",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 23, 2025: \"DeQuarius Stewart emerging as star for No. 1 East Lansing basketball\"",
+     "url": "",
+     "title": "The steal that set up the winner",
+     "text": "With Roseville holding for the last shot in a tie game, Thomas and Kellen Lott forced the steal with 10 seconds left that led to DQ Stewart's game-winning three-point play, a 63-60 win."
+    },
+    {
+     "date": "2026-01-10",
+     "season": "2025-26",
+     "event": "GottaGetIt Hoop Classic",
+     "opp": "Rockford",
+     "site": "East Kentwood",
+     "result": "W 80-71 (OT)",
+     "src": "MLive (Patrick Nothaft), Jan. 11, 2026: \"KJ Torbert's 39 points lead top-ranked East Lansing past No. 2 Rockford\"",
+     "url": "https://www.mlive.com/highschoolsports/2026/01/kj-torberts-39-points-lead-top-ranked-east-lansing-past-no-2-rockford.html",
+     "title": "20 points against No. 2 Rockford",
+     "text": "Thomas scored 20 points as top-ranked East Lansing beat No. 2 Rockford 80-71 in overtime at the GottaGetIt Hoop Classic; he and KJ Torbert combined for 59."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 1 District Final",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 92-78",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 27, 2026: \"East Lansing boys basketball adds to district title streak with win over Waverly\"",
+     "url": "",
+     "title": "21 and 10 against Waverly",
+     "text": "Thomas had 21 points and 10 rebounds as East Lansing beat Waverly for the third time that season to win its sixth straight district title.",
+     "quote": "Every game is our state championship game"
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 1 Regional Final",
+     "opp": "Kalamazoo Central",
+     "site": "Kalamazoo Loy Norrix",
+     "result": "W 68-39",
+     "src": "Lansing State Journal (Brian Calloway), March 5, 2026: \"KJ Torbert, Kingston Thomas power East Lansing basketball to regional title\"",
+     "url": "",
+     "title": "11-point run flips the regional final",
+     "text": "Down 20-14 early in the second quarter in a loud road gym, East Lansing closed the half on a 13-2 run, and Thomas scored 11 of those points to put the Trojans ahead at halftime. He finished with 23 points, five rebounds and five assists in the 68-39 win for the program's fourth straight regional title.",
+     "quote": "Noise equals poise"
+    },
+    {
+     "date": "2026-03-10",
+     "season": "2025-26",
+     "event": "Division 1 State Quarterfinal",
+     "opp": "Ann Arbor Pioneer",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "result": "W 72-60",
+     "src": "Lansing State Journal (Brian Calloway), March 10, 2026: \"East Lansing basketball takes another big step in quest for title repeat\"",
+     "url": "",
+     "title": "Closing it out to reach the Breslin",
+     "text": "Thomas scored 20 points, 18 of them after halftime, with five rebounds and four assists. When Pioneer cut a double-digit lead to 60-55 with 2:17 left, he scored seven of East Lansing's 12 points the rest of the way to send the Trojans back to the Breslin Center.",
+     "quote": "It's double the amount of challenges to get back to Breslin the second time"
+    },
+    {
+     "date": "2026-03-14",
+     "season": "2025-26",
+     "event": "Division 1 State Final",
+     "opp": "Rockford",
+     "site": "Breslin Center",
+     "result": "L 50-54",
+     "src": "Lansing State Journal (Brian Calloway), March 14, 2026: \"East Lansing boys basketball denied in bid for repeat in D1 state final\"",
+     "url": "",
+     "title": "10 points in the state final as a junior",
+     "text": "Thomas scored 10 points in the Division 1 final, second on the team behind KJ Torbert. Afterward he said he would work to bring the Trojans back to the Breslin as a senior."
+    }
+   ]
   },
   {
    "name": "Cameron Hutson",
@@ -988,7 +1445,33 @@
    "name": "Kivon Brown, Jr.",
    "school": "sexton",
    "bio": "Son of Kivon Brown, a 2006-07 CAAC-I all-conference honorable mention at Lansing Eastern.",
-   "seasons": []
+   "seasons": [],
+   "moments": [
+    {
+     "date": "2026-03-03",
+     "season": "2025-26",
+     "event": "Division 2 Regional Semifinal",
+     "opp": "Michigan Center",
+     "site": "Fowlerville",
+     "result": "W 58-55",
+     "src": "Lansing State Journal (Brian Calloway), March 3, 2026: \"Sexton boys basketball hangs on late to advance to regional final\"",
+     "url": "",
+     "title": "Free throws down the stretch",
+     "text": "Brown hit key late free throws as Sexton, which never trailed, held off Michigan Center's second-half rally to reach the regional final for the second straight year."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 2 Regional Final",
+     "opp": "Chelsea",
+     "site": "Fowlerville",
+     "result": "L 45-51",
+     "src": "Lansing State Journal (Nathaniel Bott), March 5, 2026: \"Lansing Sexton's season ends with regional final loss to Chelsea\"",
+     "url": "",
+     "title": "A senior class that revived Sexton",
+     "text": "Brown was part of the senior class that won the CAAC White title and back-to-back district titles, reached back-to-back regional finals and went 23-3 in its final season. Coach Deleon Dearing credited the group with bringing a spark back to the school and the program."
+    }
+   ]
   },
   {
    "name": "Willie Brown, Jr.",
@@ -1017,7 +1500,81 @@
    "name": "Tyree Anthony",
    "school": "east-lansing",
    "seasons": [],
-   "bio": "Younger brother of Andrel Anthony, Jr."
+   "bio": "Younger brother of Andrel Anthony, Jr.",
+   "moments": [
+    {
+     "date": "2025-12-21",
+     "season": "2025-26",
+     "event": "D-Zone Invitational",
+     "opp": "Roseville",
+     "site": "Hazel Park",
+     "result": "W 63-60",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 23, 2025: \"DeQuarius Stewart emerging as star for No. 1 East Lansing basketball\"",
+     "url": "",
+     "title": "The outlet for the game-winner",
+     "text": "After a steal in the final 10 seconds of a tie game with Roseville, Anthony scooped up the loose ball and threw it ahead to DQ Stewart for the game-winning three-point play."
+    },
+    {
+     "date": "2025-12-28",
+     "season": "2025-26",
+     "event": "Motor City Roundball Classic",
+     "opp": "Brother Rice",
+     "site": "Ferndale",
+     "result": "W 62-41",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 29, 2025: \"Star guard Jordan McDaniel finds kryptonite vs East Lansing\"",
+     "url": "",
+     "title": "Big corner 3s in his return",
+     "text": "Back from a groin injury, Anthony hit a pair of corner 3s at big moments as East Lansing pulled away from Brother Rice 62-41."
+    },
+    {
+     "date": "2026-02-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 81-64",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 6, 2026: \"KJ Torbert adds to Mr. Basketball candidacy, helps East Lansing top Waverly\"",
+     "url": "",
+     "title": "11 points at Waverly",
+     "text": "Anthony scored 11 points as East Lansing, without Kingston Thomas, beat Waverly 81-64 for its 40th straight win and a two-game lead in the CAAC Blue."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 1 District Final",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 92-78",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 27, 2026: \"East Lansing boys basketball adds to district title streak with win over Waverly\"",
+     "url": "",
+     "title": "13 points in the district final",
+     "text": "Anthony scored 13 points as East Lansing beat Waverly 92-78 for its sixth straight district title."
+    },
+    {
+     "date": "2026-03-10",
+     "season": "2025-26",
+     "event": "Division 1 State Quarterfinal",
+     "opp": "Ann Arbor Pioneer",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "result": "W 72-60",
+     "src": "Lansing State Journal (Brian Calloway), March 10, 2026: \"East Lansing basketball takes another big step in quest for title repeat\"",
+     "url": "",
+     "title": "15 points in the quarterfinal win",
+     "text": "Anthony added 15 points as East Lansing beat Pioneer to reach the state semifinals for the second straight season."
+    },
+    {
+     "date": "2026-03-13",
+     "season": "2025-26",
+     "event": "Division 1 State Semifinal",
+     "opp": "Brother Rice",
+     "site": "Breslin Center",
+     "result": "W 55-52",
+     "src": "Lansing State Journal (Nathaniel Bott), March 13, 2026: \"KJ Torbert delivers 3 in final seconds, sends East Lansing to title game\"",
+     "url": "",
+     "title": "Fast start and a big corner 3",
+     "text": "Anthony carried East Lansing early with 11 first-half points, including two fast-break dunks that helped the Trojans lead by four at halftime. With East Lansing down 45-40 and about four minutes left, he hit a corner 3 off a pass from KJ Torbert to cut the lead to two. He finished with 14 points."
+    }
+   ]
   },
   {
    "name": "Landon Kurncz",
@@ -2558,7 +3115,57 @@
    "grad_year": "2026",
    "grad_note": "Confirmed by Jack, Nov 3, 2026",
    "seasons": [],
-   "varsity_from": "2024-25"
+   "varsity_from": "2024-25",
+   "moments": [
+    {
+     "date": "2025-12-21",
+     "season": "2025-26",
+     "event": "D-Zone Invitational",
+     "opp": "Roseville",
+     "site": "Hazel Park",
+     "result": "W 63-60",
+     "src": "Detroit Free Press (Jared Ramsey), Dec. 23, 2025: \"DeQuarius Stewart emerging as star for No. 1 East Lansing basketball\"",
+     "url": "",
+     "title": "The steal that set up the winner",
+     "text": "With Roseville holding for the last shot in a tie game, Lott and Kingston Thomas forced the steal with 10 seconds left that led to DQ Stewart's game-winning three-point play, a 63-60 win."
+    },
+    {
+     "date": "2026-01-09",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Holt",
+     "site": "Holt",
+     "result": "W 61-47",
+     "src": "Lansing State Journal (Matthew Pike and Brian Calloway), Jan. 10, 2026: \"Boys basketball roundup: East Lansing, Eastern, Williamston earn league wins\"",
+     "url": "",
+     "title": "Six steals at Holt",
+     "text": "Lott had seven rebounds, six steals and five assists as top-ranked East Lansing beat Holt 61-47 to stay unbeaten the night before its showdown with Rockford."
+    },
+    {
+     "date": "2026-02-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "Lansing Waverly",
+     "site": "Lansing Waverly",
+     "result": "W 81-64",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 6, 2026: \"KJ Torbert adds to Mr. Basketball candidacy, helps East Lansing top Waverly\"",
+     "url": "",
+     "title": "Stepping up with Thomas out",
+     "text": "With Kingston Thomas out injured, Lott scored 10 points with four rebounds and four assists in East Lansing's first game in Waverly's gym, an 81-64 win that was the Trojans' 40th straight."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 1 Regional Final",
+     "opp": "Kalamazoo Central",
+     "site": "Kalamazoo Loy Norrix",
+     "result": "W 68-39",
+     "src": "Lansing State Journal (Brian Calloway), March 5, 2026: \"KJ Torbert, Kingston Thomas power East Lansing basketball to regional title\"",
+     "url": "",
+     "title": "Seven assists in the regional title win",
+     "text": "Lott ran the offense with seven assists and added six rebounds as East Lansing beat Kalamazoo Central 68-39 to return to the state quarterfinals."
+    }
+   ]
   },
   {
    "name": "DeAndre Robinson",
@@ -2996,7 +3603,21 @@
    "school": "holt",
    "grad_year": "2026",
    "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
-   "seasons": []
+   "seasons": [],
+   "moments": [
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "U-D Jesuit",
+     "result": "W 59-56",
+     "title": "Leading Holt past U-D Jesuit",
+     "text": "Williams led four Holt players in double figures with 14 points and six rebounds as the Rams outscored U-D Jesuit 19-12 in the fourth quarter to win 59-56."
+    }
+   ]
   },
   {
    "name": "Myles Baker",
@@ -3065,7 +3686,45 @@
    "school": "sexton",
    "grad_year": "2026",
    "grad_note": "Confirmed by Jack, Nov 4, 2026 (grad-year page)",
-   "seasons": []
+   "seasons": [],
+   "moments": [
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Detroit Cass Tech",
+     "result": "W 86-81",
+     "title": "12 points against Cass Tech",
+     "text": "Murray scored 12 points as Sexton beat Detroit Cass Tech 86-81."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 2 District Final",
+     "opp": "Charlotte",
+     "site": "Lansing Eastern",
+     "result": "W 56-42",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 27, 2026: \"Big second half propels Sexton hoops to second straight district title\"",
+     "url": "",
+     "title": "10 points for a second straight district title",
+     "text": "Murray scored 10 points as Sexton came back from a seven-point halftime deficit to beat Charlotte 56-42 for its second straight district title."
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 2 Regional Final",
+     "opp": "Chelsea",
+     "site": "Fowlerville",
+     "result": "L 45-51",
+     "src": "Lansing State Journal (Nathaniel Bott), March 5, 2026: \"Lansing Sexton's season ends with regional final loss to Chelsea\"",
+     "url": "",
+     "title": "A senior class that revived Sexton",
+     "text": "Murray was part of the senior class that won the CAAC White title and back-to-back district titles, reached back-to-back regional finals and went 23-3 in its final season. Coach Deleon Dearing credited the group with bringing a spark back to the school and the program."
+    }
+   ]
   },
   {
    "name": "Tommy Pratt",
@@ -3149,7 +3808,21 @@
      "note": "Transferred to Grand Ledge before his senior season (Jack, Nov 25, 2026)"
     }
    ],
-   "about": "As a junior at Lansing Catholic in 2025-26, Snitgen was first-team all-conference (CAAC White) and LSJ Division 2 all-area. He transferred to Grand Ledge for his senior season, 2026-27 (Jack, Nov 25, 2026)."
+   "about": "As a junior at Lansing Catholic in 2025-26, Snitgen was first-team all-conference (CAAC White) and LSJ Division 2 all-area. He transferred to Grand Ledge for his senior season, 2026-27 (Jack, Nov 25, 2026).",
+   "moments": [
+    {
+     "date": "2025-12-13",
+     "season": "2025-26",
+     "event": "Moneyball Tip-Off Classic",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 13, 2025: \"Basketball roundup: East Lansing, Sexton, Holt win at Moneyball Classic\"",
+     "url": "https://www.lansingstatejournal.com/story/sports/high-school/2025/12/13/greater-lansing-basketball-roundup-december13/87757345007/",
+     "opp": "Lansing Everett",
+     "result": "L 41-58",
+     "title": "25 points against Everett",
+     "text": "Snitgen led Lansing Catholic with 25 points against Everett."
+    }
+   ]
   },
   {
    "name": "Jacob Martin",
@@ -4984,6 +5657,93 @@
    "school": "holt",
    "bio": "Transferred to Southern Coast Academy Prep in the 2026 offseason, before his senior season (Jack, Nov 25, 2026).",
    "seasons": []
+  },
+  {
+   "name": "Markese Murray",
+   "school": "sexton",
+   "seasons": [],
+   "moments": [
+    {
+     "date": "2025-12-09",
+     "season": "2025-26",
+     "event": "Battle for Lansing",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "Lansing State Journal (Brian Calloway), Dec. 9, 2025: \"Kingston Thomas ready to put tools to use for East Lansing boys basketball\"",
+     "url": "",
+     "opp": "East Lansing",
+     "result": "L 58-73",
+     "title": "18 points against the defending state champions",
+     "text": "Murray led Sexton with 18 points in its season opener against defending Division 1 champion East Lansing."
+    },
+    {
+     "date": "2026-02-27",
+     "season": "2025-26",
+     "event": "Division 2 District Final",
+     "opp": "Charlotte",
+     "site": "Lansing Eastern",
+     "result": "W 56-42",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 27, 2026: \"Big second half propels Sexton hoops to second straight district title\"",
+     "url": "",
+     "title": "Nine points for a second straight district title",
+     "text": "Murray added nine points as Sexton came back from a seven-point halftime deficit to beat Charlotte 56-42 for its second straight district title."
+    },
+    {
+     "date": "2026-03-03",
+     "season": "2025-26",
+     "event": "Division 2 Regional Semifinal",
+     "opp": "Michigan Center",
+     "site": "Fowlerville",
+     "result": "W 58-55",
+     "src": "Lansing State Journal (Brian Calloway), March 3, 2026: \"Sexton boys basketball hangs on late to advance to regional final\"",
+     "url": "",
+     "title": "Free throws down the stretch",
+     "text": "Murray hit key late free throws as Sexton, which never trailed, held off Michigan Center's second-half rally to reach the regional final for the second straight year.",
+     "quote": "a lot of brotherhood"
+    },
+    {
+     "date": "2026-03-05",
+     "season": "2025-26",
+     "event": "Division 2 Regional Final",
+     "opp": "Chelsea",
+     "site": "Fowlerville",
+     "result": "L 45-51",
+     "src": "Lansing State Journal (Nathaniel Bott), March 5, 2026: \"Lansing Sexton's season ends with regional final loss to Chelsea\"",
+     "url": "",
+     "title": "A senior class that revived Sexton",
+     "text": "Murray was part of the senior class that won the CAAC White title and back-to-back district titles, reached back-to-back regional finals and went 23-3 in its final season. Coach Deleon Dearing credited the group with bringing a spark back to the school and the program."
+    }
+   ]
+  },
+  {
+   "name": "Cayden Ali",
+   "school": "waverly",
+   "seasons": [],
+   "moments": [
+    {
+     "date": "2026-02-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "opp": "East Lansing",
+     "site": "Lansing Waverly",
+     "result": "L 64-81",
+     "src": "Lansing State Journal (Brian Calloway), Feb. 6, 2026: \"KJ Torbert adds to Mr. Basketball candidacy, helps East Lansing top Waverly\"",
+     "url": "",
+     "title": "24 points against the state's top-ranked team",
+     "text": "Ali led Waverly with 24 points against Division 1 top-ranked East Lansing."
+    },
+    {
+     "date": "2026-02-25",
+     "season": "2025-26",
+     "event": "Division 1 District Semifinal",
+     "opp": "Grand Ledge",
+     "site": "Lansing Waverly",
+     "result": "W 97-71",
+     "src": "Lansing State Journal (Nathaniel Bott), Feb. 25, 2026: \"Waverly thumps Grand Ledge, sets up showdown with East Lansing\"",
+     "url": "",
+     "title": "Filling the stat sheet against Grand Ledge",
+     "text": "Ali had 15 points, eight assists, seven rebounds and five steals as Waverly beat Grand Ledge 97-71 to reach the district final."
+    }
+   ]
   }
  ]
 }

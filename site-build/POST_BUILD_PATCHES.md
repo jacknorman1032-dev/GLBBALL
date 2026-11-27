@@ -88,3 +88,10 @@ Name note (Jack, Nov 3, 2026): Magic Johnson is written "Earvin (Magic) Johnson"
     - A "↑ Top" button (just "↑" on phones) appears once you're two screens down, on every page.
     - Page titles: "East Lansing · History — Greater Lansing Hoops", "Mr. Basketball — Greater Lansing Hoops", a player's name, etc., from the page's h1 (Honors hub pages and Rivalries / Add data use fixed names). Home keeps the original title. Tab clicks update the title along with the address.
     - Re-runnable: the code and CSS blocks are replaced on every run.
+
+## Big moments and profile layout v2 (merged Nov 27, 2026)
+
+Built Nov 24, 2026 in a separate preview artifact ("Greater Lansing Hoops (Big moments preview)", artifact f2f35f30-dd92-403b-bab2-218190960204) and never merged into the main page or this repo until Nov 27, 2026, when its code was applied by hand to site/index.html (the patch scripts it names, patch_moments.py and patch_profile_layout.py, were never committed).
+
+- Big moments: optional `moments` array on a player in players/player_stats.json. Each moment has `date` (YYYY-MM-DD), `season`, `event`, `site`, `opp`, `result` (e.g. "W 73-58"), `title`, `text`, optional `quote` / `quote_by`, `src` and optional `url`. Profiles show the newest three under "Big moments" and fold the rest under "More moments"; each moment's src is added to the profile's Sources. 59 moments for 15 players so far (KJ Torbert, Kingston Thomas, DQ Stewart, Tyree Anthony and others, mostly 2024-25 and 2025-26 LSJ game stories); Markese Murray (Sexton) and Cayden Ali (Waverly) have player_stats entries only for their moments.
+- Profile layout v2: viewProfile now draws the profile as sections (About with College / Pro / Notable facts, Big moments, Stats, Honors by season, Links) with a sticky jump bar when there are three or more sections, a Moments count on the stat board, and Sources folded at the bottom. The old renderer is kept as viewProfileV1. CSS lives in the page's own stylesheet between `/* big moments (patch_moments.py) */` and `/* end profile layout v2 */`.
