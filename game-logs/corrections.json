@@ -359,6 +359,18 @@
    "date": "1999-12-17",
    "opp": "Lansing Eastern",
    "note": "Overtime."
+  },
+  {
+   "school": "waverly",
+   "date": "2026-01-27",
+   "opp": "Holt",
+   "note": "Double overtime."
+  },
+  {
+   "school": "holt",
+   "date": "2026-01-27",
+   "opp": "Lansing Waverly",
+   "note": "Double overtime."
   }
  ],
  "add": [

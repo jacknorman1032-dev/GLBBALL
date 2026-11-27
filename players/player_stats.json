@@ -245,7 +245,21 @@
     "2022-23": "18-5"
    },
    "varsity_from": "2023-24",
-   "varsity_to": "2025-26"
+   "varsity_to": "2025-26",
+   "moments": [
+    {
+     "date": "2026-01-27",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Holt",
+     "src": "Lansing State Journal (Brian Calloway), Jan. 27, 2026: \"Quiet Cayden Ali makes loud impact for Waverly in 2-OT win over Holt\"",
+     "url": "",
+     "opp": "Lansing Waverly",
+     "result": "L 84-86 (2OT)",
+     "title": "Holt's career 3-point record",
+     "text": "Mercer scored 22 points and made three 3-pointers, giving him 127 for his career and breaking Carter Bishop's Holt record of 124, in a double-overtime loss to Waverly."
+    }
+   ]
   },
   {
    "name": "Maddox Newburg",
@@ -608,6 +622,18 @@
      "result": "W 69-67",
      "title": "26 points in the last meeting with Sexton",
      "text": "In the 2026 class's last game against Sexton, Thomas scored 26 points. Waverly led 54-45 after three quarters, Sexton's press tied it at 63 with 1:46 left, and the Warriors, 14 of 34 at the line, held on 69-67 when Sexton's last shot rimmed out."
+    },
+    {
+     "date": "2026-01-27",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Holt",
+     "src": "Lansing State Journal (Brian Calloway), Jan. 27, 2026: \"Quiet Cayden Ali makes loud impact for Waverly in 2-OT win over Holt\"",
+     "url": "",
+     "opp": "Holt",
+     "result": "W 86-84 (2OT)",
+     "title": "Game-high 24 in two overtimes",
+     "text": "Thomas had a game-high 24 points as Waverly (11-2, 7-1 CAAC Blue) outlasted Holt 86-84 in double overtime."
     }
    ]
   },
@@ -5828,6 +5854,20 @@
      "url": "",
      "title": "Filling the stat sheet against Grand Ledge",
      "text": "Ali had 15 points, eight assists, seven rebounds and five steals as Waverly beat Grand Ledge 97-71 to reach the district final."
+    },
+    {
+     "date": "2026-01-27",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Holt",
+     "src": "Lansing State Journal (Brian Calloway), Jan. 27, 2026: \"Quiet Cayden Ali makes loud impact for Waverly in 2-OT win over Holt\"",
+     "url": "",
+     "opp": "Holt",
+     "result": "W 86-84 (2OT)",
+     "title": "10 overtime points in a double-overtime win at Holt",
+     "text": "Ali scored 10 of his 20 points in the two overtimes, six in the second, including the go-ahead drive to the basket, and forced a key turnover as Waverly won its seventh straight with starters Xavier Pendergrass and Tre Burton fouled out.",
+     "quote": "I felt like I needed to step up",
+     "quote_by": "Cayden Ali"
     }
    ]
   },
