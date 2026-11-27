@@ -262,6 +262,20 @@
      "spg": 1.5,
      "src": "Lansing State Journal Dream Team, April 28, 2026"
     }
+   ],
+   "moments": [
+    {
+     "date": "2026-01-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Grand Ledge",
+     "src": "Lansing State Journal (Nathaniel Bott), Jan. 6, 2026: \"Waverly basketball earns big league win on the road over Grand Ledge\"",
+     "url": "",
+     "opp": "Lansing Waverly",
+     "result": "L 60-63",
+     "title": "Game-high 29 against Waverly",
+     "text": "Newburg, a junior, led all scorers with 29 points, and his freshman brother Braylon added 10, but Grand Ledge's last 3-pointer hit the back iron in a 63-60 loss to Waverly."
+    }
    ]
   },
   {
@@ -316,6 +330,18 @@
      "url": "",
      "title": "22 and 10 against Muskegon",
      "text": "Pendergrass led Waverly with 22 points and 10 rebounds against Muskegon (14-1) at the 2K26 Showcase, a day after facing East Lansing. Waverly led by 10 early and used a 6-0 run to tie the game at 51 with four minutes left, but Muskegon held the Warriors to four points the rest of the way."
+    },
+    {
+     "date": "2026-01-17",
+     "season": "2025-26",
+     "event": "Non-league",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "All Eyes On U Hoops: \"Sexton and Waverly Face off at Don Johnson Fieldhouse\" (game of Jan. 17, 2026)",
+     "url": "https://alleyesonuhoops.homesteadcloud.com/sexton-vs-waverly",
+     "opp": "Lansing Sexton",
+     "result": "W 69-67",
+     "title": "17 against Sexton before fouling out",
+     "text": "Pendergrass scored 17 points before fouling out with 3:54 left and Waverly up 62-53; Sexton came back to tie it at 63 before the Warriors won 69-67."
     }
    ]
   },
@@ -484,6 +510,18 @@
      "url": "",
      "title": "21 points in his final game",
      "text": "In a regional final rematch with Chelsea, Summerville led Sexton with 21 points in his final game. His senior class won the CAAC White title and back-to-back district titles and reached back-to-back regional finals, and coach Deleon Dearing credited the group with bringing a spark back to the school and the program."
+    },
+    {
+     "date": "2026-01-17",
+     "season": "2025-26",
+     "event": "Non-league",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "All Eyes On U Hoops: \"Sexton and Waverly Face off at Don Johnson Fieldhouse\" (game of Jan. 17, 2026)",
+     "url": "https://alleyesonuhoops.homesteadcloud.com/sexton-vs-waverly",
+     "opp": "Lansing Waverly",
+     "result": "L 67-69",
+     "title": "29 points and 14 of 14 at the line",
+     "text": "Summerville scored 29 points, 21 in the second half, and made all 14 of his free throws as Sexton rallied from 54-45 down after three quarters to tie Waverly at 63 with 1:46 left. A potential game-winner rimmed out in a 69-67 loss."
     }
    ]
   },
@@ -546,6 +584,30 @@
      "url": "",
      "title": "16 points at the 2K26 Showcase",
      "text": "Thomas added 16 points as Waverly (12-5) took Muskegon (14-1) to a 51-51 tie with four minutes left before the Big Reds pulled away at the 2K26 Showcase at Grand Rapids Community College."
+    },
+    {
+     "date": "2026-01-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Grand Ledge",
+     "src": "Lansing State Journal (Nathaniel Bott), Jan. 6, 2026: \"Waverly basketball earns big league win on the road over Grand Ledge\"",
+     "url": "",
+     "opp": "Grand Ledge",
+     "result": "W 63-60",
+     "title": "23 points in a rivalry win at Grand Ledge",
+     "text": "Thomas led Waverly with 23 points in a CAAC Blue game that was tied going into the fourth quarter; Grand Ledge's last 3-point try hit the back iron and the Warriors held on 63-60."
+    },
+    {
+     "date": "2026-01-17",
+     "season": "2025-26",
+     "event": "Non-league",
+     "site": "Lansing Eastern (Don Johnson Fieldhouse)",
+     "src": "All Eyes On U Hoops: \"Sexton and Waverly Face off at Don Johnson Fieldhouse\" (game of Jan. 17, 2026)",
+     "url": "https://alleyesonuhoops.homesteadcloud.com/sexton-vs-waverly",
+     "opp": "Lansing Sexton",
+     "result": "W 69-67",
+     "title": "26 points in the last meeting with Sexton",
+     "text": "In the 2026 class's last game against Sexton, Thomas scored 26 points. Waverly led 54-45 after three quarters, Sexton's press tied it at 63 with 1:46 left, and the Warriors, 14 of 34 at the line, held on 69-67 when Sexton's last shot rimmed out."
     }
    ]
   },
@@ -5766,6 +5828,27 @@
      "url": "",
      "title": "Filling the stat sheet against Grand Ledge",
      "text": "Ali had 15 points, eight assists, seven rebounds and five steals as Waverly beat Grand Ledge 97-71 to reach the district final."
+    }
+   ]
+  },
+  {
+   "name": "Tre Burton",
+   "school": "waverly",
+   "seasons": [],
+   "grad_year": "2028",
+   "grad_note": "From the LSJ's printed grade (sophomore), Jan. 6, 2026",
+   "moments": [
+    {
+     "date": "2026-01-06",
+     "season": "2025-26",
+     "event": "CAAC Blue",
+     "site": "Grand Ledge",
+     "src": "Lansing State Journal (Nathaniel Bott), Jan. 6, 2026: \"Waverly basketball earns big league win on the road over Grand Ledge\"",
+     "url": "",
+     "opp": "Grand Ledge",
+     "result": "W 63-60",
+     "title": "Two big fourth-quarter 3s at Grand Ledge",
+     "text": "Burton, a sophomore guard, scored 17 points, with two 3-pointers in the fourth quarter, and had three steals in Waverly's 63-60 win. \"My coaches told me to keep shooting,\" he said after missing early."
     }
    ]
   }
